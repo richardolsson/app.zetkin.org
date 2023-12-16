@@ -1,1748 +1,4242 @@
 core:
   err404:
-    backToHomePage: Tilbage til forsiden
-    pageNotFound: Siden kan ikke findes
+    backToHomePage:
+      sourceFile: da.yml
+      text: Tilbage til forsiden
+    pageNotFound:
+      sourceFile: da.yml
+      text: Siden kan ikke findes
   home:
-    welcome: Dette vil blive Zetkin
+    welcome:
+      sourceFile: da.yml
+      text: Dette vil blive Zetkin
   legacy:
-    continueButton: Fortsæt til det gamle Zetkin
-    header: Du bliver omdirigeret
-    info: Du bruger en prerelease version af Zetkin, der ikke understøtter den funktion
-      du vil bruge. Du bliver omdirigeret til en ældre version af Zetkin, der understøtter
-      den funktion.
+    continueButton:
+      sourceFile: da.yml
+      text: Fortsæt til det gamle Zetkin
+    header:
+      sourceFile: da.yml
+      text: Du bliver omdirigeret
+    info:
+      sourceFile: da.yml
+      text: Du bruger en prerelease version af Zetkin, der ikke understøtter den
+        funktion du vil bruge. Du bliver omdirigeret til en ældre version af
+        Zetkin, der understøtter den funktion.
 feat:
   breadcrumbs:
     elements:
-      activities: Aktiviteter
-      archive: Arkiv
-      areas: Områder
-      assignees: Ansvarlige
-      calendar: Kalender
-      callassignments: Ringeopgaver
-      callers: Ringere
-      campaigns: Projekter
-      closed: Lukket
-      conversation: Samtale
-      events: Begivenheder
-      folders: Lister
-      insights: Indsigter
-      instances: Forekomster
-      manage: Administrer
-      milestones: Milepæle
-      new: Ny
-      organize: Organiser
-      participants: Deltagere
-      people: Personer
-      projects: Projekter
-      questions: Spørgsmål
-      submissions: Besvarelser
-      surveys: Spørgeskema
-      tasks: Opgaver
-      untitledEvent: Unnavngiven begivenhed
-      views: Lister
+      activities:
+        sourceFile: da.yml
+        text: Aktiviteter
+      archive:
+        sourceFile: da.yml
+        text: Arkiv
+      areas:
+        sourceFile: da.yml
+        text: Områder
+      assignees:
+        sourceFile: da.yml
+        text: Ansvarlige
+      calendar:
+        sourceFile: da.yml
+        text: Kalender
+      callassignments:
+        sourceFile: da.yml
+        text: Ringeopgaver
+      callers:
+        sourceFile: da.yml
+        text: Ringere
+      campaigns:
+        sourceFile: da.yml
+        text: Projekter
+      closed:
+        sourceFile: da.yml
+        text: Lukket
+      conversation:
+        sourceFile: da.yml
+        text: Samtale
+      events:
+        sourceFile: da.yml
+        text: Begivenheder
+      folders:
+        sourceFile: da.yml
+        text: Lister
+      insights:
+        sourceFile: da.yml
+        text: Indsigter
+      instances:
+        sourceFile: da.yml
+        text: Forekomster
+      manage:
+        sourceFile: da.yml
+        text: Administrer
+      milestones:
+        sourceFile: da.yml
+        text: Milepæle
+      new:
+        sourceFile: da.yml
+        text: Ny
+      organize:
+        sourceFile: da.yml
+        text: Organiser
+      participants:
+        sourceFile: da.yml
+        text: Deltagere
+      people:
+        sourceFile: da.yml
+        text: Personer
+      projects:
+        sourceFile: da.yml
+        text: Projekter
+      questions:
+        sourceFile: da.yml
+        text: Spørgsmål
+      submissions:
+        sourceFile: da.yml
+        text: Besvarelser
+      surveys:
+        sourceFile: da.yml
+        text: Spørgeskema
+      tasks:
+        sourceFile: da.yml
+        text: Opgaver
+      untitledEvent:
+        sourceFile: da.yml
+        text: Unnavngiven begivenhed
+      views:
+        sourceFile: da.yml
+        text: Lister
   calendar:
     createMenu:
-      singleEvent: Opret enkel begivenhed
+      singleEvent:
+        sourceFile: da.yml
+        text: Opret enkel begivenhed
     event:
-      differentLocations: '{numLocations} forskellige lokationer'
-      events: Begivenheder
-      noContactSelected: Ingen kontakt valgt
-      remindersNotSent: '{numNotSent} Påmindelser ikke sendt'
-      unbookedSignups: '{numUnbooked} Ikke-bookede tilmeldinger'
-      underbooked: '{numUnderbooked} Underbookede begivenheder'
-      withSignups: '{numWithSignups} Med tilmeldinger'
-      withoutContact: '{numWithoutContact} Uden kontakt'
+      differentLocations:
+        sourceFile: da.yml
+        text: '{numLocations} forskellige lokationer'
+      events:
+        sourceFile: da.yml
+        text: Begivenheder
+      noContactSelected:
+        sourceFile: da.yml
+        text: Ingen kontakt valgt
+      remindersNotSent:
+        sourceFile: da.yml
+        text: '{numNotSent} Påmindelser ikke sendt'
+      unbookedSignups:
+        sourceFile: da.yml
+        text: '{numUnbooked} Ikke-bookede tilmeldinger'
+      underbooked:
+        sourceFile: da.yml
+        text: '{numUnderbooked} Underbookede begivenheder'
+      withSignups:
+        sourceFile: da.yml
+        text: '{numWithSignups} Med tilmeldinger'
+      withoutContact:
+        sourceFile: da.yml
+        text: '{numWithoutContact} Uden kontakt'
     eventFilter:
-      collapse: Skjul
-      expand: '{numOfOptions, plural, one {+ 1 begivenhedstype mere} other {+ # flere
-        begivenhedstyper}}'
-      filter: Filtrer
+      collapse:
+        sourceFile: da.yml
+        text: Skjul
+      expand:
+        sourceFile: da.yml
+        text: '{numOfOptions, plural, one {+ 1 begivenhedstype mere} other {+ # flere
+          begivenhedstyper}}'
+      filter:
+        sourceFile: da.yml
+        text: Filtrer
       filterOptions:
         actionFilters:
-          missing: Mangler kontaktperson
-          overbooked: Overbooket
-          pending: Verserende tilmeldinger
-          title: Filtrer efter handling påkrævet
-          underbooked: Underbooket
-          unsent: Usendte notifikationer
+          missing:
+            sourceFile: da.yml
+            text: Mangler kontaktperson
+          overbooked:
+            sourceFile: da.yml
+            text: Overbooket
+          pending:
+            sourceFile: da.yml
+            text: Verserende tilmeldinger
+          title:
+            sourceFile: da.yml
+            text: Filtrer efter handling påkrævet
+          underbooked:
+            sourceFile: da.yml
+            text: Underbooket
+          unsent:
+            sourceFile: da.yml
+            text: Usendte notifikationer
         eventTypes:
-          title: Filtrer efter begivenhedstyper
+          title:
+            sourceFile: da.yml
+            text: Filtrer efter begivenhedstyper
         stateFilters:
-          cancelled: Aflyst
-          draft: Udkast
-          published: Offentliggjort
-          scheduled: Planlagt
-          title: filtrer efter publiceringsstatus
-      reset: Nulstil filtre
+          cancelled:
+            sourceFile: da.yml
+            text: Aflyst
+          draft:
+            sourceFile: da.yml
+            text: Udkast
+          published:
+            sourceFile: da.yml
+            text: Offentliggjort
+          scheduled:
+            sourceFile: da.yml
+            text: Planlagt
+          title:
+            sourceFile: da.yml
+            text: filtrer efter publiceringsstatus
+      reset:
+        sourceFile: da.yml
+        text: Nulstil filtre
       toggle:
-        all: Alle
-        none: Ingen
-      type: Skriv for at filtrere indhold
-    lastDayWithEvents: Der {numEvents, plural, one {var en begivenhed} other {var
-      {numEvents} begivenheder}} på den sidste aktive dag
-    loadMore: Indlæs mere
-    moreEvents: '{numEvents, plural, one {# begivenhed mere} other {# flere begivenheder}}'
-    next: NÆSTE
-    prev: FORRIGE
-    rangeLabel: Vælg en mulighed
+        all:
+          sourceFile: da.yml
+          text: Alle
+        none:
+          sourceFile: da.yml
+          text: Ingen
+      type:
+        sourceFile: da.yml
+        text: Skriv for at filtrere indhold
+    lastDayWithEvents:
+      sourceFile: da.yml
+      text: Der {numEvents, plural, one {var en begivenhed} other {var {numEvents}
+        begivenheder}} på den sidste aktive dag
+    loadMore:
+      sourceFile: da.yml
+      text: Indlæs mere
+    moreEvents:
+      sourceFile: da.yml
+      text: '{numEvents, plural, one {# begivenhed mere} other {# flere
+        begivenheder}}'
+    next:
+      sourceFile: da.yml
+      text: NÆSTE
+    prev:
+      sourceFile: da.yml
+      text: FORRIGE
+    rangeLabel:
+      sourceFile: da.yml
+      text: Vælg en mulighed
     ranges:
-      day: Dag
-      month: Måned
-      week: Uge
+      day:
+        sourceFile: da.yml
+        text: Dag
+      month:
+        sourceFile: da.yml
+        text: Måned
+      week:
+        sourceFile: da.yml
+        text: Uge
     selectionBar:
-      copy: Kopi
-      deselect: Fravælg
-      editEvents: Rediger begivenheder
+      copy:
+        sourceFile: da.yml
+        text: Kopi
+      deselect:
+        sourceFile: da.yml
+        text: Fravælg
+      editEvents:
+        sourceFile: da.yml
+        text: Rediger begivenheder
       ellipsisMenu:
-        cancel: Aflys
-        cancelWarning: Hvis du gør, så husk at informere alle deltagere og tilmeldte,
-          at begivenheden er blevet aflyst!
-        confirmCancel: Er du sikker, at du vil aflyse de valgte begivenheder?
-        confirmDelete: Er du sikker, at du vil slette de valgte begivenheder?
-        delete: Slet
-        deleteWarning: Når begivenhederne er blevet slettet, er det ikke muligt at
-          tilgå dem igen.
-        print: Print skema
-        publish: Offentliggør nu
-        unpublish: Tilbagetræk offentliggørelse
-      move: Flyt
-    showMore: Vis
-    today: I dag
+        cancel:
+          sourceFile: da.yml
+          text: Aflys
+        cancelWarning:
+          sourceFile: da.yml
+          text: Hvis du gør, så husk at informere alle deltagere og tilmeldte, at
+            begivenheden er blevet aflyst!
+        confirmCancel:
+          sourceFile: da.yml
+          text: Er du sikker, at du vil aflyse de valgte begivenheder?
+        confirmDelete:
+          sourceFile: da.yml
+          text: Er du sikker, at du vil slette de valgte begivenheder?
+        delete:
+          sourceFile: da.yml
+          text: Slet
+        deleteWarning:
+          sourceFile: da.yml
+          text: Når begivenhederne er blevet slettet, er det ikke muligt at tilgå dem
+            igen.
+        print:
+          sourceFile: da.yml
+          text: Print skema
+        publish:
+          sourceFile: da.yml
+          text: Offentliggør nu
+        unpublish:
+          sourceFile: da.yml
+          text: Tilbagetræk offentliggørelse
+      move:
+        sourceFile: da.yml
+        text: Flyt
+    showMore:
+      sourceFile: da.yml
+      text: Vis
+    today:
+      sourceFile: da.yml
+      text: I dag
   callAssignments:
     actions:
-      end: Afslut opgave
-      start: Påbegynd opgave
+      end:
+        sourceFile: da.yml
+        text: Afslut opgave
+      start:
+        sourceFile: da.yml
+        text: Påbegynd opgave
     blocked:
-      callBackLater: Bad os ringe tilbage senere
-      calledTooRecently: Ringet til for nylig
-      cooldownHelperText: Sæt minimums tid mellem forsøg på at nå en person
-      cooldownLabel: Cooldown-periode i timer
-      hours: '{cooldown, plural, =0 {ingen} =1 {# time} other {# timer}}'
-      missingPhoneNumber: Mangler telefonnummer
-      organizerActionNeeded: Handling fra organisator påkrævet
-      subtitle: Person ikke klar til at blive ringet op
-      title: Blokeret
-      viewSheetButton: Se ark
+      callBackLater:
+        sourceFile: da.yml
+        text: Bad os ringe tilbage senere
+      calledTooRecently:
+        sourceFile: da.yml
+        text: Ringet til for nylig
+      cooldownHelperText:
+        sourceFile: da.yml
+        text: Sæt minimums tid mellem forsøg på at nå en person
+      cooldownLabel:
+        sourceFile: da.yml
+        text: Cooldown-periode i timer
+      hours:
+        sourceFile: da.yml
+        text: '{cooldown, plural, =0 {ingen} =1 {# time} other {# timer}}'
+      missingPhoneNumber:
+        sourceFile: da.yml
+        text: Mangler telefonnummer
+      organizerActionNeeded:
+        sourceFile: da.yml
+        text: Handling fra organisator påkrævet
+      subtitle:
+        sourceFile: da.yml
+        text: Person ikke klar til at blive ringet op
+      title:
+        sourceFile: da.yml
+        text: Blokeret
+      viewSheetButton:
+        sourceFile: da.yml
+        text: Se ark
     callers:
       actions:
-        customize: Tilpas kø
-        remove: Fjern fra opgave
+        customize:
+          sourceFile: da.yml
+          text: Tilpas kø
+        remove:
+          sourceFile: da.yml
+          text: Fjern fra opgave
       add:
-        alreadyAdded: Allerede tilføjet
-        placeholder: Tilføj ringer
+        alreadyAdded:
+          sourceFile: da.yml
+          text: Allerede tilføjet
+        placeholder:
+          sourceFile: da.yml
+          text: Tilføj ringer
       customize:
         exclude:
-          h: Udelukkede etiketter
-          intro: Ring aldrig til personer med disse etiketter
+          h:
+            sourceFile: da.yml
+            text: Udelukkede etiketter
+          intro:
+            sourceFile: da.yml
+            text: Ring aldrig til personer med disse etiketter
         prioritize:
-          h: Prioriterede etiketter
-          intro: Ring først til personer med disse etiketter
-        title: Tilpas kø for {name}
-      customizeButton: Tilpas
-      excludedTagsColumn: Udelukkede etiketter
-      nameColumn: Navn
-      prioritizedTagsColumn: Prioriterede etiketter
-      searchBox: Søg
-      title: Ringere
+          h:
+            sourceFile: da.yml
+            text: Prioriterede etiketter
+          intro:
+            sourceFile: da.yml
+            text: Ring først til personer med disse etiketter
+        title:
+          sourceFile: da.yml
+          text: Tilpas kø for {name}
+      customizeButton:
+        sourceFile: da.yml
+        text: Tilpas
+      excludedTagsColumn:
+        sourceFile: da.yml
+        text: Udelukkede etiketter
+      nameColumn:
+        sourceFile: da.yml
+        text: Navn
+      prioritizedTagsColumn:
+        sourceFile: da.yml
+        text: Prioriterede etiketter
+      searchBox:
+        sourceFile: da.yml
+        text: Søg
+      title:
+        sourceFile: da.yml
+        text: Ringere
     conversation:
       instructions:
-        confirm: Vil du slette alt data, der ikke er gemt og gå tilbage til de instruktioner,
-          der er gemt?
-        editorPlaceholder: Tilføj instruktion til dine ringere
-        revertLink: Gå tilbage til tidligere gemt version?
-        saveButton: Gem
-        savedMessage: Alt er opdateret!
-        savingButton: Gemmer ...
-        title: Instruktion til ringere
-        unsavedMessage: Du har ændringer, som ikke er gemt
+        confirm:
+          sourceFile: da.yml
+          text: Vil du slette alt data, der ikke er gemt og gå tilbage til de
+            instruktioner, der er gemt?
+        editorPlaceholder:
+          sourceFile: da.yml
+          text: Tilføj instruktion til dine ringere
+        revertLink:
+          sourceFile: da.yml
+          text: Gå tilbage til tidligere gemt version?
+        saveButton:
+          sourceFile: da.yml
+          text: Gem
+        savedMessage:
+          sourceFile: da.yml
+          text: Alt er opdateret!
+        savingButton:
+          sourceFile: da.yml
+          text: Gemmer ...
+        title:
+          sourceFile: da.yml
+          text: Instruktion til ringere
+        unsavedMessage:
+          sourceFile: da.yml
+          text: Du har ændringer, som ikke er gemt
       settings:
         notes:
-          message: At deaktivere opkaldsnoter kan øge opkaldsraten, men kan medføre
-            at vigtige informationer går tabt.
-          title: Tillad ringere at skrive noter
+          message:
+            sourceFile: da.yml
+            text: At deaktivere opkaldsnoter kan øge opkaldsraten, men kan medføre at
+              vigtige informationer går tabt.
+          title:
+            sourceFile: da.yml
+            text: Tillad ringere at skrive noter
         targetData:
-          message: Målpersonens navn og telefonnumer er altid synlige for ringerne.
-            At aktivere yderelige måldata vil dele alle personfelter med ringerne.
-          title: Vis yderligere måldata
-        title: Samtale indstillinger
+          message:
+            sourceFile: da.yml
+            text: Målpersonens navn og telefonnumer er altid synlige for ringerne. At
+              aktivere yderelige måldata vil dele alle personfelter med
+              ringerne.
+          title:
+            sourceFile: da.yml
+            text: Vis yderligere måldata
+        title:
+          sourceFile: da.yml
+          text: Samtale indstillinger
     done:
-      defineButton: Rediger færdige kriterier
-      subtitle: Målpersoner som opfylder de færdige kriterier
-      title: Færdig
+      defineButton:
+        sourceFile: da.yml
+        text: Rediger færdige kriterier
+      subtitle:
+        sourceFile: da.yml
+        text: Målpersoner som opfylder de færdige kriterier
+      title:
+        sourceFile: da.yml
+        text: Færdig
     organizerActionPane:
-      markAsSolved: Markér som løst
-      markAsUnsolved: Marker som uløst
-      messagePlaceholder: Ringeren efterlod ikke en note
-      noteByCaller: Note af {person} {time}
-      subtitle: Noter om {person}
-      title: Administratorhandling nødvendig
+      markAsSolved:
+        sourceFile: da.yml
+        text: Markér som løst
+      markAsUnsolved:
+        sourceFile: da.yml
+        text: Marker som uløst
+      messagePlaceholder:
+        sourceFile: da.yml
+        text: Ringeren efterlod ikke en note
+      noteByCaller:
+        sourceFile: da.yml
+        text: Note af {person} {time}
+      subtitle:
+        sourceFile: da.yml
+        text: Noter om {person}
+      title:
+        sourceFile: da.yml
+        text: Administratorhandling nødvendig
     ready:
-      allocated: Målpersoner tildelt til ringer
-      queue: Målpersoner i kø
-      subtitle: Målpersoner som skal ringes op
-      title: Klar
+      allocated:
+        sourceFile: da.yml
+        text: Målpersoner tildelt til ringer
+      queue:
+        sourceFile: da.yml
+        text: Målpersoner i kø
+      subtitle:
+        sourceFile: da.yml
+        text: Målpersoner som skal ringes op
+      title:
+        sourceFile: da.yml
+        text: Klar
     state:
-      active: Aktiv
-      closed: Lukket
-      draft: Udkast
-      open: Åben
-      scheduled: Planlagt
+      active:
+        sourceFile: da.yml
+        text: Aktiv
+      closed:
+        sourceFile: da.yml
+        text: Lukket
+      draft:
+        sourceFile: da.yml
+        text: Udkast
+      open:
+        sourceFile: da.yml
+        text: Åben
+      scheduled:
+        sourceFile: da.yml
+        text: Planlagt
     stats:
-      callers: '{numCallers, plural, =0 {ingen ringere} one {1 ringer} other {# ringere}}'
-      targets: '{numTargets, plural, =0 {ingen målpersoner} one {1 målperson} other
-        {# målpersoner}}'
-    statusSectionTitle: Status
+      callers:
+        sourceFile: da.yml
+        text: '{numCallers, plural, =0 {ingen ringere} one {1 ringer} other {#
+          ringere}}'
+      targets:
+        sourceFile: da.yml
+        text: '{numTargets, plural, =0 {ingen målpersoner} one {1 målperson} other {#
+          målpersoner}}'
+    statusSectionTitle:
+      sourceFile: da.yml
+      text: Status
     tabs:
-      callers: Ringere
-      conversation: Samtaler
-      insights: Indsigter
-      overview: Overblik
+      callers:
+        sourceFile: da.yml
+        text: Ringere
+      conversation:
+        sourceFile: da.yml
+        text: Samtaler
+      insights:
+        sourceFile: da.yml
+        text: Indsigter
+      overview:
+        sourceFile: da.yml
+        text: Overblik
     targets:
-      defineButton: Definer målgruppen
-      editButton: Rediger målgruppen
-      subtitle: Brug smart søgning for at definere målgruppen til denne opgave
-      title: Målpersoner
+      defineButton:
+        sourceFile: da.yml
+        text: Definer målgruppen
+      editButton:
+        sourceFile: da.yml
+        text: Rediger målgruppen
+      subtitle:
+        sourceFile: da.yml
+        text: Brug smart søgning for at definere målgruppen til denne opgave
+      title:
+        sourceFile: da.yml
+        text: Målpersoner
   campaigns:
     activitiesOverview:
-      button: Søg i alle begivenheder
-      empty: Intet denne dag
-      endsTomorrow: slutter i morgen
-      extraActivities: + {numExtra} flere
-      goToActivities: Se alle opkommende aktiviteter
-      noActivities: Der er ingen opkommende aktiviter i denne uge
-      nothingTomorrow: Intet planlagt i morgen
-      startsTomorrow: starter i morgen
+      button:
+        sourceFile: da.yml
+        text: Søg i alle begivenheder
+      empty:
+        sourceFile: da.yml
+        text: Intet denne dag
+      endsTomorrow:
+        sourceFile: da.yml
+        text: slutter i morgen
+      extraActivities:
+        sourceFile: da.yml
+        text: + {numExtra} flere
+      goToActivities:
+        sourceFile: da.yml
+        text: Se alle opkommende aktiviteter
+      noActivities:
+        sourceFile: da.yml
+        text: Der er ingen opkommende aktiviter i denne uge
+      nothingTomorrow:
+        sourceFile: da.yml
+        text: Intet planlagt i morgen
+      startsTomorrow:
+        sourceFile: da.yml
+        text: starter i morgen
       subtitles:
-        endsLater: Slutter {relative}
-        endsToday: Slutter i dag
-        startsLater: Starter {relative}
-        startsToday: Starter i dag
-      thisWeekCard: Også i denne uge
-      title: Kommende aktiviteter
-      todayCard: I dag
-      tomorrowCard: I morgen
+        endsLater:
+          sourceFile: da.yml
+          text: Slutter {relative}
+        endsToday:
+          sourceFile: da.yml
+          text: Slutter i dag
+        startsLater:
+          sourceFile: da.yml
+          text: Starter {relative}
+        startsToday:
+          sourceFile: da.yml
+          text: Starter i dag
+      thisWeekCard:
+        sourceFile: da.yml
+        text: Også i denne uge
+      title:
+        sourceFile: da.yml
+        text: Kommende aktiviteter
+      todayCard:
+        sourceFile: da.yml
+        text: I dag
+      tomorrowCard:
+        sourceFile: da.yml
+        text: I morgen
     activityList:
       eventItem:
-        contact: Ingen kontaktperson er blevet tildelt
-        locations: '{count} lokationer'
-        reminders: '{numMissing, plural, =1 {en deltager} other {# deltagere}} har
-          ikke modtaget påmindelser'
-        signups: Der er verserende tilmeldinger
+        contact:
+          sourceFile: da.yml
+          text: Ingen kontaktperson er blevet tildelt
+        locations:
+          sourceFile: da.yml
+          text: '{count} lokationer'
+        reminders:
+          sourceFile: da.yml
+          text: '{numMissing, plural, =1 {en deltager} other {# deltagere}} har ikke
+            modtaget påmindelser'
+        signups:
+          sourceFile: da.yml
+          text: Der er verserende tilmeldinger
     all:
-      cardCTA: Gå til projekt
-      create: Opret nyt projekt
+      cardCTA:
+        sourceFile: da.yml
+        text: Gå til projekt
+      create:
+        sourceFile: da.yml
+        text: Opret nyt projekt
       filter:
-        calls: Ringeopgaver
-        canvasses: Canvass opgaver
-        filter: Filtrer resultater
-        standalones: Selvstændig begivenhed
-        surveys: Spørgeskemaer
-      heading: Alle projekter
-      indefinite: Ubestemt
-      unsorted: Usortede projekter
-      upcoming: '{numEvents, number} kommende begivenheder.'
+        calls:
+          sourceFile: da.yml
+          text: Ringeopgaver
+        canvasses:
+          sourceFile: da.yml
+          text: Canvass opgaver
+        filter:
+          sourceFile: da.yml
+          text: Filtrer resultater
+        standalones:
+          sourceFile: da.yml
+          text: Selvstændig begivenhed
+        surveys:
+          sourceFile: da.yml
+          text: Spørgeskemaer
+      heading:
+        sourceFile: da.yml
+        text: Alle projekter
+      indefinite:
+        sourceFile: da.yml
+        text: Ubestemt
+      unsorted:
+        sourceFile: da.yml
+        text: Usortede projekter
+      upcoming:
+        sourceFile: da.yml
+        text: '{numEvents, number} kommende begivenheder.'
     allProjects:
-      linkToSummary: Gå til mine aktive projekter.
-      noActivities: Hvis din organisation har aktiviteter, der ikke hører til et projekt,
-        bliver de vist her.
-      viewArchive: Vis arkiv
-    assigneeActions: Handlinger for ansvarlige
-    calendarView: Se alle i kalenderen
-    events: Begivenheder
+      linkToSummary:
+        sourceFile: da.yml
+        text: Gå til mine aktive projekter.
+      noActivities:
+        sourceFile: da.yml
+        text: Hvis din organisation har aktiviteter, der ikke hører til et projekt,
+          bliver de vist her.
+      viewArchive:
+        sourceFile: da.yml
+        text: Vis arkiv
+    assigneeActions:
+      sourceFile: da.yml
+      text: Handlinger for ansvarlige
+    calendarView:
+      sourceFile: da.yml
+      text: Se alle i kalenderen
+    events:
+      sourceFile: da.yml
+      text: Begivenheder
     feedback:
-      copy: Indsamling af feedback (under rundringninger eller enkeltstående) kan
-        hjælpe jer med at arbejde mere effektivt
-      create: Opret spørgeskema
-      heading: Feedback og spørgeskemaer (ingen konfigureret)
+      copy:
+        sourceFile: da.yml
+        text: Indsamling af feedback (under rundringninger eller enkeltstående) kan
+          hjælpe jer med at arbejde mere effektivt
+      create:
+        sourceFile: da.yml
+        text: Opret spørgeskema
+      heading:
+        sourceFile: da.yml
+        text: Feedback og spørgeskemaer (ingen konfigureret)
     form:
       createCallAssignment:
-        newCallAssignment: Mine ringeopgaver
+        newCallAssignment:
+          sourceFile: da.yml
+          text: Mine ringeopgaver
       createCampaign:
-        create: Opret projekt
-        error: Der er opstået en fejl under oprettelsen af projektet
-        newCampaign: Mit projekt
+        create:
+          sourceFile: da.yml
+          text: Opret projekt
+        error:
+          sourceFile: da.yml
+          text: Der er opstået en fejl under oprettelsen af projektet
+        newCampaign:
+          sourceFile: da.yml
+          text: Mit projekt
       createSurvey:
-        newSurvey: Mit spørgeskema
+        newSurvey:
+          sourceFile: da.yml
+          text: Mit spørgeskema
       createTask:
-        title: Opret opgave
+        title:
+          sourceFile: da.yml
+          text: Opret opgave
       deleteCampaign:
-        cancel: Afbryd
-        error: Der er opstået en fejl under sletningen af projektet
-        submitButton: Bekræft sletning
-        title: Slet projekt
-        warning: Er du sikker på, at du vil slette dette projekt? Denne handling er
-          permanent.
-      description: Beskrivelse
-      edit: Rediger projekt
+        cancel:
+          sourceFile: da.yml
+          text: Afbryd
+        error:
+          sourceFile: da.yml
+          text: Der er opstået en fejl under sletningen af projektet
+        submitButton:
+          sourceFile: da.yml
+          text: Bekræft sletning
+        title:
+          sourceFile: da.yml
+          text: Slet projekt
+        warning:
+          sourceFile: da.yml
+          text: Er du sikker på, at du vil slette dette projekt? Denne handling er
+            permanent.
+      description:
+        sourceFile: da.yml
+        text: Beskrivelse
+      edit:
+        sourceFile: da.yml
+        text: Rediger projekt
       editCampaignTitle:
-        error: Fejl under opdateringen af projektetnavn
-        success: Projektnavn opdateret
+        error:
+          sourceFile: da.yml
+          text: Fejl under opdateringen af projektetnavn
+        success:
+          sourceFile: da.yml
+          text: Projektnavn opdateret
       manager:
-        label: Projektadministrator
-        selectSelf: Gør dig selv til administrator
-      name: Navn
-      requestError: Der er opstået en fejl. Prøv venligst igen
-      required: Påkrævet
+        label:
+          sourceFile: da.yml
+          text: Projektadministrator
+        selectSelf:
+          sourceFile: da.yml
+          text: Gør dig selv til administrator
+      name:
+        sourceFile: da.yml
+        text: Navn
+      requestError:
+        sourceFile: da.yml
+        text: Der er opstået en fejl. Prøv venligst igen
+      required:
+        sourceFile: da.yml
+        text: Påkrævet
       status:
-        draft: Udkast
-        heading: Status
-        published: Offentliggjort
+        draft:
+          sourceFile: da.yml
+          text: Udkast
+        heading:
+          sourceFile: da.yml
+          text: Status
+        published:
+          sourceFile: da.yml
+          text: Offentliggjort
       visibility:
-        heading: Synlighed
-        private: Privat
-        public: Offentlig
-    indefinite: Ubestemt tidslinje
+        heading:
+          sourceFile: da.yml
+          text: Synlighed
+        private:
+          sourceFile: da.yml
+          text: Privat
+        public:
+          sourceFile: da.yml
+          text: Offentlig
+    indefinite:
+      sourceFile: da.yml
+      text: Ubestemt tidslinje
     layout:
-      activities: Aktiviteter
-      allCampaigns: Alle projekter & aktiviteter
-      archive: Arkiv
-      calendar: Kalender
-      insights: Indsigter
-      overview: Overblik
+      activities:
+        sourceFile: da.yml
+        text: Aktiviteter
+      allCampaigns:
+        sourceFile: da.yml
+        text: Alle projekter & aktiviteter
+      archive:
+        sourceFile: da.yml
+        text: Arkiv
+      calendar:
+        sourceFile: da.yml
+        text: Kalender
+      insights:
+        sourceFile: da.yml
+        text: Indsigter
+      overview:
+        sourceFile: da.yml
+        text: Overblik
     linkGroup:
-      createActivity: Opret aktivitet
-      createCallAssignment: Opret ringeopgave
-      createEvent: Opret begivenhed
-      createSurvey: Opret spørgeskema
-      createTask: Opret opgave
-      public: Offentlig Side
-      settings: Rediger indstillinger
+      createActivity:
+        sourceFile: da.yml
+        text: Opret aktivitet
+      createCallAssignment:
+        sourceFile: da.yml
+        text: Opret ringeopgave
+      createEvent:
+        sourceFile: da.yml
+        text: Opret begivenhed
+      createSurvey:
+        sourceFile: da.yml
+        text: Opret spørgeskema
+      createTask:
+        sourceFile: da.yml
+        text: Opret opgave
+      public:
+        sourceFile: da.yml
+        text: Offentlig Side
+      settings:
+        sourceFile: da.yml
+        text: Rediger indstillinger
     mobilization:
-      copy: At organisere en telefonbank for at mobilisere din organisation vil øge
-        deltagelsen mangedobbelt
-      create: Opret ringeopgave
-      heading: Mobilisering og kontakt (ikke konfigureret)
-    noManager: Ingen Projektadminstrator
+      copy:
+        sourceFile: da.yml
+        text: At organisere en telefonbank for at mobilisere din organisation vil øge
+          deltagelsen mangedobbelt
+      create:
+        sourceFile: da.yml
+        text: Opret ringeopgave
+      heading:
+        sourceFile: da.yml
+        text: Mobilisering og kontakt (ikke konfigureret)
+    noManager:
+      sourceFile: da.yml
+      text: Ingen Projektadminstrator
     singleProject:
-      filterActivities: Skriv for at filtrere
-      noActivities: Der er ingen aktiviteter i dette projekt endnu.
-      noSearchResults: Din filtrering gav ingen resultater.
-      showPublicPage: Vis offentlig tilmeldingsside
-      viewArchive: Vis arkiv
+      filterActivities:
+        sourceFile: da.yml
+        text: Skriv for at filtrere
+      noActivities:
+        sourceFile: da.yml
+        text: Der er ingen aktiviteter i dette projekt endnu.
+      noSearchResults:
+        sourceFile: da.yml
+        text: Din filtrering gav ingen resultater.
+      showPublicPage:
+        sourceFile: da.yml
+        text: Vis offentlig tilmeldingsside
+      viewArchive:
+        sourceFile: da.yml
+        text: Vis arkiv
     taskLayout:
       tabs:
-        assignees: Ansvarlige
-        insights: Indsigter
-        summary: Resumé
-    tasks: Opgaver
+        assignees:
+          sourceFile: da.yml
+          text: Ansvarlige
+        insights:
+          sourceFile: da.yml
+          text: Indsigter
+        summary:
+          sourceFile: da.yml
+          text: Resumé
+    tasks:
+      sourceFile: da.yml
+      text: Opgaver
   events:
     addPerson:
-      addButton: Tilføj en person
-      addPlaceholder: Skriv her for at tilføje deltagere
+      addButton:
+        sourceFile: da.yml
+        text: Tilføj en person
+      addPlaceholder:
+        sourceFile: da.yml
+        text: Skriv her for at tilføje deltagere
       status:
-        booked: Allerede booket
-        signedUp: Tilmeldt
+        booked:
+          sourceFile: da.yml
+          text: Allerede booket
+        signedUp:
+          sourceFile: da.yml
+          text: Tilmeldt
     common:
-      allDay: Hele dagen
-      noActivity: Ukategoriseret
-      noLocation: Ingen fysisk lokation
-      noTitle: Unavngiven begivenhed
+      allDay:
+        sourceFile: da.yml
+        text: Hele dagen
+      noActivity:
+        sourceFile: da.yml
+        text: Ukategoriseret
+      noLocation:
+        sourceFile: da.yml
+        text: Ingen fysisk lokation
+      noTitle:
+        sourceFile: da.yml
+        text: Unavngiven begivenhed
     eventActionButtons:
-      cancel: Afbryd
-      delete: Slet
-      duplicate: Dupliker
-      publish: Offentliggør
-      restore: Gendan
-      unpublish: Tilbagetræk offentliggørelse
-      warning: '"{eventTitle}" slettes.'
-      warningCancel: '"{eventTitle}" aflyses.'
-      warningRestore: '"{eventTitle}" gendannes.'
+      cancel:
+        sourceFile: da.yml
+        text: Afbryd
+      delete:
+        sourceFile: da.yml
+        text: Slet
+      duplicate:
+        sourceFile: da.yml
+        text: Dupliker
+      publish:
+        sourceFile: da.yml
+        text: Offentliggør
+      restore:
+        sourceFile: da.yml
+        text: Gendan
+      unpublish:
+        sourceFile: da.yml
+        text: Tilbagetræk offentliggørelse
+      warning:
+        sourceFile: da.yml
+        text: '"{eventTitle}" slettes.'
+      warningCancel:
+        sourceFile: da.yml
+        text: '"{eventTitle}" aflyses.'
+      warningRestore:
+        sourceFile: da.yml
+        text: '"{eventTitle}" gendannes.'
     eventContactCard:
-      header: Kontakt
-      noContact: Ingen Kontakt Tildelt!
-      removeButton: Fjern
-      selectPlaceholder: Vælg en kontaktperson
-      warningText: '{name} er ikke længere kontaktperson, men forbliver tilmeldt til
-        begivenheden'
+      header:
+        sourceFile: da.yml
+        text: Kontakt
+      noContact:
+        sourceFile: da.yml
+        text: Ingen Kontakt Tildelt!
+      removeButton:
+        sourceFile: da.yml
+        text: Fjern
+      selectPlaceholder:
+        sourceFile: da.yml
+        text: Vælg en kontaktperson
+      warningText:
+        sourceFile: da.yml
+        text: '{name} er ikke længere kontaktperson, men forbliver tilmeldt til
+          begivenheden'
     eventOverviewCard:
-      buttonEndDate: + Slutdato
-      createLocation: Opret ny lokation
-      description: Beskrivelse
-      editButton: Rediger begivenhedsinformation
-      endDate: Afslut
-      endTime: Sluttidspunkt
-      location: Lokation
-      noLocation: Ingen fysisk lokation
-      startDate: Start
-      startTime: Starttidspunkt
-      url: Link
+      buttonEndDate:
+        sourceFile: da.yml
+        text: + Slutdato
+      createLocation:
+        sourceFile: da.yml
+        text: Opret ny lokation
+      description:
+        sourceFile: da.yml
+        text: Beskrivelse
+      editButton:
+        sourceFile: da.yml
+        text: Rediger begivenhedsinformation
+      endDate:
+        sourceFile: da.yml
+        text: Afslut
+      endTime:
+        sourceFile: da.yml
+        text: Sluttidspunkt
+      location:
+        sourceFile: da.yml
+        text: Lokation
+      noLocation:
+        sourceFile: da.yml
+        text: Ingen fysisk lokation
+      startDate:
+        sourceFile: da.yml
+        text: Start
+      startTime:
+        sourceFile: da.yml
+        text: Starttidspunkt
+      url:
+        sourceFile: da.yml
+        text: Link
     eventParticipantsCard:
-      booked: Notifikationer
-      confirmed: Bekræftet fremmøde
-      contact: Kontakt
-      header: Deltagere
-      noContact: Ingen tildelt
-      participantList: Vis deltagere
-      pending: Verserende tilmeldinger
-      reqParticipantsHelperText: Det som minimum nødvendige antal deltagere
-      reqParticipantsLabel: Nødvendige deltagere
+      booked:
+        sourceFile: da.yml
+        text: Notifikationer
+      confirmed:
+        sourceFile: da.yml
+        text: Bekræftet fremmøde
+      contact:
+        sourceFile: da.yml
+        text: Kontakt
+      header:
+        sourceFile: da.yml
+        text: Deltagere
+      noContact:
+        sourceFile: da.yml
+        text: Ingen tildelt
+      participantList:
+        sourceFile: da.yml
+        text: Vis deltagere
+      pending:
+        sourceFile: da.yml
+        text: Verserende tilmeldinger
+      reqParticipantsHelperText:
+        sourceFile: da.yml
+        text: Det som minimum nødvendige antal deltagere
+      reqParticipantsLabel:
+        sourceFile: da.yml
+        text: Nødvendige deltagere
     eventParticipantsList:
-      attendance: Fremmøde
-      bookedParticipants: Bookede deltagere
-      buttonAttended: Deltog
-      buttonBook: Booke
-      buttonCancel: Aflys
-      buttonCancelled: Aflyst
-      buttonNoshow: No-show
-      cancelledParticipants: Aflyste deltagere
-      columnEmail: Email
-      columnName: Navn
-      columnNotified: Påmindet
-      columnPhone: Telefon
-      contactTooltip: Kontaktperson
-      descriptionBooked: Dette er personer som du har booket og satser på kommer.
-        Hvis de ønsker at annulere skal de kontakte dig, så kan du annulere for dem
-        manuelt
-      descriptionCancelled: Disse personer har annuleret deres deltagelse. De står
-        her, så du ikke forsøger at booke dem igen
-      descriptionSignups: Disse personer har tilmeldt sig gennem aktivistportalen.
-        De kan annulere deres deltagelse
-      dropDownAttended: Bekræftet fremmøde
-      dropDownNoshow: Mødte ikke op
-      participantTooltip: Gør til kontaktperson
-      signUps: Tilmeldte
+      attendance:
+        sourceFile: da.yml
+        text: Fremmøde
+      bookedParticipants:
+        sourceFile: da.yml
+        text: Bookede deltagere
+      buttonAttended:
+        sourceFile: da.yml
+        text: Deltog
+      buttonBook:
+        sourceFile: da.yml
+        text: Booke
+      buttonCancel:
+        sourceFile: da.yml
+        text: Aflys
+      buttonCancelled:
+        sourceFile: da.yml
+        text: Aflyst
+      buttonNoshow:
+        sourceFile: da.yml
+        text: No-show
+      cancelledParticipants:
+        sourceFile: da.yml
+        text: Aflyste deltagere
+      columnEmail:
+        sourceFile: da.yml
+        text: Email
+      columnName:
+        sourceFile: da.yml
+        text: Navn
+      columnNotified:
+        sourceFile: da.yml
+        text: Påmindet
+      columnPhone:
+        sourceFile: da.yml
+        text: Telefon
+      contactTooltip:
+        sourceFile: da.yml
+        text: Kontaktperson
+      descriptionBooked:
+        sourceFile: da.yml
+        text: Dette er personer som du har booket og satser på kommer. Hvis de ønsker at
+          annulere skal de kontakte dig, så kan du annulere for dem manuelt
+      descriptionCancelled:
+        sourceFile: da.yml
+        text: Disse personer har annuleret deres deltagelse. De står her, så du ikke
+          forsøger at booke dem igen
+      descriptionSignups:
+        sourceFile: da.yml
+        text: Disse personer har tilmeldt sig gennem aktivistportalen. De kan annulere
+          deres deltagelse
+      dropDownAttended:
+        sourceFile: da.yml
+        text: Bekræftet fremmøde
+      dropDownNoshow:
+        sourceFile: da.yml
+        text: Mødte ikke op
+      participantTooltip:
+        sourceFile: da.yml
+        text: Gør til kontaktperson
+      signUps:
+        sourceFile: da.yml
+        text: Tilmeldte
     eventPopper:
-      backToEvents: Tilbage til begivenhedslisten
-      backToLocations: Tilbage til lokationer
-      backToShifts: Tilbage til vagtplanen
-      booked: Booket
-      cancel: Annuller
-      cancelWarning: Hvis du gør, så husk at informere alle deltagere og tilmeldte,
-        at begivenheden er blevet aflyst!
-      confirmCancel: Er du sikker på, du vil aflyse denne begivenhed?
-      confirmDelete: Er du sikker på, du vil slette denne begivenhed?
-      contactPerson: Kontaktperson
-      dateAndTime: Dato & Tidspunkt
-      delete: Slet
-      deleteWarning: Når først begivenheden er blevet slettet, vil det ikke længere
-        være muligt at tilgå den.
-      description: Beskrivelse
-      duplicate: Dupliker
-      eventPageLink: Gå til begivenhedssiden
-      events: Begivenheder
-      location: Lokation
-      locations: Lokationer
-      multiEvent: Flere begivenheder
-      multiLocation: Multi-lokationsbegivenhed
-      multiShift: Begivenhed med flere lokationer
-      noContact: Ingen kontaktperson er blevet tildelt
-      notified: Informeret
-      pendingSignups: Der er verserende tilmeldinger
-      publish: Offentliggør
-      reminded: Påmindet
-      shifts: Vagter
-      signups: Tilmeldte
-      unsentReminders: '{numMissing, plural, =1 {en deltager} other {# deltagere}}
-        har ikke modtaget påmindelser endnu'
+      backToEvents:
+        sourceFile: da.yml
+        text: Tilbage til begivenhedslisten
+      backToLocations:
+        sourceFile: da.yml
+        text: Tilbage til lokationer
+      backToShifts:
+        sourceFile: da.yml
+        text: Tilbage til vagtplanen
+      booked:
+        sourceFile: da.yml
+        text: Booket
+      cancel:
+        sourceFile: da.yml
+        text: Annuller
+      cancelWarning:
+        sourceFile: da.yml
+        text: Hvis du gør, så husk at informere alle deltagere og tilmeldte, at
+          begivenheden er blevet aflyst!
+      confirmCancel:
+        sourceFile: da.yml
+        text: Er du sikker på, du vil aflyse denne begivenhed?
+      confirmDelete:
+        sourceFile: da.yml
+        text: Er du sikker på, du vil slette denne begivenhed?
+      contactPerson:
+        sourceFile: da.yml
+        text: Kontaktperson
+      dateAndTime:
+        sourceFile: da.yml
+        text: Dato & Tidspunkt
+      delete:
+        sourceFile: da.yml
+        text: Slet
+      deleteWarning:
+        sourceFile: da.yml
+        text: Når først begivenheden er blevet slettet, vil det ikke længere være muligt
+          at tilgå den.
+      description:
+        sourceFile: da.yml
+        text: Beskrivelse
+      duplicate:
+        sourceFile: da.yml
+        text: Dupliker
+      eventPageLink:
+        sourceFile: da.yml
+        text: Gå til begivenhedssiden
+      events:
+        sourceFile: da.yml
+        text: Begivenheder
+      location:
+        sourceFile: da.yml
+        text: Lokation
+      locations:
+        sourceFile: da.yml
+        text: Lokationer
+      multiEvent:
+        sourceFile: da.yml
+        text: Flere begivenheder
+      multiLocation:
+        sourceFile: da.yml
+        text: Multi-lokationsbegivenhed
+      multiShift:
+        sourceFile: da.yml
+        text: Begivenhed med flere lokationer
+      noContact:
+        sourceFile: da.yml
+        text: Ingen kontaktperson er blevet tildelt
+      notified:
+        sourceFile: da.yml
+        text: Informeret
+      pendingSignups:
+        sourceFile: da.yml
+        text: Der er verserende tilmeldinger
+      publish:
+        sourceFile: da.yml
+        text: Offentliggør
+      reminded:
+        sourceFile: da.yml
+        text: Påmindet
+      shifts:
+        sourceFile: da.yml
+        text: Vagter
+      signups:
+        sourceFile: da.yml
+        text: Tilmeldte
+      unsentReminders:
+        sourceFile: da.yml
+        text: '{numMissing, plural, =1 {en deltager} other {# deltagere}} har ikke
+          modtaget påmindelser endnu'
     eventRelatedCard:
-      header: Relaterede begivenheder
+      header:
+        sourceFile: da.yml
+        text: Relaterede begivenheder
     eventStatus:
-      cancelled: Aflyst
-      draft: Udkast
-      ended: Sluttet
-      open: Åben
-      scheduled: Planlagt
-      unknown: Ukendt
+      cancelled:
+        sourceFile: da.yml
+        text: Aflyst
+      draft:
+        sourceFile: da.yml
+        text: Udkast
+      ended:
+        sourceFile: da.yml
+        text: Sluttet
+      open:
+        sourceFile: da.yml
+        text: Åben
+      scheduled:
+        sourceFile: da.yml
+        text: Planlagt
+      unknown:
+        sourceFile: da.yml
+        text: Ukendt
     form:
-      activity: Aktivitet
-      campaign: Kampagne
-      cancel: Afbryd
-      create: Opret ny begivenhed
-      edit: Rediger begivenhed
-      end: Sluttidspunkt
-      info: Information ved tilmeldelse
-      link: Link
-      minNo: Minimum antal deltagere
-      place: Sted
-      required: Påkrævet
-      start: Starttidspunkt
-      submit: Indsend
-      title: Titel
+      activity:
+        sourceFile: da.yml
+        text: Aktivitet
+      campaign:
+        sourceFile: da.yml
+        text: Kampagne
+      cancel:
+        sourceFile: da.yml
+        text: Afbryd
+      create:
+        sourceFile: da.yml
+        text: Opret ny begivenhed
+      edit:
+        sourceFile: da.yml
+        text: Rediger begivenhed
+      end:
+        sourceFile: da.yml
+        text: Sluttidspunkt
+      info:
+        sourceFile: da.yml
+        text: Information ved tilmeldelse
+      link:
+        sourceFile: da.yml
+        text: Link
+      minNo:
+        sourceFile: da.yml
+        text: Minimum antal deltagere
+      place:
+        sourceFile: da.yml
+        text: Sted
+      required:
+        sourceFile: da.yml
+        text: Påkrævet
+      start:
+        sourceFile: da.yml
+        text: Starttidspunkt
+      submit:
+        sourceFile: da.yml
+        text: Indsend
+      title:
+        sourceFile: da.yml
+        text: Titel
     list:
-      events: Begivenheder
-      noEvents: Ingen Begivenheder...
+      events:
+        sourceFile: da.yml
+        text: Begivenheder
+      noEvents:
+        sourceFile: da.yml
+        text: Ingen Begivenheder...
     locationModal:
-      cancel: Afbryd
-      createLocation: Opret ny loaktion
-      description: Beskrivelse
-      infoText: For at bevæge kortet klik og brug en finger, for at zoome klik og
-        brug to fingre eller scroll-funktionen. For at oprette en ny lokation kan
-        du klikke på et tomt sted på kortet.
-      move: Flyt
-      moveInstructions: Træk markøren for at vælge en lokation.
-      noDescription: Ingen beskrivelse
-      noRelatedEvents: Der sker ingen andre begivenheder omkring dette tidspunkt
-      relatedEvents: Der er andre begivenheder omkring dette tidspunkt
-      save: Gem
-      saveLocation: Gem lokation
-      searchBox: Fin lokation
-      title: Lokationens navn
-      useLocation: Anvend lokation
+      cancel:
+        sourceFile: da.yml
+        text: Afbryd
+      createLocation:
+        sourceFile: da.yml
+        text: Opret ny loaktion
+      description:
+        sourceFile: da.yml
+        text: Beskrivelse
+      infoText:
+        sourceFile: da.yml
+        text: For at bevæge kortet klik og brug en finger, for at zoome klik og brug to
+          fingre eller scroll-funktionen. For at oprette en ny lokation kan du
+          klikke på et tomt sted på kortet.
+      move:
+        sourceFile: da.yml
+        text: Flyt
+      moveInstructions:
+        sourceFile: da.yml
+        text: Træk markøren for at vælge en lokation.
+      noDescription:
+        sourceFile: da.yml
+        text: Ingen beskrivelse
+      noRelatedEvents:
+        sourceFile: da.yml
+        text: Der sker ingen andre begivenheder omkring dette tidspunkt
+      relatedEvents:
+        sourceFile: da.yml
+        text: Der er andre begivenheder omkring dette tidspunkt
+      save:
+        sourceFile: da.yml
+        text: Gem
+      saveLocation:
+        sourceFile: da.yml
+        text: Gem lokation
+      searchBox:
+        sourceFile: da.yml
+        text: Fin lokation
+      title:
+        sourceFile: da.yml
+        text: Lokationens navn
+      useLocation:
+        sourceFile: da.yml
+        text: Anvend lokation
     participantSummaryCard:
-      bookButton: Book alle
-      booked: Notifikationer
-      cancelled: Aflyste
-      confirmed: Bekræftet Fremmøde
-      header: Deltagere
-      noshow: ({noshows, plural, =1 {1 no-show} other {# no-shows}})
-      pending: Verserende tilmeldinger
-      recordButton: Tag fremmøde
-      remindButton: Påmind alle
-      remindButtondisabledTooltip: Du skal angive en kontaktperson, før du kan sende
-        påmindelser
-      reqParticipantsHelperText: Minimum antal deltagere nødvendige
-      reqParticipantsLabel: Nødvendige deltagere
-    search: Søg
+      bookButton:
+        sourceFile: da.yml
+        text: Book alle
+      booked:
+        sourceFile: da.yml
+        text: Notifikationer
+      cancelled:
+        sourceFile: da.yml
+        text: Aflyste
+      confirmed:
+        sourceFile: da.yml
+        text: Bekræftet Fremmøde
+      header:
+        sourceFile: da.yml
+        text: Deltagere
+      noshow:
+        sourceFile: da.yml
+        text: ({noshows, plural, =1 {1 no-show} other {# no-shows}})
+      pending:
+        sourceFile: da.yml
+        text: Verserende tilmeldinger
+      recordButton:
+        sourceFile: da.yml
+        text: Tag fremmøde
+      remindButton:
+        sourceFile: da.yml
+        text: Påmind alle
+      remindButtondisabledTooltip:
+        sourceFile: da.yml
+        text: Du skal angive en kontaktperson, før du kan sende påmindelser
+      reqParticipantsHelperText:
+        sourceFile: da.yml
+        text: Minimum antal deltagere nødvendige
+      reqParticipantsLabel:
+        sourceFile: da.yml
+        text: Nødvendige deltagere
+    search:
+      sourceFile: da.yml
+      text: Søg
     state:
-      cancelled: Aflyst
-      draft: Udkast
-      ended: Sluttet
-      open: Offentliggjort
-      scheduled: Planlagt
+      cancelled:
+        sourceFile: da.yml
+        text: Aflyst
+      draft:
+        sourceFile: da.yml
+        text: Udkast
+      ended:
+        sourceFile: da.yml
+        text: Sluttet
+      open:
+        sourceFile: da.yml
+        text: Offentliggjort
+      scheduled:
+        sourceFile: da.yml
+        text: Planlagt
     stats:
-      participants: '{participants, plural, one {1 deltager} other {# deltagere}}'
+      participants:
+        sourceFile: da.yml
+        text: '{participants, plural, one {1 deltager} other {# deltagere}}'
     tabs:
-      overview: Overblik
-      participants: Deltagere
-    tooltipContent: På unavngivne begivenheder vil begivenhedstypen vises som titel
+      overview:
+        sourceFile: da.yml
+        text: Overblik
+      participants:
+        sourceFile: da.yml
+        text: Deltagere
+    tooltipContent:
+      sourceFile: da.yml
+      text: På unavngivne begivenheder vil begivenhedstypen vises som titel
     type:
-      createType: Opret "{type}"
-      tooltip: Klik for at ændre begivenhedstypen
-      uncategorized: Ikke kategoriseret
+      createType:
+        sourceFile: da.yml
+        text: Opret "{type}"
+      tooltip:
+        sourceFile: da.yml
+        text: Klik for at ændre begivenhedstypen
+      uncategorized:
+        sourceFile: da.yml
+        text: Ikke kategoriseret
   journeys:
     instance:
-      addAssigneeButton: Tilføj ansvarlig
-      addSubjectButton: Tilføj person
-      addSubjectLabel: Tilføj person
-      assignPersonLabel: Tildel person
+      addAssigneeButton:
+        sourceFile: da.yml
+        text: Tilføj ansvarlig
+      addSubjectButton:
+        sourceFile: da.yml
+        text: Tilføj person
+      addSubjectLabel:
+        sourceFile: da.yml
+        text: Tilføj person
+      assignPersonLabel:
+        sourceFile: da.yml
+        text: Tildel person
       closeButton:
-        error: Der er opstået en fejl ved lukningen af {singularLabel}
-        label: Luk {singularLabel}
-      collapseButton: Skjul
-      editButton: Rediger
+        error:
+          sourceFile: da.yml
+          text: Der er opstået en fejl ved lukningen af {singularLabel}
+        label:
+          sourceFile: da.yml
+          text: Luk {singularLabel}
+      collapseButton:
+        sourceFile: da.yml
+        text: Skjul
+      editButton:
+        sourceFile: da.yml
+        text: Rediger
     instances:
       export:
         headers:
-          unsortedTags: Ikke-grupperede etiketter
+          unsortedTags:
+            sourceFile: da.yml
+            text: Ikke-grupperede etiketter
   organizations:
     page:
-      title: 'Vælg organisation:'
+      title:
+        sourceFile: da.yml
+        text: 'Vælg organisation:'
   profile:
     delete:
-      button: Fjern person
-      confirm: Er du sikker på, du vil slette {name}? Denne handling er permanent
-      title: Slet profil
-      warning: Dette kan ikke gøres om!
+      button:
+        sourceFile: da.yml
+        text: Fjern person
+      confirm:
+        sourceFile: da.yml
+        text: Er du sikker på, du vil slette {name}? Denne handling er permanent
+      title:
+        sourceFile: da.yml
+        text: Slet profil
+      warning:
+        sourceFile: da.yml
+        text: Dette kan ikke gøres om!
     details:
-      title: Detaljer
-    editButton: Rediger {title}
-    editButtonClose: Afbryd redigeringen af {title}
-    editButtonLabel: Rediger Detaljer
+      title:
+        sourceFile: da.yml
+        text: Detaljer
+    editButton:
+      sourceFile: da.yml
+      text: Rediger {title}
+    editButtonClose:
+      sourceFile: da.yml
+      text: Afbryd redigeringen af {title}
+    editButtonLabel:
+      sourceFile: da.yml
+      text: Rediger Detaljer
     genders:
-      f: Kvinde
-      m: Mand
-      o: Andet
-      unknown: Ukendt
+      f:
+        sourceFile: da.yml
+        text: Kvinde
+      m:
+        sourceFile: da.yml
+        text: Mand
+      o:
+        sourceFile: da.yml
+        text: Andet
+      unknown:
+        sourceFile: da.yml
+        text: Ukendt
     organizations:
-      add: Tilføj ny underorganisation
-      addError: Denne organisation kunne ikke blive tilføjet
-      removeError: Denne organisation kunne ikke blive fjernet
-      title: Organisationer
+      add:
+        sourceFile: da.yml
+        text: Tilføj ny underorganisation
+      addError:
+        sourceFile: da.yml
+        text: Denne organisation kunne ikke blive tilføjet
+      removeError:
+        sourceFile: da.yml
+        text: Denne organisation kunne ikke blive fjernet
+      title:
+        sourceFile: da.yml
+        text: Organisationer
     tabs:
-      manage: Håndtér
-      profile: Profil
-      timeline: Tidslinje
+      manage:
+        sourceFile: da.yml
+        text: Håndtér
+      profile:
+        sourceFile: da.yml
+        text: Profil
+      timeline:
+        sourceFile: da.yml
+        text: Tidslinje
   search:
-    error: Der er sket en fejl
-    label: Søg
-    noResults: Ingen resultater
-    placeholder: Skriv for at søge
+    error:
+      sourceFile: da.yml
+      text: Der er sket en fejl
+    label:
+      sourceFile: da.yml
+      text: Søg
+    noResults:
+      sourceFile: da.yml
+      text: Ingen resultater
+    placeholder:
+      sourceFile: da.yml
+      text: Skriv for at søge
     results:
-      callassignment: Ringeopgave
-      campaign: Kampagne
-      people: Personer
-      person: Person
-      survey: Spørgeskema
-      task: Opgave
-      view: Lister
+      callassignment:
+        sourceFile: da.yml
+        text: Ringeopgave
+      campaign:
+        sourceFile: da.yml
+        text: Kampagne
+      people:
+        sourceFile: da.yml
+        text: Personer
+      person:
+        sourceFile: da.yml
+        text: Person
+      survey:
+        sourceFile: da.yml
+        text: Spørgeskema
+      task:
+        sourceFile: da.yml
+        text: Opgave
+      view:
+        sourceFile: da.yml
+        text: Lister
   smartSearch:
     buttonLabels:
-      add: Gem valgte
-      addNewFilter: Tilføj / fjern personer
-      cancel: Afbryd
-      close: Luk
-      goBack: Gå tilbage til søgningen
-      save: Gem
+      add:
+        sourceFile: da.yml
+        text: Gem valgte
+      addNewFilter:
+        sourceFile: da.yml
+        text: Tilføj / fjern personer
+      cancel:
+        sourceFile: da.yml
+        text: Afbryd
+      close:
+        sourceFile: da.yml
+        text: Luk
+      goBack:
+        sourceFile: da.yml
+        text: Gå tilbage til søgningen
+      save:
+        sourceFile: da.yml
+        text: Gem
     filterCategories:
-      campaignActivity: Projekt aktivitet
-      misc: Diverse
-      peopleDatabase: Personer
-      phoneBanking: Rundringning
-      surveys: Spørgeskemaer
+      campaignActivity:
+        sourceFile: da.yml
+        text: Projekt aktivitet
+      misc:
+        sourceFile: da.yml
+        text: Diverse
+      peopleDatabase:
+        sourceFile: da.yml
+        text: Personer
+      phoneBanking:
+        sourceFile: da.yml
+        text: Rundringning
+      surveys:
+        sourceFile: da.yml
+        text: Spørgeskemaer
     filterTitles:
-      all: Alle
-      call_blocked: Blokeret fra at ringe
-      call_history: Baseret på deres ringe-historikken
-      campaign_participation: Baseret på deres deltagelse i begivenheder
-      most_active: De mest aktive personer
-      person_data: Baseret på deres navn, adresse eller andre data
-      person_field: Baseret på brugerdefinerede felter
-      person_tags: Baseret på deres etiketter
-      person_view: Mennesker fra en liste
-      random: Tilfældigt udvalgte personer
-      sub_query: Baseret på en anden Smart Søgning.
-      survey_option: Baseret på svar i et fritekstfelt i et spørgeskema
-      survey_response: Baseret på svar i ud fra svarmuligheder i et spørgeskema
-      survey_submission: Personer som har deltaget i et spørgeskema
-      task: Personer som har engageret sig i opgaver
-      user: Personer som har brugt zetkin
+      all:
+        sourceFile: da.yml
+        text: Alle
+      call_blocked:
+        sourceFile: da.yml
+        text: Blokeret fra at ringe
+      call_history:
+        sourceFile: da.yml
+        text: Baseret på deres ringe-historikken
+      campaign_participation:
+        sourceFile: da.yml
+        text: Baseret på deres deltagelse i begivenheder
+      most_active:
+        sourceFile: da.yml
+        text: De mest aktive personer
+      person_data:
+        sourceFile: da.yml
+        text: Baseret på deres navn, adresse eller andre data
+      person_field:
+        sourceFile: da.yml
+        text: Baseret på brugerdefinerede felter
+      person_tags:
+        sourceFile: da.yml
+        text: Baseret på deres etiketter
+      person_view:
+        sourceFile: da.yml
+        text: Mennesker fra en liste
+      random:
+        sourceFile: da.yml
+        text: Tilfældigt udvalgte personer
+      sub_query:
+        sourceFile: da.yml
+        text: Baseret på en anden Smart Søgning.
+      survey_option:
+        sourceFile: da.yml
+        text: Baseret på svar i et fritekstfelt i et spørgeskema
+      survey_response:
+        sourceFile: da.yml
+        text: Baseret på svar i ud fra svarmuligheder i et spørgeskema
+      survey_submission:
+        sourceFile: da.yml
+        text: Personer som har deltaget i et spørgeskema
+      task:
+        sourceFile: da.yml
+        text: Personer som har engageret sig i opgaver
+      user:
+        sourceFile: da.yml
+        text: Personer som har brugt zetkin
     filters:
       all:
-        inputString: Start med {startWithSelect}.
+        inputString:
+          sourceFile: da.yml
+          text: Start med {startWithSelect}.
         startWithSelect:
-          'false': en tom liste
-          'true': en liste med alle personer i organisationen
+          'false':
+            sourceFile: da.yml
+            text: en tom liste
+          'true':
+            sourceFile: da.yml
+            text: en liste med alle personer i organisationen
       callBlocked:
         addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
-        inputString: '{addRemoveSelect} personer som er blokeret fra at ringe af en
-          hvilken som helst grund'
+          add:
+            sourceFile: da.yml
+            text: Tilføj
+          sub:
+            sourceFile: da.yml
+            text: Fjern
+        inputString:
+          sourceFile: da.yml
+          text: '{addRemoveSelect} personer som er blokeret fra at ringe af en hvilken som
+            helst grund'
       callHistory:
         addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
+          add:
+            sourceFile: da.yml
+            text: Tilføj
+          sub:
+            sourceFile: da.yml
+            text: Fjern
         assignmentSelect:
-          any: hvilken som helst opgave
-          assignment: opgave "{assignmentTitle}"
-          none: Denne organisation har ingen ringeopgaver endnu
+          any:
+            sourceFile: da.yml
+            text: hvilken som helst opgave
+          assignment:
+            sourceFile: da.yml
+            text: opgave "{assignmentTitle}"
+          none:
+            sourceFile: da.yml
+            text: Denne organisation har ingen ringeopgaver endnu
         callSelect:
-          called: er blevet ringet op
-          notreached: er blevet forsøgt uden held
-          reached: er nået med succes
+          called:
+            sourceFile: da.yml
+            text: er blevet ringet op
+          notreached:
+            sourceFile: da.yml
+            text: er blevet forsøgt uden held
+          reached:
+            sourceFile: da.yml
+            text: er nået med succes
         examples:
-          one: Tilføj personer som vi har nået mindst to gange nogensinde i hvilken
-            som helst opgave til.
-          two: Fjern personer, der er blevet ringet op mindst 1 gang i opgaven 'Aktiver
-            gamle medlemmer' i løbet af de sidste 30 dage.
-        inputString: '{addRemoveSelect} personer som {callSelect} mindst {minTimes}
-          i {assignmentSelect} {timeFrame}.'
-        minTimes: '{minTimes} {minTimes, plural, one {gang} other {gange}}'
-        minTimesInput: '{input} {minTimes, plural, one {gang} other {gange}}'
+          one:
+            sourceFile: da.yml
+            text: Tilføj personer som vi har nået mindst to gange nogensinde i hvilken som
+              helst opgave til.
+          two:
+            sourceFile: da.yml
+            text: Fjern personer, der er blevet ringet op mindst 1 gang i opgaven 'Aktiver
+              gamle medlemmer' i løbet af de sidste 30 dage.
+        inputString:
+          sourceFile: da.yml
+          text: '{addRemoveSelect} personer som {callSelect} mindst {minTimes} i
+            {assignmentSelect} {timeFrame}.'
+        minTimes:
+          sourceFile: da.yml
+          text: '{minTimes} {minTimes, plural, one {gang} other {gange}}'
+        minTimesInput:
+          sourceFile: da.yml
+          text: '{input} {minTimes, plural, one {gang} other {gange}}'
       campaignParticipation:
         activitySelect:
-          activity: type "{activity}"
-          any: enhver type
+          activity:
+            sourceFile: da.yml
+            text: type "{activity}"
+          any:
+            sourceFile: da.yml
+            text: enhver type
         addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
+          add:
+            sourceFile: da.yml
+            text: Tilføj
+          sub:
+            sourceFile: da.yml
+            text: Fjern
         bookedSelect:
-          booked: blevet booket
-          signed_up: tilmeldt
+          booked:
+            sourceFile: da.yml
+            text: blevet booket
+          signed_up:
+            sourceFile: da.yml
+            text: tilmeldt
         campaignSelect:
-          any: hvilket som helst projekt
-          campaign: projekt "{campaign}"
+          any:
+            sourceFile: da.yml
+            text: hvilket som helst projekt
+          campaign:
+            sourceFile: da.yml
+            text: projekt "{campaign}"
         examples:
-          one: Tilføj personer, der har tilmeldt sig begivenheder på lokationen 'Dorfplatz'
-            uanset type, projekt eller tidspunkt
-          two: Fjern personer, der til dags dato ikke er blevet booket til begivenheder
-            af typen 'Sæt plakater op' i et hvilket som helst projekt, på en hvilken
-            som helst lokation.
+          one:
+            sourceFile: da.yml
+            text: Tilføj personer, der har tilmeldt sig begivenheder på lokationen
+              'Dorfplatz' uanset type, projekt eller tidspunkt
+          two:
+            sourceFile: da.yml
+            text: Fjern personer, der til dags dato ikke er blevet booket til begivenheder
+              af typen 'Sæt plakater op' i et hvilket som helst projekt, på en
+              hvilken som helst lokation.
         haveSelect:
-          in: har
-          notin: har ikke
-        inputString: '{addRemoveSelect} personer som {haveSelect} {bookedSelect} til
-          begivenheden i {campaignSelect} af {activitySelect} på {locationSelect}
-          {timeFrame}'
+          in:
+            sourceFile: da.yml
+            text: har
+          notin:
+            sourceFile: da.yml
+            text: har ikke
+        inputString:
+          sourceFile: da.yml
+          text: '{addRemoveSelect} personer som {haveSelect} {bookedSelect} til
+            begivenheden i {campaignSelect} af {activitySelect} på
+            {locationSelect} {timeFrame}'
         locationSelect:
-          any: enhver lokation
-          location: lokation "{location}"
+          any:
+            sourceFile: da.yml
+            text: enhver lokation
+          location:
+            sourceFile: da.yml
+            text: lokation "{location}"
       mostActive:
         addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
+          add:
+            sourceFile: da.yml
+            text: Tilføj
+          sub:
+            sourceFile: da.yml
+            text: Fjern
         examples:
-          one: Tilføj de 100 mest aktive medlemmer af organisationen før dags dato.
-          two: Fjern de fem mest aktive medlemmer af organisationen nogensinde.
-        inputString: '{addRemoveSelect} de {numPeopleSelect} mest aktive {numPeople}
-          i organisationen {timeFrame}.'
-        numPeople: '{numPeople, plural, one {person} other {personer}}'
-        numPeopleSelect: '{numPeopleSelect}'
+          one:
+            sourceFile: da.yml
+            text: Tilføj de 100 mest aktive medlemmer af organisationen før dags dato.
+          two:
+            sourceFile: da.yml
+            text: Fjern de fem mest aktive medlemmer af organisationen nogensinde.
+        inputString:
+          sourceFile: da.yml
+          text: '{addRemoveSelect} de {numPeopleSelect} mest aktive {numPeople} i
+            organisationen {timeFrame}.'
+        numPeople:
+          sourceFile: da.yml
+          text: '{numPeople, plural, one {person} other {personer}}'
+        numPeopleSelect:
+          sourceFile: da.yml
+          text: '{numPeopleSelect}'
       personData:
         addRemoveSelect:
-          add: Tilføj
-          sub: fjern
-        ellipsis: '...'
+          add:
+            sourceFile: da.yml
+            text: Tilføj
+          sub:
+            sourceFile: da.yml
+            text: fjern
+        ellipsis:
+          sourceFile: da.yml
+          text: ...
         examples:
-          one: Tilføj alle personer, hvis fornavn er 'Clara' og hvis efternavn er
-            'Zetkin'.
-          two: Fjern enhver person, hvis by er København.
-        fieldMatches: '{field} matcher {value}'
+          one:
+            sourceFile: da.yml
+            text: Tilføj alle personer, hvis fornavn er 'Clara' og hvis efternavn er
+              'Zetkin'.
+          two:
+            sourceFile: da.yml
+            text: Fjern enhver person, hvis by er København.
+        fieldMatches:
+          sourceFile: da.yml
+          text: '{field} matcher {value}'
         fieldSelect:
-          alt_phone: alternativt telefonnummer
-          city: by
-          co_address: CO/adresse
-          email: email
-          first_name: fornavn
-          gender: køn
-          last_name: efternavn
-          phone: telefonnummer
-          remove: Fjern dette kriterie
-          street_address: gadenavn
-          zip_code: postnummer
-        fieldTuple: '{first} og {second}'
-        inputString: '{addRemoveSelect} alle der {criteria}.'
+          alt_phone:
+            sourceFile: da.yml
+            text: alternativt telefonnummer
+          city:
+            sourceFile: da.yml
+            text: by
+          co_address:
+            sourceFile: da.yml
+            text: CO/adresse
+          email:
+            sourceFile: da.yml
+            text: email
+          first_name:
+            sourceFile: da.yml
+            text: fornavn
+          gender:
+            sourceFile: da.yml
+            text: køn
+          last_name:
+            sourceFile: da.yml
+            text: efternavn
+          phone:
+            sourceFile: da.yml
+            text: telefonnummer
+          remove:
+            sourceFile: da.yml
+            text: Fjern dette kriterie
+          street_address:
+            sourceFile: da.yml
+            text: gadenavn
+          zip_code:
+            sourceFile: da.yml
+            text: postnummer
+        fieldTuple:
+          sourceFile: da.yml
+          text: '{first} og {second}'
+        inputString:
+          sourceFile: da.yml
+          text: '{addRemoveSelect} alle der {criteria}.'
       personField:
         addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
+          add:
+            sourceFile: da.yml
+            text: Tilføj
+          sub:
+            sourceFile: da.yml
+            text: Fjern
         edit:
-          date: '{fieldSelect} er {timeFrame}'
-          none: Denne organisation har ingen brugerdefinerede felter endnu.
-          text: '{fieldSelect} matcher "{freeTextInput}"'
-          url: '{fieldSelect} matcher "{freeTextInput}"'
+          date:
+            sourceFile: da.yml
+            text: '{fieldSelect} er {timeFrame}'
+          none:
+            sourceFile: da.yml
+            text: Denne organisation har ingen brugerdefinerede felter endnu.
+          text:
+            sourceFile: da.yml
+            text: '{fieldSelect} matcher "{freeTextInput}"'
+          url:
+            sourceFile: da.yml
+            text: '{fieldSelect} matcher "{freeTextInput}"'
         fieldSelect:
-          any: brugerdefinerede felter
-        inputString: '{addRemoveSelect} alle personer der {field}.'
+          any:
+            sourceFile: da.yml
+            text: brugerdefinerede felter
+        inputString:
+          sourceFile: da.yml
+          text: '{addRemoveSelect} alle personer der {field}.'
         preview:
-          date: '{fieldName} er {timeFrame}'
-          text: '{fieldName} matcher "{searchTerm}"'
-          url: '{fieldName} matcher "{searchTerm}"'
+          date:
+            sourceFile: da.yml
+            text: '{fieldName} er {timeFrame}'
+          text:
+            sourceFile: da.yml
+            text: '{fieldName} matcher "{searchTerm}"'
+          url:
+            sourceFile: da.yml
+            text: '{fieldName} matcher "{searchTerm}"'
       personTags:
         addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
+          add:
+            sourceFile: da.yml
+            text: Tilføj
+          sub:
+            sourceFile: da.yml
+            text: Fjern
         condition:
           conditionSelect:
-            all: alle
-            any: hvilke som helst
-            minMatching: mindst
-            none: ingen
+            all:
+              sourceFile: da.yml
+              text: alle
+            any:
+              sourceFile: da.yml
+              text: hvilke som helst
+            minMatching:
+              sourceFile: da.yml
+              text: mindst
+            none:
+              sourceFile: da.yml
+              text: ingen
           edit:
-            all: '{conditionSelect}'
-            any: '{conditionSelect}'
-            minMatching: '{conditionSelect} {minMatchingInput}'
-            none: '{conditionSelect}'
+            all:
+              sourceFile: da.yml
+              text: '{conditionSelect}'
+            any:
+              sourceFile: da.yml
+              text: '{conditionSelect}'
+            minMatching:
+              sourceFile: da.yml
+              text: '{conditionSelect} {minMatchingInput}'
+            none:
+              sourceFile: da.yml
+              text: '{conditionSelect}'
           preview:
-            all: alle
-            any: hvilke som helst
-            minMatching: mindst {minMatching}
-            none: ingen
+            all:
+              sourceFile: da.yml
+              text: alle
+            any:
+              sourceFile: da.yml
+              text: hvilke som helst
+            minMatching:
+              sourceFile: da.yml
+              text: mindst {minMatching}
+            none:
+              sourceFile: da.yml
+              text: ingen
         examples:
-          one: 'Tilføj personer med mindst en af de følgende etiketter: ''medlem'',
-            ''aktivist'''
-          two: 'Fjern mennesker med de følgende etiketter: ''Bestyrelsesmedlem'''
-        inputString: '{addRemoveSelect} personer med {condition} af de følgende etiketter:
-          {tags}'
+          one:
+            sourceFile: da.yml
+            text: "Tilføj personer med mindst en af de følgende etiketter: 'medlem', 'aktivist'"
+          two:
+            sourceFile: da.yml
+            text: "Fjern mennesker med de følgende etiketter: 'Bestyrelsesmedlem'"
+        inputString:
+          sourceFile: da.yml
+          text: '{addRemoveSelect} personer med {condition} af de følgende etiketter:
+            {tags}'
       personView:
         addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
+          add:
+            sourceFile: da.yml
+            text: Tilføj
+          sub:
+            sourceFile: da.yml
+            text: Fjern
         examples:
-          one: Tilføj personer, der er på listen "Aktive Medlemmer 2022".
-          two: Fjern personer, der ikke er på listen "Aktive Medlemmer 2022".
+          one:
+            sourceFile: da.yml
+            text: Tilføj personer, der er på listen "Aktive Medlemmer 2022".
+          two:
+            sourceFile: da.yml
+            text: Fjern personer, der ikke er på listen "Aktive Medlemmer 2022".
         inSelect:
-          in: i
-          notin: ikke i
-        inputString: '{addRemoveSelect} personer der er {inSelect} på listen {viewSelect}.'
+          in:
+            sourceFile: da.yml
+            text: i
+          notin:
+            sourceFile: da.yml
+            text: ikke i
+        inputString:
+          sourceFile: da.yml
+          text: '{addRemoveSelect} personer der er {inSelect} på listen {viewSelect}.'
         viewSelect:
-          none: Denne organisation har ingen lister endnu
+          none:
+            sourceFile: da.yml
+            text: Denne organisation har ingen lister endnu
       random:
         addLimitRemoveSelect:
-          add: tilføj
-          sub: fjern
+          add:
+            sourceFile: da.yml
+            text: tilføj
+          sub:
+            sourceFile: da.yml
+            text: fjern
         addRemoveSelect:
-          add: tilføj
-          sub: fjern
+          add:
+            sourceFile: da.yml
+            text: tilføj
+          sub:
+            sourceFile: da.yml
+            text: fjern
         examples:
-          one: Tilføj 20 tilfældige personer fra organisationen.
-          two: Fjern tilfældige 15% af personerne fra organisationen.
-        inputString: '{addRemoveSelect} Tilfældige {quantity} fra organisationen.'
+          one:
+            sourceFile: da.yml
+            text: Tilføj 20 tilfældige personer fra organisationen.
+          two:
+            sourceFile: da.yml
+            text: Fjern tilfældige 15% af personerne fra organisationen.
+        inputString:
+          sourceFile: da.yml
+          text: '{addRemoveSelect} Tilfældige {quantity} fra organisationen.'
       subQuery:
         addRemoveSelect:
-          add: Tilføj
-          sub: Erstat
+          add:
+            sourceFile: da.yml
+            text: Tilføj
+          sub:
+            sourceFile: da.yml
+            text: Erstat
         examples:
-          one: Fjern personer, der matcher Smart Søgningen 'Personer, der bor i Stockholm'.
-          two: Tilføj personer der matcher målgruppen til ringeopgaven 'Ringeopgave
-            et'.
-        inputString: '{addRemoveSelect} personer der {matchSelect} {query}.'
+          one:
+            sourceFile: da.yml
+            text: Fjern personer, der matcher Smart Søgningen 'Personer, der bor i
+              Stockholm'.
+          two:
+            sourceFile: da.yml
+            text: Tilføj personer der matcher målgruppen til ringeopgaven 'Ringeopgave et'.
+        inputString:
+          sourceFile: da.yml
+          text: '{addRemoveSelect} personer der {matchSelect} {query}.'
         matchSelect:
-          in: match
-          notin: match ikke
+          in:
+            sourceFile: da.yml
+            text: match
+          notin:
+            sourceFile: da.yml
+            text: match ikke
         query:
           edit:
-            callassignment_goal: '{querySelect} fra ringeopgaven "{titleSelect}"'
-            callassignment_target: '{querySelect} fra ringeopgaven "{titleSelect}"'
-            none: '{querySelect}'
-            standalone: '{querySelect} "{titleSelect}"'
+            callassignment_goal:
+              sourceFile: da.yml
+              text: '{querySelect} fra ringeopgaven "{titleSelect}"'
+            callassignment_target:
+              sourceFile: da.yml
+              text: '{querySelect} fra ringeopgaven "{titleSelect}"'
+            none:
+              sourceFile: da.yml
+              text: '{querySelect}'
+            standalone:
+              sourceFile: da.yml
+              text: '{querySelect} "{titleSelect}"'
           preview:
-            callassignment_goal: formålet ved gruppe-ringeopgaven "{queryTitle}"
-            callassignment_target: målgruppen til ringeopgaven "{queryTitle}"
-            none: '{queryTitle}'
-            standalone: Smart Søgningen "{queryTitle}"
+            callassignment_goal:
+              sourceFile: da.yml
+              text: formålet ved gruppe-ringeopgaven "{queryTitle}"
+            callassignment_target:
+              sourceFile: da.yml
+              text: målgruppen til ringeopgaven "{queryTitle}"
+            none:
+              sourceFile: da.yml
+              text: '{queryTitle}'
+            standalone:
+              sourceFile: da.yml
+              text: Smart Søgningen "{queryTitle}"
           selectLabel:
-            callassignment_goal: formålsgruppen
-            callassignment_target: målgruppen
-            none: en Smart Søgning
-            standalone: Smart Søgning
+            callassignment_goal:
+              sourceFile: da.yml
+              text: formålsgruppen
+            callassignment_target:
+              sourceFile: da.yml
+              text: målgruppen
+            none:
+              sourceFile: da.yml
+              text: en Smart Søgning
+            standalone:
+              sourceFile: da.yml
+              text: Smart Søgning
           selectOptions:
-            callassignment_goal: formålsgruppen for denne ringeopgave
-            callassignment_target: målgruppen for denne ringeopgave
-            none: Denne organisation har ingen ringeopgaver eller Smarte Søgninger
-              endnu.
-            standalone: en enkeltstående Smart Søgning
+            callassignment_goal:
+              sourceFile: da.yml
+              text: formålsgruppen for denne ringeopgave
+            callassignment_target:
+              sourceFile: da.yml
+              text: målgruppen for denne ringeopgave
+            none:
+              sourceFile: da.yml
+              text: Denne organisation har ingen ringeopgaver eller Smarte Søgninger endnu.
+            standalone:
+              sourceFile: da.yml
+              text: en enkeltstående Smart Søgning
       surveyOption:
         addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
+          add:
+            sourceFile: da.yml
+            text: Tilføj
+          sub:
+            sourceFile: da.yml
+            text: Fjern
         conditionSelect:
-          all: alle
-          any: hvilke som helst
-          none: ingen
+          all:
+            sourceFile: da.yml
+            text: alle
+          any:
+            sourceFile: da.yml
+            text: hvilke som helst
+          none:
+            sourceFile: da.yml
+            text: ingen
         examples:
-          one: 'Fjern alle personer som har valgt en af følgende svarmuligheder i
-            spørgeskemaet ''medlemsspørgeskema 2020'' (question ''Question one''):
-            ''Nogle gange'', ''Aldrig'''
-          two: 'Tilføj alle personer som har valgt en af følgende svarmuligheder i
-            spørgeskemaet ''Medlemsspørgeskema'' (question ''Question one''): ''Svarmulighed
-            to'''
-        inputString: '{addRemoveSelect} personer som har valgt {conditionSelect} en
-          af de følgende svarmuligheder {surveySelect} ({questionSelect}): {options}'
+          one:
+            sourceFile: da.yml
+            text: "Fjern alle personer som har valgt en af følgende svarmuligheder i spørgeskemaet 'medlemsspørgeskema 2020' (question 'Question one'): 'Nogle gange', 'Aldrig'"
+          two:
+            sourceFile: da.yml
+            text: "Tilføj alle personer som har valgt en af følgende svarmuligheder i spørgeskemaet 'Medlemsspørgeskema' (question 'Question one'): 'Svarmulighed to'"
+        inputString:
+          sourceFile: da.yml
+          text: '{addRemoveSelect} personer som har valgt {conditionSelect} en af de
+            følgende svarmuligheder {surveySelect} ({questionSelect}):
+            {options}'
         questionSelect:
-          any: et spørgsmål
-          none: Der er ingen spørgsmål med svarmuligheder i dette spørgeskema
-          question: spørgsmål "{question}"
+          any:
+            sourceFile: da.yml
+            text: et spørgsmål
+          none:
+            sourceFile: da.yml
+            text: Der er ingen spørgsmål med svarmuligheder i dette spørgeskema
+          question:
+            sourceFile: da.yml
+            text: spørgsmål "{question}"
         surveySelect:
-          any: et spørgeskema
-          none: Denne organisation har ingen spørgeskemaer endnu
-          survey: spørgeskema "{surveyTitle}"
+          any:
+            sourceFile: da.yml
+            text: et spørgeskema
+          none:
+            sourceFile: da.yml
+            text: Denne organisation har ingen spørgeskemaer endnu
+          survey:
+            sourceFile: da.yml
+            text: spørgeskema "{surveyTitle}"
       surveyResponse:
         addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
+          add:
+            sourceFile: da.yml
+            text: Tilføj
+          sub:
+            sourceFile: da.yml
+            text: Fjern
         examples:
-          one: Personer hvis svar på spørgeskemaet 'medlemsspørgeskema' (question
-            'Question one') indeholder 'organizer'
-          two: Personer hvis svar på spørgeskemaet 'medlemsspørgeskema' (question
-            'Question one') matcher nøjagtigt 'organizer'.
-        inputString: '{addRemoveSelect} personer hvis svar på {surveySelect} ({questionSelect})
-          {matchSelect} "{freeTextInput}"'
+          one:
+            sourceFile: da.yml
+            text: Personer hvis svar på spørgeskemaet 'medlemsspørgeskema' (question
+              'Question one') indeholder 'organizer'
+          two:
+            sourceFile: da.yml
+            text: Personer hvis svar på spørgeskemaet 'medlemsspørgeskema' (question
+              'Question one') matcher nøjagtigt 'organizer'.
+        inputString:
+          sourceFile: da.yml
+          text: '{addRemoveSelect} personer hvis svar på {surveySelect} ({questionSelect})
+            {matchSelect} "{freeTextInput}"'
         matchSelect:
-          eq: matcher nøjagtigt
-          in: indeholder
-          noteq: er ikke
-          notin: indeholder ikke
+          eq:
+            sourceFile: da.yml
+            text: matcher nøjagtigt
+          in:
+            sourceFile: da.yml
+            text: indeholder
+          noteq:
+            sourceFile: da.yml
+            text: er ikke
+          notin:
+            sourceFile: da.yml
+            text: indeholder ikke
         questionSelect:
-          any: hvilket som helst spørgsmål
-          none: Der er ingen fritekstspørgsmål i dette spørgeskema
-          question: spørgsmål "{question}"
+          any:
+            sourceFile: da.yml
+            text: hvilket som helst spørgsmål
+          none:
+            sourceFile: da.yml
+            text: Der er ingen fritekstspørgsmål i dette spørgeskema
+          question:
+            sourceFile: da.yml
+            text: spørgsmål "{question}"
         surveySelect:
-          any: et spørgeskema
-          none: Denne organisation har ingen spørgeskemaer endnu
-          survey: spørgeskema "{surveyTitle}"
+          any:
+            sourceFile: da.yml
+            text: et spørgeskema
+          none:
+            sourceFile: da.yml
+            text: Denne organisation har ingen spørgeskemaer endnu
+          survey:
+            sourceFile: da.yml
+            text: spørgeskema "{surveyTitle}"
       surveySubmission:
         addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
+          add:
+            sourceFile: da.yml
+            text: Tilføj
+          sub:
+            sourceFile: da.yml
+            text: Fjern
         examples:
-          one: Personer, der har afgivet svar på spørgeskemaet 'Medlemsspørgeskema
-            2020' før i dag.
-          two: Personer som har besvaret spørgeskemaet 'Medlemsspørgeskema 2020' inden
-            for de sidste 30 dage.
-        inputString: '{addRemoveSelect} personer som har besvaret {surveySelect} {timeFrame}.'
+          one:
+            sourceFile: da.yml
+            text: Personer, der har afgivet svar på spørgeskemaet 'Medlemsspørgeskema 2020'
+              før i dag.
+          two:
+            sourceFile: da.yml
+            text: Personer som har besvaret spørgeskemaet 'Medlemsspørgeskema 2020' inden
+              for de sidste 30 dage.
+        inputString:
+          sourceFile: da.yml
+          text: '{addRemoveSelect} personer som har besvaret {surveySelect} {timeFrame}.'
         surveySelect:
-          any: et spørgeskema
-          none: Denne organisation har ingen spørgeskemaer endnu
-          survey: spørgeskema "{surveyTitle}"
+          any:
+            sourceFile: da.yml
+            text: et spørgeskema
+          none:
+            sourceFile: da.yml
+            text: Denne organisation har ingen spørgeskemaer endnu
+          survey:
+            sourceFile: da.yml
+            text: spørgeskema "{surveyTitle}"
       task:
         addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
+          add:
+            sourceFile: da.yml
+            text: Tilføj
+          sub:
+            sourceFile: da.yml
+            text: Fjern
         campaignSelect:
-          any: et hvilket som helst projekt
-          campaign: projekt "{campaign}"
-          in: i
+          any:
+            sourceFile: da.yml
+            text: et hvilket som helst projekt
+          campaign:
+            sourceFile: da.yml
+            text: projekt "{campaign}"
+          in:
+            sourceFile: da.yml
+            text: i
         examples:
-          one: Tilføj personer, der har fuldført opgaven "Fortæl dine venner" mindst
-            én gang på et hvilket som helst tidspunkt
-          two: Tilføj personer, der har ignoreret en opgave i et projekt mellem 2
-            og 5 gange før dags dato
-        inputString: '{addRemoveSelect} personer som har {taskStatusSelect} {taskSelect}{campaignSelect}
-          {matchingSelect} {timeFrame}'
+          one:
+            sourceFile: da.yml
+            text: Tilføj personer, der har fuldført opgaven "Fortæl dine venner" mindst én
+              gang på et hvilket som helst tidspunkt
+          two:
+            sourceFile: da.yml
+            text: Tilføj personer, der har ignoreret en opgave i et projekt mellem 2 og 5
+              gange før dags dato
+        inputString:
+          sourceFile: da.yml
+          text: '{addRemoveSelect} personer som har {taskStatusSelect}
+            {taskSelect}{campaignSelect} {matchingSelect} {timeFrame}'
         taskSelect:
-          any: enhver opgave
-          task: opgave "{task}"
+          any:
+            sourceFile: da.yml
+            text: enhver opgave
+          task:
+            sourceFile: da.yml
+            text: opgave "{task}"
         taskStatusSelect:
-          assigned: blevet tildelt
-          completed: afsluttet
-          ignored: ignoreret
+          assigned:
+            sourceFile: da.yml
+            text: blevet tildelt
+          completed:
+            sourceFile: da.yml
+            text: afsluttet
+          ignored:
+            sourceFile: da.yml
+            text: ignoreret
       user:
         addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
+          add:
+            sourceFile: da.yml
+            text: Tilføj
+          sub:
+            sourceFile: da.yml
+            text: Fjern
         connectedSelect:
-          'false': ikke tilknyttet
-          'true': tilknyttet
+          'false':
+            sourceFile: da.yml
+            text: ikke tilknyttet
+          'true':
+            sourceFile: da.yml
+            text: tilknyttet
         examples:
-          one: Fjern alle personer, der er tilknyttet en Zetkin-bruger.
-          two: Tilføj alle personer som ikke er tilknyttet en Zetkin-bruger.
-        inputString: '{addRemoveSelect} alle personer som er {connectedSelect} til
-          en Zetkinprofil.'
+          one:
+            sourceFile: da.yml
+            text: Fjern alle personer, der er tilknyttet en Zetkin-bruger.
+          two:
+            sourceFile: da.yml
+            text: Tilføj alle personer som ikke er tilknyttet en Zetkin-bruger.
+        inputString:
+          sourceFile: da.yml
+          text: '{addRemoveSelect} alle personer som er {connectedSelect} til en
+            Zetkinprofil.'
     headers:
-      examples: Eksempler
-      gallery: Hvordan ønsker du at udvælge personer?
+      examples:
+        sourceFile: da.yml
+        text: Eksempler
+      gallery:
+        sourceFile: da.yml
+        text: Hvordan ønsker du at udvælge personer?
     matching:
       edit:
-        between: '{matchingSelect} {minInput} og {maxInput} gange'
-        max: '{matchingSelect} {maxInput} {max, plural, one {gang} other {gange}}'
-        min: '{matchingSelect} {minInput} {min, plural, one {gang} other {gange}}'
-        once: '{matchingSelect}'
+        between:
+          sourceFile: da.yml
+          text: '{matchingSelect} {minInput} og {maxInput} gange'
+        max:
+          sourceFile: da.yml
+          text: '{matchingSelect} {maxInput} {max, plural, one {gang} other {gange}}'
+        min:
+          sourceFile: da.yml
+          text: '{matchingSelect} {minInput} {min, plural, one {gang} other {gange}}'
+        once:
+          sourceFile: da.yml
+          text: '{matchingSelect}'
       labels:
-        between: mellem
-        max: maksimalt
-        min: mindst
-        once: mindst en gang
+        between:
+          sourceFile: da.yml
+          text: mellem
+        max:
+          sourceFile: da.yml
+          text: maksimalt
+        min:
+          sourceFile: da.yml
+          text: mindst
+        once:
+          sourceFile: da.yml
+          text: mindst en gang
       options:
-        between: mellem
-        max: maksimalt
-        min: mindst
-        once: mindst en gang
+        between:
+          sourceFile: da.yml
+          text: mellem
+        max:
+          sourceFile: da.yml
+          text: maksimalt
+        min:
+          sourceFile: da.yml
+          text: mindst
+        once:
+          sourceFile: da.yml
+          text: mindst en gang
       preview:
-        between: mellem {min} og {max} gange
-        max: maksimalt {max} {max, plural, one {gang} other {gange}}
-        min: mindst {min} {max, plural, one {gang} other {gange}}
-        once: mindst en gang
+        between:
+          sourceFile: da.yml
+          text: mellem {min} og {max} gange
+        max:
+          sourceFile: da.yml
+          text: maksimalt {max} {max, plural, one {gang} other {gange}}
+        min:
+          sourceFile: da.yml
+          text: mindst {min} {max, plural, one {gang} other {gange}}
+        once:
+          sourceFile: da.yml
+          text: mindst en gang
     misc:
-      noOptions: Ingen matchende etiketter
+      noOptions:
+        sourceFile: da.yml
+        text: Ingen matchende etiketter
     operators:
-      add: Tilføj
-      sub: Fjern
+      add:
+        sourceFile: da.yml
+        text: Tilføj
+      sub:
+        sourceFile: da.yml
+        text: Fjern
     quantity:
       edit:
-        integer: '{numInput} {quantitySelect}'
-        percent: '{numInput} {quantitySelect}'
+        integer:
+          sourceFile: da.yml
+          text: '{numInput} {quantitySelect}'
+        percent:
+          sourceFile: da.yml
+          text: '{numInput} {quantitySelect}'
       preview:
-        integer: '{people} {people, plural, one {person} other {personer}}'
-        percent: '{people} % af personerne'
+        integer:
+          sourceFile: da.yml
+          text: '{people} {people, plural, one {person} other {personer}}'
+        percent:
+          sourceFile: da.yml
+          text: '{people} % af personerne'
       quantitySelectLabel:
-        integer: '{people, plural, one {person} other {personer}}'
-        percent: '% af personerne'
+        integer:
+          sourceFile: da.yml
+          text: '{people, plural, one {person} other {personer}}'
+        percent:
+          sourceFile: da.yml
+          text: '% af personerne'
       quantitySelectOptions:
-        integer: et antal personer
-        percent: en procentdel af mennesker
-    readOnly: Denne Smart Søgningen er i skrivebeskyttet tilstand og kan ikke redigeres.
+        integer:
+          sourceFile: da.yml
+          text: et antal personer
+        percent:
+          sourceFile: da.yml
+          text: en procentdel af mennesker
+    readOnly:
+      sourceFile: da.yml
+      text: Denne Smart Søgningen er i skrivebeskyttet tilstand og kan ikke redigeres.
     resultHint:
-      countLabel: '{count, plural, =1 {en person} other {# personer}}'
-      hint: Denne Smart Søgning vil på nuværende tidspunkt returnere  {count}.
-    smartSearch: Smart Søgning
+      countLabel:
+        sourceFile: da.yml
+        text: '{count, plural, =1 {en person} other {# personer}}'
+      hint:
+        sourceFile: da.yml
+        text: Denne Smart Søgning vil på nuværende tidspunkt returnere  {count}.
+    smartSearch:
+      sourceFile: da.yml
+      text: Smart Søgning
     statsPopper:
-      change: ændr
-      details: Smart Søgning er dynamisk. Det betyder, at over tid kan antallet af
-        matches variere. Andre brugere kan se forskellige resultater, hvis de har
-        adgang til flere eller færre personer.
-      exit: Resultat
-      headline: Indvirkning på udvalg
-      info: Dette er et dynamisk valg, og tallene kan ændre sig over tid.
-      input: før
-      matches: fundet
-      output: efter
+      change:
+        sourceFile: da.yml
+        text: ændr
+      details:
+        sourceFile: da.yml
+        text: Smart Søgning er dynamisk. Det betyder, at over tid kan antallet af
+          matches variere. Andre brugere kan se forskellige resultater, hvis de
+          har adgang til flere eller færre personer.
+      exit:
+        sourceFile: da.yml
+        text: Resultat
+      headline:
+        sourceFile: da.yml
+        text: Indvirkning på udvalg
+      info:
+        sourceFile: da.yml
+        text: Dette er et dynamisk valg, og tallene kan ændre sig over tid.
+      input:
+        sourceFile: da.yml
+        text: før
+      matches:
+        sourceFile: da.yml
+        text: fundet
+      output:
+        sourceFile: da.yml
+        text: efter
     timeFrame:
       edit:
-        afterDate: '{timeFrameSelect} {afterDateSelect}'
-        beforeDate: '{timeFrameSelect} {beforeDateSelect}'
-        beforeToday: '{timeFrameSelect}'
-        between: '{timeFrameSelect} {afterDateSelect} og {beforeDateSelect}'
-        ever: '{timeFrameSelect}'
-        future: '{timeFrameSelect}'
-        lastFew: '{timeFrameSelect} {daysInput} {days, plural, one {dag} other {dage}}'
+        afterDate:
+          sourceFile: da.yml
+          text: '{timeFrameSelect} {afterDateSelect}'
+        beforeDate:
+          sourceFile: da.yml
+          text: '{timeFrameSelect} {beforeDateSelect}'
+        beforeToday:
+          sourceFile: da.yml
+          text: '{timeFrameSelect}'
+        between:
+          sourceFile: da.yml
+          text: '{timeFrameSelect} {afterDateSelect} og {beforeDateSelect}'
+        ever:
+          sourceFile: da.yml
+          text: '{timeFrameSelect}'
+        future:
+          sourceFile: da.yml
+          text: '{timeFrameSelect}'
+        lastFew:
+          sourceFile: da.yml
+          text: '{timeFrameSelect} {daysInput} {days, plural, one {dag} other {dage}}'
       preview:
-        afterDate: efter {afterDate}
-        beforeDate: før {beforeDate}
-        beforeToday: før i dag
-        between: mellem {afterDate} og {beforeDate}
-        ever: på et hvilket som helst tidspunkt
-        future: i fremtiden
-        lastFew: indenfor de sidste {days} {days, plural, one {dag} other {dage}}
+        afterDate:
+          sourceFile: da.yml
+          text: efter {afterDate}
+        beforeDate:
+          sourceFile: da.yml
+          text: før {beforeDate}
+        beforeToday:
+          sourceFile: da.yml
+          text: før i dag
+        between:
+          sourceFile: da.yml
+          text: mellem {afterDate} og {beforeDate}
+        ever:
+          sourceFile: da.yml
+          text: på et hvilket som helst tidspunkt
+        future:
+          sourceFile: da.yml
+          text: i fremtiden
+        lastFew:
+          sourceFile: da.yml
+          text: indenfor de sidste {days} {days, plural, one {dag} other {dage}}
       timeFrameSelectLabel:
-        afterDate: efter
-        beforeDate: før
-        beforeToday: før i dag
-        between: mellem
-        ever: på et hvilket som helst tidspunkt
-        future: i fremtiden
-        lastFew: indenfor de sidste
+        afterDate:
+          sourceFile: da.yml
+          text: efter
+        beforeDate:
+          sourceFile: da.yml
+          text: før
+        beforeToday:
+          sourceFile: da.yml
+          text: før i dag
+        between:
+          sourceFile: da.yml
+          text: mellem
+        ever:
+          sourceFile: da.yml
+          text: på et hvilket som helst tidspunkt
+        future:
+          sourceFile: da.yml
+          text: i fremtiden
+        lastFew:
+          sourceFile: da.yml
+          text: indenfor de sidste
       timeFrameSelectOptions:
-        afterDate: efter en given dato
-        beforeDate: før en given dato
-        beforeToday: før i dag
-        between: mellem to datoer
-        ever: på hvilket som helst tidspunkt
-        future: i fremtiden
-        lastFew: for nyeligt
+        afterDate:
+          sourceFile: da.yml
+          text: efter en given dato
+        beforeDate:
+          sourceFile: da.yml
+          text: før en given dato
+        beforeToday:
+          sourceFile: da.yml
+          text: før i dag
+        between:
+          sourceFile: da.yml
+          text: mellem to datoer
+        ever:
+          sourceFile: da.yml
+          text: på hvilket som helst tidspunkt
+        future:
+          sourceFile: da.yml
+          text: i fremtiden
+        lastFew:
+          sourceFile: da.yml
+          text: for nyeligt
   surveys:
     addBlocks:
-      choiceQuestionButton: Multiple choice spørgsmål
-      openQuestionButton: Åbent spørgsmål
-      textButton: Tekst
-      title: Vælg en bloktype for at tilføje mere indhold til dit spørgeskema
+      choiceQuestionButton:
+        sourceFile: da.yml
+        text: Multiple choice spørgsmål
+      openQuestionButton:
+        sourceFile: da.yml
+        text: Åbent spørgsmål
+      textButton:
+        sourceFile: da.yml
+        text: Tekst
+      title:
+        sourceFile: da.yml
+        text: Vælg en bloktype for at tilføje mere indhold til dit spørgeskema
     blocks:
       choice:
-        addOption: Tilføj svarmulighed
-        addOptionsBulk: Tilføj flere svarmuligheder på én gang
+        addOption:
+          sourceFile: da.yml
+          text: Tilføj svarmulighed
+        addOptionsBulk:
+          sourceFile: da.yml
+          text: Tilføj flere svarmuligheder på én gang
         bulk:
-          cancelButton: Afbryd
-          placeholder: Indtast eller indsæt én indstilling pr. linje
-          submitButton: Tilføj alle
-        description: Beskrivelse
-        emptyDescription: Beskrivelse
-        emptyOption: Tom svarmulighed
-        emptyQuestion: Titel
-        question: Spørgsmål
-        widget: Widget
+          cancelButton:
+            sourceFile: da.yml
+            text: Afbryd
+          placeholder:
+            sourceFile: da.yml
+            text: Indtast eller indsæt én indstilling pr. linje
+          submitButton:
+            sourceFile: da.yml
+            text: Tilføj alle
+        description:
+          sourceFile: da.yml
+          text: Beskrivelse
+        emptyDescription:
+          sourceFile: da.yml
+          text: Beskrivelse
+        emptyOption:
+          sourceFile: da.yml
+          text: Tom svarmulighed
+        emptyQuestion:
+          sourceFile: da.yml
+          text: Titel
+        question:
+          sourceFile: da.yml
+          text: Spørgsmål
+        widget:
+          sourceFile: da.yml
+          text: Widget
         widgets:
-          checkbox: Multi-choice (afkrydsningsfelter)
-          radio: Enkeltvalg (alternativknapper)
-          select: Enkeltvalg (rullemenu)
+          checkbox:
+            sourceFile: da.yml
+            text: Multi-choice (afkrydsningsfelter)
+          radio:
+            sourceFile: da.yml
+            text: Enkeltvalg (alternativknapper)
+          select:
+            sourceFile: da.yml
+            text: Enkeltvalg (rullemenu)
       deleteBlockDialog:
-        title: Slet spørgsmål
-        warningText: Er du sikker på, at du vil slette dette spørgsmål? Denne handling
-          er permanent og kan ikke fortrydes.
+        title:
+          sourceFile: da.yml
+          text: Slet spørgsmål
+        warningText:
+          sourceFile: da.yml
+          text: Er du sikker på, at du vil slette dette spørgsmål? Denne handling er
+            permanent og kan ikke fortrydes.
       deleteOptionDialog:
-        title: Slet svarmulighed
-        warningText: Er du sikker på, at du vil slette denne svarmulighed? Denne handling
-          er permanent og kan ikke fortrydes.
+        title:
+          sourceFile: da.yml
+          text: Slet svarmulighed
+        warningText:
+          sourceFile: da.yml
+          text: Er du sikker på, at du vil slette denne svarmulighed? Denne handling er
+            permanent og kan ikke fortrydes.
       open:
-        description: Beskrivelse
-        empty: Unavngivent åbent spørgsmål
-        fieldTypePreview: tekstfelt
-        label: Titel
-        multiLine: Multi-line
-        singleLine: Enkeltlinje
-        textFieldType: Tekstfelttype
+        description:
+          sourceFile: da.yml
+          text: Beskrivelse
+        empty:
+          sourceFile: da.yml
+          text: Unavngivent åbent spørgsmål
+        fieldTypePreview:
+          sourceFile: da.yml
+          text: tekstfelt
+        label:
+          sourceFile: da.yml
+          text: Titel
+        multiLine:
+          sourceFile: da.yml
+          text: Multi-line
+        singleLine:
+          sourceFile: da.yml
+          text: Enkeltlinje
+        textFieldType:
+          sourceFile: da.yml
+          text: Tekstfelttype
       text:
-        content: Beskrivelse
-        empty: Unavngiven blok
-        header: Titel
+        content:
+          sourceFile: da.yml
+          text: Beskrivelse
+        empty:
+          sourceFile: da.yml
+          text: Unavngiven blok
+        header:
+          sourceFile: da.yml
+          text: Titel
     chart:
-      header: Spørgeskemabesvarelser
-      placeholder: Start med at indhente besvarleser for at se udviklingen her
-      subheader: Akkumulerede besvarelser over over de sidste {days, plural, =1 {dag}
-        other {# dage}}
+      header:
+        sourceFile: da.yml
+        text: Spørgeskemabesvarelser
+      placeholder:
+        sourceFile: da.yml
+        text: Start med at indhente besvarleser for at se udviklingen her
+      subheader:
+        sourceFile: da.yml
+        text: Akkumulerede besvarelser over over de sidste {days, plural, =1 {dag} other
+          {# dage}}
       tooltip:
-        submissions: '{count, plural, =1 {1 besvarelse} other {# besvarelser}}'
+        submissions:
+          sourceFile: da.yml
+          text: '{count, plural, =1 {1 besvarelse} other {# besvarelser}}'
     editWarning:
       editing:
-        header: Spørgeskemaet kan redigeres
-        lockButton: Lås
+        header:
+          sourceFile: da.yml
+          text: Spørgeskemaet kan redigeres
+        lockButton:
+          sourceFile: da.yml
+          text: Lås
         safe:
-          bullet1: Ret stavefejl
-          bullet2: Omarrangering af blokke
-          bullet3: Skjule spørgsmål
-          bullet4: Tilføje spørgsmål eller svarmuligheder
-          header: Sikker
-        subheader: Pas på ikke at foretage ændringer, der kan medføre, at svardata
-          går tabt eller beskadiges.
+          bullet1:
+            sourceFile: da.yml
+            text: Ret stavefejl
+          bullet2:
+            sourceFile: da.yml
+            text: Omarrangering af blokke
+          bullet3:
+            sourceFile: da.yml
+            text: Skjule spørgsmål
+          bullet4:
+            sourceFile: da.yml
+            text: Tilføje spørgsmål eller svarmuligheder
+          header:
+            sourceFile: da.yml
+            text: Sikker
+        subheader:
+          sourceFile: da.yml
+          text: Pas på ikke at foretage ændringer, der kan medføre, at svardata går tabt
+            eller beskadiges.
         unsafe:
-          bullet1: Slet spørgsmål (skjul i stedet)
-          bullet2: Omdøbning af spørgsmål eller svarmuligheder på måder, der ændrer
-            deres betydning
-          header: Usikker
+          bullet1:
+            sourceFile: da.yml
+            text: Slet spørgsmål (skjul i stedet)
+          bullet2:
+            sourceFile: da.yml
+            text: Omdøbning af spørgsmål eller svarmuligheder på måder, der ændrer deres
+              betydning
+          header:
+            sourceFile: da.yml
+            text: Usikker
       locked:
-        header: Spørgeskema låst
-        subheader: Denne undersøgelse er begyndt at modtage besvarelser. Redigering
-          af undersøgelsen kan forårsage problemer med dataene. Fortsæt med forsigtighed.
-        unlockButton: Lås op
+        header:
+          sourceFile: da.yml
+          text: Spørgeskema låst
+        subheader:
+          sourceFile: da.yml
+          text: Denne undersøgelse er begyndt at modtage besvarelser. Redigering af
+            undersøgelsen kan forårsage problemer med dataene. Fortsæt med
+            forsigtighed.
+        unlockButton:
+          sourceFile: da.yml
+          text: Lås op
     layout:
       actions:
-        publish: Offentliggør spørgeskema
-        unpublish: Ikke offentliggjort spørgeskema
+        publish:
+          sourceFile: da.yml
+          text: Offentliggør spørgeskema
+        unpublish:
+          sourceFile: da.yml
+          text: Ikke offentliggjort spørgeskema
       stats:
-        questions: '{numQuestions, plural, one {1 spørgsmål} other {# spørgsmål}}'
-        submissions: '{numSubmissions, plural, one {1 besvarelse} other {# besvarelser}}'
+        questions:
+          sourceFile: da.yml
+          text: '{numQuestions, plural, one {1 spørgsmål} other {# spørgsmål}}'
+        submissions:
+          sourceFile: da.yml
+          text: '{numSubmissions, plural, one {1 besvarelse} other {# besvarelser}}'
     optionCollapse:
-      collapse: Skjul
-      more: '{numOfOptions, plural, one {Vis 1 svarmulighed mere} other {Vis # flere
-        svarmuligheder}}'
+      collapse:
+        sourceFile: da.yml
+        text: Skjul
+      more:
+        sourceFile: da.yml
+        text: '{numOfOptions, plural, one {Vis 1 svarmulighed mere} other {Vis # flere
+          svarmuligheder}}'
     organizerActionPane:
-      subtitle: Noter ved opkald til {person}
-      title: Administrator Handling Påkrævet
+      subtitle:
+        sourceFile: da.yml
+        text: Noter ved opkald til {person}
+      title:
+        sourceFile: da.yml
+        text: Administrator Handling Påkrævet
     overview:
       noQuestions:
-        button: Opret spørgsmål
-        title: Der er ingen spørgsmål i dette spørgeskema endnu
+        button:
+          sourceFile: da.yml
+          text: Opret spørgsmål
+        title:
+          sourceFile: da.yml
+          text: Der er ingen spørgsmål i dette spørgeskema endnu
     shareSuborgsCard:
-      caption: Når dette er aktiveret, kan oficielle i underorganisationer læse og
-        søge i spørgeskemaer indsendt af personer, der er forbundet med deres organisation.
-      title: Del med underorganisationer
+      caption:
+        sourceFile: da.yml
+        text: Når dette er aktiveret, kan oficielle i underorganisationer læse og søge i
+          spørgeskemaer indsendt af personer, der er forbundet med deres
+          organisation.
+      title:
+        sourceFile: da.yml
+        text: Del med underorganisationer
     state:
-      draft: Udkast
-      published: Offentliggjort
-      scheduled: Planlagt
-      unpublished: Ikke offentliggjort
+      draft:
+        sourceFile: da.yml
+        text: Udkast
+      published:
+        sourceFile: da.yml
+        text: Offentliggjort
+      scheduled:
+        sourceFile: da.yml
+        text: Planlagt
+      unpublished:
+        sourceFile: da.yml
+        text: Ikke offentliggjort
     submissionPane:
-      anonymous: Anonym
-      hidden: Gemt
-      linked: Tilknyttet
-      subtitle: '{person} {date}'
+      anonymous:
+        sourceFile: da.yml
+        text: Anonym
+      hidden:
+        sourceFile: da.yml
+        text: Gemt
+      linked:
+        sourceFile: da.yml
+        text: Tilknyttet
+      subtitle:
+        sourceFile: da.yml
+        text: '{person} {date}'
     submissions:
-      anonymous: Anonym
-      dateColumn: Dato
-      emailColumn: Email
-      firstNameColumn: Fornavn
-      lastNameColumn: Efternavn
-      link: Tilknyt
-      personRecordColumn: Respondent
-      suggestedPeople: Forslåede personer
-      unlink: Fortryd tilknytning
+      anonymous:
+        sourceFile: da.yml
+        text: Anonym
+      dateColumn:
+        sourceFile: da.yml
+        text: Dato
+      emailColumn:
+        sourceFile: da.yml
+        text: Email
+      firstNameColumn:
+        sourceFile: da.yml
+        text: Fornavn
+      lastNameColumn:
+        sourceFile: da.yml
+        text: Efternavn
+      link:
+        sourceFile: da.yml
+        text: Tilknyt
+      personRecordColumn:
+        sourceFile: da.yml
+        text: Respondent
+      suggestedPeople:
+        sourceFile: da.yml
+        text: Forslåede personer
+      unlink:
+        sourceFile: da.yml
+        text: Fortryd tilknytning
     tabs:
-      overview: Overblik
-      questions: Spørgsmål
-      submissions: Besvarelser
+      overview:
+        sourceFile: da.yml
+        text: Overblik
+      questions:
+        sourceFile: da.yml
+        text: Spørgsmål
+      submissions:
+        sourceFile: da.yml
+        text: Besvarelser
     unlinkedCard:
-      description: Når nogen besvarer et spørgeskema uden at være logget ind, vil
-        denne besvarelse ikke været tilknyttet deres profil. Søgning efter personer
-        i Zetkin baseret på deres besvarekser fungerer ikke på ikke-tilknyttede besvarelser.
-      header: Ikke-tilknyttede besvarelse
-      openLink: '{numUnlink, plural, one {tilknyt besvarelse nu} other {tilknyt besvarelser
-        nu}}'
+      description:
+        sourceFile: da.yml
+        text: Når nogen besvarer et spørgeskema uden at være logget ind, vil denne
+          besvarelse ikke været tilknyttet deres profil. Søgning efter personer
+          i Zetkin baseret på deres besvarekser fungerer ikke på
+          ikke-tilknyttede besvarelser.
+      header:
+        sourceFile: da.yml
+        text: Ikke-tilknyttede besvarelse
+      openLink:
+        sourceFile: da.yml
+        text: '{numUnlink, plural, one {tilknyt besvarelse nu} other {tilknyt
+          besvarelser nu}}'
     unlinkedWarningAlert:
       default:
-        description: '{numUnlink, plural, one {en besvarelse er ikke knyttet til en
-          Zetkinprofil, hvilket betyder den ikke inkluderes under søgningen.} other
-          {Der er besvarelser, der ikke er knyttet til Zetkinprofiler, hvilket betyder
-          de ikke inkluderes under søgningen.}}'
-        header: Ikke-tilknyttede besvarelser
-        viewUnlinked: Vis kun ikke-tilknyttede
+        description:
+          sourceFile: da.yml
+          text: '{numUnlink, plural, one {en besvarelse er ikke knyttet til en
+            Zetkinprofil, hvilket betyder den ikke inkluderes under søgningen.}
+            other {Der er besvarelser, der ikke er knyttet til Zetkinprofiler,
+            hvilket betyder de ikke inkluderes under søgningen.}}'
+        header:
+          sourceFile: da.yml
+          text: Ikke-tilknyttede besvarelser
+        viewUnlinked:
+          sourceFile: da.yml
+          text: Vis kun ikke-tilknyttede
       filtered:
-        description: Listen er filtreret og viser kun signerede spørgeskemabesvarelser,
-          der ikke er knyttet til en profil.
-        header: Viser kun ikke-tilknyttede
-        viewAll: Vis alle
+        description:
+          sourceFile: da.yml
+          text: Listen er filtreret og viser kun signerede spørgeskemabesvarelser, der
+            ikke er knyttet til en profil.
+        header:
+          sourceFile: da.yml
+          text: Viser kun ikke-tilknyttede
+        viewAll:
+          sourceFile: da.yml
+          text: Vis alle
     urlCard:
-      nowAccepting: Modtager nu besvarelser gennem dette link
-      open: Åben for besvarelse
-      preview: Se forhåndsvisning af spørgeskemaet
-      previewPortal: Se forhåndsvisning af spørgeskemaet i aktivistportalen
-      visitPortal: Se spørgeskema i aktivistportalen
-      willAccept: Vil acceptere besvarelser gennem dette link
+      nowAccepting:
+        sourceFile: da.yml
+        text: Modtager nu besvarelser gennem dette link
+      open:
+        sourceFile: da.yml
+        text: Åben for besvarelse
+      preview:
+        sourceFile: da.yml
+        text: Se forhåndsvisning af spørgeskemaet
+      previewPortal:
+        sourceFile: da.yml
+        text: Se forhåndsvisning af spørgeskemaet i aktivistportalen
+      visitPortal:
+        sourceFile: da.yml
+        text: Se spørgeskema i aktivistportalen
+      willAccept:
+        sourceFile: da.yml
+        text: Vil acceptere besvarelser gennem dette link
   tags:
     dialog:
-      colorErrorText: Indtast venligst en gyldig hex-kode
-      colorLabel: Farve
-      createTitle: Opret etiket
-      editTitle: Rediger etiket
-      groupCreatePrompt: Tilføj "{groupName}"
-      groupLabel: Gruppe
-      groupSelectPlaceholder: Skriv for at søge eller oprette en gruppe
-      submitCreateTagButton: Opret og anmod
-      titleErrorText: Etiketnavn er påkrævet
-      titleLabel: Etiketnavn
-      typeLabel: Etikettype
+      colorErrorText:
+        sourceFile: da.yml
+        text: Indtast venligst en gyldig hex-kode
+      colorLabel:
+        sourceFile: da.yml
+        text: Farve
+      createTitle:
+        sourceFile: da.yml
+        text: Opret etiket
+      editTitle:
+        sourceFile: da.yml
+        text: Rediger etiket
+      groupCreatePrompt:
+        sourceFile: da.yml
+        text: Tilføj "{groupName}"
+      groupLabel:
+        sourceFile: da.yml
+        text: Gruppe
+      groupSelectPlaceholder:
+        sourceFile: da.yml
+        text: Skriv for at søge eller oprette en gruppe
+      submitCreateTagButton:
+        sourceFile: da.yml
+        text: Opret og anmod
+      titleErrorText:
+        sourceFile: da.yml
+        text: Etiketnavn er påkrævet
+      titleLabel:
+        sourceFile: da.yml
+        text: Etiketnavn
+      typeLabel:
+        sourceFile: da.yml
+        text: Etikettype
       types:
-        none: Basis (ingen værdier)
-        text: Tekstværdier
+        none:
+          sourceFile: da.yml
+          text: Basis (ingen værdier)
+        text:
+          sourceFile: da.yml
+          text: Tekstværdier
     manager:
-      addTag: Tilføj etiket
-      addValue: Tilføj værdi for "{tag}"
-      createNamedTag: 'Opret etiket: {name}'
-      createTag: Ny Etiket
-      groupTags: Grupper etiketter
-      title: Etiketter
-      ungroupedHeader: Ingen Gruppering
+      addTag:
+        sourceFile: da.yml
+        text: Tilføj etiket
+      addValue:
+        sourceFile: da.yml
+        text: Tilføj værdi for "{tag}"
+      createNamedTag:
+        sourceFile: da.yml
+        text: 'Opret etiket: {name}'
+      createTag:
+        sourceFile: da.yml
+        text: Ny Etiket
+      groupTags:
+        sourceFile: da.yml
+        text: Grupper etiketter
+      title:
+        sourceFile: da.yml
+        text: Etiketter
+      ungroupedHeader:
+        sourceFile: da.yml
+        text: Ingen Gruppering
       valueTagForm:
-        typeHint: '{type, select, text {Tilføj tekst} other {Tilføj en værdi}} til
-          etiketten.'
+        typeHint:
+          sourceFile: da.yml
+          text: '{type, select, text {Tilføj tekst} other {Tilføj en værdi}} til
+            etiketten.'
   tasks:
     assignees:
       completedStates:
-        completed: Afsluttet {time}
-        ignored: Ignoreret {time}
-        notCompleted: Ikke afsluttet endnu
+        completed:
+          sourceFile: da.yml
+          text: Afsluttet {time}
+        ignored:
+          sourceFile: da.yml
+          text: Ignoreret {time}
+        notCompleted:
+          sourceFile: da.yml
+          text: Ikke afsluttet endnu
       links:
-        create: Opret Smart Søgning
-        edit: Rediger Smart Søgning
-        readOnly: Vis Smart Søgning
+        create:
+          sourceFile: da.yml
+          text: Opret Smart Søgning
+        edit:
+          sourceFile: da.yml
+          text: Rediger Smart Søgning
+        readOnly:
+          sourceFile: da.yml
+          text: Vis Smart Søgning
       queryStates:
-        assigned: Denne opgave er blevet tildelt alle personer, der matcher den målrettede
-          Smart Søgning.
-        editable: Når denne opgave offentliggøres, tildeles den til de personer, der
-          matcher den målrettede Smart Søgning.
-        new: Denne opgave vil være målrettet personer, der matcher en Smart Søgning.
-          Før du kan offentliggøre, skal du oprette en målgruppe ved hjælp af Smart
-          Søgning.
-        published: Denne opgave tildels i øjeblikket alle, der matcher den målrettede
-          Smart Søgning...
-      title: Tildelt {numPeople, plural, one {# person} other {# personer}}
+        assigned:
+          sourceFile: da.yml
+          text: Denne opgave er blevet tildelt alle personer, der matcher den målrettede
+            Smart Søgning.
+        editable:
+          sourceFile: da.yml
+          text: Når denne opgave offentliggøres, tildeles den til de personer, der matcher
+            den målrettede Smart Søgning.
+        new:
+          sourceFile: da.yml
+          text: Denne opgave vil være målrettet personer, der matcher en Smart Søgning.
+            Før du kan offentliggøre, skal du oprette en målgruppe ved hjælp af
+            Smart Søgning.
+        published:
+          sourceFile: da.yml
+          text: Denne opgave tildels i øjeblikket alle, der matcher den målrettede Smart
+            Søgning...
+      title:
+        sourceFile: da.yml
+        text: Tildelt {numPeople, plural, one {# person} other {# personer}}
     common:
-      notSet: Ikke indstillet
+      notSet:
+        sourceFile: da.yml
+        text: Ikke indstillet
     configs:
       collectDemographics:
         fields:
-          demographic: Data at anmode om
+          demographic:
+            sourceFile: da.yml
+            text: Data at anmode om
           dempographicOptions:
-            city: By
-            country: Land
-            email: Email Adresse
-            gender: Kønsidentitet
-            streetAddress: Gadenavn
-            zipCode: Postnummer
-        title: Konfigurer Indsamlingen af Demografiske data
+            city:
+              sourceFile: da.yml
+              text: By
+            country:
+              sourceFile: da.yml
+              text: Land
+            email:
+              sourceFile: da.yml
+              text: Email Adresse
+            gender:
+              sourceFile: da.yml
+              text: Kønsidentitet
+            streetAddress:
+              sourceFile: da.yml
+              text: Gadenavn
+            zipCode:
+              sourceFile: da.yml
+              text: Postnummer
+        title:
+          sourceFile: da.yml
+          text: Konfigurer Indsamlingen af Demografiske data
       shareLink:
         fields:
-          defaultMessage: Standardbesked bruger vil sende
-          url: URL for at dele
-        title: Del Linkkonfiguration
+          defaultMessage:
+            sourceFile: da.yml
+            text: Standardbesked bruger vil sende
+          url:
+            sourceFile: da.yml
+            text: URL for at dele
+        title:
+          sourceFile: da.yml
+          text: Del Linkkonfiguration
       visitLink:
         fields:
-          url: URL for at besøge
-        title: Besøg Linkkonfiguration
+          url:
+            sourceFile: da.yml
+            text: URL for at besøge
+        title:
+          sourceFile: da.yml
+          text: Besøg Linkkonfiguration
     deleteTask:
-      cancel: Afbryd
-      error: Der er opstået en fejl under slettelsen af opgaven
-      submitButton: Bekræft slettelse
-      title: Slet opgave
-      warning: Er du sikker på, at du vil slette denne opgave? Denne handling er permanent
-        og kan ikke fortrydes.
+      cancel:
+        sourceFile: da.yml
+        text: Afbryd
+      error:
+        sourceFile: da.yml
+        text: Der er opstået en fejl under slettelsen af opgaven
+      submitButton:
+        sourceFile: da.yml
+        text: Bekræft slettelse
+      title:
+        sourceFile: da.yml
+        text: Slet opgave
+      warning:
+        sourceFile: da.yml
+        text: Er du sikker på, at du vil slette denne opgave? Denne handling er
+          permanent og kan ikke fortrydes.
     editTask:
-      title: Rediger opgave
+      title:
+        sourceFile: da.yml
+        text: Rediger opgave
     form:
       fields:
-        campaign: Kampagne
-        deadline: Afslutningsfrist
-        expires: Udløbsdato
-        instructions: Instruktioner
-        published: Offentliggørelsestidspunkt
-        reassignInterval: Tildel påny efter afslutning
+        campaign:
+          sourceFile: da.yml
+          text: Kampagne
+        deadline:
+          sourceFile: da.yml
+          text: Afslutningsfrist
+        expires:
+          sourceFile: da.yml
+          text: Udløbsdato
+        instructions:
+          sourceFile: da.yml
+          text: Instruktioner
+        published:
+          sourceFile: da.yml
+          text: Offentliggørelsestidspunkt
+        reassignInterval:
+          sourceFile: da.yml
+          text: Tildel påny efter afslutning
         reassignIntervalOptions:
-          days: '{days, plural, =1 {Den næste dag} other {after # dage}}'
-          hours: Efter {hours, plural, =1 {en time} other {# timer}}
-          noReassign: Tildel aldrig påny
-        reassignLimit: 'Maksmalt antal gange den kan tildeles påny:'
-        timeEstimate: Forventet tid det tager at gennemføre
+          days:
+            sourceFile: da.yml
+            text: '{days, plural, =1 {Den næste dag} other {after # dage}}'
+          hours:
+            sourceFile: da.yml
+            text: Efter {hours, plural, =1 {en time} other {# timer}}
+          noReassign:
+            sourceFile: da.yml
+            text: Tildel aldrig påny
+        reassignLimit:
+          sourceFile: da.yml
+          text: 'Maksmalt antal gange den kan tildeles påny:'
+        timeEstimate:
+          sourceFile: da.yml
+          text: Forventet tid det tager at gennemføre
         timeEstimateOptions:
-          hoursAndMinutes: '{hours, plural, =0{} one{# time} other{# timer}} {minutes,
-            plural, =0{} one {# minut} other {# minutter}}'
-          lessThanOneMinute: Mindre end et minut
-          noEstimate: Intet estimat
+          hoursAndMinutes:
+            sourceFile: da.yml
+            text: '{hours, plural, =0{} one{# time} other{# timer}} {minutes, plural, =0{}
+              one {# minut} other {# minutter}}'
+          lessThanOneMinute:
+            sourceFile: da.yml
+            text: Mindre end et minut
+          noEstimate:
+            sourceFile: da.yml
+            text: Intet estimat
         timeValidationErrors:
-          deadlineNotSecond: Dette skal blive planlagt efter Offentliggørelsedatoen
-            og før Udløbsdatoen
-          expiresNotThird: Dette skal planlægges sidst
-          publishedNotFirst: Dette skal planlægges først
-        title: Titel
-        type: Opgavetype
+          deadlineNotSecond:
+            sourceFile: da.yml
+            text: Dette skal blive planlagt efter Offentliggørelsedatoen og før Udløbsdatoen
+          expiresNotThird:
+            sourceFile: da.yml
+            text: Dette skal planlægges sidst
+          publishedNotFirst:
+            sourceFile: da.yml
+            text: Dette skal planlægges først
+        title:
+          sourceFile: da.yml
+          text: Titel
+        type:
+          sourceFile: da.yml
+          text: Opgavetype
         types:
-          demographic: Saml Demografi
-          offline: Offline
-          share_link: Del Link
-          visit_link: Gå Til Link
-          watch_video: Se Video
-      invalidUrl: Indtast venligst en gyldig URL
-      requestError: Der er opstået en fejl. Prøv venligst igen.
-      required: Påkrævet
-      title: Opret ny opgave
-    noTasksCreatePrompt: Ingen opgaver... Klik her for at oprette en.
+          demographic:
+            sourceFile: da.yml
+            text: Saml Demografi
+          offline:
+            sourceFile: da.yml
+            text: Offline
+          share_link:
+            sourceFile: da.yml
+            text: Del Link
+          visit_link:
+            sourceFile: da.yml
+            text: Gå Til Link
+          watch_video:
+            sourceFile: da.yml
+            text: Se Video
+      invalidUrl:
+        sourceFile: da.yml
+        text: Indtast venligst en gyldig URL
+      requestError:
+        sourceFile: da.yml
+        text: Der er opstået en fejl. Prøv venligst igen.
+      required:
+        sourceFile: da.yml
+        text: Påkrævet
+      title:
+        sourceFile: da.yml
+        text: Opret ny opgave
+    noTasksCreatePrompt:
+      sourceFile: da.yml
+      text: Ingen opgaver... Klik her for at oprette en.
     publishButton:
-      publish: Offentliggør
+      publish:
+        sourceFile: da.yml
+        text: Offentliggør
       tooltip:
-        alreadyPublished: Allerede offentliggjort
-        missingAssignees: Mangler en ansvarlig
-        missingFields: Mangler påkrævede felter
-        missingFieldsAndAssignees: Mangler påkrævede felter og ansvarlige
+        alreadyPublished:
+          sourceFile: da.yml
+          text: Allerede offentliggjort
+        missingAssignees:
+          sourceFile: da.yml
+          text: Mangler en ansvarlig
+        missingFields:
+          sourceFile: da.yml
+          text: Mangler påkrævede felter
+        missingFieldsAndAssignees:
+          sourceFile: da.yml
+          text: Mangler påkrævede felter og ansvarlige
     publishTask:
-      cancel: Afbryd
-      submitButton: Offentliggør opgave nu
-      title: Offentliggør opgave
-      warning: Bekræft venligst, at du er klar til at offentliggøre denne opgave.
-        Den vil blive sendt til alle ansvarlige.
-    showExpiredTasksPrompt: Vis udløbne opgaver...
+      cancel:
+        sourceFile: da.yml
+        text: Afbryd
+      submitButton:
+        sourceFile: da.yml
+        text: Offentliggør opgave nu
+      title:
+        sourceFile: da.yml
+        text: Offentliggør opgave
+      warning:
+        sourceFile: da.yml
+        text: Bekræft venligst, at du er klar til at offentliggøre denne opgave. Den vil
+          blive sendt til alle ansvarlige.
+    showExpiredTasksPrompt:
+      sourceFile: da.yml
+      text: Vis udløbne opgaver...
     statuses:
-      active: Aktiv
-      closed: Lukket
-      draft: Udkast
-      expired: Udløbet
-      scheduled: Planlagt
+      active:
+        sourceFile: da.yml
+        text: Aktiv
+      closed:
+        sourceFile: da.yml
+        text: Lukket
+      draft:
+        sourceFile: da.yml
+        text: Udkast
+      expired:
+        sourceFile: da.yml
+        text: Udløbet
+      scheduled:
+        sourceFile: da.yml
+        text: Planlagt
     taskDetails:
-      deadlineTime: Deadline-tidspunkt
-      editButton: Rediger
-      expiresTime: Udløber Tid
-      instructionsLabel: Instruktioner
-      publishedTime: Offentliggørelsestidspunkt
+      deadlineTime:
+        sourceFile: da.yml
+        text: Deadline-tidspunkt
+      editButton:
+        sourceFile: da.yml
+        text: Rediger
+      expiresTime:
+        sourceFile: da.yml
+        text: Udløber Tid
+      instructionsLabel:
+        sourceFile: da.yml
+        text: Instruktioner
+      publishedTime:
+        sourceFile: da.yml
+        text: Offentliggørelsestidspunkt
       reassignInterval:
-        label: Tildel intervallet påny
-        value: Tildeles påny {value, plural, =1{en time} other{# timer}} efter gennemførelse
+        label:
+          sourceFile: da.yml
+          text: Tildel intervallet påny
+        value:
+          sourceFile: da.yml
+          text: Tildeles påny {value, plural, =1{en time} other{# timer}} efter
+            gennemførelse
       reassignLimit:
-        label: Tildelingsgrænse
-        value: Gentages maksimalt {value, plural, =1{en gang} other{# gange}} per
-          person
-      statusLabel: Status
-      timeEstimateLabel: Forventet tid det tager at gennemføre
-      title: Opgave Detaljer
-      titleLabel: Titel
-      typeLabel: Type
+        label:
+          sourceFile: da.yml
+          text: Tildelingsgrænse
+        value:
+          sourceFile: da.yml
+          text: Gentages maksimalt {value, plural, =1{en gang} other{# gange}} per person
+      statusLabel:
+        sourceFile: da.yml
+        text: Status
+      timeEstimateLabel:
+        sourceFile: da.yml
+        text: Forventet tid det tager at gennemføre
+      title:
+        sourceFile: da.yml
+        text: Opgave Detaljer
+      titleLabel:
+        sourceFile: da.yml
+        text: Titel
+      typeLabel:
+        sourceFile: da.yml
+        text: Type
     taskLayout:
       tabs:
-        assignees: Ansvarlige
-        insights: Indsigter
-        summary: Resumé
+        assignees:
+          sourceFile: da.yml
+          text: Ansvarlige
+        insights:
+          sourceFile: da.yml
+          text: Indsigter
+        summary:
+          sourceFile: da.yml
+          text: Resumé
     taskListItem:
       relativeTimes:
-        active: Deadline {time}
-        closed: Lukket {time}
-        expired: Udløb {time}
-        expires: Udløber {time}
-        indefinite: Offentliggjort {time}
-        scheduled: Offentliggøres {time}
+        active:
+          sourceFile: da.yml
+          text: Deadline {time}
+        closed:
+          sourceFile: da.yml
+          text: Lukket {time}
+        expired:
+          sourceFile: da.yml
+          text: Udløb {time}
+        expires:
+          sourceFile: da.yml
+          text: Udløber {time}
+        indefinite:
+          sourceFile: da.yml
+          text: Offentliggjort {time}
+        scheduled:
+          sourceFile: da.yml
+          text: Offentliggøres {time}
     taskPreview:
-      addImage: Tilføj forsidebillede
-      sectionTitle: Forhåndsvisning
-      timeEstimate: '{minutes, plural, =0 {mindre end et minut} =1 {et minut} other
-        {# minutter}}'
+      addImage:
+        sourceFile: da.yml
+        text: Tilføj forsidebillede
+      sectionTitle:
+        sourceFile: da.yml
+        text: Forhåndsvisning
+      timeEstimate:
+        sourceFile: da.yml
+        text: '{minutes, plural, =0 {mindre end et minut} =1 {et minut} other {#
+          minutter}}'
     taskTypeDetails:
       demographic:
-        title: Indsaml demografi-indstillinger
+        title:
+          sourceFile: da.yml
+          text: Indsaml demografi-indstillinger
       share_link:
-        title: Del Linkindstillinger
+        title:
+          sourceFile: da.yml
+          text: Del Linkindstillinger
       visit_link:
-        title: Gå Til Linkindstillinger
+        title:
+          sourceFile: da.yml
+          text: Gå Til Linkindstillinger
     types:
-      demographic: Indsaml Demografi
-      offline: Offline
-      share_link: Del Link
-      visit_link: Gå til Link
-      watch_video: Se Video
+      demographic:
+        sourceFile: da.yml
+        text: Indsaml Demografi
+      offline:
+        sourceFile: da.yml
+        text: Offline
+      share_link:
+        sourceFile: da.yml
+        text: Del Link
+      visit_link:
+        sourceFile: da.yml
+        text: Gå til Link
+      watch_video:
+        sourceFile: da.yml
+        text: Se Video
   views:
     actions:
-      createFolder: Opret mappe
-      createView: Opret liste
+      createFolder:
+        sourceFile: da.yml
+        text: Opret mappe
+      createView:
+        sourceFile: da.yml
+        text: Opret liste
     browser:
-      backToFolder: Tilbage til {folder}
-      backToRoot: Tilbage til alle lister
+      backToFolder:
+        sourceFile: da.yml
+        text: Tilbage til {folder}
+      backToRoot:
+        sourceFile: da.yml
+        text: Tilbage til alle lister
       confirmDelete:
         folder:
-          title: Slet mappe og indhold
-          warning: At slette denne mappe og alle lister den indeholder kan ikke fortrydes.
-            Er du sikker på du vil fortsætte?
+          title:
+            sourceFile: da.yml
+            text: Slet mappe og indhold
+          warning:
+            sourceFile: da.yml
+            text: At slette denne mappe og alle lister den indeholder kan ikke fortrydes. Er
+              du sikker på du vil fortsætte?
         view:
-          title: Slet liste
-          warning: At slette denne liste kan ikke fortrydes. Er du sikker på du vil
-            fortsætte?
+          title:
+            sourceFile: da.yml
+            text: Slet liste
+          warning:
+            sourceFile: da.yml
+            text: At slette denne liste kan ikke fortrydes. Er du sikker på du vil
+              fortsætte?
       menu:
-        rename: Omdøb
-      moveToFolder: Flyt til {folder}
-      moveToRoot: Flyt til alle lister
+        rename:
+          sourceFile: da.yml
+          text: Omdøb
+      moveToFolder:
+        sourceFile: da.yml
+        text: Flyt til {folder}
+      moveToRoot:
+        sourceFile: da.yml
+        text: Flyt til alle lister
     browserLayout:
       tabs:
-        views: Lister
-      title: Personer
+        views:
+          sourceFile: da.yml
+          text: Lister
+      title:
+        sourceFile: da.yml
+        text: Personer
     cells:
       localPerson:
-        alreadyInView: Allerede i lister
-        clearLabel: Fortryd tildeling
-        otherPeople: Andre personer
-        restrictedMode: Kan ikke redigeres i delte lister
-        searchLabel: Vælg en person
+        alreadyInView:
+          sourceFile: da.yml
+          text: Allerede i lister
+        clearLabel:
+          sourceFile: da.yml
+          text: Fortryd tildeling
+        otherPeople:
+          sourceFile: da.yml
+          text: Andre personer
+        restrictedMode:
+          sourceFile: da.yml
+          text: Kan ikke redigeres i delte lister
+        searchLabel:
+          sourceFile: da.yml
+          text: Vælg en person
       organizerAction:
-        actionNeeded: Administrator handling påkrævet
-        showDetails: Vis detaljer
-        solvedIssues: '{count, plural, =1 {1 løst problem} other {# løste problemer}}'
+        actionNeeded:
+          sourceFile: da.yml
+          text: Administrator handling påkrævet
+        showDetails:
+          sourceFile: da.yml
+          text: Vis detaljer
+        solvedIssues:
+          sourceFile: da.yml
+          text: '{count, plural, =1 {1 løst problem} other {# løste problemer}}'
     columnDialog:
       categories:
         basic:
-          description: Simple felter med information om personer.
-          title: Basis information
+          description:
+            sourceFile: da.yml
+            text: Simple felter med information om personer.
+          title:
+            sourceFile: da.yml
+            text: Basis information
         categorizing:
-          description: Til gruppering, kategorisering eller shortlisting af personer,
-            vilkårligt eller baseret på data i Zetkin.
-          title: Kategorisering
+          description:
+            sourceFile: da.yml
+            text: Til gruppering, kategorisering eller shortlisting af personer, vilkårligt
+              eller baseret på data i Zetkin.
+          title:
+            sourceFile: da.yml
+            text: Kategorisering
         crossReferencing:
-          description: Krydstjek med data i Zetkin ved hjælp af Smart Søgning.
-          title: Krydstjekning
+          description:
+            sourceFile: da.yml
+            text: Krydstjek med data i Zetkin ved hjælp af Smart Søgning.
+          title:
+            sourceFile: da.yml
+            text: Krydstjekning
         outreach:
-          description: Planlæg, uddeleger og udfør kontaktarbejde og afrapporter når
-            du er færdig
-          title: Kontaktarbejde
+          description:
+            sourceFile: da.yml
+            text: Planlæg, uddeleger og udfør kontaktarbejde og afrapporter når du er færdig
+          title:
+            sourceFile: da.yml
+            text: Kontaktarbejde
         surveys:
-          description: Udforsk, søg og filtrer baseret på personernes spørgeskemabesvarelser.
-          title: Spørgeskemaer
+          description:
+            sourceFile: da.yml
+            text: Udforsk, søg og filtrer baseret på personernes spørgeskemabesvarelser.
+          title:
+            sourceFile: da.yml
+            text: Spørgeskemaer
         utility:
-          description: Pålidelige kolonner, som du gerne vil genbruge i mange situationer
-          title: Brugbarhed
+          description:
+            sourceFile: da.yml
+            text: Pålidelige kolonner, som du gerne vil genbruge i mange situationer
+          title:
+            sourceFile: da.yml
+            text: Brugbarhed
       choices:
         delegate:
-          columnTitleAssignee: Ansvarlig
-          columnTitleContacted: Kontaktet
-          columnTitleNotes: Noter
-          columnTitleResponded: Svarede
-          description: Tilføjer kolonner, der almindeligvis bruges til at uddeleregere
-            kontaktarbejde til ansvarlige
-          title: Deleger
+          columnTitleAssignee:
+            sourceFile: da.yml
+            text: Ansvarlig
+          columnTitleContacted:
+            sourceFile: da.yml
+            text: Kontaktet
+          columnTitleNotes:
+            sourceFile: da.yml
+            text: Noter
+          columnTitleResponded:
+            sourceFile: da.yml
+            text: Svarede
+          description:
+            sourceFile: da.yml
+            text: Tilføjer kolonner, der almindeligvis bruges til at uddeleregere
+              kontaktarbejde til ansvarlige
+          title:
+            sourceFile: da.yml
+            text: Deleger
         email:
-          description: Tilføj en kolonne med e-mail addresser
-          keywords: e-mail
-          title: E-mail addresse
+          description:
+            sourceFile: da.yml
+            text: Tilføj en kolonne med e-mail addresser
+          keywords:
+            sourceFile: da.yml
+            text: e-mail
+          title:
+            sourceFile: da.yml
+            text: E-mail addresse
         firstName:
-          description: Tilføj en kolonne med efternavne
-          keywords: fornavn
-          title: Fornavn
+          description:
+            sourceFile: da.yml
+            text: Tilføj en kolonne med efternavne
+          keywords:
+            sourceFile: da.yml
+            text: fornavn
+          title:
+            sourceFile: da.yml
+            text: Fornavn
         followUp:
-          columnTitleCheckbox: Afkrydsningsfelt
-          columnTitleNotes: Noter
-          description: Tilføjer afkrydsningskolonne og en kolonne med noter
-          title: Opfølgning
+          columnTitleCheckbox:
+            sourceFile: da.yml
+            text: Afkrydsningsfelt
+          columnTitleNotes:
+            sourceFile: da.yml
+            text: Noter
+          description:
+            sourceFile: da.yml
+            text: Tilføjer afkrydsningskolonne og en kolonne med noter
+          title:
+            sourceFile: da.yml
+            text: Opfølgning
         fullName:
-          description: To kolonner med for- og efternavn
-          keywords: efternavn
-          title: Fulde navn
+          description:
+            sourceFile: da.yml
+            text: To kolonner med for- og efternavn
+          keywords:
+            sourceFile: da.yml
+            text: efternavn
+          title:
+            sourceFile: da.yml
+            text: Fulde navn
         lastName:
-          description: Tilføj en kolonne med efternavne
-          keywords: efternavn
-          title: Efternavn
+          description:
+            sourceFile: da.yml
+            text: Tilføj en kolonne med efternavne
+          keywords:
+            sourceFile: da.yml
+            text: efternavn
+          title:
+            sourceFile: da.yml
+            text: Efternavn
         localPerson:
-          columnTitle: Ansvarlig
-          description: Lader dig vælge en ansvarlig på hver række
-          title: Tildet Person
+          columnTitle:
+            sourceFile: da.yml
+            text: Ansvarlig
+          description:
+            sourceFile: da.yml
+            text: Lader dig vælge en ansvarlig på hver række
+          title:
+            sourceFile: da.yml
+            text: Tildet Person
         localQuery:
-          columnTitle: I Smart Søgningen?
-          description: Se, om hver person matcher en Smart Søgning
-          title: Brugerdefineret krydsreference
+          columnTitle:
+            sourceFile: da.yml
+            text: I Smart Søgningen?
+          description:
+            sourceFile: da.yml
+            text: Se, om hver person matcher en Smart Søgning
+          title:
+            sourceFile: da.yml
+            text: Brugerdefineret krydsreference
         localText:
-          columnTitle: Noter
-          description: Tilføj en kolonne for at skrive noter om en person.
-          title: Noter
+          columnTitle:
+            sourceFile: da.yml
+            text: Noter
+          description:
+            sourceFile: da.yml
+            text: Tilføj en kolonne for at skrive noter om en person.
+          title:
+            sourceFile: da.yml
+            text: Noter
         personFields:
-          description: Tilføj dit udvalg af kolonner som email, telefonnummer, etc.
-          keywords: adresse postnummer by land
-          title: Vælg felter
+          description:
+            sourceFile: da.yml
+            text: Tilføj dit udvalg af kolonner som email, telefonnummer, etc.
+          keywords:
+            sourceFile: da.yml
+            text: adresse postnummer by land
+          title:
+            sourceFile: da.yml
+            text: Vælg felter
         phone:
-          description: Tilføj en kolonne med telefonnumre
-          keywords: telefonnummer
-          title: Telefonnummer
+          description:
+            sourceFile: da.yml
+            text: Tilføj en kolonne med telefonnumre
+          keywords:
+            sourceFile: da.yml
+            text: telefonnummer
+          title:
+            sourceFile: da.yml
+            text: Telefonnummer
         queryBooked:
-          columnTitle: Booket
-          description: Er de booket til fremtidige begivenheder?
-          keywords: aktivt booket
-          title: Har fremtidige bookinger
+          columnTitle:
+            sourceFile: da.yml
+            text: Booket
+          description:
+            sourceFile: da.yml
+            text: Er de booket til fremtidige begivenheder?
+          keywords:
+            sourceFile: da.yml
+            text: aktivt booket
+          title:
+            sourceFile: da.yml
+            text: Har fremtidige bookinger
         queryParticipated:
-          columnTitle: Deltog
-          description: Har de nogensinde været booket til en begivenhed?
-          keywords: aktivt booket
-          title: Har nogensinde deltaget
+          columnTitle:
+            sourceFile: da.yml
+            text: Deltog
+          description:
+            sourceFile: da.yml
+            text: Har de nogensinde været booket til en begivenhed?
+          keywords:
+            sourceFile: da.yml
+            text: aktivt booket
+          title:
+            sourceFile: da.yml
+            text: Har nogensinde deltaget
         queryReached:
-          columnTitle: Nået
-          description: Har vi nogensinde nået dem under rundringninger?
-          keywords: telefon
-          title: Nået via telefon
+          columnTitle:
+            sourceFile: da.yml
+            text: Nået
+          description:
+            sourceFile: da.yml
+            text: Har vi nogensinde nået dem under rundringninger?
+          keywords:
+            sourceFile: da.yml
+            text: telefon
+          title:
+            sourceFile: da.yml
+            text: Nået via telefon
         surveyResponse:
-          allOptions: Alle Svarmuligheder (Enkel Kolonne)
-          allOptionsHeader: Alle Svarmuligheder
-          allOptionsSeparated: Alle Svarmuligheder (Separate Colonner)
-          description: Inkluder svar til et spørgsmål fra et hvilket som helst spørgeskema.
-          keywords: flere felter
-          oneOption: En Svarmulighed
-          optionsLabel: Hvilke kolonner ønsker du at tilføje?
-          questionField: Spørgsmål
-          surveyField: Spørgeskemaer
-          textField: Svarene er fritekstsvar og vil blive vist i en enkelt kolonne
-          title: Enkelt undersøgelsesspørgsmål
+          allOptions:
+            sourceFile: da.yml
+            text: Alle Svarmuligheder (Enkel Kolonne)
+          allOptionsHeader:
+            sourceFile: da.yml
+            text: Alle Svarmuligheder
+          allOptionsSeparated:
+            sourceFile: da.yml
+            text: Alle Svarmuligheder (Separate Colonner)
+          description:
+            sourceFile: da.yml
+            text: Inkluder svar til et spørgsmål fra et hvilket som helst spørgeskema.
+          keywords:
+            sourceFile: da.yml
+            text: flere felter
+          oneOption:
+            sourceFile: da.yml
+            text: En Svarmulighed
+          optionsLabel:
+            sourceFile: da.yml
+            text: Hvilke kolonner ønsker du at tilføje?
+          questionField:
+            sourceFile: da.yml
+            text: Spørgsmål
+          surveyField:
+            sourceFile: da.yml
+            text: Spørgeskemaer
+          textField:
+            sourceFile: da.yml
+            text: Svarene er fritekstsvar og vil blive vist i en enkelt kolonne
+          title:
+            sourceFile: da.yml
+            text: Enkelt undersøgelsesspørgsmål
         surveyResponses:
-          description: Inkluder svar fra flere spørgeskemaspørgsmål.
-          keywords: flere felter
-          questionField: Spørgsmål
-          surveyField: spørgeskemaer
-          title: Flere spørgsmål
+          description:
+            sourceFile: da.yml
+            text: Inkluder svar fra flere spørgeskemaspørgsmål.
+          keywords:
+            sourceFile: da.yml
+            text: flere felter
+          questionField:
+            sourceFile: da.yml
+            text: Spørgsmål
+          surveyField:
+            sourceFile: da.yml
+            text: spørgeskemaer
+          title:
+            sourceFile: da.yml
+            text: Flere spørgsmål
         surveySubmitDate:
-          description: Se om en person har indsendt et spørgeskema og hvornår
-          noSurveys: Din organisation har ingen spørgeskemaer.
-          title: Spørgeskemaets indsendelsesdato
+          description:
+            sourceFile: da.yml
+            text: Se om en person har indsendt et spørgeskema og hvornår
+          noSurveys:
+            sourceFile: da.yml
+            text: Din organisation har ingen spørgeskemaer.
+          title:
+            sourceFile: da.yml
+            text: Spørgeskemaets indsendelsesdato
         tag:
-          description: Vælg et etiket fra hver person på listen
-          title: Etiket
+          description:
+            sourceFile: da.yml
+            text: Vælg et etiket fra hver person på listen
+          title:
+            sourceFile: da.yml
+            text: Etiket
         toggle:
-          columnTitle: Skift
-          description: Afkrydsningskolonne
-          title: Skift
+          columnTitle:
+            sourceFile: da.yml
+            text: Skift
+          description:
+            sourceFile: da.yml
+            text: Afkrydsningskolonne
+          title:
+            sourceFile: da.yml
+            text: Skift
       commonHeaders:
-        email: Email
-        first_name: Fornavn
-        last_name: Efternavn
-        phone: Telefonnummer
+        email:
+          sourceFile: da.yml
+          text: Email
+        first_name:
+          sourceFile: da.yml
+          text: Fornavn
+        last_name:
+          sourceFile: da.yml
+          text: Efternavn
+        phone:
+          sourceFile: da.yml
+          text: Telefonnummer
       editor:
-        alreadyInView: Allede på listen
+        alreadyInView:
+          sourceFile: da.yml
+          text: Allede på listen
         buttonLabels:
-          addColumns: Tilføj {columns, plural, one {1 kolonne} other {{columns} kolonner}}
-          change: Ændr kolonnetype
-        defaultTitle: Ny Kolonne
+          addColumns:
+            sourceFile: da.yml
+            text: Tilføj {columns, plural, one {1 kolonne} other {{columns} kolonner}}
+          change:
+            sourceFile: da.yml
+            text: Ændr kolonnetype
+        defaultTitle:
+          sourceFile: da.yml
+          text: Ny Kolonne
         fieldLabels:
-          field: Felt
-          question: Spørgsmål
-          smartSearch: Smart Søgning
-          survey: Spørgeskema
-          tag: Etiket
+          field:
+            sourceFile: da.yml
+            text: Felt
+          question:
+            sourceFile: da.yml
+            text: Spørgsmål
+          smartSearch:
+            sourceFile: da.yml
+            text: Smart Søgning
+          survey:
+            sourceFile: da.yml
+            text: Spørgeskema
+          tag:
+            sourceFile: da.yml
+            text: Etiket
       gallery:
-        add: Tilføj
-        alreadyInView: Allerede på listen
-        columns: Kolonner
-        configure: Konfigurer
-        header: Tilføj kolonne til listen
-        noSearchResults: Der er ingen kolonnevalg, der matcher "{searchString}"
-        searchPlaceholder: Find en kolonne
-        searchResults: Resultater for "{searchString}"
+        add:
+          sourceFile: da.yml
+          text: Tilføj
+        alreadyInView:
+          sourceFile: da.yml
+          text: Allerede på listen
+        columns:
+          sourceFile: da.yml
+          text: Kolonner
+        configure:
+          sourceFile: da.yml
+          text: Konfigurer
+        header:
+          sourceFile: da.yml
+          text: Tilføj kolonne til listen
+        noSearchResults:
+          sourceFile: da.yml
+          text: Der er ingen kolonnevalg, der matcher "{searchString}"
+        searchPlaceholder:
+          sourceFile: da.yml
+          text: Find en kolonne
+        searchResults:
+          sourceFile: da.yml
+          text: Resultater for "{searchString}"
     columnMenu:
-      configure: Konfigurer kolonne
-      confirmDelete: Er du sikker på, at du vil fjerne denne kolonne? Den indeholder
-        data, der slettes permanent. Denne handling kan ikke fortrydes.
-      delete: Slet kolonne
-      rename: Omdøb kolonne
+      configure:
+        sourceFile: da.yml
+        text: Konfigurer kolonne
+      confirmDelete:
+        sourceFile: da.yml
+        text: Er du sikker på, at du vil fjerne denne kolonne? Den indeholder data, der
+          slettes permanent. Denne handling kan ikke fortrydes.
+      delete:
+        sourceFile: da.yml
+        text: Slet kolonne
+      rename:
+        sourceFile: da.yml
+        text: Omdøb kolonne
     columnRenameDialog:
-      save: Gem
-      title: Titel
+      save:
+        sourceFile: da.yml
+        text: Gem
+      title:
+        sourceFile: da.yml
+        text: Titel
     dataTableErrors:
-      create_column: Der opstod en fejl under oprettelsen af kolonnen
-      delete_column: Der opstod en fejl under sletning af kolonnen
-      modify_column: Der opstod en fejl under redigeringen af kolonnen
-      remove_rows: Der opstod en fejl under fjernelse af en eller flere rækker
+      create_column:
+        sourceFile: da.yml
+        text: Der opstod en fejl under oprettelsen af kolonnen
+      delete_column:
+        sourceFile: da.yml
+        text: Der opstod en fejl under sletning af kolonnen
+      modify_column:
+        sourceFile: da.yml
+        text: Der opstod en fejl under redigeringen af kolonnen
+      remove_rows:
+        sourceFile: da.yml
+        text: Der opstod en fejl under fjernelse af en eller flere rækker
     defaultColumnTitles:
-      local_bool: Skift
-      local_person: Personreference
-      organizer_action: Markerede opkald
-      person_notes: Noter
+      local_bool:
+        sourceFile: da.yml
+        text: Skift
+      local_person:
+        sourceFile: da.yml
+        text: Personreference
+      organizer_action:
+        sourceFile: da.yml
+        text: Markerede opkald
+      person_notes:
+        sourceFile: da.yml
+        text: Noter
     defaultViewTitles:
-      organizer_action: Administrator handling påkrævet
+      organizer_action:
+        sourceFile: da.yml
+        text: Administrator handling påkrævet
     deleteDialog:
-      error: Det var ikke muligt at slette listen
-      title: Slet listen?
-      warningText: Vil du slette listen? Dette vil slette al data gemt i listen, som
-        noter og skift (men vil ikke slette personerne på listen fra databasen)?
+      error:
+        sourceFile: da.yml
+        text: Det var ikke muligt at slette listen
+      title:
+        sourceFile: da.yml
+        text: Slet listen?
+      warningText:
+        sourceFile: da.yml
+        text: Vil du slette listen? Dette vil slette al data gemt i listen, som noter og
+          skift (men vil ikke slette personerne på listen fra databasen)?
     editViewTitleAlert:
-      error: Fejl. Titel ikke opdateret
-      success: Opdateret titel!
+      error:
+        sourceFile: da.yml
+        text: Fejl. Titel ikke opdateret
+      success:
+        sourceFile: da.yml
+        text: Opdateret titel!
     empty:
       dynamic:
-        configureButton: Konfigurer
-        description: Skal en dynamisk liste, hvor folk bliver tilføjet eller fjernet
-          automatisk ved hjem af Smart Søgning.
-        headline: Rediger Smart Søgning Liste
+        configureButton:
+          sourceFile: da.yml
+          text: Konfigurer
+        description:
+          sourceFile: da.yml
+          text: Skal en dynamisk liste, hvor folk bliver tilføjet eller fjernet automatisk
+            ved hjem af Smart Søgning.
+        headline:
+          sourceFile: da.yml
+          text: Rediger Smart Søgning Liste
       notice:
-        dynamic: Dette er en Smart Søgning liste, men ingen personer passer søgningen
-        static: Du har ikke tilføjet nogle rækker endnu
+        dynamic:
+          sourceFile: da.yml
+          text: Dette er en Smart Søgning liste, men ingen personer passer søgningen
+        static:
+          sourceFile: da.yml
+          text: Du har ikke tilføjet nogle rækker endnu
       static:
-        description: Tilføj den første person her, for at skabe en statisk liste,
-          hvor folk skal tilføjes eller fjernes manuelt.
-        headline: Tilføj personer manuelt
+        description:
+          sourceFile: da.yml
+          text: Tilføj den første person her, for at skabe en statisk liste, hvor folk
+            skal tilføjes eller fjernes manuelt.
+        headline:
+          sourceFile: da.yml
+          text: Tilføj personer manuelt
     folder:
       summary:
-        empty: Tom
-        folderCount: '{count, plural, =1 {1 mappe} other {# mapper}}'
-        viewCount: '{count, plural, =1 {1 liste} other {# lister}}'
+        empty:
+          sourceFile: da.yml
+          text: Tom
+        folderCount:
+          sourceFile: da.yml
+          text: '{count, plural, =1 {1 mappe} other {# mapper}}'
+        viewCount:
+          sourceFile: da.yml
+          text: '{count, plural, =1 {1 liste} other {# lister}}'
     footer:
-      addPlaceholder: Begynd at taste her, for at tilføje folk til listen
-      alreadyInView: Allerede på listen
-    newFolderTitle: Ny Mappe
+      addPlaceholder:
+        sourceFile: da.yml
+        text: Begynd at taste her, for at tilføje folk til listen
+      alreadyInView:
+        sourceFile: da.yml
+        text: Allerede på listen
+    newFolderTitle:
+      sourceFile: da.yml
+      text: Ny Mappe
     newViewFields:
-      title: Ny Liste
+      title:
+        sourceFile: da.yml
+        text: Ny Liste
     removeDialog:
-      action: Er du sikker på du vil fjerne disse rækker fra listen?
-      title: Fjern personer fra listen
+      action:
+        sourceFile: da.yml
+        text: Er du sikker på du vil fjerne disse rækker fra listen?
+      title:
+        sourceFile: da.yml
+        text: Fjern personer fra listen
     shareDialog:
       download:
         buttons:
-          csv: Download CSV-fil
-          xlsx: Download Excel-fil
-        shareLink: del data sikkert
-        tabLabel: Download
-        warning1: Undgå at exportere data fra Zetkin hvis muligt, for at sikre at
-          dataen holdes i orden.
-        warning2: Du kan {shareLink} internt i Zetkin. Eksport giver mening, hvis
-          du vil kopiere data til et andet system.
+          csv:
+            sourceFile: da.yml
+            text: Download CSV-fil
+          xlsx:
+            sourceFile: da.yml
+            text: Download Excel-fil
+        shareLink:
+          sourceFile: da.yml
+          text: del data sikkert
+        tabLabel:
+          sourceFile: da.yml
+          text: Download
+        warning1:
+          sourceFile: da.yml
+          text: Undgå at exportere data fra Zetkin hvis muligt, for at sikre at dataen
+            holdes i orden.
+        warning2:
+          sourceFile: da.yml
+          text: Du kan {shareLink} internt i Zetkin. Eksport giver mening, hvis du vil
+            kopiere data til et andet system.
       share:
-        addPlaceholder: Tilføj samarbejdspartnere
-        collabInstructions: Efter at have tilføjet samarbejdspartnere, kopier og send
-          dem dette {viewLink}
-        showOfficials: Vis officielle
-        statusLabel: Delt med {collaborators, plural, =1 {1 samarbejdspartner} other
-          {# samarbejdspartnere}}, {officials, plural, =1 {1 officiel} other {# officielle}}
-          can se alle lister.
-        tabLabel: Del
-        viewLink: begrænset link
-      title: Del "{title}"
+        addPlaceholder:
+          sourceFile: da.yml
+          text: Tilføj samarbejdspartnere
+        collabInstructions:
+          sourceFile: da.yml
+          text: Efter at have tilføjet samarbejdspartnere, kopier og send dem dette
+            {viewLink}
+        showOfficials:
+          sourceFile: da.yml
+          text: Vis officielle
+        statusLabel:
+          sourceFile: da.yml
+          text: Delt med {collaborators, plural, =1 {1 samarbejdspartner} other {#
+            samarbejdspartnere}}, {officials, plural, =1 {1 officiel} other {#
+            officielle}} can se alle lister.
+        tabLabel:
+          sourceFile: da.yml
+          text: Del
+        viewLink:
+          sourceFile: da.yml
+          text: begrænset link
+      title:
+        sourceFile: da.yml
+        text: Del "{title}"
     suggested:
-      created: Oprettet af {name}
-      sectionTitle: Foreslået
+      created:
+        sourceFile: da.yml
+        text: Oprettet af {name}
+      sectionTitle:
+        sourceFile: da.yml
+        text: Foreslået
     surveyOptionCell:
-      notSelected: Ikke valgt
-      selected: Valgt
+      notSelected:
+        sourceFile: da.yml
+        text: Ikke valgt
+      selected:
+        sourceFile: da.yml
+        text: Valgt
     surveyPreview:
       mostRecent:
-        header: Nyeste
-        openButton: Vis hele besvarelsen
+        header:
+          sourceFile: da.yml
+          text: Nyeste
+        openButton:
+          sourceFile: da.yml
+          text: Vis hele besvarelsen
       older:
-        header: Ældre besvarelser
-        openButton: Vis
+        header:
+          sourceFile: da.yml
+          text: Ældre besvarelser
+        openButton:
+          sourceFile: da.yml
+          text: Vis
     toolbar:
-      createColumn: Ny kolonne
-      createFromSelection: Skab liste fra udvalg
-      removeFromSelection: Fjern {numSelected, plural, one {1 person} other {{numSelected}
-        people} } fra liste
-      removeTooltip: Det er ikke muligt at fjerne rækker i en Smart Søgning
+      createColumn:
+        sourceFile: da.yml
+        text: Ny kolonne
+      createFromSelection:
+        sourceFile: da.yml
+        text: Skab liste fra udvalg
+      removeFromSelection:
+        sourceFile: da.yml
+        text: Fjern {numSelected, plural, one {1 person} other {{numSelected} people} }
+          fra liste
+      removeTooltip:
+        sourceFile: da.yml
+        text: Det er ikke muligt at fjerne rækker i en Smart Søgning
     viewLayout:
       actions:
-        share: Del
+        share:
+          sourceFile: da.yml
+          text: Del
       ellipsisMenu:
-        delete: Slet liste
-        editQuery: Rediger Smart Søgning
-        makeDynamic: Konverter til Smart Søgnings liste
-        makeStatic: Konverter til statisk liste
+        delete:
+          sourceFile: da.yml
+          text: Slet liste
+        editQuery:
+          sourceFile: da.yml
+          text: Rediger Smart Søgning
+        makeDynamic:
+          sourceFile: da.yml
+          text: Konverter til Smart Søgnings liste
+        makeStatic:
+          sourceFile: da.yml
+          text: Konverter til statisk liste
       jumpMenu:
-        placeholder: Begynd at taste her, for at finde en liste
+        placeholder:
+          sourceFile: da.yml
+          text: Begynd at taste her, for at finde en liste
       subtitle:
-        collaborators: '{count, plural, =1 {1 ekstern samarbejdspartner} other {#
-          ekstern samarbejdspartnere}}'
-        columns: '{count, plural, =0 {ingen kolonner} =1 {1 kolonne} other {# kolonner}}'
-        people: '{count, plural, =0 {tomt} =1 {1 person} other {# personer}}'
+        collaborators:
+          sourceFile: da.yml
+          text: '{count, plural, =1 {1 ekstern samarbejdspartner} other {# ekstern
+            samarbejdspartnere}}'
+        columns:
+          sourceFile: da.yml
+          text: '{count, plural, =0 {ingen kolonner} =1 {1 kolonne} other {# kolonner}}'
+        people:
+          sourceFile: da.yml
+          text: '{count, plural, =0 {tomt} =1 {1 person} other {# personer}}'
     viewsList:
       columns:
-        created: Dato oprettet
-        owner: Ejer
-        title: Titel
-      empty: Du har ikke skabt nogle lister endnu.
+        created:
+          sourceFile: da.yml
+          text: Dato oprettet
+        owner:
+          sourceFile: da.yml
+          text: Ejer
+        title:
+          sourceFile: da.yml
+          text: Titel
+      empty:
+        sourceFile: da.yml
+        text: Du har ikke skabt nogle lister endnu.
 glob:
   accessLevels:
-    configure: Rediger
-    edit: Redigerer
-    readonly: Skrivebeskyttet
+    configure:
+      sourceFile: da.yml
+      text: Rediger
+    edit:
+      sourceFile: da.yml
+      text: Redigerer
+    readonly:
+      sourceFile: da.yml
+      text: Skrivebeskyttet
   personFields:
-    alt_phone: Andet telefonnummer
-    city: By
-    co_address: C/O Adresse
-    country: Land
-    email: Email
-    ext_id: Eksternt ID
-    first_name: Fornavn
-    gender: Køn
-    id: ID
-    is_user: Er bruger
-    last_name: Efternavn
-    phone: Telefonnummer
-    street_address: Adresse
-    zip_code: Postnummer
+    alt_phone:
+      sourceFile: da.yml
+      text: Andet telefonnummer
+    city:
+      sourceFile: da.yml
+      text: By
+    co_address:
+      sourceFile: da.yml
+      text: C/O Adresse
+    country:
+      sourceFile: da.yml
+      text: Land
+    email:
+      sourceFile: da.yml
+      text: Email
+    ext_id:
+      sourceFile: da.yml
+      text: Eksternt ID
+    first_name:
+      sourceFile: da.yml
+      text: Fornavn
+    gender:
+      sourceFile: da.yml
+      text: Køn
+    id:
+      sourceFile: da.yml
+      text: ID
+    is_user:
+      sourceFile: da.yml
+      text: Er bruger
+    last_name:
+      sourceFile: da.yml
+      text: Efternavn
+    phone:
+      sourceFile: da.yml
+      text: Telefonnummer
+    street_address:
+      sourceFile: da.yml
+      text: Adresse
+    zip_code:
+      sourceFile: da.yml
+      text: Postnummer
   roles:
-    admin: Administrator
-    organizer: Organisator
+    admin:
+      sourceFile: da.yml
+      text: Administrator
+    organizer:
+      sourceFile: da.yml
+      text: Organisator
 zui:
   accessList:
-    added: Tilføjet af {sharer} {updated}
-    removeAccess: Fjern adgang
+    added:
+      sourceFile: da.yml
+      text: Tilføjet af {sharer} {updated}
+    removeAccess:
+      sourceFile: da.yml
+      text: Fjern adgang
   collapse:
-    collapse: Skjul
-    expand: Vis mere
+    collapse:
+      sourceFile: da.yml
+      text: Skjul
+    expand:
+      sourceFile: da.yml
+      text: Vis mere
   confirmDialog:
-    button: Bekræft
-    defaultTitle: Bekræft
-    defaultWarningText: Er du sikker på, at du vil udføre denne handling? Det kan
-      ikke fortrydes.
+    button:
+      sourceFile: da.yml
+      text: Bekræft
+    defaultTitle:
+      sourceFile: da.yml
+      text: Bekræft
+    defaultWarningText:
+      sourceFile: da.yml
+      text: Er du sikker på, at du vil udføre denne handling? Det kan ikke fortrydes.
   copyToClipboard:
-    copied: Kopieret
-    copiedValue: Kopieret "{value}"
-    copy: Kopiér
+    copied:
+      sourceFile: da.yml
+      text: Kopieret
+    copiedValue:
+      sourceFile: da.yml
+      text: Kopieret "{value}"
+    copy:
+      sourceFile: da.yml
+      text: Kopiér
   dataTableSearch:
-    button: Søg
-    helpText: Indtast mindst {minSearchLength} tegn
-    idSearchHelpText: Skriv et ID-nummer (kun tal)
-    placeholder: Søg i denne tabel
-    placeholderWithIdSearch: 'Søg - brug # til ID''er, f.eks. type #123'
-    title: Søg
+    button:
+      sourceFile: da.yml
+      text: Søg
+    helpText:
+      sourceFile: da.yml
+      text: Indtast mindst {minSearchLength} tegn
+    idSearchHelpText:
+      sourceFile: da.yml
+      text: Skriv et ID-nummer (kun tal)
+    placeholder:
+      sourceFile: da.yml
+      text: Søg i denne tabel
+    placeholderWithIdSearch:
+      sourceFile: da.yml
+      text: "Søg - brug # til ID'er, f.eks. type #123"
+    title:
+      sourceFile: da.yml
+      text: Søg
   dataTableSorting:
-    addButton: Tilføj sorteringskolonne
-    button: Sorter
-    hint: 'Tip: Hold {shiftKeyIcon} nede, mens du klikker på flere kolonner'
-    title: Sorter
+    addButton:
+      sourceFile: da.yml
+      text: Tilføj sorteringskolonne
+    button:
+      sourceFile: da.yml
+      text: Sorter
+    hint:
+      sourceFile: da.yml
+      text: 'Tip: Hold {shiftKeyIcon} nede, mens du klikker på flere kolonner'
+    title:
+      sourceFile: da.yml
+      text: Sorter
   dateRange:
-    draft: Ingen startdato
-    end: Slut
-    finite: Synlig fra {start} til {end}
-    indefinite: Synlig fra {start} og fremover
-    invisible: Ikke synligt eller planlagt
-    start: Start
+    draft:
+      sourceFile: da.yml
+      text: Ingen startdato
+    end:
+      sourceFile: da.yml
+      text: Slut
+    finite:
+      sourceFile: da.yml
+      text: Synlig fra {start} til {end}
+    indefinite:
+      sourceFile: da.yml
+      text: Synlig fra {start} og fremover
+    invisible:
+      sourceFile: da.yml
+      text: Ikke synligt eller planlagt
+    start:
+      sourceFile: da.yml
+      text: Start
   editTextInPlace:
     tooltip:
-      edit: Klik for at redigere
-      noEmpty: Dette felt må ikke være tomt
+      edit:
+        sourceFile: da.yml
+        text: Klik for at redigere
+      noEmpty:
+        sourceFile: da.yml
+        text: Dette felt må ikke være tomt
   futures:
-    errorLoading: Der er sket en fejl under indlæsningen af data.
+    errorLoading:
+      sourceFile: da.yml
+      text: Der er sket en fejl under indlæsningen af data.
   header:
     collapseButton:
-      collapse: Skjul
-      expand: Vis mere
+      collapse:
+        sourceFile: da.yml
+        text: Skjul
+      expand:
+        sourceFile: da.yml
+        text: Vis mere
   imageSelectDialog:
-    instructions: Træk og slip en billedfil, eller klik for at vælge
+    instructions:
+      sourceFile: da.yml
+      text: Træk og slip en billedfil, eller klik for at vælge
   lists:
-    showMore: Vis mere...
+    showMore:
+      sourceFile: da.yml
+      text: Vis mere...
   organizeSidebar:
-    allOrganizations: Alle organisationer
-    areas: Områder
-    home: Hjem
-    people: Personer
-    projects: Projekter & Aktiviteter
-    signOut: Log af
-    userSettings: Brugerindstillinger
+    allOrganizations:
+      sourceFile: da.yml
+      text: Alle organisationer
+    areas:
+      sourceFile: da.yml
+      text: Områder
+    home:
+      sourceFile: da.yml
+      text: Hjem
+    people:
+      sourceFile: da.yml
+      text: Personer
+    projects:
+      sourceFile: da.yml
+      text: Projekter & Aktiviteter
+    signOut:
+      sourceFile: da.yml
+      text: Log af
+    userSettings:
+      sourceFile: da.yml
+      text: Brugerindstillinger
   personGridEditCell:
-    keepTyping: Fortsæt med at skrive..
-    noResult: Ingen matchende person fundet
-    otherPeople: Andre personer
-    restrictedMode: Kan ikke redigeres i delte liste.
-    searchResults: Søgeresultater
+    keepTyping:
+      sourceFile: da.yml
+      text: Fortsæt med at skrive..
+    noResult:
+      sourceFile: da.yml
+      text: Ingen matchende person fundet
+    otherPeople:
+      sourceFile: da.yml
+      text: Andre personer
+    restrictedMode:
+      sourceFile: da.yml
+      text: Kan ikke redigeres i delte liste.
+    searchResults:
+      sourceFile: da.yml
+      text: Søgeresultater
   personSelect:
-    keepTyping: Fortsæt med at skrive for at søge
-    noResult: Ingen matchende person fundet
-    search: Skriv for at starte søgning
-    searching: Søger...
+    keepTyping:
+      sourceFile: da.yml
+      text: Fortsæt med at skrive for at søge
+    noResult:
+      sourceFile: da.yml
+      text: Ingen matchende person fundet
+    search:
+      sourceFile: da.yml
+      text: Skriv for at starte søgning
+    searching:
+      sourceFile: da.yml
+      text: Søger...
   snackbar:
-    error: Åh nej, noget er gået galt
-    success: Success!
-    warning: Advarsel!
+    error:
+      sourceFile: da.yml
+      text: Åh nej, noget er gået galt
+    success:
+      sourceFile: da.yml
+      text: Success!
+    warning:
+      sourceFile: da.yml
+      text: Advarsel!
   speedDial:
-    createCampaign: Opret kampagne
-    createEvent: Opret begivenhed
-    createTask: Opret opgave
-    requestError: Der er sket en fejl
+    createCampaign:
+      sourceFile: da.yml
+      text: Opret kampagne
+    createEvent:
+      sourceFile: da.yml
+      text: Opret begivenhed
+    createTask:
+      sourceFile: da.yml
+      text: Opret opgave
+    requestError:
+      sourceFile: da.yml
+      text: Der er sket en fejl
   submitOrCancel:
-    cancel: Afbryd
-    submit: Indsend
+    cancel:
+      sourceFile: da.yml
+      text: Afbryd
+    submit:
+      sourceFile: da.yml
+      text: Indsend
   suffixedNumber:
-    thousands: '{num}K'
+    thousands:
+      sourceFile: da.yml
+      text: '{num}K'
   timeSpan:
-    multiDay: '{startDate}, {start} - {endDate}, {end}'
-    multiDayEndsToday: '{startDate}, {start} - I dag, {end}'
-    multiDayToday: I dag, {start} - {endDate}, {end}
-    singleDay: '{date}, {start} - {end}'
-    singleDayToday: I dag, {start} - {end}
+    multiDay:
+      sourceFile: da.yml
+      text: '{startDate}, {start} - {endDate}, {end}'
+    multiDayEndsToday:
+      sourceFile: da.yml
+      text: '{startDate}, {start} - I dag, {end}'
+    multiDayToday:
+      sourceFile: da.yml
+      text: I dag, {start} - {endDate}, {end}
+    singleDay:
+      sourceFile: da.yml
+      text: '{date}, {start} - {end}'
+    singleDayToday:
+      sourceFile: da.yml
+      text: I dag, {start} - {end}
   timeline:
-    addNotePlaceholder: Skriv her for at efterlade en note
+    addNotePlaceholder:
+      sourceFile: da.yml
+      text: Skriv her for at efterlade en note
     email:
       headers:
-        cc: CC
-        from: Fra
-        to: Til
-    expand: vis hele tidslinjen
+        cc:
+          sourceFile: da.yml
+          text: CC
+        from:
+          sourceFile: da.yml
+          text: Fra
+        to:
+          sourceFile: da.yml
+          text: Til
+    expand:
+      sourceFile: da.yml
+      text: vis hele tidslinjen
     filter:
       byType:
-        all: Alle
-        files: Filer
-        milestones: Milepæle
-        notes: Noter
-        people: Personer
-        tags: Etiketter
-      filterSelectLabel: 'Vis: {filter}'
-      warning: Tidslinjen bliver filtreret. Klick her for at fjerne filteret.
+        all:
+          sourceFile: da.yml
+          text: Alle
+        files:
+          sourceFile: da.yml
+          text: Filer
+        milestones:
+          sourceFile: da.yml
+          text: Milepæle
+        notes:
+          sourceFile: da.yml
+          text: Noter
+        people:
+          sourceFile: da.yml
+          text: Personer
+        tags:
+          sourceFile: da.yml
+          text: Etiketter
+      filterSelectLabel:
+        sourceFile: da.yml
+        text: 'Vis: {filter}'
+      warning:
+        sourceFile: da.yml
+        text: Tidslinjen bliver filtreret. Klick her for at fjerne filteret.
     updates:
       any:
-        addtags: '{actor} tilføjede {count, plural, =1 {en etiket} other {# etiketter}}'
-        removetags: '{actor} fjernede {count, plural, =1 {en etiket} other {# etiketter}}'
+        addtags:
+          sourceFile: da.yml
+          text: '{actor} tilføjede {count, plural, =1 {en etiket} other {# etiketter}}'
+        removetags:
+          sourceFile: da.yml
+          text: '{actor} fjernede {count, plural, =1 {en etiket} other {# etiketter}}'
       journeyinstance:
-        addassignee: '{actor} tildelt {assignee}'
-        addnote: '{actor} tilføjede en note'
-        removeassignee: '{actor} har fjernet {assignee}'
+        addassignee:
+          sourceFile: da.yml
+          text: '{actor} tildelt {assignee}'
+        addnote:
+          sourceFile: da.yml
+          text: '{actor} tilføjede en note'
+        removeassignee:
+          sourceFile: da.yml
+          text: '{actor} har fjernet {assignee}'
         updatemilestone:
-          incomplete: '{actor} har markeret en milepæl som ufærdig'
+          incomplete:
+            sourceFile: da.yml
+            text: '{actor} har markeret en milepæl som ufærdig'

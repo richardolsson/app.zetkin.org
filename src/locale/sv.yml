@@ -1,1882 +1,4605 @@
 core:
   err404:
-    backToHomePage: Tillbaka till startsidan
-    pageNotFound: Sidan hittades inte
+    backToHomePage:
+      sourceFile: sv.yml
+      text: Tillbaka till startsidan
+    pageNotFound:
+      sourceFile: sv.yml
+      text: Sidan hittades inte
   home:
-    welcome: Det här kommer att bli Zetkin
+    welcome:
+      sourceFile: sv.yml
+      text: Det här kommer att bli Zetkin
   legacy:
-    continueButton: Fortsätt till gamla Zetkin
-    header: Du blir omdirigerad
-    info: Du använder en betaversion av Zetkin som inte stödjer den funktion du vill
-      använda. Du omdirigeras nu till den äldre versionen av Zetkin som stödjer den
-      funktionen.
+    continueButton:
+      sourceFile: sv.yml
+      text: Fortsätt till gamla Zetkin
+    header:
+      sourceFile: sv.yml
+      text: Du blir omdirigerad
+    info:
+      sourceFile: sv.yml
+      text: Du använder en betaversion av Zetkin som inte stödjer den funktion du vill
+        använda. Du omdirigeras nu till den äldre versionen av Zetkin som
+        stödjer den funktionen.
 feat:
   breadcrumbs:
     elements:
-      activities: Aktiviteter
-      archive: Arkiv
-      areas: Areas
-      assignees: Ansvariga
-      calendar: Kalender
-      callassignments: Ringuppdrag
-      callers: Ringare
-      campaigns: Projekt
-      closed: Stängd
-      conversation: Samtal
-      events: Events
-      folders: Listor
-      insights: Insikter
-      instances: Exempel
-      journeys: Journeys
-      manage: Hantera
-      milestones: Milstolpar
-      new: Ny
-      organize: Organisera
-      participants: Deltagare
-      people: Människor
-      projects: Projekt
-      questions: Frågor
-      submissions: Enkätsvar
-      surveys: Enkäter
-      tasks: Uppgifter
-      untitledEvent: Event utan titel
-      views: Listor
+      activities:
+        sourceFile: sv.yml
+        text: Aktiviteter
+      archive:
+        sourceFile: sv.yml
+        text: Arkiv
+      areas:
+        sourceFile: sv.yml
+        text: Areas
+      assignees:
+        sourceFile: sv.yml
+        text: Ansvariga
+      calendar:
+        sourceFile: sv.yml
+        text: Kalender
+      callassignments:
+        sourceFile: sv.yml
+        text: Ringuppdrag
+      callers:
+        sourceFile: sv.yml
+        text: Ringare
+      campaigns:
+        sourceFile: sv.yml
+        text: Projekt
+      closed:
+        sourceFile: sv.yml
+        text: Stängd
+      conversation:
+        sourceFile: sv.yml
+        text: Samtal
+      events:
+        sourceFile: sv.yml
+        text: Events
+      folders:
+        sourceFile: sv.yml
+        text: Listor
+      insights:
+        sourceFile: sv.yml
+        text: Insikter
+      instances:
+        sourceFile: sv.yml
+        text: Exempel
+      journeys:
+        sourceFile: sv.yml
+        text: Journeys
+      manage:
+        sourceFile: sv.yml
+        text: Hantera
+      milestones:
+        sourceFile: sv.yml
+        text: Milstolpar
+      new:
+        sourceFile: sv.yml
+        text: Ny
+      organize:
+        sourceFile: sv.yml
+        text: Organisera
+      participants:
+        sourceFile: sv.yml
+        text: Deltagare
+      people:
+        sourceFile: sv.yml
+        text: Människor
+      projects:
+        sourceFile: sv.yml
+        text: Projekt
+      questions:
+        sourceFile: sv.yml
+        text: Frågor
+      submissions:
+        sourceFile: sv.yml
+        text: Enkätsvar
+      surveys:
+        sourceFile: sv.yml
+        text: Enkäter
+      tasks:
+        sourceFile: sv.yml
+        text: Uppgifter
+      untitledEvent:
+        sourceFile: sv.yml
+        text: Event utan titel
+      views:
+        sourceFile: sv.yml
+        text: Listor
   calendar:
     createMenu:
-      singleEvent: Skapa ett enskilt event
+      singleEvent:
+        sourceFile: sv.yml
+        text: Skapa ett enskilt event
     event:
-      differentLocations: '{numLocations} olika platser'
-      events: Events
-      noContactSelected: Ingen kontakt vald
-      remindersNotSent: '{numNotSent} Påminnelse inte skickad'
-      unbookedSignups: '{numUnbooked} Icke bokade anmälningar'
-      underbooked: '{numUnderbooked} Event utan tillräckligt många bokade'
-      withSignups: '{numWithSignups} Med anmälningar'
-      withoutContact: '{numWithoutContact} Utan kontaktperson'
+      differentLocations:
+        sourceFile: sv.yml
+        text: '{numLocations} olika platser'
+      events:
+        sourceFile: sv.yml
+        text: Events
+      noContactSelected:
+        sourceFile: sv.yml
+        text: Ingen kontakt vald
+      remindersNotSent:
+        sourceFile: sv.yml
+        text: '{numNotSent} Påminnelse inte skickad'
+      unbookedSignups:
+        sourceFile: sv.yml
+        text: '{numUnbooked} Icke bokade anmälningar'
+      underbooked:
+        sourceFile: sv.yml
+        text: '{numUnderbooked} Event utan tillräckligt många bokade'
+      withSignups:
+        sourceFile: sv.yml
+        text: '{numWithSignups} Med anmälningar'
+      withoutContact:
+        sourceFile: sv.yml
+        text: '{numWithoutContact} Utan kontaktperson'
     eventFilter:
-      collapse: Minska
-      expand: '{numOfOptions, plural, one {+ 1 till eventtyp} other {+ # fler eventtyper}}'
-      filter: Filter
+      collapse:
+        sourceFile: sv.yml
+        text: Minska
+      expand:
+        sourceFile: sv.yml
+        text: '{numOfOptions, plural, one {+ 1 till eventtyp} other {+ # fler
+          eventtyper}}'
+      filter:
+        sourceFile: sv.yml
+        text: Filter
       filterOptions:
         actionFilters:
-          missing: Kontaktperson saknas
-          overbooked: Överbokad
-          pending: Anmälningar väntar
-          title: Filtrera efter åtgärd behövs
-          underbooked: Inte tillräckligt många bokningar
-          unsent: Icke skickade påminnelser
+          missing:
+            sourceFile: sv.yml
+            text: Kontaktperson saknas
+          overbooked:
+            sourceFile: sv.yml
+            text: Överbokad
+          pending:
+            sourceFile: sv.yml
+            text: Anmälningar väntar
+          title:
+            sourceFile: sv.yml
+            text: Filtrera efter åtgärd behövs
+          underbooked:
+            sourceFile: sv.yml
+            text: Inte tillräckligt många bokningar
+          unsent:
+            sourceFile: sv.yml
+            text: Icke skickade påminnelser
         eventTypes:
-          title: Filtrera efter eventtyp
+          title:
+            sourceFile: sv.yml
+            text: Filtrera efter eventtyp
         stateFilters:
-          cancelled: Avbokade
-          draft: Utkast
-          published: Publicerad
-          scheduled: Schemalagt
-          title: Filtrera på status av publicering
-      reset: Återställ Filter
+          cancelled:
+            sourceFile: sv.yml
+            text: Avbokade
+          draft:
+            sourceFile: sv.yml
+            text: Utkast
+          published:
+            sourceFile: sv.yml
+            text: Publicerad
+          scheduled:
+            sourceFile: sv.yml
+            text: Schemalagt
+          title:
+            sourceFile: sv.yml
+            text: Filtrera på status av publicering
+      reset:
+        sourceFile: sv.yml
+        text: Återställ Filter
       toggle:
-        all: Alla
-        none: Inga
-      type: Skriv för att filtrera innehåll
-    lastDayWithEvents: Det {numEvents, plural, one {var ett event} other {var {numEvents}
-      events}} på den senaste aktiva dagen
-    loadMore: Ladda mer
-    moreEvents: '{numEvents, plural, one {# event till} other {# fler event}}'
-    next: NÄSTA
-    prev: FÖREGÅENDE
-    rangeLabel: Välj ett alternativ
+        all:
+          sourceFile: sv.yml
+          text: Alla
+        none:
+          sourceFile: sv.yml
+          text: Inga
+      type:
+        sourceFile: sv.yml
+        text: Skriv för att filtrera innehåll
+    lastDayWithEvents:
+      sourceFile: sv.yml
+      text: Det {numEvents, plural, one {var ett event} other {var {numEvents}
+        events}} på den senaste aktiva dagen
+    loadMore:
+      sourceFile: sv.yml
+      text: Ladda mer
+    moreEvents:
+      sourceFile: sv.yml
+      text: '{numEvents, plural, one {# event till} other {# fler event}}'
+    next:
+      sourceFile: sv.yml
+      text: NÄSTA
+    prev:
+      sourceFile: sv.yml
+      text: FÖREGÅENDE
+    rangeLabel:
+      sourceFile: sv.yml
+      text: Välj ett alternativ
     ranges:
-      day: Dag
-      month: Månad
-      week: Vecka
+      day:
+        sourceFile: sv.yml
+        text: Dag
+      month:
+        sourceFile: sv.yml
+        text: Månad
+      week:
+        sourceFile: sv.yml
+        text: Vecka
     selectionBar:
-      copy: Kopiera
-      deselect: Avmarkera
-      editEvents: Redigera event
+      copy:
+        sourceFile: sv.yml
+        text: Kopiera
+      deselect:
+        sourceFile: sv.yml
+        text: Avmarkera
+      editEvents:
+        sourceFile: sv.yml
+        text: Redigera event
       ellipsisMenu:
-        cancel: Ställ in
-        cancelWarning: Om du gör detta, kom ihåg att berätta för deltagarna och anmälda
-          att eventet har blivit inställt!
-        confirmCancel: Är du säker på att du vill ställa in valda event?
-        confirmDelete: Är du säker på att du vill radera valda event?
-        delete: Radera
-        deleteWarning: När eventen har raderats så kommer du inte kunna återskapa
-          dem.
-        print: Skriv ut schema
-        publish: Publicera nu
-        unpublish: Avpublicera
-      move: Flytta
+        cancel:
+          sourceFile: sv.yml
+          text: Ställ in
+        cancelWarning:
+          sourceFile: sv.yml
+          text: Om du gör detta, kom ihåg att berätta för deltagarna och anmälda att
+            eventet har blivit inställt!
+        confirmCancel:
+          sourceFile: sv.yml
+          text: Är du säker på att du vill ställa in valda event?
+        confirmDelete:
+          sourceFile: sv.yml
+          text: Är du säker på att du vill radera valda event?
+        delete:
+          sourceFile: sv.yml
+          text: Radera
+        deleteWarning:
+          sourceFile: sv.yml
+          text: När eventen har raderats så kommer du inte kunna återskapa dem.
+        print:
+          sourceFile: sv.yml
+          text: Skriv ut schema
+        publish:
+          sourceFile: sv.yml
+          text: Publicera nu
+        unpublish:
+          sourceFile: sv.yml
+          text: Avpublicera
+      move:
+        sourceFile: sv.yml
+        text: Flytta
       moveCopyButtons:
-        copy: Kopiera
-        copyMenuHeader: Kopiera {numberOfEvents} events till
-        createShift: Skapa skift efter varje event
-        duplicate: Samma tid och datum (duplicera)
-        move: Flytta
-        moveMenuHeader: Flytta {numberOfEvents} event till
-        nextDay: Nästa dag {dates}
-        nextWeek: Nästa vecka {dates}
-    showMore: Visa
-    today: Idag
+        copy:
+          sourceFile: sv.yml
+          text: Kopiera
+        copyMenuHeader:
+          sourceFile: sv.yml
+          text: Kopiera {numberOfEvents} events till
+        createShift:
+          sourceFile: sv.yml
+          text: Skapa skift efter varje event
+        duplicate:
+          sourceFile: sv.yml
+          text: Samma tid och datum (duplicera)
+        move:
+          sourceFile: sv.yml
+          text: Flytta
+        moveMenuHeader:
+          sourceFile: sv.yml
+          text: Flytta {numberOfEvents} event till
+        nextDay:
+          sourceFile: sv.yml
+          text: Nästa dag {dates}
+        nextWeek:
+          sourceFile: sv.yml
+          text: Nästa vecka {dates}
+    showMore:
+      sourceFile: sv.yml
+      text: Visa
+    today:
+      sourceFile: sv.yml
+      text: Idag
   callAssignments:
     actions:
-      end: Avsluta ringuppdrag
-      start: Starta ringuppdrag
+      end:
+        sourceFile: sv.yml
+        text: Avsluta ringuppdrag
+      start:
+        sourceFile: sv.yml
+        text: Starta ringuppdrag
     blocked:
-      callBackLater: Bad oss att ringa tillbaka senare
-      calledTooRecently: Ringda nyligen
-      cooldownHelperText: Ställ in minsta tid mellan försök att nå en person
-      cooldownLabel: Timmar mellan återförsök
-      hours: '{cooldown, plural, =0 {None} =1 {# timme} other {# timmar}}'
-      missingPhoneNumber: Telefonnummer saknas
-      organizerActionNeeded: Organisatör behövs
-      subtitle: Målgrupp är inte redo att bli uppringd
-      title: Blockerade
-      viewSheetButton: Visa lista
+      callBackLater:
+        sourceFile: sv.yml
+        text: Bad oss att ringa tillbaka senare
+      calledTooRecently:
+        sourceFile: sv.yml
+        text: Ringda nyligen
+      cooldownHelperText:
+        sourceFile: sv.yml
+        text: Ställ in minsta tid mellan försök att nå en person
+      cooldownLabel:
+        sourceFile: sv.yml
+        text: Timmar mellan återförsök
+      hours:
+        sourceFile: sv.yml
+        text: '{cooldown, plural, =0 {None} =1 {# timme} other {# timmar}}'
+      missingPhoneNumber:
+        sourceFile: sv.yml
+        text: Telefonnummer saknas
+      organizerActionNeeded:
+        sourceFile: sv.yml
+        text: Organisatör behövs
+      subtitle:
+        sourceFile: sv.yml
+        text: Målgrupp är inte redo att bli uppringd
+      title:
+        sourceFile: sv.yml
+        text: Blockerade
+      viewSheetButton:
+        sourceFile: sv.yml
+        text: Visa lista
     callers:
       actions:
-        customize: Anpassa kö
-        remove: Ta bort från uppdraget
+        customize:
+          sourceFile: sv.yml
+          text: Anpassa kö
+        remove:
+          sourceFile: sv.yml
+          text: Ta bort från uppdraget
       add:
-        alreadyAdded: Redan tillagd
-        placeholder: Lägg till ringare
+        alreadyAdded:
+          sourceFile: sv.yml
+          text: Redan tillagd
+        placeholder:
+          sourceFile: sv.yml
+          text: Lägg till ringare
       customize:
         exclude:
-          h: Exkluderade etiketter
-          intro: Ring aldrig personer med dessa etiketter.
+          h:
+            sourceFile: sv.yml
+            text: Exkluderade etiketter
+          intro:
+            sourceFile: sv.yml
+            text: Ring aldrig personer med dessa etiketter.
         prioritize:
-          h: Prioriterade etiketter
-          intro: Ring personer med dessa etiketter först.
-        title: Anpassa kö för {name}
-      customizeButton: Anpassa
-      excludedTagsColumn: Exkluderade etiketter
-      nameColumn: Namn
-      prioritizedTagsColumn: Prioriterade etiketter
-      searchBox: Sök
-      title: Ringare
+          h:
+            sourceFile: sv.yml
+            text: Prioriterade etiketter
+          intro:
+            sourceFile: sv.yml
+            text: Ring personer med dessa etiketter först.
+        title:
+          sourceFile: sv.yml
+          text: Anpassa kö för {name}
+      customizeButton:
+        sourceFile: sv.yml
+        text: Anpassa
+      excludedTagsColumn:
+        sourceFile: sv.yml
+        text: Exkluderade etiketter
+      nameColumn:
+        sourceFile: sv.yml
+        text: Namn
+      prioritizedTagsColumn:
+        sourceFile: sv.yml
+        text: Prioriterade etiketter
+      searchBox:
+        sourceFile: sv.yml
+        text: Sök
+      title:
+        sourceFile: sv.yml
+        text: Ringare
     conversation:
       instructions:
-        confirm: Vill du radera alla ändringar och gå tillbaka till senast sparade
-          instruktioner?
-        editorPlaceholder: Lägg till instruktioner för ringare
-        revertLink: Tillbaka till sparad version?
-        saveButton: Spara
-        savedMessage: Allt är uppdaterat!
-        savingButton: Sparar...
-        title: Instruktioner till ringare
-        unsavedMessage: Du har ändringar som inte sparats
+        confirm:
+          sourceFile: sv.yml
+          text: Vill du radera alla ändringar och gå tillbaka till senast sparade
+            instruktioner?
+        editorPlaceholder:
+          sourceFile: sv.yml
+          text: Lägg till instruktioner för ringare
+        revertLink:
+          sourceFile: sv.yml
+          text: Tillbaka till sparad version?
+        saveButton:
+          sourceFile: sv.yml
+          text: Spara
+        savedMessage:
+          sourceFile: sv.yml
+          text: Allt är uppdaterat!
+        savingButton:
+          sourceFile: sv.yml
+          text: Sparar...
+        title:
+          sourceFile: sv.yml
+          text: Instruktioner till ringare
+        unsavedMessage:
+          sourceFile: sv.yml
+          text: Du har ändringar som inte sparats
       settings:
         notes:
-          message: Att inaktivera anteckningar kan öka samtalshastigheten men kan
-            också leda till att viktig information går förlorad.
-          title: Tillåt ringare att göra anteckningar
+          message:
+            sourceFile: sv.yml
+            text: Att inaktivera anteckningar kan öka samtalshastigheten men kan också leda
+              till att viktig information går förlorad.
+          title:
+            sourceFile: sv.yml
+            text: Tillåt ringare att göra anteckningar
         targetData:
-          message: Personens namn och telefonnummer är alltid synliga för ringare.
-            Om du aktiverar ytterligare persondata delas alla informationsfält med
-            ringare.
-          title: Visa ytterligare persondata
-        title: Samtalsinställningar
+          message:
+            sourceFile: sv.yml
+            text: Personens namn och telefonnummer är alltid synliga för ringare. Om du
+              aktiverar ytterligare persondata delas alla informationsfält med
+              ringare.
+          title:
+            sourceFile: sv.yml
+            text: Visa ytterligare persondata
+        title:
+          sourceFile: sv.yml
+          text: Samtalsinställningar
     done:
-      defineButton: Ändra syfte
-      subtitle: Personer som uppfyller syftet
-      title: Klart
-    insightsHeader: Samtal och konversationer
+      defineButton:
+        sourceFile: sv.yml
+        text: Ändra syfte
+      subtitle:
+        sourceFile: sv.yml
+        text: Personer som uppfyller syftet
+      title:
+        sourceFile: sv.yml
+        text: Klart
+    insightsHeader:
+      sourceFile: sv.yml
+      text: Samtal och konversationer
     organizerActionPane:
-      markAsSolved: Markera som löst
-      markAsUnsolved: Markera som olöst
-      messagePlaceholder: Ringare lämnade inget meddelande.
-      noteByCaller: Anteckning av {person} {time}
-      subtitle: Anteckning på {person}
-      title: Organisatör behövs
+      markAsSolved:
+        sourceFile: sv.yml
+        text: Markera som löst
+      markAsUnsolved:
+        sourceFile: sv.yml
+        text: Markera som olöst
+      messagePlaceholder:
+        sourceFile: sv.yml
+        text: Ringare lämnade inget meddelande.
+      noteByCaller:
+        sourceFile: sv.yml
+        text: Anteckning av {person} {time}
+      subtitle:
+        sourceFile: sv.yml
+        text: Anteckning på {person}
+      title:
+        sourceFile: sv.yml
+        text: Organisatör behövs
     ready:
-      allocated: Personer tilldelade ringaren
-      queue: Personer i kö
-      subtitle: Personer att ringa
-      title: Redo
+      allocated:
+        sourceFile: sv.yml
+        text: Personer tilldelade ringaren
+      queue:
+        sourceFile: sv.yml
+        text: Personer i kö
+      subtitle:
+        sourceFile: sv.yml
+        text: Personer att ringa
+      title:
+        sourceFile: sv.yml
+        text: Redo
     state:
-      active: Aktivt
-      closed: Stängd
-      draft: Utkast
-      open: Öppen
-      scheduled: Schemalagd
+      active:
+        sourceFile: sv.yml
+        text: Aktivt
+      closed:
+        sourceFile: sv.yml
+        text: Stängd
+      draft:
+        sourceFile: sv.yml
+        text: Utkast
+      open:
+        sourceFile: sv.yml
+        text: Öppen
+      scheduled:
+        sourceFile: sv.yml
+        text: Schemalagd
     stats:
-      callers: '{numCallers, plural, =0 {Inga ringare} one {1 ringare} other {# ringare}}'
-      targets: '{numTargets, plural, =0 {Inga personer} one {1 person} other {# personer}}'
-    statusSectionTitle: Status
+      callers:
+        sourceFile: sv.yml
+        text: '{numCallers, plural, =0 {Inga ringare} one {1 ringare} other {#
+          ringare}}'
+      targets:
+        sourceFile: sv.yml
+        text: '{numTargets, plural, =0 {Inga personer} one {1 person} other {#
+          personer}}'
+    statusSectionTitle:
+      sourceFile: sv.yml
+      text: Status
     tabs:
-      callers: Ringare
-      conversation: Samtal
-      insights: Insikter
-      overview: Översikt
+      callers:
+        sourceFile: sv.yml
+        text: Ringare
+      conversation:
+        sourceFile: sv.yml
+        text: Samtal
+      insights:
+        sourceFile: sv.yml
+        text: Insikter
+      overview:
+        sourceFile: sv.yml
+        text: Översikt
     targets:
-      defineButton: Definiera målgrupp
-      editButton: Ändra målgrupp
-      subtitle: Använd en Smarta sökning för att definiera målgruppen för detta uppdrag.
-      title: Målgrupp
+      defineButton:
+        sourceFile: sv.yml
+        text: Definiera målgrupp
+      editButton:
+        sourceFile: sv.yml
+        text: Ändra målgrupp
+      subtitle:
+        sourceFile: sv.yml
+        text: Använd en Smarta sökning för att definiera målgruppen för detta uppdrag.
+      title:
+        sourceFile: sv.yml
+        text: Målgrupp
   campaigns:
     activitiesOverview:
-      button: Bläddra bland alla aktiviteter
-      empty: Inget under denna dag
-      endsTomorrow: slutar imorgon
-      extraActivities: + {numExtra} fler
-      goToActivities: Se alla framtida aktiviteter.
-      noActivities: Det finns inga aktiviteter den här veckan
-      nothingTomorrow: Ingenting planerat imorgon
-      startsTomorrow: startar imorgon
+      button:
+        sourceFile: sv.yml
+        text: Bläddra bland alla aktiviteter
+      empty:
+        sourceFile: sv.yml
+        text: Inget under denna dag
+      endsTomorrow:
+        sourceFile: sv.yml
+        text: slutar imorgon
+      extraActivities:
+        sourceFile: sv.yml
+        text: + {numExtra} fler
+      goToActivities:
+        sourceFile: sv.yml
+        text: Se alla framtida aktiviteter.
+      noActivities:
+        sourceFile: sv.yml
+        text: Det finns inga aktiviteter den här veckan
+      nothingTomorrow:
+        sourceFile: sv.yml
+        text: Ingenting planerat imorgon
+      startsTomorrow:
+        sourceFile: sv.yml
+        text: startar imorgon
       subtitles:
-        endsLater: Slutar {relative}
-        endsToday: Avslutas idag
-        startsLater: Startar {relative}
-        startsToday: Startar idag
-      thisWeekCard: Mer den här veckan
-      title: Framtida aktiviteter
-      todayCard: Idag
-      tomorrowCard: Imorgon
+        endsLater:
+          sourceFile: sv.yml
+          text: Slutar {relative}
+        endsToday:
+          sourceFile: sv.yml
+          text: Avslutas idag
+        startsLater:
+          sourceFile: sv.yml
+          text: Startar {relative}
+        startsToday:
+          sourceFile: sv.yml
+          text: Startar idag
+      thisWeekCard:
+        sourceFile: sv.yml
+        text: Mer den här veckan
+      title:
+        sourceFile: sv.yml
+        text: Framtida aktiviteter
+      todayCard:
+        sourceFile: sv.yml
+        text: Idag
+      tomorrowCard:
+        sourceFile: sv.yml
+        text: Imorgon
     activityList:
       eventItem:
-        contact: Ingen kontaktperson vald
-        locations: '{count} platser'
-        reminders: '{numMissing, plural, =1 {en deltagare} other {# deltagare}} har
-          inte fått en påminnelse'
-        signups: Det finns väntande anmälningar
+        contact:
+          sourceFile: sv.yml
+          text: Ingen kontaktperson vald
+        locations:
+          sourceFile: sv.yml
+          text: '{count} platser'
+        reminders:
+          sourceFile: sv.yml
+          text: '{numMissing, plural, =1 {en deltagare} other {# deltagare}} har inte fått
+            en påminnelse'
+        signups:
+          sourceFile: sv.yml
+          text: Det finns väntande anmälningar
     all:
-      cardCTA: Gå till projekt
-      create: Skapa nytt projekt
+      cardCTA:
+        sourceFile: sv.yml
+        text: Gå till projekt
+      create:
+        sourceFile: sv.yml
+        text: Skapa nytt projekt
       filter:
-        calls: Ringuppdrag
-        canvasses: Canvassuppgifter
-        filter: Filtrera resultat
-        standalones: Fristående event
-        surveys: Enkäter
-      heading: Alla projekt
-      indefinite: Obestämd
-      unsorted: Osorterade projekt
-      upcoming: '{numEvents, number} framtida event.'
+        calls:
+          sourceFile: sv.yml
+          text: Ringuppdrag
+        canvasses:
+          sourceFile: sv.yml
+          text: Canvassuppgifter
+        filter:
+          sourceFile: sv.yml
+          text: Filtrera resultat
+        standalones:
+          sourceFile: sv.yml
+          text: Fristående event
+        surveys:
+          sourceFile: sv.yml
+          text: Enkäter
+      heading:
+        sourceFile: sv.yml
+        text: Alla projekt
+      indefinite:
+        sourceFile: sv.yml
+        text: Obestämd
+      unsorted:
+        sourceFile: sv.yml
+        text: Osorterade projekt
+      upcoming:
+        sourceFile: sv.yml
+        text: '{numEvents, number} framtida event.'
     allProjects:
-      linkToSummary: Gå till mina aktiva projekt.
-      noActivities: Om din organisation har aktiviteter som inte hör till ett projekt
-        kommer de att visas här.
-      viewArchive: Visa arkiv
-    assigneeActions: Uppgifter för ansvarig
-    calendarView: Se alla i kalendern
-    events: Event
+      linkToSummary:
+        sourceFile: sv.yml
+        text: Gå till mina aktiva projekt.
+      noActivities:
+        sourceFile: sv.yml
+        text: Om din organisation har aktiviteter som inte hör till ett projekt kommer
+          de att visas här.
+      viewArchive:
+        sourceFile: sv.yml
+        text: Visa arkiv
+    assigneeActions:
+      sourceFile: sv.yml
+      text: Uppgifter för ansvarig
+    calendarView:
+      sourceFile: sv.yml
+      text: Se alla i kalendern
+    events:
+      sourceFile: sv.yml
+      text: Event
     feedback:
-      copy: Att samla in feedback (vid gemensamma ringningar eller enskilda ringuppdrag)
-        kan hjälpa dig att arbeta mer effektivt
-      create: Skapa enkät
-      heading: Feedback och Enkäter (ingen konfiguerad)
+      copy:
+        sourceFile: sv.yml
+        text: Att samla in feedback (vid gemensamma ringningar eller enskilda
+          ringuppdrag) kan hjälpa dig att arbeta mer effektivt
+      create:
+        sourceFile: sv.yml
+        text: Skapa enkät
+      heading:
+        sourceFile: sv.yml
+        text: Feedback och Enkäter (ingen konfiguerad)
     form:
       createCallAssignment:
-        newCallAssignment: Mitt ringuppdrag
+        newCallAssignment:
+          sourceFile: sv.yml
+          text: Mitt ringuppdrag
       createCampaign:
-        create: Skapa projekt
-        error: Det blev ett fel när projektet skapades
-        newCampaign: Mitt projekt
+        create:
+          sourceFile: sv.yml
+          text: Skapa projekt
+        error:
+          sourceFile: sv.yml
+          text: Det blev ett fel när projektet skapades
+        newCampaign:
+          sourceFile: sv.yml
+          text: Mitt projekt
       createSurvey:
-        newSurvey: Min enkät
+        newSurvey:
+          sourceFile: sv.yml
+          text: Min enkät
       createTask:
-        title: Skapa uppgift
+        title:
+          sourceFile: sv.yml
+          text: Skapa uppgift
       deleteCampaign:
-        cancel: Avbryt
-        error: Det blev ett fel när projektet raderades
-        submitButton: Bekräfta att du vill radera
-        title: Radera projekt
-        warning: Är du säker på att du vill radera det här projektet? Det är permanen
-          och går inte att ändra.
-      description: Beskrivning
-      edit: Redigera projekt
+        cancel:
+          sourceFile: sv.yml
+          text: Avbryt
+        error:
+          sourceFile: sv.yml
+          text: Det blev ett fel när projektet raderades
+        submitButton:
+          sourceFile: sv.yml
+          text: Bekräfta att du vill radera
+        title:
+          sourceFile: sv.yml
+          text: Radera projekt
+        warning:
+          sourceFile: sv.yml
+          text: Är du säker på att du vill radera det här projektet? Det är permanen och
+            går inte att ändra.
+      description:
+        sourceFile: sv.yml
+        text: Beskrivning
+      edit:
+        sourceFile: sv.yml
+        text: Redigera projekt
       editCampaignTitle:
-        error: Fel när projekttitel uppdaterades
-        success: Projekttiteln uppdaterades
+        error:
+          sourceFile: sv.yml
+          text: Fel när projekttitel uppdaterades
+        success:
+          sourceFile: sv.yml
+          text: Projekttiteln uppdaterades
       manager:
-        label: Projektansvarig
-        selectSelf: Sätt dig själv som projektansvarig
-      name: Namn
-      requestError: Något blev fel. Prova igen.
-      required: Obligatorisk
+        label:
+          sourceFile: sv.yml
+          text: Projektansvarig
+        selectSelf:
+          sourceFile: sv.yml
+          text: Sätt dig själv som projektansvarig
+      name:
+        sourceFile: sv.yml
+        text: Namn
+      requestError:
+        sourceFile: sv.yml
+        text: Något blev fel. Prova igen.
+      required:
+        sourceFile: sv.yml
+        text: Obligatorisk
       status:
-        draft: Utkast
-        heading: Status
-        published: Publicerad
+        draft:
+          sourceFile: sv.yml
+          text: Utkast
+        heading:
+          sourceFile: sv.yml
+          text: Status
+        published:
+          sourceFile: sv.yml
+          text: Publicerad
       visibility:
-        heading: Synlighet
-        private: Privat
-        public: Offentlig
-    indefinite: Obestämd tidslinje
+        heading:
+          sourceFile: sv.yml
+          text: Synlighet
+        private:
+          sourceFile: sv.yml
+          text: Privat
+        public:
+          sourceFile: sv.yml
+          text: Offentlig
+    indefinite:
+      sourceFile: sv.yml
+      text: Obestämd tidslinje
     layout:
-      activities: Aktiviteter
-      allCampaigns: Alla projekt och aktiviteter
-      archive: Arkiv
-      calendar: Kalender
-      insights: Insikter
-      overview: Översikt
+      activities:
+        sourceFile: sv.yml
+        text: Aktiviteter
+      allCampaigns:
+        sourceFile: sv.yml
+        text: Alla projekt och aktiviteter
+      archive:
+        sourceFile: sv.yml
+        text: Arkiv
+      calendar:
+        sourceFile: sv.yml
+        text: Kalender
+      insights:
+        sourceFile: sv.yml
+        text: Insikter
+      overview:
+        sourceFile: sv.yml
+        text: Översikt
     linkGroup:
-      createActivity: Skapa aktivitet
-      createCallAssignment: Skapa ringuppdrag
-      createEvent: Skapa event
-      createSurvey: Skapa enkät
-      createTask: Skapa uppgift
-      public: Offentlig sida
-      settings: Ändra inställningar
+      createActivity:
+        sourceFile: sv.yml
+        text: Skapa aktivitet
+      createCallAssignment:
+        sourceFile: sv.yml
+        text: Skapa ringuppdrag
+      createEvent:
+        sourceFile: sv.yml
+        text: Skapa event
+      createSurvey:
+        sourceFile: sv.yml
+        text: Skapa enkät
+      createTask:
+        sourceFile: sv.yml
+        text: Skapa uppgift
+      public:
+        sourceFile: sv.yml
+        text: Offentlig sida
+      settings:
+        sourceFile: sv.yml
+        text: Ändra inställningar
     mobilization:
-      copy: Att ringa för att mobilisera i er organisation kommer att öka deltagandet
-        mycket
-      create: Skapa ringuppdrag
-      heading: Mobilisering och kontaktarbete (icke konfigurerad)
-    noManager: Ingen projektansvarig
+      copy:
+        sourceFile: sv.yml
+        text: Att ringa för att mobilisera i er organisation kommer att öka deltagandet
+          mycket
+      create:
+        sourceFile: sv.yml
+        text: Skapa ringuppdrag
+      heading:
+        sourceFile: sv.yml
+        text: Mobilisering och kontaktarbete (icke konfigurerad)
+    noManager:
+      sourceFile: sv.yml
+      text: Ingen projektansvarig
     singleProject:
-      filterActivities: Skriv för att filtrera
-      noActivities: Det finns ännu inga aktiviteter i det här projektet.
-      noSearchResults: Din filtrering gav inga resultat.
-      showPublicPage: Visa i aktivistportalen
-      viewArchive: Visa arkiv
+      filterActivities:
+        sourceFile: sv.yml
+        text: Skriv för att filtrera
+      noActivities:
+        sourceFile: sv.yml
+        text: Det finns ännu inga aktiviteter i det här projektet.
+      noSearchResults:
+        sourceFile: sv.yml
+        text: Din filtrering gav inga resultat.
+      showPublicPage:
+        sourceFile: sv.yml
+        text: Visa i aktivistportalen
+      viewArchive:
+        sourceFile: sv.yml
+        text: Visa arkiv
     taskLayout:
       tabs:
-        assignees: Ansvariga
-        insights: Insikter
-        summary: Sammanfattning
-    tasks: Uppgifter
+        assignees:
+          sourceFile: sv.yml
+          text: Ansvariga
+        insights:
+          sourceFile: sv.yml
+          text: Insikter
+        summary:
+          sourceFile: sv.yml
+          text: Sammanfattning
+    tasks:
+      sourceFile: sv.yml
+      text: Uppgifter
   events:
     addPerson:
-      addButton: Lägg till en person
-      addPlaceholder: Skriv för att lägga till deltagare
+      addButton:
+        sourceFile: sv.yml
+        text: Lägg till en person
+      addPlaceholder:
+        sourceFile: sv.yml
+        text: Skriv för att lägga till deltagare
       status:
-        booked: Redan bokade
-        signedUp: Anmälda
+        booked:
+          sourceFile: sv.yml
+          text: Redan bokade
+        signedUp:
+          sourceFile: sv.yml
+          text: Anmälda
     common:
-      allDay: Hela dagen
-      noActivity: Okategoriserade
-      noLocation: Ingen fysisk plats
-      noTitle: Namnlöst event
+      allDay:
+        sourceFile: sv.yml
+        text: Hela dagen
+      noActivity:
+        sourceFile: sv.yml
+        text: Okategoriserade
+      noLocation:
+        sourceFile: sv.yml
+        text: Ingen fysisk plats
+      noTitle:
+        sourceFile: sv.yml
+        text: Namnlöst event
     eventActionButtons:
-      cancel: Ställ in
-      delete: Radera
-      duplicate: Duplicera
-      publish: Publicera
-      restore: Återställ
-      unpublish: Avpublicera
-      warning: '"{eventTitle}" kommer tas bort.'
-      warningCancel: '"{eventTitle}" kommer ställas in.'
-      warningRestore: '"{eventTitle}" kommer att återställas.'
+      cancel:
+        sourceFile: sv.yml
+        text: Ställ in
+      delete:
+        sourceFile: sv.yml
+        text: Radera
+      duplicate:
+        sourceFile: sv.yml
+        text: Duplicera
+      publish:
+        sourceFile: sv.yml
+        text: Publicera
+      restore:
+        sourceFile: sv.yml
+        text: Återställ
+      unpublish:
+        sourceFile: sv.yml
+        text: Avpublicera
+      warning:
+        sourceFile: sv.yml
+        text: '"{eventTitle}" kommer tas bort.'
+      warningCancel:
+        sourceFile: sv.yml
+        text: '"{eventTitle}" kommer ställas in.'
+      warningRestore:
+        sourceFile: sv.yml
+        text: '"{eventTitle}" kommer att återställas.'
     eventContactCard:
-      header: Kontakt
-      noContact: Ingen kontakt tilldelad!
-      removeButton: Ta bort
-      selectPlaceholder: Välj en kontaktperson
-      warningText: '{name} kommer inte längre vara kontaktperson, men kommer fortfarande
-        vara bokad på eventet som deltagare'
+      header:
+        sourceFile: sv.yml
+        text: Kontakt
+      noContact:
+        sourceFile: sv.yml
+        text: Ingen kontakt tilldelad!
+      removeButton:
+        sourceFile: sv.yml
+        text: Ta bort
+      selectPlaceholder:
+        sourceFile: sv.yml
+        text: Välj en kontaktperson
+      warningText:
+        sourceFile: sv.yml
+        text: '{name} kommer inte längre vara kontaktperson, men kommer fortfarande vara
+          bokad på eventet som deltagare'
     eventOverviewCard:
-      buttonEndDate: + Slutdatum
-      createLocation: Skapa en ny plats
-      description: Beskrivning
-      editButton: Redigera eventinformation
-      endDate: Avsluta
-      endTime: Sluttid
-      location: Plats
-      noLocation: Ingen fysisk plats
-      startDate: Start
-      startTime: Starttid
-      url: Länk
+      buttonEndDate:
+        sourceFile: sv.yml
+        text: + Slutdatum
+      createLocation:
+        sourceFile: sv.yml
+        text: Skapa en ny plats
+      description:
+        sourceFile: sv.yml
+        text: Beskrivning
+      editButton:
+        sourceFile: sv.yml
+        text: Redigera eventinformation
+      endDate:
+        sourceFile: sv.yml
+        text: Avsluta
+      endTime:
+        sourceFile: sv.yml
+        text: Sluttid
+      location:
+        sourceFile: sv.yml
+        text: Plats
+      noLocation:
+        sourceFile: sv.yml
+        text: Ingen fysisk plats
+      startDate:
+        sourceFile: sv.yml
+        text: Start
+      startTime:
+        sourceFile: sv.yml
+        text: Starttid
+      url:
+        sourceFile: sv.yml
+        text: Länk
     eventParticipantsCard:
-      booked: Påminnelser
-      confirmed: Bekräftade deltagare
-      contact: Kontakt
-      header: Deltagare
-      noContact: Ingen tilldelad
-      participantList: Visa deltagare
-      pending: Väntande anmälningar
-      reqParticipantsHelperText: Minsta antal deltagare som behövs
-      reqParticipantsLabel: Minsta antal deltagare
+      booked:
+        sourceFile: sv.yml
+        text: Påminnelser
+      confirmed:
+        sourceFile: sv.yml
+        text: Bekräftade deltagare
+      contact:
+        sourceFile: sv.yml
+        text: Kontakt
+      header:
+        sourceFile: sv.yml
+        text: Deltagare
+      noContact:
+        sourceFile: sv.yml
+        text: Ingen tilldelad
+      participantList:
+        sourceFile: sv.yml
+        text: Visa deltagare
+      pending:
+        sourceFile: sv.yml
+        text: Väntande anmälningar
+      reqParticipantsHelperText:
+        sourceFile: sv.yml
+        text: Minsta antal deltagare som behövs
+      reqParticipantsLabel:
+        sourceFile: sv.yml
+        text: Minsta antal deltagare
     eventParticipantsList:
-      attendance: Närvaro
-      bookedParticipants: Bokade deltagare
-      buttonAttended: Deltog
-      buttonBook: Boka
-      buttonCancel: Avboka
-      buttonCancelled: Avbokade
-      buttonNoshow: Kom ej
-      cancelledParticipants: Avbokade deltagare
-      columnEmail: E-post
-      columnName: Namn
-      columnNotified: Påmind
-      columnPhone: Telefon
-      contactTooltip: Kontaktperson
-      descriptionBooked: Dessa är de personer du har bokat och räknar med ska delta
-        på eventet. För att avboka sin medverkan måste de kontakta dig och du kan
-        avboka dem manuellt.
-      descriptionCancelled: Dessa personer har av någon anledning avbokat sitt deltagande.
-        Vi behåller dem här så att du inte försöker boka dem igen.
-      descriptionSignups: Dessa personer har anmält sig via aktivistportalen. De kan
-        fortfarande ställa in anmälan när som helst.
-      dropDownAttended: Bekräftad närvaro
-      dropDownNoshow: Dök inte upp
-      participantTooltip: Gör till kontaktperson
-      signUps: Anmälda
+      attendance:
+        sourceFile: sv.yml
+        text: Närvaro
+      bookedParticipants:
+        sourceFile: sv.yml
+        text: Bokade deltagare
+      buttonAttended:
+        sourceFile: sv.yml
+        text: Deltog
+      buttonBook:
+        sourceFile: sv.yml
+        text: Boka
+      buttonCancel:
+        sourceFile: sv.yml
+        text: Avboka
+      buttonCancelled:
+        sourceFile: sv.yml
+        text: Avbokade
+      buttonNoshow:
+        sourceFile: sv.yml
+        text: Kom ej
+      cancelledParticipants:
+        sourceFile: sv.yml
+        text: Avbokade deltagare
+      columnEmail:
+        sourceFile: sv.yml
+        text: E-post
+      columnName:
+        sourceFile: sv.yml
+        text: Namn
+      columnNotified:
+        sourceFile: sv.yml
+        text: Påmind
+      columnPhone:
+        sourceFile: sv.yml
+        text: Telefon
+      contactTooltip:
+        sourceFile: sv.yml
+        text: Kontaktperson
+      descriptionBooked:
+        sourceFile: sv.yml
+        text: Dessa är de personer du har bokat och räknar med ska delta på eventet. För
+          att avboka sin medverkan måste de kontakta dig och du kan avboka dem
+          manuellt.
+      descriptionCancelled:
+        sourceFile: sv.yml
+        text: Dessa personer har av någon anledning avbokat sitt deltagande. Vi behåller
+          dem här så att du inte försöker boka dem igen.
+      descriptionSignups:
+        sourceFile: sv.yml
+        text: Dessa personer har anmält sig via aktivistportalen. De kan fortfarande
+          ställa in anmälan när som helst.
+      dropDownAttended:
+        sourceFile: sv.yml
+        text: Bekräftad närvaro
+      dropDownNoshow:
+        sourceFile: sv.yml
+        text: Dök inte upp
+      participantTooltip:
+        sourceFile: sv.yml
+        text: Gör till kontaktperson
+      signUps:
+        sourceFile: sv.yml
+        text: Anmälda
     eventPopper:
-      backToEvents: Tillbaka till händelslistan
-      backToLocations: Tillbaka till platser
-      backToShifts: Tillbaka till skiftlistan
-      booked: Bokad
-      cancel: Ställ in
-      cancelWarning: Om du gör detta, kom ihåg att meddela alla bokade och anmälda
-        deltagare att eventet har blivit inställt!
-      confirmCancel: Är du säker på att du vill ställa in det här eventet?
-      confirmDelete: Är du säker på att du vill radera det här eventet?
-      contactPerson: Kontaktperson
-      dateAndTime: Tid och datum
-      delete: Radera
-      deleteWarning: När eventet raderats kan du inte återskapa det.
-      description: Beskrivning
-      duplicate: Duplicera
-      eventPageLink: Gå till eventets sida
-      events: Event
-      location: Plats
-      locations: Platser
-      multiEvent: Flera event
-      multiLocation: Event på flera platser
-      multiShift: Event med flera skift
-      noContact: Ingen kontaktperson vald
-      notified: Påmind
-      pendingSignups: Det finns väntande anmälningar
-      publish: Publicera
-      reminded: Påminda
-      shifts: Skift
-      signups: Anmälningar
-      unsentReminders: '{numMissing, plural, =1 {en deltagare} other {# deltagare}}
-        har inte blivit påminda'
+      backToEvents:
+        sourceFile: sv.yml
+        text: Tillbaka till händelslistan
+      backToLocations:
+        sourceFile: sv.yml
+        text: Tillbaka till platser
+      backToShifts:
+        sourceFile: sv.yml
+        text: Tillbaka till skiftlistan
+      booked:
+        sourceFile: sv.yml
+        text: Bokad
+      cancel:
+        sourceFile: sv.yml
+        text: Ställ in
+      cancelWarning:
+        sourceFile: sv.yml
+        text: Om du gör detta, kom ihåg att meddela alla bokade och anmälda deltagare
+          att eventet har blivit inställt!
+      confirmCancel:
+        sourceFile: sv.yml
+        text: Är du säker på att du vill ställa in det här eventet?
+      confirmDelete:
+        sourceFile: sv.yml
+        text: Är du säker på att du vill radera det här eventet?
+      contactPerson:
+        sourceFile: sv.yml
+        text: Kontaktperson
+      dateAndTime:
+        sourceFile: sv.yml
+        text: Tid och datum
+      delete:
+        sourceFile: sv.yml
+        text: Radera
+      deleteWarning:
+        sourceFile: sv.yml
+        text: När eventet raderats kan du inte återskapa det.
+      description:
+        sourceFile: sv.yml
+        text: Beskrivning
+      duplicate:
+        sourceFile: sv.yml
+        text: Duplicera
+      eventPageLink:
+        sourceFile: sv.yml
+        text: Gå till eventets sida
+      events:
+        sourceFile: sv.yml
+        text: Event
+      location:
+        sourceFile: sv.yml
+        text: Plats
+      locations:
+        sourceFile: sv.yml
+        text: Platser
+      multiEvent:
+        sourceFile: sv.yml
+        text: Flera event
+      multiLocation:
+        sourceFile: sv.yml
+        text: Event på flera platser
+      multiShift:
+        sourceFile: sv.yml
+        text: Event med flera skift
+      noContact:
+        sourceFile: sv.yml
+        text: Ingen kontaktperson vald
+      notified:
+        sourceFile: sv.yml
+        text: Påmind
+      pendingSignups:
+        sourceFile: sv.yml
+        text: Det finns väntande anmälningar
+      publish:
+        sourceFile: sv.yml
+        text: Publicera
+      reminded:
+        sourceFile: sv.yml
+        text: Påminda
+      shifts:
+        sourceFile: sv.yml
+        text: Skift
+      signups:
+        sourceFile: sv.yml
+        text: Anmälningar
+      unsentReminders:
+        sourceFile: sv.yml
+        text: '{numMissing, plural, =1 {en deltagare} other {# deltagare}} har inte
+          blivit påminda'
     eventRelatedCard:
-      header: Relaterade event
+      header:
+        sourceFile: sv.yml
+        text: Relaterade event
     eventStatus:
-      cancelled: Inställt
-      draft: Utkast
-      ended: Avslutad
-      open: Öppna
-      scheduled: Schemalagd
-      unknown: Okänd
+      cancelled:
+        sourceFile: sv.yml
+        text: Inställt
+      draft:
+        sourceFile: sv.yml
+        text: Utkast
+      ended:
+        sourceFile: sv.yml
+        text: Avslutad
+      open:
+        sourceFile: sv.yml
+        text: Öppna
+      scheduled:
+        sourceFile: sv.yml
+        text: Schemalagd
+      unknown:
+        sourceFile: sv.yml
+        text: Okänd
     form:
-      activity: Aktivitet
-      campaign: Kampanj
-      cancel: Ställ in
-      create: Skapa nytt event
-      edit: Redigera event
-      end: Sluttid
-      info: Information vid anmälan
-      link: Länk
-      minNo: Minsta antal deltagare
-      place: Plats
-      required: Krävs
-      start: Starttid
-      submit: Spara
-      title: Titel
+      activity:
+        sourceFile: sv.yml
+        text: Aktivitet
+      campaign:
+        sourceFile: sv.yml
+        text: Kampanj
+      cancel:
+        sourceFile: sv.yml
+        text: Ställ in
+      create:
+        sourceFile: sv.yml
+        text: Skapa nytt event
+      edit:
+        sourceFile: sv.yml
+        text: Redigera event
+      end:
+        sourceFile: sv.yml
+        text: Sluttid
+      info:
+        sourceFile: sv.yml
+        text: Information vid anmälan
+      link:
+        sourceFile: sv.yml
+        text: Länk
+      minNo:
+        sourceFile: sv.yml
+        text: Minsta antal deltagare
+      place:
+        sourceFile: sv.yml
+        text: Plats
+      required:
+        sourceFile: sv.yml
+        text: Krävs
+      start:
+        sourceFile: sv.yml
+        text: Starttid
+      submit:
+        sourceFile: sv.yml
+        text: Spara
+      title:
+        sourceFile: sv.yml
+        text: Titel
     list:
-      events: Event
-      noEvents: Inga event...
+      events:
+        sourceFile: sv.yml
+        text: Event
+      noEvents:
+        sourceFile: sv.yml
+        text: Inga event...
     locationModal:
-      cancel: Ställ in
-      createLocation: Skapa en ny plats
-      description: Beskrivning
-      infoText: Du kan klicka och dra för att flytta runt dig på kartan och nypa eller
-        scrolla för att zooma. För att skapa en ny plats kan du klicka på en tom plats
-        på kartan.
-      move: Flytta
-      moveInstructions: Dra nålen för att välja plats
-      noDescription: Ingen beskrivning
-      noRelatedEvents: Det finns inga andra event här den runt här tiden
-      relatedEvents: Andra event här den runt här tiden
-      save: Spara
-      saveLocation: Spara plats
-      searchBox: Hitta en plats
-      title: Platsens namn
-      useLocation: Använd plats
+      cancel:
+        sourceFile: sv.yml
+        text: Ställ in
+      createLocation:
+        sourceFile: sv.yml
+        text: Skapa en ny plats
+      description:
+        sourceFile: sv.yml
+        text: Beskrivning
+      infoText:
+        sourceFile: sv.yml
+        text: Du kan klicka och dra för att flytta runt dig på kartan och nypa eller
+          scrolla för att zooma. För att skapa en ny plats kan du klicka på en
+          tom plats på kartan.
+      move:
+        sourceFile: sv.yml
+        text: Flytta
+      moveInstructions:
+        sourceFile: sv.yml
+        text: Dra nålen för att välja plats
+      noDescription:
+        sourceFile: sv.yml
+        text: Ingen beskrivning
+      noRelatedEvents:
+        sourceFile: sv.yml
+        text: Det finns inga andra event här den runt här tiden
+      relatedEvents:
+        sourceFile: sv.yml
+        text: Andra event här den runt här tiden
+      save:
+        sourceFile: sv.yml
+        text: Spara
+      saveLocation:
+        sourceFile: sv.yml
+        text: Spara plats
+      searchBox:
+        sourceFile: sv.yml
+        text: Hitta en plats
+      title:
+        sourceFile: sv.yml
+        text: Platsens namn
+      useLocation:
+        sourceFile: sv.yml
+        text: Använd plats
     participantSummaryCard:
-      bookButton: Boka alla
-      booked: Påminnelser
-      cancelled: Avbokad
-      confirmed: Bekräftade deltagare
-      header: Deltagare
-      noshow: ({noshows, plural, =1 {1 person dök ej upp} other {# personer dök ej
-        upp}})
-      pending: Anmälningar väntar
-      recordButton: Rekordstor närvaro
-      remindButton: Påminn alla
-      remindButtondisabledTooltip: Du behöver utse en kontaktperson innan du skickar
-        ut påminnelser
-      reqParticipantsHelperText: Minsta antal deltagare som behövs
-      reqParticipantsLabel: Minsta antal deltagare
-    search: Sök
+      bookButton:
+        sourceFile: sv.yml
+        text: Boka alla
+      booked:
+        sourceFile: sv.yml
+        text: Påminnelser
+      cancelled:
+        sourceFile: sv.yml
+        text: Avbokad
+      confirmed:
+        sourceFile: sv.yml
+        text: Bekräftade deltagare
+      header:
+        sourceFile: sv.yml
+        text: Deltagare
+      noshow:
+        sourceFile: sv.yml
+        text: ({noshows, plural, =1 {1 person dök ej upp} other {# personer dök ej
+          upp}})
+      pending:
+        sourceFile: sv.yml
+        text: Anmälningar väntar
+      recordButton:
+        sourceFile: sv.yml
+        text: Rekordstor närvaro
+      remindButton:
+        sourceFile: sv.yml
+        text: Påminn alla
+      remindButtondisabledTooltip:
+        sourceFile: sv.yml
+        text: Du behöver utse en kontaktperson innan du skickar ut påminnelser
+      reqParticipantsHelperText:
+        sourceFile: sv.yml
+        text: Minsta antal deltagare som behövs
+      reqParticipantsLabel:
+        sourceFile: sv.yml
+        text: Minsta antal deltagare
+    search:
+      sourceFile: sv.yml
+      text: Sök
     state:
-      cancelled: Inställt
-      draft: Utkast
-      ended: Avslutades
-      open: Öppet
-      scheduled: Schemalagt
+      cancelled:
+        sourceFile: sv.yml
+        text: Inställt
+      draft:
+        sourceFile: sv.yml
+        text: Utkast
+      ended:
+        sourceFile: sv.yml
+        text: Avslutades
+      open:
+        sourceFile: sv.yml
+        text: Öppet
+      scheduled:
+        sourceFile: sv.yml
+        text: Schemalagt
     stats:
-      participants: '{participants, plural, one {1 deltagare} other {# deltagare}}'
+      participants:
+        sourceFile: sv.yml
+        text: '{participants, plural, one {1 deltagare} other {# deltagare}}'
     tabs:
-      overview: Översikt
-      participants: Deltagare
-    tooltipContent: Event utan namn kommer att visa eventtyp som titel
+      overview:
+        sourceFile: sv.yml
+        text: Översikt
+      participants:
+        sourceFile: sv.yml
+        text: Deltagare
+    tooltipContent:
+      sourceFile: sv.yml
+      text: Event utan namn kommer att visa eventtyp som titel
     type:
-      createType: Skapa "{type}"
-      tooltip: Klicka här för att byta typ
-      uncategorized: Okategoriserade
+      createType:
+        sourceFile: sv.yml
+        text: Skapa "{type}"
+      tooltip:
+        sourceFile: sv.yml
+        text: Klicka här för att byta typ
+      uncategorized:
+        sourceFile: sv.yml
+        text: Okategoriserade
   journeys:
     instance:
-      addAssigneeButton: Lägg till ansvarig
-      addSubjectButton: Lägg till person
-      addSubjectLabel: Lägg till person
-      assignPersonLabel: Utse ansvarig
+      addAssigneeButton:
+        sourceFile: sv.yml
+        text: Lägg till ansvarig
+      addSubjectButton:
+        sourceFile: sv.yml
+        text: Lägg till person
+      addSubjectLabel:
+        sourceFile: sv.yml
+        text: Lägg till person
+      assignPersonLabel:
+        sourceFile: sv.yml
+        text: Utse ansvarig
       closeButton:
         dialog:
-          outcomeFieldPlaceholder: Beskriv resultatet av {singularLabel}
-          outcomeLabel: Resultat
-          outcomeTagsDescription: Lägg till alla etiketter som beskriver resultatet.
-          outcomeTagsLabel: Etiketter för resultat
-        error: Det uppstod ett fel när {singularLabel} skulle stängas
-        label: Stäng
-      collapseButton: Kollapsa
-      created: Skapad {relative}
-      deadlineLabel: (Was due {datum})
-      dueDateInputClear: Rensa
-      dueDateInputLabel: Förfallodatum
-      editButton: Redigera
+          outcomeFieldPlaceholder:
+            sourceFile: sv.yml
+            text: Beskriv resultatet av {singularLabel}
+          outcomeLabel:
+            sourceFile: sv.yml
+            text: Resultat
+          outcomeTagsDescription:
+            sourceFile: sv.yml
+            text: Lägg till alla etiketter som beskriver resultatet.
+          outcomeTagsLabel:
+            sourceFile: sv.yml
+            text: Etiketter för resultat
+        error:
+          sourceFile: sv.yml
+          text: Det uppstod ett fel när {singularLabel} skulle stängas
+        label:
+          sourceFile: sv.yml
+          text: Stäng
+      collapseButton:
+        sourceFile: sv.yml
+        text: Kollapsa
+      created:
+        sourceFile: sv.yml
+        text: Skapad {relative}
+      deadlineLabel:
+        sourceFile: sv.yml
+        text: (Was due {datum})
+      dueDateInputClear:
+        sourceFile: sv.yml
+        text: Rensa
+      dueDateInputLabel:
+        sourceFile: sv.yml
+        text: Förfallodatum
+      editButton:
+        sourceFile: sv.yml
+        text: Redigera
       ellipsisMenu:
-        convert: Konvertera till...
-      expandButton: Expandera
-      markedCompleteLabel: Markera som färdig {relativeTime}
+        convert:
+          sourceFile: sv.yml
+          text: Konvertera till...
+      expandButton:
+        sourceFile: sv.yml
+        text: Expandera
+      markedCompleteLabel:
+        sourceFile: sv.yml
+        text: Markera som färdig {relativeTime}
       newInstance:
-        draft: Utkast
-        openingNote: Inledning
-        submitLabel: Skapa ny {journey}
-        title: Ny {journey}
-      noMilestones: Det finns inga milstolpar.
-      noOutcomeDetails: Inga uppgifter om resultat har lämnats.
-      percentComplete: '{percentComplete}% avklarat'
+        draft:
+          sourceFile: sv.yml
+          text: Utkast
+        openingNote:
+          sourceFile: sv.yml
+          text: Inledning
+        submitLabel:
+          sourceFile: sv.yml
+          text: Skapa ny {journey}
+        title:
+          sourceFile: sv.yml
+          text: Ny {journey}
+      noMilestones:
+        sourceFile: sv.yml
+        text: Det finns inga milstolpar.
+      noOutcomeDetails:
+        sourceFile: sv.yml
+        text: Inga uppgifter om resultat har lämnats.
+      percentComplete:
+        sourceFile: sv.yml
+        text: '{percentComplete}% avklarat'
       reopenButton:
-        error: Det uppstod ett fel när {singularLabel} öppnades igen
-        label: Återöppna {singularLabel}
+        error:
+          sourceFile: sv.yml
+          text: Det uppstod ett fel när {singularLabel} öppnades igen
+        label:
+          sourceFile: sv.yml
+          text: Återöppna {singularLabel}
       sections:
-        assigned: Tilldelad till
-        members: Medlemmar
-        milestones: Milstolpar
-        outcome: Den här {journeyTitle} är stängd.
-        summary: Sammanfattning
-        timeline: Anteckningar
-      summaryPlaceholder: Skriv en kort beskrivning om statusen för den här {journeyTitle}.
-      updated: senaste aktivitet {relative}
+        assigned:
+          sourceFile: sv.yml
+          text: Tilldelad till
+        members:
+          sourceFile: sv.yml
+          text: Medlemmar
+        milestones:
+          sourceFile: sv.yml
+          text: Milstolpar
+        outcome:
+          sourceFile: sv.yml
+          text: Den här {journeyTitle} är stängd.
+        summary:
+          sourceFile: sv.yml
+          text: Sammanfattning
+        timeline:
+          sourceFile: sv.yml
+          text: Anteckningar
+      summaryPlaceholder:
+        sourceFile: sv.yml
+        text: Skriv en kort beskrivning om statusen för den här {journeyTitle}.
+      updated:
+        sourceFile: sv.yml
+        text: senaste aktivitet {relative}
     instances:
       columns:
-        assignees: Tilldelad
-        created: Skapad
-        id: ID
-        nextMilestoneDeadline: Deadline för nästa milstolpe
-        nextMilestoneTitle: Nästa milstolpe
-        outcome: Anteckningar om resultat
-        subjects: Människor
-        summary: Sammanfattning
-        tagsFree: Etiketter
-        title: Titel
-        updated: Senast uppdaterad
+        assignees:
+          sourceFile: sv.yml
+          text: Tilldelad
+        created:
+          sourceFile: sv.yml
+          text: Skapad
+        id:
+          sourceFile: sv.yml
+          text: ID
+        nextMilestoneDeadline:
+          sourceFile: sv.yml
+          text: Deadline för nästa milstolpe
+        nextMilestoneTitle:
+          sourceFile: sv.yml
+          text: Nästa milstolpe
+        outcome:
+          sourceFile: sv.yml
+          text: Anteckningar om resultat
+        subjects:
+          sourceFile: sv.yml
+          text: Människor
+        summary:
+          sourceFile: sv.yml
+          text: Sammanfattning
+        tagsFree:
+          sourceFile: sv.yml
+          text: Etiketter
+        title:
+          sourceFile: sv.yml
+          text: Titel
+        updated:
+          sourceFile: sv.yml
+          text: Senast uppdaterad
       export:
         headers:
-          assignees: Tilldelade
-          closed: Stängd
-          created: Skapad
-          id: ID
-          journey: Journey
-          nextMilestone: Nästa milstolpe
-          nextMilestoneDeadline: Deadline för nästa milstolpe
-          outcome: Resultat
-          subjects: Ämnen
-          summary: Sammanfattning
-          title: Titel
-          unsortedTags: Ogrupperade etiketter
-          updated: Uppdaterad
+          assignees:
+            sourceFile: sv.yml
+            text: Tilldelade
+          closed:
+            sourceFile: sv.yml
+            text: Stängd
+          created:
+            sourceFile: sv.yml
+            text: Skapad
+          id:
+            sourceFile: sv.yml
+            text: ID
+          journey:
+            sourceFile: sv.yml
+            text: Journey
+          nextMilestone:
+            sourceFile: sv.yml
+            text: Nästa milstolpe
+          nextMilestoneDeadline:
+            sourceFile: sv.yml
+            text: Deadline för nästa milstolpe
+          outcome:
+            sourceFile: sv.yml
+            text: Resultat
+          subjects:
+            sourceFile: sv.yml
+            text: Ämnen
+          summary:
+            sourceFile: sv.yml
+            text: Sammanfattning
+          title:
+            sourceFile: sv.yml
+            text: Titel
+          unsortedTags:
+            sourceFile: sv.yml
+            text: Ogrupperade etiketter
+          updated:
+            sourceFile: sv.yml
+            text: Uppdaterad
       filters:
-        doesNotHaveOperator: har inte
-        doesNotIncludeOperator: inkluderar inte
-        hasOperator: har
-        includesOperator: inkluderar
-        isEmptyOperator: är tom
-        isNotOperator: är inte
-        isOperator: är
-        milestoneLabel: Milstolpe
-        personLabel: Person
-        tagLabel: Etikett
+        doesNotHaveOperator:
+          sourceFile: sv.yml
+          text: har inte
+        doesNotIncludeOperator:
+          sourceFile: sv.yml
+          text: inkluderar inte
+        hasOperator:
+          sourceFile: sv.yml
+          text: har
+        includesOperator:
+          sourceFile: sv.yml
+          text: inkluderar
+        isEmptyOperator:
+          sourceFile: sv.yml
+          text: är tom
+        isNotOperator:
+          sourceFile: sv.yml
+          text: är inte
+        isOperator:
+          sourceFile: sv.yml
+          text: är
+        milestoneLabel:
+          sourceFile: sv.yml
+          text: Milstolpe
+        personLabel:
+          sourceFile: sv.yml
+          text: Person
+        tagLabel:
+          sourceFile: sv.yml
+          text: Etikett
       menu:
-        downloadCsv: Ladda ner {pluralLabel} som CSV
-        downloadXlsx: Ladda ner {pluralLabel} som Excel
+        downloadCsv:
+          sourceFile: sv.yml
+          text: Ladda ner {pluralLabel} som CSV
+        downloadXlsx:
+          sourceFile: sv.yml
+          text: Ladda ner {pluralLabel} som Excel
     journeys:
-      buttonClose: Stängd
-      buttonOpen: Öppen
-      cardCTA: Visa alla
-      closedCount: '{numberClosed} avslutad'
+      buttonClose:
+        sourceFile: sv.yml
+        text: Stängd
+      buttonOpen:
+        sourceFile: sv.yml
+        text: Öppen
+      cardCTA:
+        sourceFile: sv.yml
+        text: Visa alla
+      closedCount:
+        sourceFile: sv.yml
+        text: '{numberClosed} avslutad'
       conversionSnackbar:
-        error: Något gick fel när journeyn skulle konverteras.
-        success: Konverteringen av journeyn gick bra!
+        error:
+          sourceFile: sv.yml
+          text: Något gick fel när journeyn skulle konverteras.
+        success:
+          sourceFile: sv.yml
+          text: Konverteringen av journeyn gick bra!
       editJourneyTitleAlert:
-        error: Fel. Titeln inte uppdaterad.
-        success: Titeln uppdaterad!
-      lastActivity: Senaste aktivitet
+        error:
+          sourceFile: sv.yml
+          text: Fel. Titeln inte uppdaterad.
+        success:
+          sourceFile: sv.yml
+          text: Titeln uppdaterad!
+      lastActivity:
+        sourceFile: sv.yml
+        text: Senaste aktivitet
       menu:
-        downloadCsv: Ladda ner alla som CSV
-        downloadXlsx: Ladda ner alla som Excel
-      nextMilestone: Nästa milstolpe
-      openCount: '{numberOpen} öppen'
+        downloadCsv:
+          sourceFile: sv.yml
+          text: Ladda ner alla som CSV
+        downloadXlsx:
+          sourceFile: sv.yml
+          text: Ladda ner alla som Excel
+      nextMilestone:
+        sourceFile: sv.yml
+        text: Nästa milstolpe
+      openCount:
+        sourceFile: sv.yml
+        text: '{numberOpen} öppen'
       overview:
-        overviewTitle: Alla journeys
-      statusClosed: Avslutad
-      statusOpen: Öppen
+        overviewTitle:
+          sourceFile: sv.yml
+          text: Alla journeys
+      statusClosed:
+        sourceFile: sv.yml
+        text: Avslutad
+      statusOpen:
+        sourceFile: sv.yml
+        text: Öppen
       tabs:
-        closed: Avslutad
-        manage: Hantera
-        milestones: Milstolpar
-        open: Öppen
-        overview: Översikt
-        timeline: Tidslinje
-      title: Journeys
+        closed:
+          sourceFile: sv.yml
+          text: Avslutad
+        manage:
+          sourceFile: sv.yml
+          text: Hantera
+        milestones:
+          sourceFile: sv.yml
+          text: Milstolpar
+        open:
+          sourceFile: sv.yml
+          text: Öppen
+        overview:
+          sourceFile: sv.yml
+          text: Översikt
+        timeline:
+          sourceFile: sv.yml
+          text: Tidslinje
+      title:
+        sourceFile: sv.yml
+        text: Journeys
   organizations:
     page:
-      title: 'Välj organisation:'
+      title:
+        sourceFile: sv.yml
+        text: 'Välj organisation:'
     sidebar:
-      allOrganizations: Alla organisationer
+      allOrganizations:
+        sourceFile: sv.yml
+        text: Alla organisationer
       filter:
-        noResults: Inga organisationer matchar det här filtret
-        topLevel: Högsta organisation
-      filtered: Filtrerad
+        noResults:
+          sourceFile: sv.yml
+          text: Inga organisationer matchar det här filtret
+        topLevel:
+          sourceFile: sv.yml
+          text: Högsta organisation
+      filtered:
+        sourceFile: sv.yml
+        text: Filtrerad
   profile:
     delete:
-      button: Ta bort person
-      confirm: Är du säker på att du vill radera {name}? Det är en permanent åtgärd.
-      title: Radera konto
-      warning: Detta kan inte ångras!
+      button:
+        sourceFile: sv.yml
+        text: Ta bort person
+      confirm:
+        sourceFile: sv.yml
+        text: Är du säker på att du vill radera {name}? Det är en permanent åtgärd.
+      title:
+        sourceFile: sv.yml
+        text: Radera konto
+      warning:
+        sourceFile: sv.yml
+        text: Detta kan inte ångras!
     details:
-      title: Detaljer
-    editButton: Redigera {title}
-    editButtonClose: Sluta redigera {title}
-    editButtonLabel: Redigera Detaljer
+      title:
+        sourceFile: sv.yml
+        text: Detaljer
+    editButton:
+      sourceFile: sv.yml
+      text: Redigera {title}
+    editButtonClose:
+      sourceFile: sv.yml
+      text: Sluta redigera {title}
+    editButtonLabel:
+      sourceFile: sv.yml
+      text: Redigera Detaljer
     genders:
-      f: Kvinna
-      m: Man
-      o: Annat
-      unknown: Okänt
+      f:
+        sourceFile: sv.yml
+        text: Kvinna
+      m:
+        sourceFile: sv.yml
+        text: Man
+      o:
+        sourceFile: sv.yml
+        text: Annat
+      unknown:
+        sourceFile: sv.yml
+        text: Okänt
     journeys:
-      addButton: Starta ny journey
-      title: Journeys
+      addButton:
+        sourceFile: sv.yml
+        text: Starta ny journey
+      title:
+        sourceFile: sv.yml
+        text: Journeys
     organizations:
-      add: Lägg till en ny underorganisation
-      addError: Organisationen kunde inte läggas till
-      removeError: Organisationen kunde inte tas bort
-      title: Organisationer
+      add:
+        sourceFile: sv.yml
+        text: Lägg till en ny underorganisation
+      addError:
+        sourceFile: sv.yml
+        text: Organisationen kunde inte läggas till
+      removeError:
+        sourceFile: sv.yml
+        text: Organisationen kunde inte tas bort
+      title:
+        sourceFile: sv.yml
+        text: Organisationer
     tabs:
-      manage: Hantera
-      profile: Profil
-      timeline: Tidslinje
+      manage:
+        sourceFile: sv.yml
+        text: Hantera
+      profile:
+        sourceFile: sv.yml
+        text: Profil
+      timeline:
+        sourceFile: sv.yml
+        text: Tidslinje
   search:
-    error: Det blev fel
-    label: Sök
-    noResults: Inget resultat
-    placeholder: Skriv för att söka
+    error:
+      sourceFile: sv.yml
+      text: Det blev fel
+    label:
+      sourceFile: sv.yml
+      text: Sök
+    noResults:
+      sourceFile: sv.yml
+      text: Inget resultat
+    placeholder:
+      sourceFile: sv.yml
+      text: Skriv för att söka
     results:
-      callassignment: Ringuppdrag
-      campaign: Kampanj
-      people: Människor
-      person: Person
-      survey: Enkät
-      task: Uppgifter
-      view: Lista
+      callassignment:
+        sourceFile: sv.yml
+        text: Ringuppdrag
+      campaign:
+        sourceFile: sv.yml
+        text: Kampanj
+      people:
+        sourceFile: sv.yml
+        text: Människor
+      person:
+        sourceFile: sv.yml
+        text: Person
+      survey:
+        sourceFile: sv.yml
+        text: Enkät
+      task:
+        sourceFile: sv.yml
+        text: Uppgifter
+      view:
+        sourceFile: sv.yml
+        text: Lista
   smartSearch:
     buttonLabels:
-      add: Spara val
-      addNewFilter: Lägg till / ta bort personer
-      cancel: Avbryt
-      close: Stäng
-      goBack: Gå tillbaka till frågan
-      save: Spara
+      add:
+        sourceFile: sv.yml
+        text: Spara val
+      addNewFilter:
+        sourceFile: sv.yml
+        text: Lägg till / ta bort personer
+      cancel:
+        sourceFile: sv.yml
+        text: Avbryt
+      close:
+        sourceFile: sv.yml
+        text: Stäng
+      goBack:
+        sourceFile: sv.yml
+        text: Gå tillbaka till frågan
+      save:
+        sourceFile: sv.yml
+        text: Spara
     filterCategories:
-      campaignActivity: Projektaktivitet
-      misc: Övrigt
-      peopleDatabase: Människor
-      phoneBanking: Ringning
-      surveys: Enkäter
+      campaignActivity:
+        sourceFile: sv.yml
+        text: Projektaktivitet
+      misc:
+        sourceFile: sv.yml
+        text: Övrigt
+      peopleDatabase:
+        sourceFile: sv.yml
+        text: Människor
+      phoneBanking:
+        sourceFile: sv.yml
+        text: Ringning
+      surveys:
+        sourceFile: sv.yml
+        text: Enkäter
     filterTitles:
-      all: Alla
-      call_blocked: Blockerad från att ringa
-      call_history: Baserat på deras ringhistorik
-      campaign_participation: Baserat på deltagande i event
-      most_active: Mest aktiva personerna
-      person_data: Baserat på namn, adress eller annan information
-      person_field: Baserat på anpassade fält
-      person_tags: Baserat på deras etiketter
-      person_view: Människor från en lista
-      random: Ett slumpmässigt urval
-      sub_query: Baserat på en annan Smart sökning
-      survey_option: Baserat på alternativ de har kryssat i en enkät
-      survey_response: Baserat på ett fritextsvar på en enkätfråga
-      survey_submission: Personer som har svarat på en enkät
-      task: Personer som har gjort uppgifter
-      user: Personer som har använt Zetkin
+      all:
+        sourceFile: sv.yml
+        text: Alla
+      call_blocked:
+        sourceFile: sv.yml
+        text: Blockerad från att ringa
+      call_history:
+        sourceFile: sv.yml
+        text: Baserat på deras ringhistorik
+      campaign_participation:
+        sourceFile: sv.yml
+        text: Baserat på deltagande i event
+      most_active:
+        sourceFile: sv.yml
+        text: Mest aktiva personerna
+      person_data:
+        sourceFile: sv.yml
+        text: Baserat på namn, adress eller annan information
+      person_field:
+        sourceFile: sv.yml
+        text: Baserat på anpassade fält
+      person_tags:
+        sourceFile: sv.yml
+        text: Baserat på deras etiketter
+      person_view:
+        sourceFile: sv.yml
+        text: Människor från en lista
+      random:
+        sourceFile: sv.yml
+        text: Ett slumpmässigt urval
+      sub_query:
+        sourceFile: sv.yml
+        text: Baserat på en annan Smart sökning
+      survey_option:
+        sourceFile: sv.yml
+        text: Baserat på alternativ de har kryssat i en enkät
+      survey_response:
+        sourceFile: sv.yml
+        text: Baserat på ett fritextsvar på en enkätfråga
+      survey_submission:
+        sourceFile: sv.yml
+        text: Personer som har svarat på en enkät
+      task:
+        sourceFile: sv.yml
+        text: Personer som har gjort uppgifter
+      user:
+        sourceFile: sv.yml
+        text: Personer som har använt Zetkin
     filters:
       all:
-        inputString: Börja med {startWithSelect}.
+        inputString:
+          sourceFile: sv.yml
+          text: Börja med {startWithSelect}.
         startWithSelect:
-          'false': en tom lista
-          'true': en lista på alla personer i organisationen
+          'false':
+            sourceFile: sv.yml
+            text: en tom lista
+          'true':
+            sourceFile: sv.yml
+            text: en lista på alla personer i organisationen
       callBlocked:
         addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
-        inputString: '{addRemoveSelect} personer som är blockerade från att ringa
-          av någon som helst anledning'
+          add:
+            sourceFile: sv.yml
+            text: Lägg till
+          sub:
+            sourceFile: sv.yml
+            text: Ta bort
+        inputString:
+          sourceFile: sv.yml
+          text: '{addRemoveSelect} personer som är blockerade från att ringa av någon som
+            helst anledning'
       callHistory:
         addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
+          add:
+            sourceFile: sv.yml
+            text: Lägg till
+          sub:
+            sourceFile: sv.yml
+            text: Ta bort
         assignmentSelect:
-          any: något ringuppdrag
-          assignment: uppgift "{assignmentTitle}"
-          none: Den här organisationen har inga ringuppdrag ännu
+          any:
+            sourceFile: sv.yml
+            text: något ringuppdrag
+          assignment:
+            sourceFile: sv.yml
+            text: uppgift "{assignmentTitle}"
+          none:
+            sourceFile: sv.yml
+            text: Den här organisationen har inga ringuppdrag ännu
         callSelect:
-          called: har blivit ringd
-          notreached: har fått ett samtalsförsök
-          reached: har blivit nådd
+          called:
+            sourceFile: sv.yml
+            text: har blivit ringd
+          notreached:
+            sourceFile: sv.yml
+            text: har fått ett samtalsförsök
+          reached:
+            sourceFile: sv.yml
+            text: har blivit nådd
         examples:
-          one: Lägg till personer som blivit nådda åtminstone 2 gånger i något uppdrag
-            närsomhelt.
-          two: Ta bort personer som blivit ringda åtminstone 1 gång i uppdraget 'Aktivera
-            gamla medlemmar' under de senaste 30 dagarna.
-        inputString: '{addRemoveSelect} personer som {callSelect} minst {minTimes}
-          i {assignmentSelect} {timeFrame}.'
-        minTimes: '{minTimesInput} {minTimes, plural, one {gång} other {gånger}}'
-        minTimesInput: '{input} {minTimes, plural, one {gång} other {gånger}}'
+          one:
+            sourceFile: sv.yml
+            text: Lägg till personer som blivit nådda åtminstone 2 gånger i något uppdrag
+              närsomhelt.
+          two:
+            sourceFile: sv.yml
+            text: Ta bort personer som blivit ringda åtminstone 1 gång i uppdraget 'Aktivera
+              gamla medlemmar' under de senaste 30 dagarna.
+        inputString:
+          sourceFile: sv.yml
+          text: '{addRemoveSelect} personer som {callSelect} minst {minTimes} i
+            {assignmentSelect} {timeFrame}.'
+        minTimes:
+          sourceFile: sv.yml
+          text: '{minTimesInput} {minTimes, plural, one {gång} other {gånger}}'
+        minTimesInput:
+          sourceFile: sv.yml
+          text: '{input} {minTimes, plural, one {gång} other {gånger}}'
       campaignParticipation:
         activitySelect:
-          activity: typ "{activity}"
-          any: någon typ
+          activity:
+            sourceFile: sv.yml
+            text: typ "{activity}"
+          any:
+            sourceFile: sv.yml
+            text: någon typ
         addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
+          add:
+            sourceFile: sv.yml
+            text: Lägg till
+          sub:
+            sourceFile: sv.yml
+            text: Ta bort
         bookedSelect:
-          booked: varit bokade
-          signed_up: anmäld
+          booked:
+            sourceFile: sv.yml
+            text: varit bokade
+          signed_up:
+            sourceFile: sv.yml
+            text: anmäld
         campaignSelect:
-          any: något projekt
-          campaign: projekt "{campaign}"
+          any:
+            sourceFile: sv.yml
+            text: något projekt
+          campaign:
+            sourceFile: sv.yml
+            text: projekt "{campaign}"
         examples:
-          one: Lägg till personer som har anmält sig till event i något projekt vid
-            platsen 'Möllevången' någon gång tidigare
-          two: Ta bort personer som aldrig har blivit bokade för event i något projekt
-            av typen 'Affischera' på någon plats före idag.
+          one:
+            sourceFile: sv.yml
+            text: Lägg till personer som har anmält sig till event i något projekt vid
+              platsen 'Möllevången' någon gång tidigare
+          two:
+            sourceFile: sv.yml
+            text: Ta bort personer som aldrig har blivit bokade för event i något projekt av
+              typen 'Affischera' på någon plats före idag.
         haveSelect:
-          in: har
-          notin: har inte
-        inputString: '{addRemoveSelect} personer som {haveSelect} {bookedSelect} för
-          event {campaignSelect} av {activitySelect} på {locationSelect} {timeFrame}'
+          in:
+            sourceFile: sv.yml
+            text: har
+          notin:
+            sourceFile: sv.yml
+            text: har inte
+        inputString:
+          sourceFile: sv.yml
+          text: '{addRemoveSelect} personer som {haveSelect} {bookedSelect} för event
+            {campaignSelect} av {activitySelect} på {locationSelect}
+            {timeFrame}'
         locationSelect:
-          any: någon plats
-          location: plats "{location}"
+          any:
+            sourceFile: sv.yml
+            text: någon plats
+          location:
+            sourceFile: sv.yml
+            text: plats "{location}"
       mostActive:
         addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
+          add:
+            sourceFile: sv.yml
+            text: Lägg till
+          sub:
+            sourceFile: sv.yml
+            text: Ta bort
         examples:
-          one: Lägg till organisationens 100 mest aktiva medlemmar fram till idag.
-          two: Ta bort organisationens 5 mest aktiva medlemmar närsomhelst i tiden.
-        inputString: '{addRemoveSelect} den {numPeopleSelect} mest aktiva{numPeople}
-          i organisationen {timeFrame}.'
-        numPeople: '{numPeople, plural, one {person} other {personer}}'
-        numPeopleSelect: '{numPeopleSelect}'
+          one:
+            sourceFile: sv.yml
+            text: Lägg till organisationens 100 mest aktiva medlemmar fram till idag.
+          two:
+            sourceFile: sv.yml
+            text: Ta bort organisationens 5 mest aktiva medlemmar närsomhelst i tiden.
+        inputString:
+          sourceFile: sv.yml
+          text: '{addRemoveSelect} den {numPeopleSelect} mest aktiva{numPeople} i
+            organisationen {timeFrame}.'
+        numPeople:
+          sourceFile: sv.yml
+          text: '{numPeople, plural, one {person} other {personer}}'
+        numPeopleSelect:
+          sourceFile: sv.yml
+          text: '{numPeopleSelect}'
       personData:
         addRemoveSelect:
-          add: Lägg till
-          sub: ta bort
-        ellipsis: '...'
+          add:
+            sourceFile: sv.yml
+            text: Lägg till
+          sub:
+            sourceFile: sv.yml
+            text: ta bort
+        ellipsis:
+          sourceFile: sv.yml
+          text: ...
         examples:
-          one: Lägg till alla personer vars förnamn är 'Clara' och vars efternamn
-            är 'Zetkin'.
-          two: Ta bort alla personer vars stad är Stockholm.
-        fieldMatches: '{field} matchar {value}'
+          one:
+            sourceFile: sv.yml
+            text: Lägg till alla personer vars förnamn är 'Clara' och vars efternamn är
+              'Zetkin'.
+          two:
+            sourceFile: sv.yml
+            text: Ta bort alla personer vars stad är Stockholm.
+        fieldMatches:
+          sourceFile: sv.yml
+          text: '{field} matchar {value}'
         fieldSelect:
-          alt_phone: annat telefonnummer
-          city: stad
-          co_address: co-adress
-          email: e-post
-          first_name: förnamn
-          gender: kön
-          last_name: efternamn
-          phone: telefonnummer
-          remove: Ta bort det här kriteriet
-          street_address: gatuadress
-          zip_code: postnummer
-        fieldTuple: '{first} och {second}'
-        inputString: '{addRemoveSelect} någon person vars {criteria}.'
+          alt_phone:
+            sourceFile: sv.yml
+            text: annat telefonnummer
+          city:
+            sourceFile: sv.yml
+            text: stad
+          co_address:
+            sourceFile: sv.yml
+            text: co-adress
+          email:
+            sourceFile: sv.yml
+            text: e-post
+          first_name:
+            sourceFile: sv.yml
+            text: förnamn
+          gender:
+            sourceFile: sv.yml
+            text: kön
+          last_name:
+            sourceFile: sv.yml
+            text: efternamn
+          phone:
+            sourceFile: sv.yml
+            text: telefonnummer
+          remove:
+            sourceFile: sv.yml
+            text: Ta bort det här kriteriet
+          street_address:
+            sourceFile: sv.yml
+            text: gatuadress
+          zip_code:
+            sourceFile: sv.yml
+            text: postnummer
+        fieldTuple:
+          sourceFile: sv.yml
+          text: '{first} och {second}'
+        inputString:
+          sourceFile: sv.yml
+          text: '{addRemoveSelect} någon person vars {criteria}.'
       personField:
         addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
+          add:
+            sourceFile: sv.yml
+            text: Lägg till
+          sub:
+            sourceFile: sv.yml
+            text: Ta bort
         edit:
-          date: '{fieldSelect} är {timeFrame}'
-          none: Organisationen har inga anpassade fält ännu.
-          text: '{fieldSelect} matchar "{freeTextInput}"'
-          url: '{fieldSelect} matchar "{freeTextInput}"'
+          date:
+            sourceFile: sv.yml
+            text: '{fieldSelect} är {timeFrame}'
+          none:
+            sourceFile: sv.yml
+            text: Organisationen har inga anpassade fält ännu.
+          text:
+            sourceFile: sv.yml
+            text: '{fieldSelect} matchar "{freeTextInput}"'
+          url:
+            sourceFile: sv.yml
+            text: '{fieldSelect} matchar "{freeTextInput}"'
         fieldSelect:
-          any: anpassat fält
-        inputString: '{addRemoveSelect} alla personer som {field}.'
+          any:
+            sourceFile: sv.yml
+            text: anpassat fält
+        inputString:
+          sourceFile: sv.yml
+          text: '{addRemoveSelect} alla personer som {field}.'
         preview:
-          date: '{fieldName} är {timeFrame}'
-          text: '{fieldName} matchar "{searchTerm}"'
-          url: '{fieldName} matchar "{searchTerm}"'
+          date:
+            sourceFile: sv.yml
+            text: '{fieldName} är {timeFrame}'
+          text:
+            sourceFile: sv.yml
+            text: '{fieldName} matchar "{searchTerm}"'
+          url:
+            sourceFile: sv.yml
+            text: '{fieldName} matchar "{searchTerm}"'
       personTags:
         addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
+          add:
+            sourceFile: sv.yml
+            text: Lägg till
+          sub:
+            sourceFile: sv.yml
+            text: Ta bort
         condition:
           conditionSelect:
-            all: alla
-            any: någon
-            minMatching: minst
-            none: ingen
+            all:
+              sourceFile: sv.yml
+              text: alla
+            any:
+              sourceFile: sv.yml
+              text: någon
+            minMatching:
+              sourceFile: sv.yml
+              text: minst
+            none:
+              sourceFile: sv.yml
+              text: ingen
           edit:
-            all: '{conditionSelect}'
-            any: '{conditionSelect}'
-            minMatching: '{conditionSelect} {minMatchingInput}'
-            none: '{conditionSelect}'
+            all:
+              sourceFile: sv.yml
+              text: '{conditionSelect}'
+            any:
+              sourceFile: sv.yml
+              text: '{conditionSelect}'
+            minMatching:
+              sourceFile: sv.yml
+              text: '{conditionSelect} {minMatchingInput}'
+            none:
+              sourceFile: sv.yml
+              text: '{conditionSelect}'
           preview:
-            all: alla
-            any: någon
-            minMatching: minst {minMatching}
-            none: ingen
+            all:
+              sourceFile: sv.yml
+              text: alla
+            any:
+              sourceFile: sv.yml
+              text: någon
+            minMatching:
+              sourceFile: sv.yml
+              text: minst {minMatching}
+            none:
+              sourceFile: sv.yml
+              text: ingen
         examples:
-          one: 'Lägg till personer med minst en av följande etiketter: ''Medlem'',
-            ''Aktivist'''
-          two: 'Ta bort personer med alla följande etiketter: ''Styrelseledamot'''
-        inputString: '{addRemoveSelect} personer med {condition} av följande etiketter:
-          {tags}'
+          one:
+            sourceFile: sv.yml
+            text: "Lägg till personer med minst en av följande etiketter: 'Medlem', 'Aktivist'"
+          two:
+            sourceFile: sv.yml
+            text: "Ta bort personer med alla följande etiketter: 'Styrelseledamot'"
+        inputString:
+          sourceFile: sv.yml
+          text: '{addRemoveSelect} personer med {condition} av följande etiketter: {tags}'
       personView:
         addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
+          add:
+            sourceFile: sv.yml
+            text: Lägg till
+          sub:
+            sourceFile: sv.yml
+            text: Ta bort
         examples:
-          one: Lägg till personer som finns i listan "Aktiva medlemmar 2022".
-          two: Ta bort personer som inte finns i listan "Aktiva medlemmar 2022".
+          one:
+            sourceFile: sv.yml
+            text: Lägg till personer som finns i listan "Aktiva medlemmar 2022".
+          two:
+            sourceFile: sv.yml
+            text: Ta bort personer som inte finns i listan "Aktiva medlemmar 2022".
         inSelect:
-          in: i
-          notin: inte finns i
-        inputString: '{addRemoveSelect} personer som är med i {inSelect} listan {viewSelect}.'
+          in:
+            sourceFile: sv.yml
+            text: i
+          notin:
+            sourceFile: sv.yml
+            text: inte finns i
+        inputString:
+          sourceFile: sv.yml
+          text: '{addRemoveSelect} personer som är med i {inSelect} listan {viewSelect}.'
         viewSelect:
-          none: Organisationen har inte några listor ännu
+          none:
+            sourceFile: sv.yml
+            text: Organisationen har inte några listor ännu
       random:
         addLimitRemoveSelect:
-          add: lägg till
-          sub: ta bort
+          add:
+            sourceFile: sv.yml
+            text: lägg till
+          sub:
+            sourceFile: sv.yml
+            text: ta bort
         addRemoveSelect:
-          add: lägg till
-          sub: ta bort
+          add:
+            sourceFile: sv.yml
+            text: lägg till
+          sub:
+            sourceFile: sv.yml
+            text: ta bort
         examples:
-          one: Lägg slumpmässigt till 20 personer i organisationen.
-          two: Ta slumpmässigt bort 15% av personerna i organisationen.
-        inputString: Slumpvis {addRemoveSelect} {quantity} i organisationen.
+          one:
+            sourceFile: sv.yml
+            text: Lägg slumpmässigt till 20 personer i organisationen.
+          two:
+            sourceFile: sv.yml
+            text: Ta slumpmässigt bort 15% av personerna i organisationen.
+        inputString:
+          sourceFile: sv.yml
+          text: Slumpvis {addRemoveSelect} {quantity} i organisationen.
       subQuery:
         addRemoveSelect:
-          add: Lägg till
-          sub: Under
+          add:
+            sourceFile: sv.yml
+            text: Lägg till
+          sub:
+            sourceFile: sv.yml
+            text: Under
         examples:
-          one: Ta bort personer som matchar den Smarta sökningen 'Personer som bor
-            i Stockholm'
-          two: Lägg till personer som finns i målgruppen för ringuppdraget 'Uppdrag
-            ett'
-        inputString: '{addRemoveSelect} personer som {matchSelect} {query}.'
+          one:
+            sourceFile: sv.yml
+            text: Ta bort personer som matchar den Smarta sökningen 'Personer som bor i
+              Stockholm'
+          two:
+            sourceFile: sv.yml
+            text: Lägg till personer som finns i målgruppen för ringuppdraget 'Uppdrag ett'
+        inputString:
+          sourceFile: sv.yml
+          text: '{addRemoveSelect} personer som {matchSelect} {query}.'
         matchSelect:
-          in: matchar
-          notin: inte matchar
+          in:
+            sourceFile: sv.yml
+            text: matchar
+          notin:
+            sourceFile: sv.yml
+            text: inte matchar
         query:
           edit:
-            callassignment_goal: '{querySelect} i ringuppdraget "{titleSelect}"'
-            callassignment_target: '{querySelect} i ringuppdraget "{titleSelect}"'
-            none: '{querySelect}'
-            standalone: '{querySelect} "{titleSelect}"'
+            callassignment_goal:
+              sourceFile: sv.yml
+              text: '{querySelect} i ringuppdraget "{titleSelect}"'
+            callassignment_target:
+              sourceFile: sv.yml
+              text: '{querySelect} i ringuppdraget "{titleSelect}"'
+            none:
+              sourceFile: sv.yml
+              text: '{querySelect}'
+            standalone:
+              sourceFile: sv.yml
+              text: '{querySelect} "{titleSelect}"'
           preview:
-            callassignment_goal: målgruppen för ringuppdraget "{queryTitle}"
-            callassignment_target: målgruppen i ringuppdraget "{queryTitle}"
-            none: '{queryTitle}'
-            standalone: Smart sökning "{queryTitle}"
+            callassignment_goal:
+              sourceFile: sv.yml
+              text: målgruppen för ringuppdraget "{queryTitle}"
+            callassignment_target:
+              sourceFile: sv.yml
+              text: målgruppen i ringuppdraget "{queryTitle}"
+            none:
+              sourceFile: sv.yml
+              text: '{queryTitle}'
+            standalone:
+              sourceFile: sv.yml
+              text: Smart sökning "{queryTitle}"
           selectLabel:
-            callassignment_goal: målgruppen
-            callassignment_target: målgruppen
-            none: en Smart sökning
-            standalone: Smart sökning
+            callassignment_goal:
+              sourceFile: sv.yml
+              text: målgruppen
+            callassignment_target:
+              sourceFile: sv.yml
+              text: målgruppen
+            none:
+              sourceFile: sv.yml
+              text: en Smart sökning
+            standalone:
+              sourceFile: sv.yml
+              text: Smart sökning
           selectOptions:
-            callassignment_goal: målgruppen i ett ringuppdrag
-            callassignment_target: målgruppen i ett ringuppdrag
-            none: Den här organisationen har inga ringuppdrag eller sparade Smarta
-              sökningar än.
-            standalone: En fristående Smart sökning
+            callassignment_goal:
+              sourceFile: sv.yml
+              text: målgruppen i ett ringuppdrag
+            callassignment_target:
+              sourceFile: sv.yml
+              text: målgruppen i ett ringuppdrag
+            none:
+              sourceFile: sv.yml
+              text: Den här organisationen har inga ringuppdrag eller sparade Smarta sökningar
+                än.
+            standalone:
+              sourceFile: sv.yml
+              text: En fristående Smart sökning
       surveyOption:
         addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
+          add:
+            sourceFile: sv.yml
+            text: Lägg till
+          sub:
+            sourceFile: sv.yml
+            text: Ta bort
         conditionSelect:
-          all: alla
-          any: någon
-          none: ingen
+          all:
+            sourceFile: sv.yml
+            text: alla
+          any:
+            sourceFile: sv.yml
+            text: någon
+          none:
+            sourceFile: sv.yml
+            text: ingen
         examples:
-          one: 'Ta bort alla personer som har valt något av alternativen i enkäten
-            ''Medlemsenkät 2020'' (frågan ''Fråga ett''): ''Ibland'', ''Aldrig'''
-          two: 'Lägg till alla personer som har valt någon av följande alternativ
-            i enkäten ''Medlemsenkäten'' (question ''Question two''): ''Alternativ
-            två'''
-        inputString: '{addRemoveSelect} personer som har valt {conditionSelect} av
-          följande alternativ {surveySelect} ({questionSelect}): {options}'
+          one:
+            sourceFile: sv.yml
+            text: "Ta bort alla personer som har valt något av alternativen i enkäten 'Medlemsenkät 2020' (frågan 'Fråga ett'): 'Ibland', 'Aldrig'"
+          two:
+            sourceFile: sv.yml
+            text: "Lägg till alla personer som har valt någon av följande alternativ i enkäten 'Medlemsenkäten' (question 'Question two'): 'Alternativ två'"
+        inputString:
+          sourceFile: sv.yml
+          text: '{addRemoveSelect} personer som har valt {conditionSelect} av följande
+            alternativ {surveySelect} ({questionSelect}): {options}'
         questionSelect:
-          any: en fråga
-          none: Det finns inga flervalsfrågor i den här enkäten.
-          question: fråga
+          any:
+            sourceFile: sv.yml
+            text: en fråga
+          none:
+            sourceFile: sv.yml
+            text: Det finns inga flervalsfrågor i den här enkäten.
+          question:
+            sourceFile: sv.yml
+            text: fråga
         surveySelect:
-          any: en enkät
-          none: Den här organisationen har inga enkäter ännu
-          survey: enkät
+          any:
+            sourceFile: sv.yml
+            text: en enkät
+          none:
+            sourceFile: sv.yml
+            text: Den här organisationen har inga enkäter ännu
+          survey:
+            sourceFile: sv.yml
+            text: enkät
       surveyResponse:
         addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
+          add:
+            sourceFile: sv.yml
+            text: Lägg till
+          sub:
+            sourceFile: sv.yml
+            text: Ta bort
         examples:
-          one: Personer som svarat 'organisera' på någon fråga i 'Medlemsenkäten'
-          two: Personer som har svarat i enkäten 'Medlemsenkäten' (fråga 'Fråga ett')
-            som exakt matchar 'organisera'.
-        inputString: '{addRemoveSelect} personer som har svarat på {surveySelect}
-          ({questionSelect}) {matchSelect} "{freeTextInput}"'
+          one:
+            sourceFile: sv.yml
+            text: Personer som svarat 'organisera' på någon fråga i 'Medlemsenkäten'
+          two:
+            sourceFile: sv.yml
+            text: Personer som har svarat i enkäten 'Medlemsenkäten' (fråga 'Fråga ett') som
+              exakt matchar 'organisera'.
+        inputString:
+          sourceFile: sv.yml
+          text: '{addRemoveSelect} personer som har svarat på {surveySelect}
+            ({questionSelect}) {matchSelect} "{freeTextInput}"'
         matchSelect:
-          eq: matchar exakt
-          in: inkluderar
-          noteq: inte är
-          notin: inkluderar inte
+          eq:
+            sourceFile: sv.yml
+            text: matchar exakt
+          in:
+            sourceFile: sv.yml
+            text: inkluderar
+          noteq:
+            sourceFile: sv.yml
+            text: inte är
+          notin:
+            sourceFile: sv.yml
+            text: inkluderar inte
         questionSelect:
-          any: någon fråga
-          none: Det finns inga fritextsfrågor i den här enkäten
-          question: fråga "{question}"
+          any:
+            sourceFile: sv.yml
+            text: någon fråga
+          none:
+            sourceFile: sv.yml
+            text: Det finns inga fritextsfrågor i den här enkäten
+          question:
+            sourceFile: sv.yml
+            text: fråga "{question}"
         surveySelect:
-          any: en enkät
-          none: Organisationen har inga enkäter ännu
-          survey: enkät "{surveyTitle}"
+          any:
+            sourceFile: sv.yml
+            text: en enkät
+          none:
+            sourceFile: sv.yml
+            text: Organisationen har inga enkäter ännu
+          survey:
+            sourceFile: sv.yml
+            text: enkät "{surveyTitle}"
       surveySubmission:
         addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
+          add:
+            sourceFile: sv.yml
+            text: Lägg till
+          sub:
+            sourceFile: sv.yml
+            text: Ta bort
         examples:
-          one: Personer som har lämnat in svar i enkäten 'Medlemsenkät 2020' före
-            idag.
-          two: Personer som har lämnat in svar i enkäten 'Medlemsenkät 2020' under
-            de senaste 30 dagarna.
-        inputString: '{addRemoveSelect} personer som har lämnat in svar på {surveySelect}
-          {timeFrame}.'
+          one:
+            sourceFile: sv.yml
+            text: Personer som har lämnat in svar i enkäten 'Medlemsenkät 2020' före idag.
+          two:
+            sourceFile: sv.yml
+            text: Personer som har lämnat in svar i enkäten 'Medlemsenkät 2020' under de
+              senaste 30 dagarna.
+        inputString:
+          sourceFile: sv.yml
+          text: '{addRemoveSelect} personer som har lämnat in svar på {surveySelect}
+            {timeFrame}.'
         surveySelect:
-          any: en enkät
-          none: Organisationen har inga enkäter ännu
-          survey: enkät "{surveyTitle}"
+          any:
+            sourceFile: sv.yml
+            text: en enkät
+          none:
+            sourceFile: sv.yml
+            text: Organisationen har inga enkäter ännu
+          survey:
+            sourceFile: sv.yml
+            text: enkät "{surveyTitle}"
       task:
         addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
+          add:
+            sourceFile: sv.yml
+            text: Lägg till
+          sub:
+            sourceFile: sv.yml
+            text: Ta bort
         campaignSelect:
-          any: något projekt
-          campaign: projekt "{campaign}"
-          in: i
+          any:
+            sourceFile: sv.yml
+            text: något projekt
+          campaign:
+            sourceFile: sv.yml
+            text: projekt "{campaign}"
+          in:
+            sourceFile: sv.yml
+            text: i
         examples:
-          one: Lägg till personer som har slutfört uppgiften "Berätta för dina vänner"
-            minst en gång vid vilken tidspunkt som helst
-          two: Lägg till personer som har ignorerat någon uppgift i något projekt
-            mellan 2 till 5 gånger före idag
-        inputString: '{addRemoveSelect} personer som har {taskStatusSelect} {taskSelect}{campaignSelect}
-          {matchingSelect} {timeFrame}'
+          one:
+            sourceFile: sv.yml
+            text: Lägg till personer som har slutfört uppgiften "Berätta för dina vänner"
+              minst en gång vid vilken tidspunkt som helst
+          two:
+            sourceFile: sv.yml
+            text: Lägg till personer som har ignorerat någon uppgift i något projekt mellan
+              2 till 5 gånger före idag
+        inputString:
+          sourceFile: sv.yml
+          text: '{addRemoveSelect} personer som har {taskStatusSelect}
+            {taskSelect}{campaignSelect} {matchingSelect} {timeFrame}'
         taskSelect:
-          any: någon uppgift
-          task: uppgift "{task}"
+          any:
+            sourceFile: sv.yml
+            text: någon uppgift
+          task:
+            sourceFile: sv.yml
+            text: uppgift "{task}"
         taskStatusSelect:
-          assigned: har tilldelats
-          completed: färdig
-          ignored: ignorerad
+          assigned:
+            sourceFile: sv.yml
+            text: har tilldelats
+          completed:
+            sourceFile: sv.yml
+            text: färdig
+          ignored:
+            sourceFile: sv.yml
+            text: ignorerad
       user:
         addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
+          add:
+            sourceFile: sv.yml
+            text: Lägg till
+          sub:
+            sourceFile: sv.yml
+            text: Ta bort
         connectedSelect:
-          'false': inte kopplad
-          'true': kopplad
+          'false':
+            sourceFile: sv.yml
+            text: inte kopplad
+          'true':
+            sourceFile: sv.yml
+            text: kopplad
         examples:
-          one: Ta bort alla personer som är ansluta Zetkinanvändare.
-          two: Lägg till alla personer som inte är ansluta Zetkinanvändare.
-        inputString: '{addRemoveSelect} alla personer som är {connectedSelect} till
-          en Zetkinanvändare.'
+          one:
+            sourceFile: sv.yml
+            text: Ta bort alla personer som är ansluta Zetkinanvändare.
+          two:
+            sourceFile: sv.yml
+            text: Lägg till alla personer som inte är ansluta Zetkinanvändare.
+        inputString:
+          sourceFile: sv.yml
+          text: '{addRemoveSelect} alla personer som är {connectedSelect} till en
+            Zetkinanvändare.'
     headers:
-      examples: Exempel
-      gallery: Hur vill du välja personer?
+      examples:
+        sourceFile: sv.yml
+        text: Exempel
+      gallery:
+        sourceFile: sv.yml
+        text: Hur vill du välja personer?
     matching:
       edit:
-        between: '{matchingSelect} {minInput} och {maxInput} gånger'
-        max: '{matchingSelect} {maxInput} {max, plural, one {gång} other {gånger}}'
-        min: '{matchingSelect} {minInput} {min, plural, one {gång} other {gånger}}'
-        once: '{matchingSelect}'
+        between:
+          sourceFile: sv.yml
+          text: '{matchingSelect} {minInput} och {maxInput} gånger'
+        max:
+          sourceFile: sv.yml
+          text: '{matchingSelect} {maxInput} {max, plural, one {gång} other {gånger}}'
+        min:
+          sourceFile: sv.yml
+          text: '{matchingSelect} {minInput} {min, plural, one {gång} other {gånger}}'
+        once:
+          sourceFile: sv.yml
+          text: '{matchingSelect}'
       labels:
-        between: mellan
-        max: som mest
-        min: minst
-        once: minst en
+        between:
+          sourceFile: sv.yml
+          text: mellan
+        max:
+          sourceFile: sv.yml
+          text: som mest
+        min:
+          sourceFile: sv.yml
+          text: minst
+        once:
+          sourceFile: sv.yml
+          text: minst en
       options:
-        between: mellan
-        max: högst
-        min: minst
-        once: minst en
+        between:
+          sourceFile: sv.yml
+          text: mellan
+        max:
+          sourceFile: sv.yml
+          text: högst
+        min:
+          sourceFile: sv.yml
+          text: minst
+        once:
+          sourceFile: sv.yml
+          text: minst en
       preview:
-        between: mellan {min} och {max} gånger
-        max: högstt {max} {max, plural, one {gång} other {gånger}}
-        min: minst {min} {max, plural, one {gång} other {gånger}}
-        once: minst en
+        between:
+          sourceFile: sv.yml
+          text: mellan {min} och {max} gånger
+        max:
+          sourceFile: sv.yml
+          text: högstt {max} {max, plural, one {gång} other {gånger}}
+        min:
+          sourceFile: sv.yml
+          text: minst {min} {max, plural, one {gång} other {gånger}}
+        once:
+          sourceFile: sv.yml
+          text: minst en
     misc:
-      noOptions: inga matchande etiketter
+      noOptions:
+        sourceFile: sv.yml
+        text: inga matchande etiketter
     operators:
-      add: Lägg till
-      sub: Ta bort
+      add:
+        sourceFile: sv.yml
+        text: Lägg till
+      sub:
+        sourceFile: sv.yml
+        text: Ta bort
     quantity:
       edit:
-        integer: '{numInput} {quantitySelect}'
-        percent: '{numInput} {quantitySelect}'
+        integer:
+          sourceFile: sv.yml
+          text: '{numInput} {quantitySelect}'
+        percent:
+          sourceFile: sv.yml
+          text: '{numInput} {quantitySelect}'
       preview:
-        integer: '{people} {people, plural, one {person} other {personer}}'
-        percent: '{people} % av personerna'
+        integer:
+          sourceFile: sv.yml
+          text: '{people} {people, plural, one {person} other {personer}}'
+        percent:
+          sourceFile: sv.yml
+          text: '{people} % av personerna'
       quantitySelectLabel:
-        integer: '{people, plural, one {person} other {personer}}'
-        percent: '% av personerna'
+        integer:
+          sourceFile: sv.yml
+          text: '{people, plural, one {person} other {personer}}'
+        percent:
+          sourceFile: sv.yml
+          text: '% av personerna'
       quantitySelectOptions:
-        integer: ett antal personer
-        percent: en procentandel av personerna
-    readOnly: Den här Smarta sökningen är skrivskyddad och kan inte redigeras.
+        integer:
+          sourceFile: sv.yml
+          text: ett antal personer
+        percent:
+          sourceFile: sv.yml
+          text: en procentandel av personerna
+    readOnly:
+      sourceFile: sv.yml
+      text: Den här Smarta sökningen är skrivskyddad och kan inte redigeras.
     resultHint:
-      countLabel: '{count, plural, =1 {en person} other {# personer}}'
-      hint: Den här Smarta sökningen kommer just nu ge dig {count}
-    smartSearch: Smart sökning
+      countLabel:
+        sourceFile: sv.yml
+        text: '{count, plural, =1 {en person} other {# personer}}'
+      hint:
+        sourceFile: sv.yml
+        text: Den här Smarta sökningen kommer just nu ge dig {count}
+    smartSearch:
+      sourceFile: sv.yml
+      text: Smart sökning
     statsPopper:
-      change: ändra
-      details: Smarta sökningar är dynamiska. Det betyder att antal matchningar kan
-        variera över tid. Andra användare kan se ett annat resultat om de har tillgång
-        till fler eller färre personer.
-      exit: Resultat
-      headline: Effekt av urval
-      info: Det här ett dynamiskt urval och antalet personer kan förändras i framtiden.
-      input: innan
-      matches: hittat
-      output: efter
+      change:
+        sourceFile: sv.yml
+        text: ändra
+      details:
+        sourceFile: sv.yml
+        text: Smarta sökningar är dynamiska. Det betyder att antal matchningar kan
+          variera över tid. Andra användare kan se ett annat resultat om de har
+          tillgång till fler eller färre personer.
+      exit:
+        sourceFile: sv.yml
+        text: Resultat
+      headline:
+        sourceFile: sv.yml
+        text: Effekt av urval
+      info:
+        sourceFile: sv.yml
+        text: Det här ett dynamiskt urval och antalet personer kan förändras i
+          framtiden.
+      input:
+        sourceFile: sv.yml
+        text: innan
+      matches:
+        sourceFile: sv.yml
+        text: hittat
+      output:
+        sourceFile: sv.yml
+        text: efter
     timeFrame:
       edit:
-        afterDate: '{timeFrameSelect} {afterDateSelect}'
-        beforeDate: '{timeFrameSelect} {beforeDateSelect}'
-        beforeToday: '{timeFrameSelect}'
-        between: '{timeFrameSelect} {afterDateSelect} och {beforeDateSelect}'
-        ever: '{timeFrameSelect}'
-        future: '{timeFrameSelect}'
-        lastFew: '{timeFrameSelect} {daysInput} {days, plural, one {dag} other {dagar}}'
+        afterDate:
+          sourceFile: sv.yml
+          text: '{timeFrameSelect} {afterDateSelect}'
+        beforeDate:
+          sourceFile: sv.yml
+          text: '{timeFrameSelect} {beforeDateSelect}'
+        beforeToday:
+          sourceFile: sv.yml
+          text: '{timeFrameSelect}'
+        between:
+          sourceFile: sv.yml
+          text: '{timeFrameSelect} {afterDateSelect} och {beforeDateSelect}'
+        ever:
+          sourceFile: sv.yml
+          text: '{timeFrameSelect}'
+        future:
+          sourceFile: sv.yml
+          text: '{timeFrameSelect}'
+        lastFew:
+          sourceFile: sv.yml
+          text: '{timeFrameSelect} {daysInput} {days, plural, one {dag} other {dagar}}'
       preview:
-        afterDate: efter {afterDate}
-        beforeDate: före {beforeDate}
-        beforeToday: innan idag
-        between: mellan {afterDate} och {beforeDate}
-        ever: någon gång tidigare
-        future: i framtiden
-        lastFew: under de senaste {days} {days, plural, one {dag} other {dagarna}}
+        afterDate:
+          sourceFile: sv.yml
+          text: efter {afterDate}
+        beforeDate:
+          sourceFile: sv.yml
+          text: före {beforeDate}
+        beforeToday:
+          sourceFile: sv.yml
+          text: innan idag
+        between:
+          sourceFile: sv.yml
+          text: mellan {afterDate} och {beforeDate}
+        ever:
+          sourceFile: sv.yml
+          text: någon gång tidigare
+        future:
+          sourceFile: sv.yml
+          text: i framtiden
+        lastFew:
+          sourceFile: sv.yml
+          text: under de senaste {days} {days, plural, one {dag} other {dagarna}}
       timeFrameSelectLabel:
-        afterDate: efter
-        beforeDate: före
-        beforeToday: före idag
-        between: mellan
-        ever: någonsin
-        future: i framtiden
-        lastFew: under de senaste
+        afterDate:
+          sourceFile: sv.yml
+          text: efter
+        beforeDate:
+          sourceFile: sv.yml
+          text: före
+        beforeToday:
+          sourceFile: sv.yml
+          text: före idag
+        between:
+          sourceFile: sv.yml
+          text: mellan
+        ever:
+          sourceFile: sv.yml
+          text: någonsin
+        future:
+          sourceFile: sv.yml
+          text: i framtiden
+        lastFew:
+          sourceFile: sv.yml
+          text: under de senaste
       timeFrameSelectOptions:
-        afterDate: efter ett särskilt datum
-        beforeDate: innan ett särskilt datum
-        beforeToday: före idag
-        between: mellan två datum
-        ever: någon gång tidigare
-        future: i framtiden
-        lastFew: nyligen
+        afterDate:
+          sourceFile: sv.yml
+          text: efter ett särskilt datum
+        beforeDate:
+          sourceFile: sv.yml
+          text: innan ett särskilt datum
+        beforeToday:
+          sourceFile: sv.yml
+          text: före idag
+        between:
+          sourceFile: sv.yml
+          text: mellan två datum
+        ever:
+          sourceFile: sv.yml
+          text: någon gång tidigare
+        future:
+          sourceFile: sv.yml
+          text: i framtiden
+        lastFew:
+          sourceFile: sv.yml
+          text: nyligen
   surveys:
     addBlocks:
-      choiceQuestionButton: Kryssfråga
-      openQuestionButton: Öppen fråga
-      textButton: Text
-      title: Välj en typ av block för att lägga till fler frågor i din enkät
+      choiceQuestionButton:
+        sourceFile: sv.yml
+        text: Kryssfråga
+      openQuestionButton:
+        sourceFile: sv.yml
+        text: Öppen fråga
+      textButton:
+        sourceFile: sv.yml
+        text: Text
+      title:
+        sourceFile: sv.yml
+        text: Välj en typ av block för att lägga till fler frågor i din enkät
     blocks:
       choice:
-        addOption: Lägg till ett svarsalternativ
-        addOptionsBulk: Lägg till svarsalternativ i klump
+        addOption:
+          sourceFile: sv.yml
+          text: Lägg till ett svarsalternativ
+        addOptionsBulk:
+          sourceFile: sv.yml
+          text: Lägg till svarsalternativ i klump
         bulk:
-          cancelButton: Avbryt
-          placeholder: Skriv eller klistra in ett svarsalternativ per rad
-          submitButton: Lägg till alla
-        description: Beskrivning
-        emptyDescription: Beskrivning
-        emptyOption: Tomt alternativ
-        emptyQuestion: Titel
-        question: Fråga
-        widget: Widget
+          cancelButton:
+            sourceFile: sv.yml
+            text: Avbryt
+          placeholder:
+            sourceFile: sv.yml
+            text: Skriv eller klistra in ett svarsalternativ per rad
+          submitButton:
+            sourceFile: sv.yml
+            text: Lägg till alla
+        description:
+          sourceFile: sv.yml
+          text: Beskrivning
+        emptyDescription:
+          sourceFile: sv.yml
+          text: Beskrivning
+        emptyOption:
+          sourceFile: sv.yml
+          text: Tomt alternativ
+        emptyQuestion:
+          sourceFile: sv.yml
+          text: Titel
+        question:
+          sourceFile: sv.yml
+          text: Fråga
+        widget:
+          sourceFile: sv.yml
+          text: Widget
         widgets:
-          checkbox: Tillåt flera svarsalternativ (kryssrutor)
-          radio: Tillåt bara ett svarsalternativ
-          select: Tillåt bara ett svarsalternativ (rullgardin)
+          checkbox:
+            sourceFile: sv.yml
+            text: Tillåt flera svarsalternativ (kryssrutor)
+          radio:
+            sourceFile: sv.yml
+            text: Tillåt bara ett svarsalternativ
+          select:
+            sourceFile: sv.yml
+            text: Tillåt bara ett svarsalternativ (rullgardin)
       deleteBlockDialog:
-        title: Radera fråga
-        warningText: Är du säker på att du vill radera frågan? Det är en permanent
-          handling och går inte att ändra.
+        title:
+          sourceFile: sv.yml
+          text: Radera fråga
+        warningText:
+          sourceFile: sv.yml
+          text: Är du säker på att du vill radera frågan? Det är en permanent handling och
+            går inte att ändra.
       deleteOptionDialog:
-        title: Radera val
-        warningText: Är du säker på att du vill radera alternativet? Det är en permanent
-          handling och går inte att ändra.
+        title:
+          sourceFile: sv.yml
+          text: Radera val
+        warningText:
+          sourceFile: sv.yml
+          text: Är du säker på att du vill radera alternativet? Det är en permanent
+            handling och går inte att ändra.
       open:
-        description: Beskrivning
-        empty: Öppen fråga utan titel
-        fieldTypePreview: textruta
-        label: Titel
-        multiLine: Flera rader
-        singleLine: Enkelrad
-        textFieldType: Typ av textfält
+        description:
+          sourceFile: sv.yml
+          text: Beskrivning
+        empty:
+          sourceFile: sv.yml
+          text: Öppen fråga utan titel
+        fieldTypePreview:
+          sourceFile: sv.yml
+          text: textruta
+        label:
+          sourceFile: sv.yml
+          text: Titel
+        multiLine:
+          sourceFile: sv.yml
+          text: Flera rader
+        singleLine:
+          sourceFile: sv.yml
+          text: Enkelrad
+        textFieldType:
+          sourceFile: sv.yml
+          text: Typ av textfält
       text:
-        content: Beskrivning
-        empty: Namnlöst block
-        header: Titel
+        content:
+          sourceFile: sv.yml
+          text: Beskrivning
+        empty:
+          sourceFile: sv.yml
+          text: Namnlöst block
+        header:
+          sourceFile: sv.yml
+          text: Titel
     chart:
-      header: Enkätsvar
-      placeholder: Börja samla in enkätsvar för att se framsteg här.
-      subheader: Inlämnade svar under de senaste {days, plural, =1 {dag} other {#
-        dagar}}
+      header:
+        sourceFile: sv.yml
+        text: Enkätsvar
+      placeholder:
+        sourceFile: sv.yml
+        text: Börja samla in enkätsvar för att se framsteg här.
+      subheader:
+        sourceFile: sv.yml
+        text: Inlämnade svar under de senaste {days, plural, =1 {dag} other {# dagar}}
       tooltip:
-        submissions: '{count, plural, =1 {1 enkätsvar} other {# enkätsvar}}'
+        submissions:
+          sourceFile: sv.yml
+          text: '{count, plural, =1 {1 enkätsvar} other {# enkätsvar}}'
     editWarning:
       editing:
-        header: Enkäten kan redigeras
-        lockButton: Lås
+        header:
+          sourceFile: sv.yml
+          text: Enkäten kan redigeras
+        lockButton:
+          sourceFile: sv.yml
+          text: Lås
         safe:
-          bullet1: Rättar stavfel
-          bullet2: Ordna om block
-          bullet3: Göm frågor
-          bullet4: Lägg till frågor eller svarsalternativ
-          header: Säker
-        subheader: Var försiktig med att göra förändringar som kan leda till att data
-          försvinner eller blir felaktig.
+          bullet1:
+            sourceFile: sv.yml
+            text: Rättar stavfel
+          bullet2:
+            sourceFile: sv.yml
+            text: Ordna om block
+          bullet3:
+            sourceFile: sv.yml
+            text: Göm frågor
+          bullet4:
+            sourceFile: sv.yml
+            text: Lägg till frågor eller svarsalternativ
+          header:
+            sourceFile: sv.yml
+            text: Säker
+        subheader:
+          sourceFile: sv.yml
+          text: Var försiktig med att göra förändringar som kan leda till att data
+            försvinner eller blir felaktig.
         unsafe:
-          bullet1: Radera (göm istället)
-          bullet2: Byta namn på frågor eller svarsalternativ så att de byter mening
-          header: Osäker
+          bullet1:
+            sourceFile: sv.yml
+            text: Radera (göm istället)
+          bullet2:
+            sourceFile: sv.yml
+            text: Byta namn på frågor eller svarsalternativ så att de byter mening
+          header:
+            sourceFile: sv.yml
+            text: Osäker
       locked:
-        header: Enkät låst
-        subheader: Den här enkäten har börjat få in enkätsvar. Att ändra enkäten nu
-          kan orsaka problem med datan. Fortsätt med försiktighet.
-        unlockButton: Lås upp
+        header:
+          sourceFile: sv.yml
+          text: Enkät låst
+        subheader:
+          sourceFile: sv.yml
+          text: Den här enkäten har börjat få in enkätsvar. Att ändra enkäten nu kan
+            orsaka problem med datan. Fortsätt med försiktighet.
+        unlockButton:
+          sourceFile: sv.yml
+          text: Lås upp
     layout:
       actions:
-        publish: Publicera enkät
-        unpublish: Avpublicera enkät
+        publish:
+          sourceFile: sv.yml
+          text: Publicera enkät
+        unpublish:
+          sourceFile: sv.yml
+          text: Avpublicera enkät
       stats:
-        questions: '{numQuestions, plural, one {1 fråga} other {# frågor}}'
-        submissions: '{numSubmissions, plural, one {1 enkätsvar} other {# enkätsvar}}'
+        questions:
+          sourceFile: sv.yml
+          text: '{numQuestions, plural, one {1 fråga} other {# frågor}}'
+        submissions:
+          sourceFile: sv.yml
+          text: '{numSubmissions, plural, one {1 enkätsvar} other {# enkätsvar}}'
     optionCollapse:
-      collapse: Minska
-      more: '{numOfOptions, plural, one {Visa 1 alternativ till} other {Visa # alternativ
-        till}}'
+      collapse:
+        sourceFile: sv.yml
+        text: Minska
+      more:
+        sourceFile: sv.yml
+        text: '{numOfOptions, plural, one {Visa 1 alternativ till} other {Visa #
+          alternativ till}}'
     organizerActionPane:
-      subtitle: Anteckningar under samtal till {person}
-      title: Organisatör Behövs
+      subtitle:
+        sourceFile: sv.yml
+        text: Anteckningar under samtal till {person}
+      title:
+        sourceFile: sv.yml
+        text: Organisatör Behövs
     overview:
       noQuestions:
-        button: Skapa frågor
-        title: Det finns inga frågor i den här enkäten än
+        button:
+          sourceFile: sv.yml
+          text: Skapa frågor
+        title:
+          sourceFile: sv.yml
+          text: Det finns inga frågor i den här enkäten än
     shareSuborgsCard:
-      caption: När det här är aktiverat kan, organisatörer i underorganisationer läsa
-        och söka i enkäter inlämnade av personer som är anslutna till deras organisation.
-      title: Dela med underorganisationer
+      caption:
+        sourceFile: sv.yml
+        text: När det här är aktiverat kan, organisatörer i underorganisationer läsa och
+          söka i enkäter inlämnade av personer som är anslutna till deras
+          organisation.
+      title:
+        sourceFile: sv.yml
+        text: Dela med underorganisationer
     state:
-      draft: Utkast
-      published: Publicerad
-      scheduled: Schemalagd
-      unpublished: Opublicerad
+      draft:
+        sourceFile: sv.yml
+        text: Utkast
+      published:
+        sourceFile: sv.yml
+        text: Publicerad
+      scheduled:
+        sourceFile: sv.yml
+        text: Schemalagd
+      unpublished:
+        sourceFile: sv.yml
+        text: Opublicerad
     submissionPane:
-      anonymous: Anonym
-      hidden: Gömd
-      linked: Länkad
-      subtitle: '{person} {date}'
+      anonymous:
+        sourceFile: sv.yml
+        text: Anonym
+      hidden:
+        sourceFile: sv.yml
+        text: Gömd
+      linked:
+        sourceFile: sv.yml
+        text: Länkad
+      subtitle:
+        sourceFile: sv.yml
+        text: '{person} {date}'
     submissions:
-      anonymous: Anonymt
-      dateColumn: Datum
-      emailColumn: E-post
-      firstNameColumn: Förnamn
-      lastNameColumn: Efternamn
-      link: Länk
-      personRecordColumn: Svarande
-      suggestedPeople: Föreslagna personer
-      unlink: Avlänka
+      anonymous:
+        sourceFile: sv.yml
+        text: Anonymt
+      dateColumn:
+        sourceFile: sv.yml
+        text: Datum
+      emailColumn:
+        sourceFile: sv.yml
+        text: E-post
+      firstNameColumn:
+        sourceFile: sv.yml
+        text: Förnamn
+      lastNameColumn:
+        sourceFile: sv.yml
+        text: Efternamn
+      link:
+        sourceFile: sv.yml
+        text: Länk
+      personRecordColumn:
+        sourceFile: sv.yml
+        text: Svarande
+      suggestedPeople:
+        sourceFile: sv.yml
+        text: Föreslagna personer
+      unlink:
+        sourceFile: sv.yml
+        text: Avlänka
     tabs:
-      overview: Översikt
-      questions: Frågor
-      submissions: Enkätsvar
+      overview:
+        sourceFile: sv.yml
+        text: Översikt
+      questions:
+        sourceFile: sv.yml
+        text: Frågor
+      submissions:
+        sourceFile: sv.yml
+        text: Enkätsvar
     unlinkedCard:
-      description: När någon svarar på en enkät utan att vara inloggad så blir enkäten
-        olänkad. Att hitta människor i Zetkin baserat på enkätsvar kommer inte fungera
-        på olänkade enkätsvar.
-      header: Olänkade enkätsvar
-      openLink: '{numUnlink, plural, one {Länka enkätsvar nu} other {Länka enkätsvar
-        nu}}'
+      description:
+        sourceFile: sv.yml
+        text: När någon svarar på en enkät utan att vara inloggad så blir enkäten
+          olänkad. Att hitta människor i Zetkin baserat på enkätsvar kommer inte
+          fungera på olänkade enkätsvar.
+      header:
+        sourceFile: sv.yml
+        text: Olänkade enkätsvar
+      openLink:
+        sourceFile: sv.yml
+        text: '{numUnlink, plural, one {Länka enkätsvar nu} other {Länka enkätsvar nu}}'
     unlinkedWarningAlert:
       default:
-        description: '{numUnlink, plural, one {Ett enkätsvar har inte kopplats till
-          en Zetkinprofil, vilket betyder att svaren inte kommer vara med i sökningar.}
-          other {Det finns flera enkätsvar som inte kopplats till Zetkinprofiler,
-          vilket betyder att enkätsvaren inte kommer vara med i sökningar.}}'
-        header: Olänkade enkätsvar
-        viewUnlinked: Visa endast olänkade
+        description:
+          sourceFile: sv.yml
+          text: '{numUnlink, plural, one {Ett enkätsvar har inte kopplats till en
+            Zetkinprofil, vilket betyder att svaren inte kommer vara med i
+            sökningar.} other {Det finns flera enkätsvar som inte kopplats till
+            Zetkinprofiler, vilket betyder att enkätsvaren inte kommer vara med
+            i sökningar.}}'
+        header:
+          sourceFile: sv.yml
+          text: Olänkade enkätsvar
+        viewUnlinked:
+          sourceFile: sv.yml
+          text: Visa endast olänkade
       filtered:
-        description: Detta är en filtrerad lista och visar bara signerade enkätsvar
-          som inte har blivit länkade till en profil.
-        header: Visar endast olänkade
-        viewAll: Visa alla
+        description:
+          sourceFile: sv.yml
+          text: Detta är en filtrerad lista och visar bara signerade enkätsvar som inte
+            har blivit länkade till en profil.
+        header:
+          sourceFile: sv.yml
+          text: Visar endast olänkade
+        viewAll:
+          sourceFile: sv.yml
+          text: Visa alla
     urlCard:
-      nowAccepting: Länken är öppen för att svara på enkäten
-      open: Öppen för enkätsvar
-      preview: Förhandsvisa enkät
-      previewPortal: Förhandsvisa enkät i aktivistportalen
-      visitPortal: Visa enkäten i aktivstportalen
-      willAccept: Går att svara på enkäten via den här länken
+      nowAccepting:
+        sourceFile: sv.yml
+        text: Länken är öppen för att svara på enkäten
+      open:
+        sourceFile: sv.yml
+        text: Öppen för enkätsvar
+      preview:
+        sourceFile: sv.yml
+        text: Förhandsvisa enkät
+      previewPortal:
+        sourceFile: sv.yml
+        text: Förhandsvisa enkät i aktivistportalen
+      visitPortal:
+        sourceFile: sv.yml
+        text: Visa enkäten i aktivstportalen
+      willAccept:
+        sourceFile: sv.yml
+        text: Går att svara på enkäten via den här länken
   tags:
     dialog:
-      colorErrorText: Fyll i en godkänd hex-kod
-      colorLabel: Färg
-      createTitle: Skapa etikett
-      editTitle: Redigera etikett
-      groupCreatePrompt: Lägg till "{groupName}"
-      groupLabel: Grupp
-      groupSelectPlaceholder: Skriv för att söka efter eller skapa en grupp
-      submitCreateTagButton: Skapa och använd
-      titleErrorText: Namn på etikett behövs
-      titleLabel: Namn på etikett
-      typeLabel: Etikettyp
+      colorErrorText:
+        sourceFile: sv.yml
+        text: Fyll i en godkänd hex-kod
+      colorLabel:
+        sourceFile: sv.yml
+        text: Färg
+      createTitle:
+        sourceFile: sv.yml
+        text: Skapa etikett
+      editTitle:
+        sourceFile: sv.yml
+        text: Redigera etikett
+      groupCreatePrompt:
+        sourceFile: sv.yml
+        text: Lägg till "{groupName}"
+      groupLabel:
+        sourceFile: sv.yml
+        text: Grupp
+      groupSelectPlaceholder:
+        sourceFile: sv.yml
+        text: Skriv för att söka efter eller skapa en grupp
+      submitCreateTagButton:
+        sourceFile: sv.yml
+        text: Skapa och använd
+      titleErrorText:
+        sourceFile: sv.yml
+        text: Namn på etikett behövs
+      titleLabel:
+        sourceFile: sv.yml
+        text: Namn på etikett
+      typeLabel:
+        sourceFile: sv.yml
+        text: Etikettyp
       types:
-        none: Grundläggande (inga värden)
-        text: Textvärden
+        none:
+          sourceFile: sv.yml
+          text: Grundläggande (inga värden)
+        text:
+          sourceFile: sv.yml
+          text: Textvärden
     manager:
-      addTag: Lägg till etikett
-      addValue: Skapa värde för "{tag}"
-      createNamedTag: 'Skapa etikett: {name}'
-      createTag: Ny etikett
-      groupTags: Gruppetiketter
-      title: Etiketter
-      ungroupedHeader: Ingen grupp
+      addTag:
+        sourceFile: sv.yml
+        text: Lägg till etikett
+      addValue:
+        sourceFile: sv.yml
+        text: Skapa värde för "{tag}"
+      createNamedTag:
+        sourceFile: sv.yml
+        text: 'Skapa etikett: {name}'
+      createTag:
+        sourceFile: sv.yml
+        text: Ny etikett
+      groupTags:
+        sourceFile: sv.yml
+        text: Gruppetiketter
+      title:
+        sourceFile: sv.yml
+        text: Etiketter
+      ungroupedHeader:
+        sourceFile: sv.yml
+        text: Ingen grupp
       valueTagForm:
-        typeHint: '{type, select, text {Fyll i text} other {Fyll i ett värde}} som
-          följer med etiketten.'
+        typeHint:
+          sourceFile: sv.yml
+          text: '{type, select, text {Fyll i text} other {Fyll i ett värde}} som följer
+            med etiketten.'
   tasks:
     assignees:
       completedStates:
-        completed: Färdigställd {time}
-        ignored: Ignorerad {time}
-        notCompleted: Inte färdigställd än
+        completed:
+          sourceFile: sv.yml
+          text: Färdigställd {time}
+        ignored:
+          sourceFile: sv.yml
+          text: Ignorerad {time}
+        notCompleted:
+          sourceFile: sv.yml
+          text: Inte färdigställd än
       links:
-        create: Skapa Smart sökning
-        edit: Redigera Smart sökning
-        readOnly: Visa Smart sökning
+        create:
+          sourceFile: sv.yml
+          text: Skapa Smart sökning
+        edit:
+          sourceFile: sv.yml
+          text: Redigera Smart sökning
+        readOnly:
+          sourceFile: sv.yml
+          text: Visa Smart sökning
       queryStates:
-        assigned: Den här uppgiften har tilldelats alla personer som matchar den valda
-          Smarta sökningen
-        editable: När den har uppgiften publiceras, kommer den tilldelas alla som
-          matchar den Smarta sökningen.
-        new: Den här uppgiften kommer tilldelas personer som matchar en Smart sökning.
-          Innan du kan publicera, måste du skapa en målgrupp med hjälp av Smarta sökningar.
-        published: Den har uppgiften håller just nu på att tilldelas till alla som
-          matchar den Smarta sökningen
-      title: Tilldelad till {numPeople, plural, one {# person} other {# personer}}
+        assigned:
+          sourceFile: sv.yml
+          text: Den här uppgiften har tilldelats alla personer som matchar den valda
+            Smarta sökningen
+        editable:
+          sourceFile: sv.yml
+          text: När den har uppgiften publiceras, kommer den tilldelas alla som matchar
+            den Smarta sökningen.
+        new:
+          sourceFile: sv.yml
+          text: Den här uppgiften kommer tilldelas personer som matchar en Smart sökning.
+            Innan du kan publicera, måste du skapa en målgrupp med hjälp av
+            Smarta sökningar.
+        published:
+          sourceFile: sv.yml
+          text: Den har uppgiften håller just nu på att tilldelas till alla som matchar
+            den Smarta sökningen
+      title:
+        sourceFile: sv.yml
+        text: Tilldelad till {numPeople, plural, one {# person} other {# personer}}
     common:
-      notSet: Inte färdig
+      notSet:
+        sourceFile: sv.yml
+        text: Inte färdig
     configs:
       collectDemographics:
         fields:
-          demographic: Data att begära
+          demographic:
+            sourceFile: sv.yml
+            text: Data att begära
           dempographicOptions:
-            city: Stad
-            country: Land
-            email: E-postadress
-            gender: Könsidentitet
-            streetAddress: Gatuadress
-            zipCode: Postnummer
+            city:
+              sourceFile: sv.yml
+              text: Stad
+            country:
+              sourceFile: sv.yml
+              text: Land
+            email:
+              sourceFile: sv.yml
+              text: E-postadress
+            gender:
+              sourceFile: sv.yml
+              text: Könsidentitet
+            streetAddress:
+              sourceFile: sv.yml
+              text: Gatuadress
+            zipCode:
+              sourceFile: sv.yml
+              text: Postnummer
       shareLink:
         fields:
-          defaultMessage: Standardmeddelande som användaren kommer att skicka
-          url: URL för delning
+          defaultMessage:
+            sourceFile: sv.yml
+            text: Standardmeddelande som användaren kommer att skicka
+          url:
+            sourceFile: sv.yml
+            text: URL för delning
       visitLink:
         fields:
-          url: Besök URL
+          url:
+            sourceFile: sv.yml
+            text: Besök URL
     deleteTask:
-      cancel: Avbryt
-      error: Det uppstod ett fel när uppgiften skulle raderas
-      submitButton: Bekräfta radering
-      title: Radera uppgift
-      warning: Är du säker på att du vill radera den har uppgiften? Det är permanent
-        och går inte att ändra.
+      cancel:
+        sourceFile: sv.yml
+        text: Avbryt
+      error:
+        sourceFile: sv.yml
+        text: Det uppstod ett fel när uppgiften skulle raderas
+      submitButton:
+        sourceFile: sv.yml
+        text: Bekräfta radering
+      title:
+        sourceFile: sv.yml
+        text: Radera uppgift
+      warning:
+        sourceFile: sv.yml
+        text: Är du säker på att du vill radera den har uppgiften? Det är permanent och
+          går inte att ändra.
     editTask:
-      title: Redigera uppgift
+      title:
+        sourceFile: sv.yml
+        text: Redigera uppgift
     form:
       fields:
-        campaign: Kampanj
-        deadline: Deadline för slutförande
-        expires: Går ut
-        instructions: Instruktioner
-        published: Publicera
-        reassignInterval: Återtilldela efter slutförande
+        campaign:
+          sourceFile: sv.yml
+          text: Kampanj
+        deadline:
+          sourceFile: sv.yml
+          text: Deadline för slutförande
+        expires:
+          sourceFile: sv.yml
+          text: Går ut
+        instructions:
+          sourceFile: sv.yml
+          text: Instruktioner
+        published:
+          sourceFile: sv.yml
+          text: Publicera
+        reassignInterval:
+          sourceFile: sv.yml
+          text: Återtilldela efter slutförande
         reassignIntervalOptions:
-          days: '{days, plural, =1 {Nästa dag} other {efter # dagar}}'
-          hours: Efter {hours, plural, =1 {en timme} other {# timmar}}
-          noReassign: Återtilldela aldrig
-        reassignLimit: 'Max antal (åter)tilldelningar:'
-        timeEstimate: Beräknad tid för att färdigställa
+          days:
+            sourceFile: sv.yml
+            text: '{days, plural, =1 {Nästa dag} other {efter # dagar}}'
+          hours:
+            sourceFile: sv.yml
+            text: Efter {hours, plural, =1 {en timme} other {# timmar}}
+          noReassign:
+            sourceFile: sv.yml
+            text: Återtilldela aldrig
+        reassignLimit:
+          sourceFile: sv.yml
+          text: 'Max antal (åter)tilldelningar:'
+        timeEstimate:
+          sourceFile: sv.yml
+          text: Beräknad tid för att färdigställa
         timeEstimateOptions:
-          hoursAndMinutes: '{hours, plural, =0{} one{# timme} other{# timmar}} {minutes,
-            plural, =0{} one {# minut} other {# minuter}}'
-          lessThanOneMinute: Mindre än en minut
-          noEstimate: Ingen uppskattning
+          hoursAndMinutes:
+            sourceFile: sv.yml
+            text: '{hours, plural, =0{} one{# timme} other{# timmar}} {minutes, plural, =0{}
+              one {# minut} other {# minuter}}'
+          lessThanOneMinute:
+            sourceFile: sv.yml
+            text: Mindre än en minut
+          noEstimate:
+            sourceFile: sv.yml
+            text: Ingen uppskattning
         timeValidationErrors:
-          deadlineNotSecond: Det här måste schemaläggas efter Publiceringsdatum, och
-            före Avslutningsdatum
-          expiresNotThird: Det här måste schemaläggas sist
-          publishedNotFirst: Det här måste schemaläggas först
-        title: Titel
-        type: Uppgiftstyp
+          deadlineNotSecond:
+            sourceFile: sv.yml
+            text: Det här måste schemaläggas efter Publiceringsdatum, och före
+              Avslutningsdatum
+          expiresNotThird:
+            sourceFile: sv.yml
+            text: Det här måste schemaläggas sist
+          publishedNotFirst:
+            sourceFile: sv.yml
+            text: Det här måste schemaläggas först
+        title:
+          sourceFile: sv.yml
+          text: Titel
+        type:
+          sourceFile: sv.yml
+          text: Uppgiftstyp
         types:
-          demographic: Samla in personuppgifter
-          offline: Offline
-          share_link: Dela länk
-          visit_link: Besök länk
-          watch_video: Titta på Videon
-      invalidUrl: Ange en giltig URL
-      requestError: Något gick fel. Försök igen.
-      required: Krävs
-      title: Skapa ny uppgift
-    noTasksCreatePrompt: Inga uppgifter... Klicka här för att skapa en.
+          demographic:
+            sourceFile: sv.yml
+            text: Samla in personuppgifter
+          offline:
+            sourceFile: sv.yml
+            text: Offline
+          share_link:
+            sourceFile: sv.yml
+            text: Dela länk
+          visit_link:
+            sourceFile: sv.yml
+            text: Besök länk
+          watch_video:
+            sourceFile: sv.yml
+            text: Titta på Videon
+      invalidUrl:
+        sourceFile: sv.yml
+        text: Ange en giltig URL
+      requestError:
+        sourceFile: sv.yml
+        text: Något gick fel. Försök igen.
+      required:
+        sourceFile: sv.yml
+        text: Krävs
+      title:
+        sourceFile: sv.yml
+        text: Skapa ny uppgift
+    noTasksCreatePrompt:
+      sourceFile: sv.yml
+      text: Inga uppgifter... Klicka här för att skapa en.
     publishButton:
-      publish: Publicera
+      publish:
+        sourceFile: sv.yml
+        text: Publicera
       tooltip:
-        alreadyPublished: Redan publicerad
-        missingAssignees: Saknar ansvariga
-        missingFields: Saknar obligatoriska fält
-        missingFieldsAndAssignees: Saknar obligatoriska fält och ansvariga
+        alreadyPublished:
+          sourceFile: sv.yml
+          text: Redan publicerad
+        missingAssignees:
+          sourceFile: sv.yml
+          text: Saknar ansvariga
+        missingFields:
+          sourceFile: sv.yml
+          text: Saknar obligatoriska fält
+        missingFieldsAndAssignees:
+          sourceFile: sv.yml
+          text: Saknar obligatoriska fält och ansvariga
     publishTask:
-      cancel: Avbryt
-      submitButton: Publicera uppgift nu
-      title: Publicera uppgift
-      warning: Bekräfta att du är redo att publicera uppgiften. Den kommer skickas
-        till ansvariga.
-    showExpiredTasksPrompt: Visa utgångna uppgifter
+      cancel:
+        sourceFile: sv.yml
+        text: Avbryt
+      submitButton:
+        sourceFile: sv.yml
+        text: Publicera uppgift nu
+      title:
+        sourceFile: sv.yml
+        text: Publicera uppgift
+      warning:
+        sourceFile: sv.yml
+        text: Bekräfta att du är redo att publicera uppgiften. Den kommer skickas till
+          ansvariga.
+    showExpiredTasksPrompt:
+      sourceFile: sv.yml
+      text: Visa utgångna uppgifter
     statuses:
-      active: Aktiv
-      closed: Stängd
-      draft: Utkast
-      expired: Utgången
-      scheduled: Schemalagd
+      active:
+        sourceFile: sv.yml
+        text: Aktiv
+      closed:
+        sourceFile: sv.yml
+        text: Stängd
+      draft:
+        sourceFile: sv.yml
+        text: Utkast
+      expired:
+        sourceFile: sv.yml
+        text: Utgången
+      scheduled:
+        sourceFile: sv.yml
+        text: Schemalagd
     taskDetails:
-      deadlineTime: Deadline
-      editButton: Redigera
-      expiresTime: Går ut
-      instructionsLabel: Instruktioner
-      publishedTime: Publiceras
+      deadlineTime:
+        sourceFile: sv.yml
+        text: Deadline
+      editButton:
+        sourceFile: sv.yml
+        text: Redigera
+      expiresTime:
+        sourceFile: sv.yml
+        text: Går ut
+      instructionsLabel:
+        sourceFile: sv.yml
+        text: Instruktioner
+      publishedTime:
+        sourceFile: sv.yml
+        text: Publiceras
       reassignInterval:
-        label: Tilldelar intervall på nytt
-        value: Tilldelar på nytt {value, plural, =1{en timme} other{# timmar}} efter
-          slutförandet
+        label:
+          sourceFile: sv.yml
+          text: Tilldelar intervall på nytt
+        value:
+          sourceFile: sv.yml
+          text: Tilldelar på nytt {value, plural, =1{en timme} other{# timmar}} efter
+            slutförandet
       reassignLimit:
-        label: Gräns för tilldelning på nytt
-        value: Upprepas som mest {value, plural, =1{en gång} other{# gånger}} per
-          person
-      statusLabel: Status
-      timeEstimateLabel: Uppskattad tid för bli klar
-      title: Uppgiftsdetaljer
-      titleLabel: Titel
-      typeLabel: Typ
+        label:
+          sourceFile: sv.yml
+          text: Gräns för tilldelning på nytt
+        value:
+          sourceFile: sv.yml
+          text: Upprepas som mest {value, plural, =1{en gång} other{# gånger}} per person
+      statusLabel:
+        sourceFile: sv.yml
+        text: Status
+      timeEstimateLabel:
+        sourceFile: sv.yml
+        text: Uppskattad tid för bli klar
+      title:
+        sourceFile: sv.yml
+        text: Uppgiftsdetaljer
+      titleLabel:
+        sourceFile: sv.yml
+        text: Titel
+      typeLabel:
+        sourceFile: sv.yml
+        text: Typ
     taskLayout:
       tabs:
-        assignees: Ansvariga
-        insights: Insikter
-        summary: Sammanfattning
+        assignees:
+          sourceFile: sv.yml
+          text: Ansvariga
+        insights:
+          sourceFile: sv.yml
+          text: Insikter
+        summary:
+          sourceFile: sv.yml
+          text: Sammanfattning
     taskListItem:
       relativeTimes:
-        active: Deadline {time}
-        closed: Stängd {time}
-        expired: Gick ut {time}
-        expires: Går ut {time}
-        indefinite: Publicerad {time}
-        scheduled: Kommer publiceras {time}
+        active:
+          sourceFile: sv.yml
+          text: Deadline {time}
+        closed:
+          sourceFile: sv.yml
+          text: Stängd {time}
+        expired:
+          sourceFile: sv.yml
+          text: Gick ut {time}
+        expires:
+          sourceFile: sv.yml
+          text: Går ut {time}
+        indefinite:
+          sourceFile: sv.yml
+          text: Publicerad {time}
+        scheduled:
+          sourceFile: sv.yml
+          text: Kommer publiceras {time}
     taskPreview:
-      addImage: Lägg till omslagsbild
-      sectionTitle: Förhandsvisning
-      timeEstimate: '{minutes, plural, =0 {Mindre än en minut} =1 {En minut} other
-        {# minuter}}'
+      addImage:
+        sourceFile: sv.yml
+        text: Lägg till omslagsbild
+      sectionTitle:
+        sourceFile: sv.yml
+        text: Förhandsvisning
+      timeEstimate:
+        sourceFile: sv.yml
+        text: '{minutes, plural, =0 {Mindre än en minut} =1 {En minut} other {#
+          minuter}}'
     taskTypeDetails:
       demographic:
-        title: Inställningar för insamlande av personuppgifter
+        title:
+          sourceFile: sv.yml
+          text: Inställningar för insamlande av personuppgifter
       share_link:
-        title: Dela länkinställningar
+        title:
+          sourceFile: sv.yml
+          text: Dela länkinställningar
       visit_link:
-        title: Besök länkinställningar
+        title:
+          sourceFile: sv.yml
+          text: Besök länkinställningar
     types:
-      demographic: Samla in personuppgifter
-      offline: Offline
-      share_link: Dela länk
-      visit_link: Besök länk
-      watch_video: Kolla film
+      demographic:
+        sourceFile: sv.yml
+        text: Samla in personuppgifter
+      offline:
+        sourceFile: sv.yml
+        text: Offline
+      share_link:
+        sourceFile: sv.yml
+        text: Dela länk
+      visit_link:
+        sourceFile: sv.yml
+        text: Besök länk
+      watch_video:
+        sourceFile: sv.yml
+        text: Kolla film
   views:
     actions:
-      createFolder: Skapa mapp
-      createView: Skapa lista
+      createFolder:
+        sourceFile: sv.yml
+        text: Skapa mapp
+      createView:
+        sourceFile: sv.yml
+        text: Skapa lista
     browser:
-      backToFolder: Tillbaka till {folder}
-      backToRoot: Tillbaka till alla listor
+      backToFolder:
+        sourceFile: sv.yml
+        text: Tillbaka till {folder}
+      backToRoot:
+        sourceFile: sv.yml
+        text: Tillbaka till alla listor
       confirmDelete:
         folder:
-          title: Radera mapp och innehåll
-          warning: Att radera den här mappen är det en permanent handling som inte
-            går att ändra. Är du säker på att du vill fortsätta?
+          title:
+            sourceFile: sv.yml
+            text: Radera mapp och innehåll
+          warning:
+            sourceFile: sv.yml
+            text: Att radera den här mappen är det en permanent handling som inte går att
+              ändra. Är du säker på att du vill fortsätta?
         view:
-          title: Radera lista
-          warning: Att radera den listan är en permanent handling som inte går att
-            ändra. Är du säker på att fortsätta?
+          title:
+            sourceFile: sv.yml
+            text: Radera lista
+          warning:
+            sourceFile: sv.yml
+            text: Att radera den listan är en permanent handling som inte går att ändra. Är
+              du säker på att fortsätta?
       menu:
-        rename: Döp om
-      moveToFolder: Flytta till {folder}
-      moveToRoot: Flytta till alla listor
+        rename:
+          sourceFile: sv.yml
+          text: Döp om
+      moveToFolder:
+        sourceFile: sv.yml
+        text: Flytta till {folder}
+      moveToRoot:
+        sourceFile: sv.yml
+        text: Flytta till alla listor
     browserLayout:
       tabs:
-        views: Listor
-      title: Människor
+        views:
+          sourceFile: sv.yml
+          text: Listor
+      title:
+        sourceFile: sv.yml
+        text: Människor
     cells:
       localPerson:
-        alreadyInView: Finns redan i listan
-        clearLabel: Ta bort som ansvarig
-        otherPeople: Andra personer
-        restrictedMode: Kan inte redigeras i delad vy
-        searchLabel: Välj en person
+        alreadyInView:
+          sourceFile: sv.yml
+          text: Finns redan i listan
+        clearLabel:
+          sourceFile: sv.yml
+          text: Ta bort som ansvarig
+        otherPeople:
+          sourceFile: sv.yml
+          text: Andra personer
+        restrictedMode:
+          sourceFile: sv.yml
+          text: Kan inte redigeras i delad vy
+        searchLabel:
+          sourceFile: sv.yml
+          text: Välj en person
       organizerAction:
-        actionNeeded: Organisatör behövs
-        showDetails: Visa detaljer
-        solvedIssues: '{count, plural, =1 {1 avklarad uppgift} other {# avklarade
-          uppgifter}}'
+        actionNeeded:
+          sourceFile: sv.yml
+          text: Organisatör behövs
+        showDetails:
+          sourceFile: sv.yml
+          text: Visa detaljer
+        solvedIssues:
+          sourceFile: sv.yml
+          text: '{count, plural, =1 {1 avklarad uppgift} other {# avklarade uppgifter}}'
     columnDialog:
       categories:
         basic:
-          description: Enkla fält med information om personer.
-          title: Grundläggande information
+          description:
+            sourceFile: sv.yml
+            text: Enkla fält med information om personer.
+          title:
+            sourceFile: sv.yml
+            text: Grundläggande information
         categorizing:
-          description: För gruppering, kategorisering och att göra urvalslistor, manuellt
-            eller baserat på data i Zetkin.
-          title: Kategorisering
+          description:
+            sourceFile: sv.yml
+            text: För gruppering, kategorisering och att göra urvalslistor, manuellt eller
+              baserat på data i Zetkin.
+          title:
+            sourceFile: sv.yml
+            text: Kategorisering
         crossReferencing:
-          description: Samkör med data i Zetkin med hjälp av Smarta sökningar.
-          title: Jämför
+          description:
+            sourceFile: sv.yml
+            text: Samkör med data i Zetkin med hjälp av Smarta sökningar.
+          title:
+            sourceFile: sv.yml
+            text: Jämför
         outreach:
-          description: Planera, delegera och utför kontaktarbete, och rapportera tillbaka
-            när du är klar.
-          title: Kontaktarbete
+          description:
+            sourceFile: sv.yml
+            text: Planera, delegera och utför kontaktarbete, och rapportera tillbaka när du
+              är klar.
+          title:
+            sourceFile: sv.yml
+            text: Kontaktarbete
         surveys:
-          description: Utforska, sök och filtrera baserat på personers svar i enkäter.
-          title: Enkäter
+          description:
+            sourceFile: sv.yml
+            text: Utforska, sök och filtrera baserat på personers svar i enkäter.
+          title:
+            sourceFile: sv.yml
+            text: Enkäter
         utility:
-          description: Kolumner som sannolikt kommer återanvändas i många olika situationer
-          title: Verktyg
+          description:
+            sourceFile: sv.yml
+            text: Kolumner som sannolikt kommer återanvändas i många olika situationer
+          title:
+            sourceFile: sv.yml
+            text: Verktyg
       choices:
         delegate:
-          columnTitleAssignee: Ansvarig
-          columnTitleContacted: Kontaktad
-          columnTitleNotes: Anteckningar
-          columnTitleResponded: Svarat
-          description: Lägger till kolumner som vanligtvis används för att delegera
-            kontaktarbete till någon ansvarig.
-          title: Delegera
+          columnTitleAssignee:
+            sourceFile: sv.yml
+            text: Ansvarig
+          columnTitleContacted:
+            sourceFile: sv.yml
+            text: Kontaktad
+          columnTitleNotes:
+            sourceFile: sv.yml
+            text: Anteckningar
+          columnTitleResponded:
+            sourceFile: sv.yml
+            text: Svarat
+          description:
+            sourceFile: sv.yml
+            text: Lägger till kolumner som vanligtvis används för att delegera kontaktarbete
+              till någon ansvarig.
+          title:
+            sourceFile: sv.yml
+            text: Delegera
         email:
-          description: Lägger till kolumn med e-postadresser
-          keywords: epost e-post
-          title: E-postadress
+          description:
+            sourceFile: sv.yml
+            text: Lägger till kolumn med e-postadresser
+          keywords:
+            sourceFile: sv.yml
+            text: epost e-post
+          title:
+            sourceFile: sv.yml
+            text: E-postadress
         firstName:
-          description: Lägg till en kolumn som innehåller förnamn
-          keywords: förnamn
-          title: Förnamn
+          description:
+            sourceFile: sv.yml
+            text: Lägg till en kolumn som innehåller förnamn
+          keywords:
+            sourceFile: sv.yml
+            text: förnamn
+          title:
+            sourceFile: sv.yml
+            text: Förnamn
         followUp:
-          columnTitleCheckbox: Kryssruta
-          columnTitleNotes: Anteckningar
-          description: Lägger till en kolumn med kryssruta och en kolumn med anteckningar
-          title: Följ upp
+          columnTitleCheckbox:
+            sourceFile: sv.yml
+            text: Kryssruta
+          columnTitleNotes:
+            sourceFile: sv.yml
+            text: Anteckningar
+          description:
+            sourceFile: sv.yml
+            text: Lägger till en kolumn med kryssruta och en kolumn med anteckningar
+          title:
+            sourceFile: sv.yml
+            text: Följ upp
         fullName:
-          description: Två kolumner med för och efternamn
-          keywords: efternamn
-          title: Namn
+          description:
+            sourceFile: sv.yml
+            text: Två kolumner med för och efternamn
+          keywords:
+            sourceFile: sv.yml
+            text: efternamn
+          title:
+            sourceFile: sv.yml
+            text: Namn
         lastName:
-          description: Lägg till en kolumn som innehåller efternamn
-          keywords: efternamn förnamn
-          title: Efternamn
+          description:
+            sourceFile: sv.yml
+            text: Lägg till en kolumn som innehåller efternamn
+          keywords:
+            sourceFile: sv.yml
+            text: efternamn förnamn
+          title:
+            sourceFile: sv.yml
+            text: Efternamn
         localPerson:
-          columnTitle: Ansvarig
-          description: Låter dig välja en ansvarig på varje rad
-          title: Tilldelad person
+          columnTitle:
+            sourceFile: sv.yml
+            text: Ansvarig
+          description:
+            sourceFile: sv.yml
+            text: Låter dig välja en ansvarig på varje rad
+          title:
+            sourceFile: sv.yml
+            text: Tilldelad person
         localQuery:
-          columnTitle: I den Smarta sökningen?
-          description: Se om varje person matchar en Smart sökning
-          title: Anpassad jämförelse
+          columnTitle:
+            sourceFile: sv.yml
+            text: I den Smarta sökningen?
+          description:
+            sourceFile: sv.yml
+            text: Se om varje person matchar en Smart sökning
+          title:
+            sourceFile: sv.yml
+            text: Anpassad jämförelse
         localText:
-          columnTitle: Anteckningar
-          description: Lägg till en kolumn för att skriva anteckningar om en person.
-          title: Anteckningar
+          columnTitle:
+            sourceFile: sv.yml
+            text: Anteckningar
+          description:
+            sourceFile: sv.yml
+            text: Lägg till en kolumn för att skriva anteckningar om en person.
+          title:
+            sourceFile: sv.yml
+            text: Anteckningar
         personFields:
-          description: Lägg till egna kolumner som epost, telefonnummer, etc.
-          keywords: adress postnummer stad land
-          title: Valbara fält
+          description:
+            sourceFile: sv.yml
+            text: Lägg till egna kolumner som epost, telefonnummer, etc.
+          keywords:
+            sourceFile: sv.yml
+            text: adress postnummer stad land
+          title:
+            sourceFile: sv.yml
+            text: Valbara fält
         phone:
-          description: Lägg till en kolumn som innehåller telefonnummer
-          keywords: telefonnummer
-          title: Telefonnummer
+          description:
+            sourceFile: sv.yml
+            text: Lägg till en kolumn som innehåller telefonnummer
+          keywords:
+            sourceFile: sv.yml
+            text: telefonnummer
+          title:
+            sourceFile: sv.yml
+            text: Telefonnummer
         queryBooked:
-          columnTitle: Bokad
-          description: Är de bokade på framtida events?
-          keywords: aktiv bokad deltagit
-          title: Har framtida bokningar
+          columnTitle:
+            sourceFile: sv.yml
+            text: Bokad
+          description:
+            sourceFile: sv.yml
+            text: Är de bokade på framtida events?
+          keywords:
+            sourceFile: sv.yml
+            text: aktiv bokad deltagit
+          title:
+            sourceFile: sv.yml
+            text: Har framtida bokningar
         queryParticipated:
-          columnTitle: Deltagit
-          description: Har de någonsin bokats på ett event?
-          keywords: aktiv bokad deltagit
-          title: Någongång deltagit
+          columnTitle:
+            sourceFile: sv.yml
+            text: Deltagit
+          description:
+            sourceFile: sv.yml
+            text: Har de någonsin bokats på ett event?
+          keywords:
+            sourceFile: sv.yml
+            text: aktiv bokad deltagit
+          title:
+            sourceFile: sv.yml
+            text: Någongång deltagit
         queryReached:
-          columnTitle: Nådd
-          description: Har vi någonsin nått dem i ett ringuppdrag?
-          keywords: telefon
-          title: Nådd på telefon
+          columnTitle:
+            sourceFile: sv.yml
+            text: Nådd
+          description:
+            sourceFile: sv.yml
+            text: Har vi någonsin nått dem i ett ringuppdrag?
+          keywords:
+            sourceFile: sv.yml
+            text: telefon
+          title:
+            sourceFile: sv.yml
+            text: Nådd på telefon
         surveyResponse:
-          allOptions: Alla alternativ (en kolumn)
-          allOptionsHeader: Alla alternativ
-          allOptionsSeparated: Alla alternativ (flera kolumner)
-          description: Inkludera svaret på en fråga från en enkät
-          keywords: flera fält
-          oneOption: Ett alternativ
-          optionsLabel: Vilka kolumner vill du lägga till?
-          questionField: Frågor
-          surveyField: Enkäter
-          textField: Svaren är fritextssvar och kommer visas i en enskild kolumn
-          title: Se om en person svarat på en enkät, och när
+          allOptions:
+            sourceFile: sv.yml
+            text: Alla alternativ (en kolumn)
+          allOptionsHeader:
+            sourceFile: sv.yml
+            text: Alla alternativ
+          allOptionsSeparated:
+            sourceFile: sv.yml
+            text: Alla alternativ (flera kolumner)
+          description:
+            sourceFile: sv.yml
+            text: Inkludera svaret på en fråga från en enkät
+          keywords:
+            sourceFile: sv.yml
+            text: flera fält
+          oneOption:
+            sourceFile: sv.yml
+            text: Ett alternativ
+          optionsLabel:
+            sourceFile: sv.yml
+            text: Vilka kolumner vill du lägga till?
+          questionField:
+            sourceFile: sv.yml
+            text: Frågor
+          surveyField:
+            sourceFile: sv.yml
+            text: Enkäter
+          textField:
+            sourceFile: sv.yml
+            text: Svaren är fritextssvar och kommer visas i en enskild kolumn
+          title:
+            sourceFile: sv.yml
+            text: Se om en person svarat på en enkät, och när
         surveyResponses:
-          description: Inkludera svar från flera enkätfrågor.
-          keywords: flera fält
-          questionField: Frågor
-          surveyField: Enkäter
-          title: Flera frågor
+          description:
+            sourceFile: sv.yml
+            text: Inkludera svar från flera enkätfrågor.
+          keywords:
+            sourceFile: sv.yml
+            text: flera fält
+          questionField:
+            sourceFile: sv.yml
+            text: Frågor
+          surveyField:
+            sourceFile: sv.yml
+            text: Enkäter
+          title:
+            sourceFile: sv.yml
+            text: Flera frågor
         surveySubmitDate:
-          description: Se om en person svarat på en enkät, och när
-          noSurveys: Din organisation har inga enkäter ännu.
-          title: Datum då enkäten lämnades in
+          description:
+            sourceFile: sv.yml
+            text: Se om en person svarat på en enkät, och när
+          noSurveys:
+            sourceFile: sv.yml
+            text: Din organisation har inga enkäter ännu.
+          title:
+            sourceFile: sv.yml
+            text: Datum då enkäten lämnades in
         tag:
-          description: Lägg till en etikett på varje person i listan
-          title: Etikett
+          description:
+            sourceFile: sv.yml
+            text: Lägg till en etikett på varje person i listan
+          title:
+            sourceFile: sv.yml
+            text: Etikett
         toggle:
-          columnTitle: Kryssruta
-          description: Kolumn för kryssruta
-          title: Kryssruta
+          columnTitle:
+            sourceFile: sv.yml
+            text: Kryssruta
+          description:
+            sourceFile: sv.yml
+            text: Kolumn för kryssruta
+          title:
+            sourceFile: sv.yml
+            text: Kryssruta
       commonHeaders:
-        email: E-postadress
-        first_name: Förnamn
-        last_name: Efternamn
-        phone: Telefonnummer
+        email:
+          sourceFile: sv.yml
+          text: E-postadress
+        first_name:
+          sourceFile: sv.yml
+          text: Förnamn
+        last_name:
+          sourceFile: sv.yml
+          text: Efternamn
+        phone:
+          sourceFile: sv.yml
+          text: Telefonnummer
       editor:
-        alreadyInView: Finns redan i Listan
+        alreadyInView:
+          sourceFile: sv.yml
+          text: Finns redan i Listan
         buttonLabels:
-          addColumns: Lägg till {columns, plural, one {1 kolumn} other {{kolumner}
-            columns}}
-          change: Ändra kolumntyp
-        defaultTitle: Ny kolumn
+          addColumns:
+            sourceFile: sv.yml
+            text: Lägg till {columns, plural, one {1 kolumn} other {{kolumner} columns}}
+          change:
+            sourceFile: sv.yml
+            text: Ändra kolumntyp
+        defaultTitle:
+          sourceFile: sv.yml
+          text: Ny kolumn
         fieldLabels:
-          field: Fält
-          question: Fråga
-          smartSearch: Smart sökning
-          survey: Enkät
-          tag: Etikett
+          field:
+            sourceFile: sv.yml
+            text: Fält
+          question:
+            sourceFile: sv.yml
+            text: Fråga
+          smartSearch:
+            sourceFile: sv.yml
+            text: Smart sökning
+          survey:
+            sourceFile: sv.yml
+            text: Enkät
+          tag:
+            sourceFile: sv.yml
+            text: Etikett
       gallery:
-        add: Lägg till
-        alreadyInView: Finns redan i listan
-        columns: Kolumner
-        configure: Konfigurera
-        header: Lägg till kolumn till listan
-        noSearchResults: Det finns inga kolumner som matchar "{searchString}"
-        searchPlaceholder: Hitta en kolumn
-        searchResults: Resultat för "{searchString}"
+        add:
+          sourceFile: sv.yml
+          text: Lägg till
+        alreadyInView:
+          sourceFile: sv.yml
+          text: Finns redan i listan
+        columns:
+          sourceFile: sv.yml
+          text: Kolumner
+        configure:
+          sourceFile: sv.yml
+          text: Konfigurera
+        header:
+          sourceFile: sv.yml
+          text: Lägg till kolumn till listan
+        noSearchResults:
+          sourceFile: sv.yml
+          text: Det finns inga kolumner som matchar "{searchString}"
+        searchPlaceholder:
+          sourceFile: sv.yml
+          text: Hitta en kolumn
+        searchResults:
+          sourceFile: sv.yml
+          text: Resultat för "{searchString}"
     columnMenu:
-      configure: Konfigurera kolumn
-      confirmDelete: Är du säker på att du vill radera den här kolumnen? Den innehåller
-        data som kommer försvinna permanent. Det går inte att ändra i efterhand.
-      delete: Radera kolumn
-      rename: Döp om kolumn
+      configure:
+        sourceFile: sv.yml
+        text: Konfigurera kolumn
+      confirmDelete:
+        sourceFile: sv.yml
+        text: Är du säker på att du vill radera den här kolumnen? Den innehåller data
+          som kommer försvinna permanent. Det går inte att ändra i efterhand.
+      delete:
+        sourceFile: sv.yml
+        text: Radera kolumn
+      rename:
+        sourceFile: sv.yml
+        text: Döp om kolumn
     columnRenameDialog:
-      save: Spara
-      title: Titel
+      save:
+        sourceFile: sv.yml
+        text: Spara
+      title:
+        sourceFile: sv.yml
+        text: Titel
     dataTableErrors:
-      create_column: Något gick fel när kolumnen skapades
-      delete_column: Något gick fel när kolumnen raderades
-      modify_column: Något gick fel när kolumnen ändrades
-      remove_rows: Något gick fel när en eller flera rader togs bort
+      create_column:
+        sourceFile: sv.yml
+        text: Något gick fel när kolumnen skapades
+      delete_column:
+        sourceFile: sv.yml
+        text: Något gick fel när kolumnen raderades
+      modify_column:
+        sourceFile: sv.yml
+        text: Något gick fel när kolumnen ändrades
+      remove_rows:
+        sourceFile: sv.yml
+        text: Något gick fel när en eller flera rader togs bort
     defaultColumnTitles:
-      journey_assignee: Ansvarig för journeys
-      local_bool: Kryssruta
-      local_person: Personuppgifter
-      organizer_action: Flaggade samtal
-      person_notes: Anteckningar
+      journey_assignee:
+        sourceFile: sv.yml
+        text: Ansvarig för journeys
+      local_bool:
+        sourceFile: sv.yml
+        text: Kryssruta
+      local_person:
+        sourceFile: sv.yml
+        text: Personuppgifter
+      organizer_action:
+        sourceFile: sv.yml
+        text: Flaggade samtal
+      person_notes:
+        sourceFile: sv.yml
+        text: Anteckningar
     defaultViewTitles:
-      organizer_action: Organisatör behövs
+      organizer_action:
+        sourceFile: sv.yml
+        text: Organisatör behövs
     deleteDialog:
-      error: Något gick fel när listan raderades
-      title: Radera listan?
-      warningText: Vill du verkligen radera listan? All data i listan som anteckningar
-        och kryssrutor (personen kommer inte tas bort från databasen)?
+      error:
+        sourceFile: sv.yml
+        text: Något gick fel när listan raderades
+      title:
+        sourceFile: sv.yml
+        text: Radera listan?
+      warningText:
+        sourceFile: sv.yml
+        text: Vill du verkligen radera listan? All data i listan som anteckningar och
+          kryssrutor (personen kommer inte tas bort från databasen)?
     editViewTitleAlert:
-      error: Fel. Titel uppdaterades inte
-      success: Uppdaterad titel!
+      error:
+        sourceFile: sv.yml
+        text: Fel. Titel uppdaterades inte
+      success:
+        sourceFile: sv.yml
+        text: Uppdaterad titel!
     empty:
       dynamic:
-        configureButton: Konfigurera
-        description: Skapa en dynamisk lista där personer läggs till och tas bort
-          automatiskt genom Smarta sökningar.
-        headline: Konfigurera en lista baserad på en Smart sökning
+        configureButton:
+          sourceFile: sv.yml
+          text: Konfigurera
+        description:
+          sourceFile: sv.yml
+          text: Skapa en dynamisk lista där personer läggs till och tas bort automatiskt
+            genom Smarta sökningar.
+        headline:
+          sourceFile: sv.yml
+          text: Konfigurera en lista baserad på en Smart sökning
       notice:
-        dynamic: Det här är en lista baserat på en Smart sökning men ingen matchade
-          den Smarta sökningen
-        static: Du har inte lagt till några rader ännu
+        dynamic:
+          sourceFile: sv.yml
+          text: Det här är en lista baserat på en Smart sökning men ingen matchade den
+            Smarta sökningen
+        static:
+          sourceFile: sv.yml
+          text: Du har inte lagt till några rader ännu
       static:
-        description: Lägg till en person för att skapa en statisk lista där personer
-          läggs till och tas bort manuellt.
-        headline: Lägg till personer manuellt
+        description:
+          sourceFile: sv.yml
+          text: Lägg till en person för att skapa en statisk lista där personer läggs till
+            och tas bort manuellt.
+        headline:
+          sourceFile: sv.yml
+          text: Lägg till personer manuellt
     folder:
       summary:
-        empty: Tom
-        folderCount: '{count, plural, =1 {1 mapp} other {# mappar}}'
-        viewCount: '{count, plural, =1 {1 lista} other {# listor}}'
+        empty:
+          sourceFile: sv.yml
+          text: Tom
+        folderCount:
+          sourceFile: sv.yml
+          text: '{count, plural, =1 {1 mapp} other {# mappar}}'
+        viewCount:
+          sourceFile: sv.yml
+          text: '{count, plural, =1 {1 lista} other {# listor}}'
     footer:
-      addPlaceholder: Börja skriva för att lägga till person i listan
-      alreadyInView: Finns redan i listan
-    newFolderTitle: Ny mapp
+      addPlaceholder:
+        sourceFile: sv.yml
+        text: Börja skriva för att lägga till person i listan
+      alreadyInView:
+        sourceFile: sv.yml
+        text: Finns redan i listan
+    newFolderTitle:
+      sourceFile: sv.yml
+      text: Ny mapp
     newViewFields:
-      title: Ny Lista
+      title:
+        sourceFile: sv.yml
+        text: Ny Lista
     removeDialog:
-      action: Är du säker på att du vill radera dessa rader från denna listan?
-      title: Ta bort personer från listan
+      action:
+        sourceFile: sv.yml
+        text: Är du säker på att du vill radera dessa rader från denna listan?
+      title:
+        sourceFile: sv.yml
+        text: Ta bort personer från listan
     shareDialog:
       download:
         buttons:
-          csv: Ladda ner CSV-fil
-          xlsx: Ladda ner Excel-fil
-        shareLink: dela data säkert
-        tabLabel: Ladda ner
-        warning1: Undvik att exportera data från Zetkin om du inte måste, för att
-          försäkra dig om att ingen data kommer på villovägar.
-        warning2: Du kan {shareLink} göra det mesta du behöver i Zetkin. Export är
-          en god idé när du vill kopiera data till ett annat system.
+          csv:
+            sourceFile: sv.yml
+            text: Ladda ner CSV-fil
+          xlsx:
+            sourceFile: sv.yml
+            text: Ladda ner Excel-fil
+        shareLink:
+          sourceFile: sv.yml
+          text: dela data säkert
+        tabLabel:
+          sourceFile: sv.yml
+          text: Ladda ner
+        warning1:
+          sourceFile: sv.yml
+          text: Undvik att exportera data från Zetkin om du inte måste, för att försäkra
+            dig om att ingen data kommer på villovägar.
+        warning2:
+          sourceFile: sv.yml
+          text: Du kan {shareLink} göra det mesta du behöver i Zetkin. Export är en god
+            idé när du vill kopiera data till ett annat system.
       share:
-        addPlaceholder: Dela med person utan administratörsbehörighet
-        collabInstructions: Efter att du lagt till personer utan administratörsbehörighet,
-          kopiera och skicka {viewLink}
-        showOfficials: Visa administratörer
-        statusLabel: Delad med {collaborators, plural, =1 {1 person utan administratörsbehörighet}
-          other {# personer utan administratörsbehörighet}}, {officials, plural, =1
-          {1 administratör} other {# administratörer}} har tillgång till alla listor.
-        tabLabel: Dela
-        viewLink: begränsad länk
-      title: Dela "{title}"
+        addPlaceholder:
+          sourceFile: sv.yml
+          text: Dela med person utan administratörsbehörighet
+        collabInstructions:
+          sourceFile: sv.yml
+          text: Efter att du lagt till personer utan administratörsbehörighet, kopiera och
+            skicka {viewLink}
+        showOfficials:
+          sourceFile: sv.yml
+          text: Visa administratörer
+        statusLabel:
+          sourceFile: sv.yml
+          text: Delad med {collaborators, plural, =1 {1 person utan
+            administratörsbehörighet} other {# personer utan
+            administratörsbehörighet}}, {officials, plural, =1 {1 administratör}
+            other {# administratörer}} har tillgång till alla listor.
+        tabLabel:
+          sourceFile: sv.yml
+          text: Dela
+        viewLink:
+          sourceFile: sv.yml
+          text: begränsad länk
+      title:
+        sourceFile: sv.yml
+        text: Dela "{title}"
     suggested:
-      created: Skapad av {name}
-      sectionTitle: Föreslagen
+      created:
+        sourceFile: sv.yml
+        text: Skapad av {name}
+      sectionTitle:
+        sourceFile: sv.yml
+        text: Föreslagen
     surveyOptionCell:
-      notSelected: Ej vald
-      selected: Vald
+      notSelected:
+        sourceFile: sv.yml
+        text: Ej vald
+      selected:
+        sourceFile: sv.yml
+        text: Vald
     surveyPreview:
       mostRecent:
-        header: Senaste
-        openButton: Visa alla svar i den här enkäten
+        header:
+          sourceFile: sv.yml
+          text: Senaste
+        openButton:
+          sourceFile: sv.yml
+          text: Visa alla svar i den här enkäten
       older:
-        header: Tidigare enkätsvar
-        openButton: Visa
+        header:
+          sourceFile: sv.yml
+          text: Tidigare enkätsvar
+        openButton:
+          sourceFile: sv.yml
+          text: Visa
     toolbar:
-      createColumn: Ny kolumn
-      createFromSelection: Skapa lista från urval
-      removeFromSelection: Ta bort {numSelected, plural, one {1 person} other {{numSelected}
-        personer} } från listan
-      removeTooltip: Listor som baseras på Smarta sökningar går det för tillfället
-        inte att ta bort rader på
+      createColumn:
+        sourceFile: sv.yml
+        text: Ny kolumn
+      createFromSelection:
+        sourceFile: sv.yml
+        text: Skapa lista från urval
+      removeFromSelection:
+        sourceFile: sv.yml
+        text: Ta bort {numSelected, plural, one {1 person} other {{numSelected}
+          personer} } från listan
+      removeTooltip:
+        sourceFile: sv.yml
+        text: Listor som baseras på Smarta sökningar går det för tillfället inte att ta
+          bort rader på
     viewLayout:
       actions:
-        share: Dela
+        share:
+          sourceFile: sv.yml
+          text: Dela
       ellipsisMenu:
-        delete: Radera lista
-        editQuery: Redigera Smart sökning
-        makeDynamic: Konvertera till en lista som baseras på en Smart sökning
-        makeStatic: Konvertera till en statisk lista
+        delete:
+          sourceFile: sv.yml
+          text: Radera lista
+        editQuery:
+          sourceFile: sv.yml
+          text: Redigera Smart sökning
+        makeDynamic:
+          sourceFile: sv.yml
+          text: Konvertera till en lista som baseras på en Smart sökning
+        makeStatic:
+          sourceFile: sv.yml
+          text: Konvertera till en statisk lista
       jumpMenu:
-        placeholder: Börja skriva för att hitta listan
+        placeholder:
+          sourceFile: sv.yml
+          text: Börja skriva för att hitta listan
       subtitle:
-        collaborators: '{count, plural, =1 {1 medorganisatör} other {# medorganisatörer}}'
-        columns: '{count, plural, =0 {Inga kolumner} =1 {1 kolumn} other {# kolumner}}'
-        people: '{count, plural, =0 {Tom} =1 {1 person} other {# personer}}'
+        collaborators:
+          sourceFile: sv.yml
+          text: '{count, plural, =1 {1 medorganisatör} other {# medorganisatörer}}'
+        columns:
+          sourceFile: sv.yml
+          text: '{count, plural, =0 {Inga kolumner} =1 {1 kolumn} other {# kolumner}}'
+        people:
+          sourceFile: sv.yml
+          text: '{count, plural, =0 {Tom} =1 {1 person} other {# personer}}'
     viewsList:
       columns:
-        created: Skapades datum
-        owner: Ägare
-        title: Titel
-      empty: Du har inte skapat några listor ännu.
+        created:
+          sourceFile: sv.yml
+          text: Skapades datum
+        owner:
+          sourceFile: sv.yml
+          text: Ägare
+        title:
+          sourceFile: sv.yml
+          text: Titel
+      empty:
+        sourceFile: sv.yml
+        text: Du har inte skapat några listor ännu.
 glob:
   accessLevels:
-    configure: Redigera & Konfigurera
-    edit: Redigerar
-    readonly: Skrivskyddad
+    configure:
+      sourceFile: sv.yml
+      text: Redigera & Konfigurera
+    edit:
+      sourceFile: sv.yml
+      text: Redigerar
+    readonly:
+      sourceFile: sv.yml
+      text: Skrivskyddad
   personFields:
-    alt_phone: Alternativt telefonnummer
-    city: Stad
-    co_address: C/O Adress
-    country: Land
-    email: E-post
-    ext_id: Externt ID
-    first_name: Förnamn
-    gender: Kön
-    id: ID
-    is_user: Är användare
-    last_name: Efternamn
-    phone: Telefonnummer
-    street_address: Adress
-    zip_code: Postnummer
+    alt_phone:
+      sourceFile: sv.yml
+      text: Alternativt telefonnummer
+    city:
+      sourceFile: sv.yml
+      text: Stad
+    co_address:
+      sourceFile: sv.yml
+      text: C/O Adress
+    country:
+      sourceFile: sv.yml
+      text: Land
+    email:
+      sourceFile: sv.yml
+      text: E-post
+    ext_id:
+      sourceFile: sv.yml
+      text: Externt ID
+    first_name:
+      sourceFile: sv.yml
+      text: Förnamn
+    gender:
+      sourceFile: sv.yml
+      text: Kön
+    id:
+      sourceFile: sv.yml
+      text: ID
+    is_user:
+      sourceFile: sv.yml
+      text: Är användare
+    last_name:
+      sourceFile: sv.yml
+      text: Efternamn
+    phone:
+      sourceFile: sv.yml
+      text: Telefonnummer
+    street_address:
+      sourceFile: sv.yml
+      text: Adress
+    zip_code:
+      sourceFile: sv.yml
+      text: Postnummer
   roles:
-    admin: Admin
-    organizer: Organisatör
+    admin:
+      sourceFile: sv.yml
+      text: Admin
+    organizer:
+      sourceFile: sv.yml
+      text: Organisatör
 zui:
   accessList:
-    added: Tillagd av {sharer} {updated}
-    removeAccess: Ta bort behörighet
+    added:
+      sourceFile: sv.yml
+      text: Tillagd av {sharer} {updated}
+    removeAccess:
+      sourceFile: sv.yml
+      text: Ta bort behörighet
   collapse:
-    collapse: Kollapsa
-    expand: Expandera
+    collapse:
+      sourceFile: sv.yml
+      text: Kollapsa
+    expand:
+      sourceFile: sv.yml
+      text: Expandera
   confirmDialog:
-    button: Bekräfta
-    defaultTitle: Bekräfta
-    defaultWarningText: Är du säker på att du vill fortsätta? Det går inte att ändra.
+    button:
+      sourceFile: sv.yml
+      text: Bekräfta
+    defaultTitle:
+      sourceFile: sv.yml
+      text: Bekräfta
+    defaultWarningText:
+      sourceFile: sv.yml
+      text: Är du säker på att du vill fortsätta? Det går inte att ändra.
   copyToClipboard:
-    copied: Kopierad
-    copiedValue: Kopierad "{value}"
-    copy: Kopiera
+    copied:
+      sourceFile: sv.yml
+      text: Kopierad
+    copiedValue:
+      sourceFile: sv.yml
+      text: Kopierad "{value}"
+    copy:
+      sourceFile: sv.yml
+      text: Kopiera
   dataTableSearch:
-    button: Sök
-    helpText: Skriv minst {minSearchLength} antal tecken
-    idSearchHelpText: Skriv ett ID (endast siffror)
-    placeholder: Sök i den här tabellen
-    placeholderWithIdSearch: 'Sök - använd # för ID, t.ex. skriv #123'
-    title: Sök
+    button:
+      sourceFile: sv.yml
+      text: Sök
+    helpText:
+      sourceFile: sv.yml
+      text: Skriv minst {minSearchLength} antal tecken
+    idSearchHelpText:
+      sourceFile: sv.yml
+      text: Skriv ett ID (endast siffror)
+    placeholder:
+      sourceFile: sv.yml
+      text: Sök i den här tabellen
+    placeholderWithIdSearch:
+      sourceFile: sv.yml
+      text: 'Sök - använd # för ID, t.ex. skriv #123'
+    title:
+      sourceFile: sv.yml
+      text: Sök
   dataTableSorting:
-    addButton: Lägg till kolumn för sortering
-    button: Sortera
-    hint: 'Tips: håll ner {shiftKeyIcon} när du klickar på flera kolumner'
-    title: Sortera
+    addButton:
+      sourceFile: sv.yml
+      text: Lägg till kolumn för sortering
+    button:
+      sourceFile: sv.yml
+      text: Sortera
+    hint:
+      sourceFile: sv.yml
+      text: 'Tips: håll ner {shiftKeyIcon} när du klickar på flera kolumner'
+    title:
+      sourceFile: sv.yml
+      text: Sortera
   dateRange:
-    draft: Inget startdatum
-    end: Slut
-    finite: Synlig från {start} till {end}
-    indefinite: Synlig från {start} och med nu
-    invisible: Ej synlig eller schemalagd
-    start: Start
+    draft:
+      sourceFile: sv.yml
+      text: Inget startdatum
+    end:
+      sourceFile: sv.yml
+      text: Slut
+    finite:
+      sourceFile: sv.yml
+      text: Synlig från {start} till {end}
+    indefinite:
+      sourceFile: sv.yml
+      text: Synlig från {start} och med nu
+    invisible:
+      sourceFile: sv.yml
+      text: Ej synlig eller schemalagd
+    start:
+      sourceFile: sv.yml
+      text: Start
   editTextInPlace:
     tooltip:
-      edit: Klicka för att redigera
-      noEmpty: Den här får inte vara tom
+      edit:
+        sourceFile: sv.yml
+        text: Klicka för att redigera
+      noEmpty:
+        sourceFile: sv.yml
+        text: Den här får inte vara tom
   futures:
-    errorLoading: Något gick fel när datan laddades upp.
+    errorLoading:
+      sourceFile: sv.yml
+      text: Något gick fel när datan laddades upp.
   header:
     collapseButton:
-      collapse: Kollapsa
-      expand: Expandera
+      collapse:
+        sourceFile: sv.yml
+        text: Kollapsa
+      expand:
+        sourceFile: sv.yml
+        text: Expandera
   imageSelectDialog:
-    instructions: Dra och släpp en bildfil, eller klicka för att välja
+    instructions:
+      sourceFile: sv.yml
+      text: Dra och släpp en bildfil, eller klicka för att välja
   lists:
-    showMore: Visa mer...
+    showMore:
+      sourceFile: sv.yml
+      text: Visa mer...
   organizeSidebar:
-    allOrganizations: Alla organisationer
-    areas: Areas
-    home: Hem
-    journeys: Journeys
-    people: Människor
-    projects: Projekt & Aktiviteter
-    signOut: Logga ut
-    userSettings: Användarinställningar
+    allOrganizations:
+      sourceFile: sv.yml
+      text: Alla organisationer
+    areas:
+      sourceFile: sv.yml
+      text: Areas
+    home:
+      sourceFile: sv.yml
+      text: Hem
+    journeys:
+      sourceFile: sv.yml
+      text: Journeys
+    people:
+      sourceFile: sv.yml
+      text: Människor
+    projects:
+      sourceFile: sv.yml
+      text: Projekt & Aktiviteter
+    signOut:
+      sourceFile: sv.yml
+      text: Logga ut
+    userSettings:
+      sourceFile: sv.yml
+      text: Användarinställningar
   personGridEditCell:
-    keepTyping: Forsätt skriva..
-    noResult: Ingen matchande person hittad
-    otherPeople: Andra personer
-    restrictedMode: Kan inte redigeras i delade listor
-    searchResults: Sökresultat
+    keepTyping:
+      sourceFile: sv.yml
+      text: Forsätt skriva..
+    noResult:
+      sourceFile: sv.yml
+      text: Ingen matchande person hittad
+    otherPeople:
+      sourceFile: sv.yml
+      text: Andra personer
+    restrictedMode:
+      sourceFile: sv.yml
+      text: Kan inte redigeras i delade listor
+    searchResults:
+      sourceFile: sv.yml
+      text: Sökresultat
   personSelect:
-    keepTyping: Fortsätt skriv för att börja söka
-    noResult: Hittade ingen person som matchade
-    search: Skriv för att börja söka
-    searching: Söker...
+    keepTyping:
+      sourceFile: sv.yml
+      text: Fortsätt skriv för att börja söka
+    noResult:
+      sourceFile: sv.yml
+      text: Hittade ingen person som matchade
+    search:
+      sourceFile: sv.yml
+      text: Skriv för att börja söka
+    searching:
+      sourceFile: sv.yml
+      text: Söker...
   snackbar:
-    error: Åh nej, något gick fel!
-    success: Framgång
-    warning: Varning!
+    error:
+      sourceFile: sv.yml
+      text: Åh nej, något gick fel!
+    success:
+      sourceFile: sv.yml
+      text: Framgång
+    warning:
+      sourceFile: sv.yml
+      text: Varning!
   speedDial:
-    createCampaign: Skapa kampanj
-    createEvent: Skapa event
-    createTask: Skapa uppgift
-    requestError: Det blev fel
+    createCampaign:
+      sourceFile: sv.yml
+      text: Skapa kampanj
+    createEvent:
+      sourceFile: sv.yml
+      text: Skapa event
+    createTask:
+      sourceFile: sv.yml
+      text: Skapa uppgift
+    requestError:
+      sourceFile: sv.yml
+      text: Det blev fel
   submitOrCancel:
-    cancel: Avbryt
-    submit: Skicka in
+    cancel:
+      sourceFile: sv.yml
+      text: Avbryt
+    submit:
+      sourceFile: sv.yml
+      text: Skicka in
   suffixedNumber:
-    thousands: '{num}K'
+    thousands:
+      sourceFile: sv.yml
+      text: '{num}K'
   timeSpan:
-    multiDay: '{startDate}, {start} - {endDate}, {end}'
-    multiDayEndsToday: '{startDate}, {start} - Idag, {end}'
-    multiDayToday: Idag, {start} - {endDate}, {end}
-    singleDay: '{date}, {start} - {end}'
-    singleDayToday: Idag, {start} - {end}
+    multiDay:
+      sourceFile: sv.yml
+      text: '{startDate}, {start} - {endDate}, {end}'
+    multiDayEndsToday:
+      sourceFile: sv.yml
+      text: '{startDate}, {start} - Idag, {end}'
+    multiDayToday:
+      sourceFile: sv.yml
+      text: Idag, {start} - {endDate}, {end}
+    singleDay:
+      sourceFile: sv.yml
+      text: '{date}, {start} - {end}'
+    singleDayToday:
+      sourceFile: sv.yml
+      text: Idag, {start} - {end}
   timeline:
-    addNotePlaceholder: Skriv här för att lämna en anteckning
+    addNotePlaceholder:
+      sourceFile: sv.yml
+      text: Skriv här för att lämna en anteckning
     email:
       headers:
-        cc: CC
-        from: Från
-        to: Till
-    expand: visa hela tidslinjen
+        cc:
+          sourceFile: sv.yml
+          text: CC
+        from:
+          sourceFile: sv.yml
+          text: Från
+        to:
+          sourceFile: sv.yml
+          text: Till
+    expand:
+      sourceFile: sv.yml
+      text: visa hela tidslinjen
     filter:
       byType:
-        all: Alla
-        files: Filer
-        journey: Journey
-        milestones: Milstolpar
-        notes: Anteckningar
-        people: Människor
-        tags: Taggar
-      filterSelectLabel: 'Visa: {filter}'
-      warning: Tidslinjen filtreras. Klicka här för att ta bort filtret.
+        all:
+          sourceFile: sv.yml
+          text: Alla
+        files:
+          sourceFile: sv.yml
+          text: Filer
+        journey:
+          sourceFile: sv.yml
+          text: Journey
+        milestones:
+          sourceFile: sv.yml
+          text: Milstolpar
+        notes:
+          sourceFile: sv.yml
+          text: Anteckningar
+        people:
+          sourceFile: sv.yml
+          text: Människor
+        tags:
+          sourceFile: sv.yml
+          text: Taggar
+      filterSelectLabel:
+        sourceFile: sv.yml
+        text: 'Visa: {filter}'
+      warning:
+        sourceFile: sv.yml
+        text: Tidslinjen filtreras. Klicka här för att ta bort filtret.
     updates:
       any:
-        addtags: '{actor} lade till {count, plural, =1 {en etikett} other {# etiketter}}'
-        removetags: '{actor} tog bort {count, plural, =1 {en etikett} other {# etiketter}}'
+        addtags:
+          sourceFile: sv.yml
+          text: '{actor} lade till {count, plural, =1 {en etikett} other {# etiketter}}'
+        removetags:
+          sourceFile: sv.yml
+          text: '{actor} tog bort {count, plural, =1 {en etikett} other {# etiketter}}'
       journeyinstance:
-        addassignee: '{actor} tilldelas {assignee}'
-        addnote: '{actor} lade till en anteckning'
-        addsubject: '{actor} lade till {subject}'
+        addassignee:
+          sourceFile: sv.yml
+          text: '{actor} tilldelas {assignee}'
+        addnote:
+          sourceFile: sv.yml
+          text: '{actor} lade till en anteckning'
+        addsubject:
+          sourceFile: sv.yml
+          text: '{actor} lade till {subject}'
         close:
-          header: '{actor} avslutade journeyn'
-        convert: '{actor} konverterad från {oldLabel} till {newLabel}'
+          header:
+            sourceFile: sv.yml
+            text: '{actor} avslutade journeyn'
+        convert:
+          sourceFile: sv.yml
+          text: '{actor} konverterad från {oldLabel} till {newLabel}'
         create:
-          header: '{actor} starade en ny resa'
-        open: '{actor} öppnade resan igen'
-        removeassignee: '{actor} tog bort {assignee} som ansvarig'
-        removesubject: '{actor} tog bort {subject}'
+          header:
+            sourceFile: sv.yml
+            text: '{actor} starade en ny resa'
+        open:
+          sourceFile: sv.yml
+          text: '{actor} öppnade resan igen'
+        removeassignee:
+          sourceFile: sv.yml
+          text: '{actor} tog bort {assignee} som ansvarig'
+        removesubject:
+          sourceFile: sv.yml
+          text: '{actor} tog bort {subject}'
         update:
-          readMore: Läs mer
-          summary: '{actor} redigerade sammanfattningen'
-          title: '{actor} redigerade titeln'
+          readMore:
+            sourceFile: sv.yml
+            text: Läs mer
+          summary:
+            sourceFile: sv.yml
+            text: '{actor} redigerade sammanfattningen'
+          title:
+            sourceFile: sv.yml
+            text: '{actor} redigerade titeln'
         updatemilestone:
-          complete: '{actor} klarade en milstolpe'
-          deadline: '{actor} uppdaterade en milstolpes deadline'
-          deadlineRemove: deadline togs bort
-          deadlineUpdate: ny deadline {datetime}
-          incomplete: '{actor} markerade en milstolpe som ofärdig'
+          complete:
+            sourceFile: sv.yml
+            text: '{actor} klarade en milstolpe'
+          deadline:
+            sourceFile: sv.yml
+            text: '{actor} uppdaterade en milstolpes deadline'
+          deadlineRemove:
+            sourceFile: sv.yml
+            text: deadline togs bort
+          deadlineUpdate:
+            sourceFile: sv.yml
+            text: ny deadline {datetime}
+          incomplete:
+            sourceFile: sv.yml
+            text: '{actor} markerade en milstolpe som ofärdig'

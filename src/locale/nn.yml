@@ -1,1696 +1,4147 @@
 core:
   err404:
-    backToHomePage: Tilbake til startsiden
-    pageNotFound: Fant ikke siden
+    backToHomePage:
+      sourceFile: nn.yml
+      text: Tilbake til startsiden
+    pageNotFound:
+      sourceFile: nn.yml
+      text: Fant ikke siden
   home:
-    welcome: Her kommer Zetkin
+    welcome:
+      sourceFile: nn.yml
+      text: Her kommer Zetkin
   legacy:
-    continueButton: Tilbake til gammel versjon av Zetkin
-    header: Du blir videresendt
-    info: Du bruker en uferdig versjon av Zetkin som ikke støtter den funksjonen du
-      vil bruke, du blir videresendt til den gamle versjonen av Zetkin som støtter
-      denne funksjonen.
+    continueButton:
+      sourceFile: nn.yml
+      text: Tilbake til gammel versjon av Zetkin
+    header:
+      sourceFile: nn.yml
+      text: Du blir videresendt
+    info:
+      sourceFile: nn.yml
+      text: Du bruker en uferdig versjon av Zetkin som ikke støtter den funksjonen du
+        vil bruke, du blir videresendt til den gamle versjonen av Zetkin som
+        støtter denne funksjonen.
 feat:
   breadcrumbs:
     elements:
-      activities: Aktiviteter
-      archive: Arkiv
-      areas: Områder
-      assignees: Kontaktpersoner
-      calendar: Kalender
-      callassignments: Ringeoppdrag
-      callers: Ringere
-      campaigns: Prosjekter
-      closed: Stengt
-      conversation: Samtale
-      events: Arrangementer
-      folders: Lister
-      insights: Analyse
-      manage: Behandle
-      new: Ny
-      organize: Organiser
-      participants: Deltakere
-      people: Folk
-      projects: Prosjekter
-      questions: Spørsmål
-      submissions: Svar
-      surveys: Spørreundersøkelser
-      tasks: App-innhold
-      untitledEvent: Arrangement uten tittel
-      views: Lister
+      activities:
+        sourceFile: nn.yml
+        text: Aktiviteter
+      archive:
+        sourceFile: nn.yml
+        text: Arkiv
+      areas:
+        sourceFile: nn.yml
+        text: Områder
+      assignees:
+        sourceFile: nn.yml
+        text: Kontaktpersoner
+      calendar:
+        sourceFile: nn.yml
+        text: Kalender
+      callassignments:
+        sourceFile: nn.yml
+        text: Ringeoppdrag
+      callers:
+        sourceFile: nn.yml
+        text: Ringere
+      campaigns:
+        sourceFile: nn.yml
+        text: Prosjekter
+      closed:
+        sourceFile: nn.yml
+        text: Stengt
+      conversation:
+        sourceFile: nn.yml
+        text: Samtale
+      events:
+        sourceFile: nn.yml
+        text: Arrangementer
+      folders:
+        sourceFile: nn.yml
+        text: Lister
+      insights:
+        sourceFile: nn.yml
+        text: Analyse
+      manage:
+        sourceFile: nn.yml
+        text: Behandle
+      new:
+        sourceFile: nn.yml
+        text: Ny
+      organize:
+        sourceFile: nn.yml
+        text: Organiser
+      participants:
+        sourceFile: nn.yml
+        text: Deltakere
+      people:
+        sourceFile: nn.yml
+        text: Folk
+      projects:
+        sourceFile: nn.yml
+        text: Prosjekter
+      questions:
+        sourceFile: nn.yml
+        text: Spørsmål
+      submissions:
+        sourceFile: nn.yml
+        text: Svar
+      surveys:
+        sourceFile: nn.yml
+        text: Spørreundersøkelser
+      tasks:
+        sourceFile: nn.yml
+        text: App-innhold
+      untitledEvent:
+        sourceFile: nn.yml
+        text: Arrangement uten tittel
+      views:
+        sourceFile: nn.yml
+        text: Lister
   calendar:
     createMenu:
-      singleEvent: Nytt arrangement
+      singleEvent:
+        sourceFile: nn.yml
+        text: Nytt arrangement
     event:
-      differentLocations: '{numLocations} ulike steder'
-      events: Arrangementer
-      noContactSelected: Ingen kontakt valgt
-      remindersNotSent: '{numNotSent} Påminnelser ikke sendt'
-      unbookedSignups: '{numUnbooked} Uregistrerte påmeldinger'
-      underbooked: '{numUnderbooked} Arrangementer med få påmeldinger'
-      withSignups: '{numWithSignups} Med påmeldinger'
-      withoutContact: '{numWithoutContact} Uten kontakt'
+      differentLocations:
+        sourceFile: nn.yml
+        text: '{numLocations} ulike steder'
+      events:
+        sourceFile: nn.yml
+        text: Arrangementer
+      noContactSelected:
+        sourceFile: nn.yml
+        text: Ingen kontakt valgt
+      remindersNotSent:
+        sourceFile: nn.yml
+        text: '{numNotSent} Påminnelser ikke sendt'
+      unbookedSignups:
+        sourceFile: nn.yml
+        text: '{numUnbooked} Uregistrerte påmeldinger'
+      underbooked:
+        sourceFile: nn.yml
+        text: '{numUnderbooked} Arrangementer med få påmeldinger'
+      withSignups:
+        sourceFile: nn.yml
+        text: '{numWithSignups} Med påmeldinger'
+      withoutContact:
+        sourceFile: nn.yml
+        text: '{numWithoutContact} Uten kontakt'
     eventFilter:
-      collapse: Skjul
-      expand: '{numOfOptions, plural, one {+ 1 type til} other {+ # typer til}}'
-      filter: Filtrer
+      collapse:
+        sourceFile: nn.yml
+        text: Skjul
+      expand:
+        sourceFile: nn.yml
+        text: '{numOfOptions, plural, one {+ 1 type til} other {+ # typer til}}'
+      filter:
+        sourceFile: nn.yml
+        text: Filtrer
       filterOptions:
         actionFilters:
-          missing: Mangler kontaktperson
-          overbooked: For mange registrerte
-          pending: Påmeldinger
-          title: Handling påkrevd
-          underbooked: For få registrerte
-          unsent: Usendte varsler
+          missing:
+            sourceFile: nn.yml
+            text: Mangler kontaktperson
+          overbooked:
+            sourceFile: nn.yml
+            text: For mange registrerte
+          pending:
+            sourceFile: nn.yml
+            text: Påmeldinger
+          title:
+            sourceFile: nn.yml
+            text: Handling påkrevd
+          underbooked:
+            sourceFile: nn.yml
+            text: For få registrerte
+          unsent:
+            sourceFile: nn.yml
+            text: Usendte varsler
         eventTypes:
-          title: Type arrangement
+          title:
+            sourceFile: nn.yml
+            text: Type arrangement
         stateFilters:
-          cancelled: Avlyst
-          draft: Utkast
-          published: Publisert
-          scheduled: Planlagt
-          title: Publiseringsstatus
-      reset: Fjern filtre
+          cancelled:
+            sourceFile: nn.yml
+            text: Avlyst
+          draft:
+            sourceFile: nn.yml
+            text: Utkast
+          published:
+            sourceFile: nn.yml
+            text: Publisert
+          scheduled:
+            sourceFile: nn.yml
+            text: Planlagt
+          title:
+            sourceFile: nn.yml
+            text: Publiseringsstatus
+      reset:
+        sourceFile: nn.yml
+        text: Fjern filtre
       toggle:
-        all: Alle
-        none: Ingen
-      type: Skriv for å filtrere innhold
-    lastDayWithEvents: Det {numEvents, plural, one {var ett arrangement} other {var
-      {numEvents} arrangementer}} på siste aktive dag
-    loadMore: Vis fler
-    moreEvents: '{numEvents, plural, one {# til arrangement} other {# til arrangementer}}'
-    next: NESTE
-    prev: FORRIGE
-    rangeLabel: Velg et alternativ
+        all:
+          sourceFile: nn.yml
+          text: Alle
+        none:
+          sourceFile: nn.yml
+          text: Ingen
+      type:
+        sourceFile: nn.yml
+        text: Skriv for å filtrere innhold
+    lastDayWithEvents:
+      sourceFile: nn.yml
+      text: Det {numEvents, plural, one {var ett arrangement} other {var {numEvents}
+        arrangementer}} på siste aktive dag
+    loadMore:
+      sourceFile: nn.yml
+      text: Vis fler
+    moreEvents:
+      sourceFile: nn.yml
+      text: '{numEvents, plural, one {# til arrangement} other {# til arrangementer}}'
+    next:
+      sourceFile: nn.yml
+      text: NESTE
+    prev:
+      sourceFile: nn.yml
+      text: FORRIGE
+    rangeLabel:
+      sourceFile: nn.yml
+      text: Velg et alternativ
     ranges:
-      day: Dag
-      month: Måned
-      week: Uke
+      day:
+        sourceFile: nn.yml
+        text: Dag
+      month:
+        sourceFile: nn.yml
+        text: Måned
+      week:
+        sourceFile: nn.yml
+        text: Uke
     selectionBar:
-      copy: Kopier
-      deselect: Ikke velg
-      editEvents: Rediger arrangementer
+      copy:
+        sourceFile: nn.yml
+        text: Kopier
+      deselect:
+        sourceFile: nn.yml
+        text: Ikke velg
+      editEvents:
+        sourceFile: nn.yml
+        text: Rediger arrangementer
       ellipsisMenu:
-        cancel: Avlys
-        cancelWarning: Hvis ja, husk å varsle alle deltakere om at arrangementet er
-          avlyst!
-        confirmCancel: Er du sikker på at du vil avlyse de valgte arrangementene?
-        confirmDelete: Er du sikker på at du vil slette de valgte arrangementene?
-        delete: Slett
-        deleteWarning: Når arrangementene er slettet kan du ikke angre.
-        print: Skriv ut timeplan
-        publish: Publiser
-        unpublish: Avpubliser
-      move: Flytt
+        cancel:
+          sourceFile: nn.yml
+          text: Avlys
+        cancelWarning:
+          sourceFile: nn.yml
+          text: Hvis ja, husk å varsle alle deltakere om at arrangementet er avlyst!
+        confirmCancel:
+          sourceFile: nn.yml
+          text: Er du sikker på at du vil avlyse de valgte arrangementene?
+        confirmDelete:
+          sourceFile: nn.yml
+          text: Er du sikker på at du vil slette de valgte arrangementene?
+        delete:
+          sourceFile: nn.yml
+          text: Slett
+        deleteWarning:
+          sourceFile: nn.yml
+          text: Når arrangementene er slettet kan du ikke angre.
+        print:
+          sourceFile: nn.yml
+          text: Skriv ut timeplan
+        publish:
+          sourceFile: nn.yml
+          text: Publiser
+        unpublish:
+          sourceFile: nn.yml
+          text: Avpubliser
+      move:
+        sourceFile: nn.yml
+        text: Flytt
       moveCopyButtons:
-        copy: Kopier
-        copyMenuHeader: Kopier {numberOfEvents} arrangementer til
-        createShift: Etter hvert arrangement (legg til et skift)
-        duplicate: Samme tid og dato (dupliser)
-        move: Flytt
-        moveMenuHeader: Flytt {numberOfEvents} arrangementer til
-        nextDay: Neste dag {dates}
-        nextWeek: Neste uke {dates}
-    showMore: Vis
-    today: I dag
+        copy:
+          sourceFile: nn.yml
+          text: Kopier
+        copyMenuHeader:
+          sourceFile: nn.yml
+          text: Kopier {numberOfEvents} arrangementer til
+        createShift:
+          sourceFile: nn.yml
+          text: Etter hvert arrangement (legg til et skift)
+        duplicate:
+          sourceFile: nn.yml
+          text: Samme tid og dato (dupliser)
+        move:
+          sourceFile: nn.yml
+          text: Flytt
+        moveMenuHeader:
+          sourceFile: nn.yml
+          text: Flytt {numberOfEvents} arrangementer til
+        nextDay:
+          sourceFile: nn.yml
+          text: Neste dag {dates}
+        nextWeek:
+          sourceFile: nn.yml
+          text: Neste uke {dates}
+    showMore:
+      sourceFile: nn.yml
+      text: Vis
+    today:
+      sourceFile: nn.yml
+      text: I dag
   callAssignments:
     actions:
-      end: Avslutt oppdrag
-      start: Start oppdrag
+      end:
+        sourceFile: nn.yml
+        text: Avslutt oppdrag
+      start:
+        sourceFile: nn.yml
+        text: Start oppdrag
     blocked:
-      callBackLater: Ba om å bli oppringt senere
-      calledTooRecently: Ringt for kort tid siden
-      cooldownHelperText: Velg hvor lang tid det skal gå mellom hvert forsøk på å
-        nå et mål
-      cooldownLabel: Ventetid i timer
-      hours: '{cooldown, plural, =0 {None} =1 {# time} other {# timer}}'
-      missingPhoneNumber: Mangler telefonnummer
-      organizerActionNeeded: Må følges opp av koordinator
-      subtitle: Folk som ikke er klare til å ringes
-      title: Blokkert
-      viewSheetButton: Vis alle
+      callBackLater:
+        sourceFile: nn.yml
+        text: Ba om å bli oppringt senere
+      calledTooRecently:
+        sourceFile: nn.yml
+        text: Ringt for kort tid siden
+      cooldownHelperText:
+        sourceFile: nn.yml
+        text: Velg hvor lang tid det skal gå mellom hvert forsøk på å nå et mål
+      cooldownLabel:
+        sourceFile: nn.yml
+        text: Ventetid i timer
+      hours:
+        sourceFile: nn.yml
+        text: '{cooldown, plural, =0 {None} =1 {# time} other {# timer}}'
+      missingPhoneNumber:
+        sourceFile: nn.yml
+        text: Mangler telefonnummer
+      organizerActionNeeded:
+        sourceFile: nn.yml
+        text: Må følges opp av koordinator
+      subtitle:
+        sourceFile: nn.yml
+        text: Folk som ikke er klare til å ringes
+      title:
+        sourceFile: nn.yml
+        text: Blokkert
+      viewSheetButton:
+        sourceFile: nn.yml
+        text: Vis alle
     callers:
       actions:
-        customize: Tilpass køen
-        remove: Fjern fra oppdrag
+        customize:
+          sourceFile: nn.yml
+          text: Tilpass køen
+        remove:
+          sourceFile: nn.yml
+          text: Fjern fra oppdrag
       add:
-        alreadyAdded: Lagt til tidligere
-        placeholder: Legg til ringer
+        alreadyAdded:
+          sourceFile: nn.yml
+          text: Lagt til tidligere
+        placeholder:
+          sourceFile: nn.yml
+          text: Legg til ringer
       customize:
         exclude:
-          h: Utelukkede tags
-          intro: Aldri ring folk med disse etikettene.
+          h:
+            sourceFile: nn.yml
+            text: Utelukkede tags
+          intro:
+            sourceFile: nn.yml
+            text: Aldri ring folk med disse etikettene.
         prioritize:
-          h: Prioriterte etiketter
-          intro: Ring til folk med disse etikettene først.
-        title: Tilpass køen til {name}
-      customizeButton: Tilpass
-      excludedTagsColumn: Utelukkede tags
-      nameColumn: Navn
-      prioritizedTagsColumn: Prioriterte tags
-      searchBox: Søk
-      title: Ringere
+          h:
+            sourceFile: nn.yml
+            text: Prioriterte etiketter
+          intro:
+            sourceFile: nn.yml
+            text: Ring til folk med disse etikettene først.
+        title:
+          sourceFile: nn.yml
+          text: Tilpass køen til {name}
+      customizeButton:
+        sourceFile: nn.yml
+        text: Tilpass
+      excludedTagsColumn:
+        sourceFile: nn.yml
+        text: Utelukkede tags
+      nameColumn:
+        sourceFile: nn.yml
+        text: Navn
+      prioritizedTagsColumn:
+        sourceFile: nn.yml
+        text: Prioriterte tags
+      searchBox:
+        sourceFile: nn.yml
+        text: Søk
+      title:
+        sourceFile: nn.yml
+        text: Ringere
     conversation:
       instructions:
-        confirm: Vil du slette all ulagrede endringer og gå tilbake til de lagrede
-          instruksene?
-        editorPlaceholder: Legg til instruks for ringere
-        revertLink: Tilbakestill til lagret versjon?
-        saveButton: Lagre
-        savedMessage: Alt er oppdatert!
-        savingButton: Lagrer...
-        title: Instruks for ringere
-        unsavedMessage: Du har gjort endringer som ikke er lagret.
+        confirm:
+          sourceFile: nn.yml
+          text: Vil du slette all ulagrede endringer og gå tilbake til de lagrede
+            instruksene?
+        editorPlaceholder:
+          sourceFile: nn.yml
+          text: Legg til instruks for ringere
+        revertLink:
+          sourceFile: nn.yml
+          text: Tilbakestill til lagret versjon?
+        saveButton:
+          sourceFile: nn.yml
+          text: Lagre
+        savedMessage:
+          sourceFile: nn.yml
+          text: Alt er oppdatert!
+        savingButton:
+          sourceFile: nn.yml
+          text: Lagrer...
+        title:
+          sourceFile: nn.yml
+          text: Instruks for ringere
+        unsavedMessage:
+          sourceFile: nn.yml
+          text: Du har gjort endringer som ikke er lagret.
       settings:
         notes:
-          message: Hvis du skrur av ringenotater kan ringingen gå fortere, men informasjon
-            kan gå tapt.
-          title: La ringere lagre notater
+          message:
+            sourceFile: nn.yml
+            text: Hvis du skrur av ringenotater kan ringingen gå fortere, men informasjon
+              kan gå tapt.
+          title:
+            sourceFile: nn.yml
+            text: La ringere lagre notater
         targetData:
-          message: Navn og telefonnummer til folk som skal ringes er alltid synlig
-            for ringere. Hvis du skrur på utvidede opplysninger får ringerne se all
-            informasjonen som finnes om den de skal ringe.
-          title: Vis utvidede opplysninger om folk som skal ringes
-        title: Samtaleinnstillinger
+          message:
+            sourceFile: nn.yml
+            text: Navn og telefonnummer til folk som skal ringes er alltid synlig for
+              ringere. Hvis du skrur på utvidede opplysninger får ringerne se
+              all informasjonen som finnes om den de skal ringe.
+          title:
+            sourceFile: nn.yml
+            text: Vis utvidede opplysninger om folk som skal ringes
+        title:
+          sourceFile: nn.yml
+          text: Samtaleinnstillinger
     done:
-      defineButton: Rediger kriterier for fullføring
-      subtitle: Folk som oppfyller fullføringskriteriene
-      title: Ferdig
-    insightsHeader: Oppringinger og samtaler
+      defineButton:
+        sourceFile: nn.yml
+        text: Rediger kriterier for fullføring
+      subtitle:
+        sourceFile: nn.yml
+        text: Folk som oppfyller fullføringskriteriene
+      title:
+        sourceFile: nn.yml
+        text: Ferdig
+    insightsHeader:
+      sourceFile: nn.yml
+      text: Oppringinger og samtaler
     organizerActionPane:
-      markAsSolved: Merk som løst
-      markAsUnsolved: Merk som uløst
-      messagePlaceholder: Ringeren la ikke igjen melding
-      noteByCaller: Notat fra {person} {time}
-      subtitle: Notat om {person}
-      title: Må følges opp av koordinator
+      markAsSolved:
+        sourceFile: nn.yml
+        text: Merk som løst
+      markAsUnsolved:
+        sourceFile: nn.yml
+        text: Merk som uløst
+      messagePlaceholder:
+        sourceFile: nn.yml
+        text: Ringeren la ikke igjen melding
+      noteByCaller:
+        sourceFile: nn.yml
+        text: Notat fra {person} {time}
+      subtitle:
+        sourceFile: nn.yml
+        text: Notat om {person}
+      title:
+        sourceFile: nn.yml
+        text: Må følges opp av koordinator
     ready:
-      allocated: Folk som er tildelt en ringer
-      queue: Folk som er i kø
-      subtitle: Folk som skal ringes
-      title: Klar
+      allocated:
+        sourceFile: nn.yml
+        text: Folk som er tildelt en ringer
+      queue:
+        sourceFile: nn.yml
+        text: Folk som er i kø
+      subtitle:
+        sourceFile: nn.yml
+        text: Folk som skal ringes
+      title:
+        sourceFile: nn.yml
+        text: Klar
     state:
-      active: Aktiv
-      closed: Stengt
-      draft: Utkast
-      open: Åpen
-      scheduled: Planlagt
+      active:
+        sourceFile: nn.yml
+        text: Aktiv
+      closed:
+        sourceFile: nn.yml
+        text: Stengt
+      draft:
+        sourceFile: nn.yml
+        text: Utkast
+      open:
+        sourceFile: nn.yml
+        text: Åpen
+      scheduled:
+        sourceFile: nn.yml
+        text: Planlagt
     stats:
-      callers: '{numCallers, plural, =0 {Ingen ringere} one {En ringer} other {# ringere}}'
-      targets: '{numTargets, plural, =0 {Ingen i målgruppa} one {En person i målgruppa}
-        other {# folk i målgruppa}}'
-    statusSectionTitle: Status
+      callers:
+        sourceFile: nn.yml
+        text: '{numCallers, plural, =0 {Ingen ringere} one {En ringer} other {#
+          ringere}}'
+      targets:
+        sourceFile: nn.yml
+        text: '{numTargets, plural, =0 {Ingen i målgruppa} one {En person i målgruppa}
+          other {# folk i målgruppa}}'
+    statusSectionTitle:
+      sourceFile: nn.yml
+      text: Status
     tabs:
-      callers: Ringere
-      conversation: Samtale
-      insights: Analyse
-      overview: Oversikt
+      callers:
+        sourceFile: nn.yml
+        text: Ringere
+      conversation:
+        sourceFile: nn.yml
+        text: Samtale
+      insights:
+        sourceFile: nn.yml
+        text: Analyse
+      overview:
+        sourceFile: nn.yml
+        text: Oversikt
     targets:
-      defineButton: Velg målgruppe
-      editButton: Rediger målgruppe
-      subtitle: Bruk smartsøk til å definere målgruppa for dette oppdraget
-      title: Folk i målgruppa
+      defineButton:
+        sourceFile: nn.yml
+        text: Velg målgruppe
+      editButton:
+        sourceFile: nn.yml
+        text: Rediger målgruppe
+      subtitle:
+        sourceFile: nn.yml
+        text: Bruk smartsøk til å definere målgruppa for dette oppdraget
+      title:
+        sourceFile: nn.yml
+        text: Folk i målgruppa
   campaigns:
     activitiesOverview:
-      button: Se alle aktiviteter
-      empty: Ingen ting på denne dagen
-      endsTomorrow: Avsluttes i morgen
-      extraActivities: + {numExtra} fler
-      goToActivities: Se alle kommende aktiviteter
-      noActivities: Ingen aktiviteter denne uka
-      nothingTomorrow: Ingen ting planlagt for i morgen
-      startsTomorrow: Begynner i morgen
+      button:
+        sourceFile: nn.yml
+        text: Se alle aktiviteter
+      empty:
+        sourceFile: nn.yml
+        text: Ingen ting på denne dagen
+      endsTomorrow:
+        sourceFile: nn.yml
+        text: Avsluttes i morgen
+      extraActivities:
+        sourceFile: nn.yml
+        text: + {numExtra} fler
+      goToActivities:
+        sourceFile: nn.yml
+        text: Se alle kommende aktiviteter
+      noActivities:
+        sourceFile: nn.yml
+        text: Ingen aktiviteter denne uka
+      nothingTomorrow:
+        sourceFile: nn.yml
+        text: Ingen ting planlagt for i morgen
+      startsTomorrow:
+        sourceFile: nn.yml
+        text: Begynner i morgen
       subtitles:
-        endsLater: Avsluttes {relative}
-        endsToday: Avsluttes i dag
-        startsLater: Begynner {relative}
-        startsToday: Begynner i dag
-      thisWeekCard: Denne uka
-      title: Aktiviteter
-      todayCard: I dag
-      tomorrowCard: I morgen
+        endsLater:
+          sourceFile: nn.yml
+          text: Avsluttes {relative}
+        endsToday:
+          sourceFile: nn.yml
+          text: Avsluttes i dag
+        startsLater:
+          sourceFile: nn.yml
+          text: Begynner {relative}
+        startsToday:
+          sourceFile: nn.yml
+          text: Begynner i dag
+      thisWeekCard:
+        sourceFile: nn.yml
+        text: Denne uka
+      title:
+        sourceFile: nn.yml
+        text: Aktiviteter
+      todayCard:
+        sourceFile: nn.yml
+        text: I dag
+      tomorrowCard:
+        sourceFile: nn.yml
+        text: I morgen
     activityList:
       eventItem:
-        contact: Ingen kontaktperson tildelt
-        locations: '{count} steder'
-        reminders: '{numMissing, plural, =1 {En deltaker} other {# deltakere}} har
-          ikke fått varsel'
-        signups: Uregistrerte påmeldinger finnes
+        contact:
+          sourceFile: nn.yml
+          text: Ingen kontaktperson tildelt
+        locations:
+          sourceFile: nn.yml
+          text: '{count} steder'
+        reminders:
+          sourceFile: nn.yml
+          text: '{numMissing, plural, =1 {En deltaker} other {# deltakere}} har ikke fått
+            varsel'
+        signups:
+          sourceFile: nn.yml
+          text: Uregistrerte påmeldinger finnes
     all:
-      cardCTA: Gå til prosjekt
-      create: Nytt prosjekt
+      cardCTA:
+        sourceFile: nn.yml
+        text: Gå til prosjekt
+      create:
+        sourceFile: nn.yml
+        text: Nytt prosjekt
       filter:
-        calls: Ringeoppdrag
-        canvasses: Dørbanking
-        filter: Filtrer resultater
-        standalones: Frittstående arrangementer
-        surveys: Spørreundersøkelser
-      heading: Pågående prosjekter
-      indefinite: Uten sluttdato
-      unsorted: Usorterte prosjekter
-      upcoming: '{numEvents, number} kommende arrangementer.'
+        calls:
+          sourceFile: nn.yml
+          text: Ringeoppdrag
+        canvasses:
+          sourceFile: nn.yml
+          text: Dørbanking
+        filter:
+          sourceFile: nn.yml
+          text: Filtrer resultater
+        standalones:
+          sourceFile: nn.yml
+          text: Frittstående arrangementer
+        surveys:
+          sourceFile: nn.yml
+          text: Spørreundersøkelser
+      heading:
+        sourceFile: nn.yml
+        text: Pågående prosjekter
+      indefinite:
+        sourceFile: nn.yml
+        text: Uten sluttdato
+      unsorted:
+        sourceFile: nn.yml
+        text: Usorterte prosjekter
+      upcoming:
+        sourceFile: nn.yml
+        text: '{numEvents, number} kommende arrangementer.'
     allProjects:
-      linkToSummary: Gå til mine aktive prosjekter
-      noActivities: Hvis organisasjonen din har aktiviteter som ikke tilhører et prosjekt
-        vises de her.
-      viewArchive: Vis arkiv
-    assigneeActions: Klikk i appen
-    calendarView: Se alle i kalender
-    events: Arrangementer
+      linkToSummary:
+        sourceFile: nn.yml
+        text: Gå til mine aktive prosjekter
+      noActivities:
+        sourceFile: nn.yml
+        text: Hvis organisasjonen din har aktiviteter som ikke tilhører et prosjekt
+          vises de her.
+      viewArchive:
+        sourceFile: nn.yml
+        text: Vis arkiv
+    assigneeActions:
+      sourceFile: nn.yml
+      text: Klikk i appen
+    calendarView:
+      sourceFile: nn.yml
+      text: Se alle i kalender
+    events:
+      sourceFile: nn.yml
+      text: Arrangementer
     feedback:
-      copy: Innsamling av tilbakemeldinger kan hjelpe deg å arbeide mer effektivt.
-      create: Ny spørreundersøkelse
-      heading: Tilbakemeldinger og spørreundersøkelser (ingen satt opp)
+      copy:
+        sourceFile: nn.yml
+        text: Innsamling av tilbakemeldinger kan hjelpe deg å arbeide mer effektivt.
+      create:
+        sourceFile: nn.yml
+        text: Ny spørreundersøkelse
+      heading:
+        sourceFile: nn.yml
+        text: Tilbakemeldinger og spørreundersøkelser (ingen satt opp)
     form:
       createCallAssignment:
-        newCallAssignment: Mitt ringeoppdrag
+        newCallAssignment:
+          sourceFile: nn.yml
+          text: Mitt ringeoppdrag
       createCampaign:
-        create: Nytt prosjekt
-        error: Kunne ikke opprette prosjektet
-        newCampaign: Mitt prosjekt
+        create:
+          sourceFile: nn.yml
+          text: Nytt prosjekt
+        error:
+          sourceFile: nn.yml
+          text: Kunne ikke opprette prosjektet
+        newCampaign:
+          sourceFile: nn.yml
+          text: Mitt prosjekt
       createSurvey:
-        newSurvey: Min spørreundersøkelse
+        newSurvey:
+          sourceFile: nn.yml
+          text: Min spørreundersøkelse
       createTask:
-        title: Ny oppgave
+        title:
+          sourceFile: nn.yml
+          text: Ny oppgave
       deleteCampaign:
-        cancel: Avbryt
-        error: Kunne ikke slette prosjektet
-        submitButton: Bekreft sletting
-        title: Slett prosjekt
-        warning: Er du sikker på at du vil slette dette prosjektet? Kan ikke angres.
-      description: Beskrivelse
-      edit: Rediger prosjekt
+        cancel:
+          sourceFile: nn.yml
+          text: Avbryt
+        error:
+          sourceFile: nn.yml
+          text: Kunne ikke slette prosjektet
+        submitButton:
+          sourceFile: nn.yml
+          text: Bekreft sletting
+        title:
+          sourceFile: nn.yml
+          text: Slett prosjekt
+        warning:
+          sourceFile: nn.yml
+          text: Er du sikker på at du vil slette dette prosjektet? Kan ikke angres.
+      description:
+        sourceFile: nn.yml
+        text: Beskrivelse
+      edit:
+        sourceFile: nn.yml
+        text: Rediger prosjekt
       editCampaignTitle:
-        error: Kunne ikke oppdatere prosjektnavnet
-        success: Prosjektnavn oppdatert
+        error:
+          sourceFile: nn.yml
+          text: Kunne ikke oppdatere prosjektnavnet
+        success:
+          sourceFile: nn.yml
+          text: Prosjektnavn oppdatert
       manager:
-        label: Prosjektansvarlig
-        selectSelf: Sett deg selv som ansvarlig
-      name: Navn
-      requestError: Noe gikk galt, forsøk gjerne igjen.
-      required: Påkrevd
+        label:
+          sourceFile: nn.yml
+          text: Prosjektansvarlig
+        selectSelf:
+          sourceFile: nn.yml
+          text: Sett deg selv som ansvarlig
+      name:
+        sourceFile: nn.yml
+        text: Navn
+      requestError:
+        sourceFile: nn.yml
+        text: Noe gikk galt, forsøk gjerne igjen.
+      required:
+        sourceFile: nn.yml
+        text: Påkrevd
       status:
-        draft: Skisse
-        heading: Status
-        published: Publisert
+        draft:
+          sourceFile: nn.yml
+          text: Skisse
+        heading:
+          sourceFile: nn.yml
+          text: Status
+        published:
+          sourceFile: nn.yml
+          text: Publisert
       visibility:
-        heading: Synlighet
-        private: Privat
-        public: Offentlig
-    indefinite: Uten sluttdato
+        heading:
+          sourceFile: nn.yml
+          text: Synlighet
+        private:
+          sourceFile: nn.yml
+          text: Privat
+        public:
+          sourceFile: nn.yml
+          text: Offentlig
+    indefinite:
+      sourceFile: nn.yml
+      text: Uten sluttdato
     layout:
-      activities: Aktiviteter
-      allCampaigns: Alle prosjekter
-      archive: Arkiv
-      calendar: Kalender
-      insights: Analyse
-      overview: Oversikt
+      activities:
+        sourceFile: nn.yml
+        text: Aktiviteter
+      allCampaigns:
+        sourceFile: nn.yml
+        text: Alle prosjekter
+      archive:
+        sourceFile: nn.yml
+        text: Arkiv
+      calendar:
+        sourceFile: nn.yml
+        text: Kalender
+      insights:
+        sourceFile: nn.yml
+        text: Analyse
+      overview:
+        sourceFile: nn.yml
+        text: Oversikt
     linkGroup:
-      createActivity: Ny aktivitet
-      createCallAssignment: Nytt ringeoppdrag
-      createEvent: Nytt arrangement
-      createSurvey: Ny spørreundersøkelse
-      createTask: Nytt app-innhold
-      public: Offentlig side
-      settings: Endre innstillinger
+      createActivity:
+        sourceFile: nn.yml
+        text: Ny aktivitet
+      createCallAssignment:
+        sourceFile: nn.yml
+        text: Nytt ringeoppdrag
+      createEvent:
+        sourceFile: nn.yml
+        text: Nytt arrangement
+      createSurvey:
+        sourceFile: nn.yml
+        text: Ny spørreundersøkelse
+      createTask:
+        sourceFile: nn.yml
+        text: Nytt app-innhold
+      public:
+        sourceFile: nn.yml
+        text: Offentlig side
+      settings:
+        sourceFile: nn.yml
+        text: Endre innstillinger
     mobilization:
-      copy: Ringeaksjoner for å mobilisere organisasjonen din vil øke deltakelsen
-        til medlemmene mye
-      create: Nytt ringeoppdrag
-      heading: Mobilisering og kontakt (ingen satt opp)
-    noManager: Ingen prosjektansvarlig
+      copy:
+        sourceFile: nn.yml
+        text: Ringeaksjoner for å mobilisere organisasjonen din vil øke deltakelsen til
+          medlemmene mye
+      create:
+        sourceFile: nn.yml
+        text: Nytt ringeoppdrag
+      heading:
+        sourceFile: nn.yml
+        text: Mobilisering og kontakt (ingen satt opp)
+    noManager:
+      sourceFile: nn.yml
+      text: Ingen prosjektansvarlig
     singleProject:
-      filterActivities: Skriv her for å filtrere
-      noActivities: Det er ingen aktiviteter i dette prosjektet ennå.
-      noSearchResults: Filtreringen gav ingen resultater.
-      showPublicPage: Vis påmeldingssiden
-      viewArchive: Vis arkiv
+      filterActivities:
+        sourceFile: nn.yml
+        text: Skriv her for å filtrere
+      noActivities:
+        sourceFile: nn.yml
+        text: Det er ingen aktiviteter i dette prosjektet ennå.
+      noSearchResults:
+        sourceFile: nn.yml
+        text: Filtreringen gav ingen resultater.
+      showPublicPage:
+        sourceFile: nn.yml
+        text: Vis påmeldingssiden
+      viewArchive:
+        sourceFile: nn.yml
+        text: Vis arkiv
     taskLayout:
       tabs:
-        assignees: Mottakere
-        insights: Analyse
-        summary: Oppsummering
-    tasks: Innhold
+        assignees:
+          sourceFile: nn.yml
+          text: Mottakere
+        insights:
+          sourceFile: nn.yml
+          text: Analyse
+        summary:
+          sourceFile: nn.yml
+          text: Oppsummering
+    tasks:
+      sourceFile: nn.yml
+      text: Innhold
   events:
     addPerson:
-      addButton: Legg til person
-      addPlaceholder: Begynn å skrive for å legge til deltaker
+      addButton:
+        sourceFile: nn.yml
+        text: Legg til person
+      addPlaceholder:
+        sourceFile: nn.yml
+        text: Begynn å skrive for å legge til deltaker
       status:
-        booked: Allerede registrert
-        signedUp: Påmeldt
+        booked:
+          sourceFile: nn.yml
+          text: Allerede registrert
+        signedUp:
+          sourceFile: nn.yml
+          text: Påmeldt
     common:
-      allDay: Hele dagen
-      noActivity: Ukategorisert
-      noLocation: Ingen fysisk plassering
-      noTitle: Arrangement uten tittel
+      allDay:
+        sourceFile: nn.yml
+        text: Hele dagen
+      noActivity:
+        sourceFile: nn.yml
+        text: Ukategorisert
+      noLocation:
+        sourceFile: nn.yml
+        text: Ingen fysisk plassering
+      noTitle:
+        sourceFile: nn.yml
+        text: Arrangement uten tittel
     eventActionButtons:
-      cancel: Avlys
-      delete: Slett
-      duplicate: Kopier
-      publish: Publiser
-      restore: Gjenopprett
-      unpublish: Avpubliser
-      warning: '"{eventTitle}" vil bli slettet.'
-      warningCancel: '"{eventTitle}" vil bli avlyst.'
-      warningRestore: '"{eventTitle}" vil bli gjenopprettet.'
+      cancel:
+        sourceFile: nn.yml
+        text: Avlys
+      delete:
+        sourceFile: nn.yml
+        text: Slett
+      duplicate:
+        sourceFile: nn.yml
+        text: Kopier
+      publish:
+        sourceFile: nn.yml
+        text: Publiser
+      restore:
+        sourceFile: nn.yml
+        text: Gjenopprett
+      unpublish:
+        sourceFile: nn.yml
+        text: Avpubliser
+      warning:
+        sourceFile: nn.yml
+        text: '"{eventTitle}" vil bli slettet.'
+      warningCancel:
+        sourceFile: nn.yml
+        text: '"{eventTitle}" vil bli avlyst.'
+      warningRestore:
+        sourceFile: nn.yml
+        text: '"{eventTitle}" vil bli gjenopprettet.'
     eventContactCard:
-      header: Kontakt
-      noContact: Ingen kontaktperson tildelt!
-      removeButton: Fjern
-      selectPlaceholder: Velg en kontaktperson
-      warningText: '{name} vil ikke lenger være kontaktpersonen, men er fortsatt registrert
-        som deltaker.'
+      header:
+        sourceFile: nn.yml
+        text: Kontakt
+      noContact:
+        sourceFile: nn.yml
+        text: Ingen kontaktperson tildelt!
+      removeButton:
+        sourceFile: nn.yml
+        text: Fjern
+      selectPlaceholder:
+        sourceFile: nn.yml
+        text: Velg en kontaktperson
+      warningText:
+        sourceFile: nn.yml
+        text: '{name} vil ikke lenger være kontaktpersonen, men er fortsatt registrert
+          som deltaker.'
     eventOverviewCard:
-      buttonEndDate: + Sluttdato
-      createLocation: Nytt sted
-      description: Beskrivelse
-      editButton: Rediger
-      endDate: Slutt
-      endTime: Sluttidspunkt
-      location: Sted
-      noLocation: Ingen fysisk plassering
-      startDate: Start
-      startTime: Starttidspunkt
-      url: Lenke
+      buttonEndDate:
+        sourceFile: nn.yml
+        text: + Sluttdato
+      createLocation:
+        sourceFile: nn.yml
+        text: Nytt sted
+      description:
+        sourceFile: nn.yml
+        text: Beskrivelse
+      editButton:
+        sourceFile: nn.yml
+        text: Rediger
+      endDate:
+        sourceFile: nn.yml
+        text: Slutt
+      endTime:
+        sourceFile: nn.yml
+        text: Sluttidspunkt
+      location:
+        sourceFile: nn.yml
+        text: Sted
+      noLocation:
+        sourceFile: nn.yml
+        text: Ingen fysisk plassering
+      startDate:
+        sourceFile: nn.yml
+        text: Start
+      startTime:
+        sourceFile: nn.yml
+        text: Starttidspunkt
+      url:
+        sourceFile: nn.yml
+        text: Lenke
     eventParticipantsCard:
-      booked: Varsler
-      confirmed: Bekreftet deltakelse
-      contact: Kontakt
-      header: Deltakere
-      noContact: Ingen tildelt
-      participantList: Se deltakere
-      pending: Påmeldinger
-      reqParticipantsHelperText: Minimum antall deltakere
-      reqParticipantsLabel: Påkrevde deltakere
+      booked:
+        sourceFile: nn.yml
+        text: Varsler
+      confirmed:
+        sourceFile: nn.yml
+        text: Bekreftet deltakelse
+      contact:
+        sourceFile: nn.yml
+        text: Kontakt
+      header:
+        sourceFile: nn.yml
+        text: Deltakere
+      noContact:
+        sourceFile: nn.yml
+        text: Ingen tildelt
+      participantList:
+        sourceFile: nn.yml
+        text: Se deltakere
+      pending:
+        sourceFile: nn.yml
+        text: Påmeldinger
+      reqParticipantsHelperText:
+        sourceFile: nn.yml
+        text: Minimum antall deltakere
+      reqParticipantsLabel:
+        sourceFile: nn.yml
+        text: Påkrevde deltakere
     eventParticipantsList:
-      attendance: Deltakelse
-      bookedParticipants: Registrerte deltakere
-      buttonAttended: Deltok
-      buttonBook: Registrer
-      buttonCancel: Avmeld
-      buttonCancelled: Avmeldt
-      buttonNoshow: Ikke møtt
-      cancelledParticipants: Avmeldte deltakere
-      columnEmail: E-post
-      columnName: Navn
-      columnNotified: Varslet
-      columnPhone: Telefon
-      contactTooltip: Kontaktperson
-      descriptionBooked: Dette er de som er registrert og som du stoler på at møter
-        opp. For å avmelde seg må de kontakte deg så du kan melde dem av manuelt.
-      descriptionCancelled: Disse har avmeldt seg selv, vi viser dem her så du ikke
-        forsøker å registrere dem på nytt.
-      descriptionSignups: Disse har meldt seg på i aktivistportalen, de kan fortsatt
-        avmelde seg når som helst.
-      dropDownAttended: Bekreftet deltakelse
-      dropDownNoshow: Møtte ikke opp
-      participantTooltip: Gjør til kontaktperson
-      signUps: Påmeldinger
+      attendance:
+        sourceFile: nn.yml
+        text: Deltakelse
+      bookedParticipants:
+        sourceFile: nn.yml
+        text: Registrerte deltakere
+      buttonAttended:
+        sourceFile: nn.yml
+        text: Deltok
+      buttonBook:
+        sourceFile: nn.yml
+        text: Registrer
+      buttonCancel:
+        sourceFile: nn.yml
+        text: Avmeld
+      buttonCancelled:
+        sourceFile: nn.yml
+        text: Avmeldt
+      buttonNoshow:
+        sourceFile: nn.yml
+        text: Ikke møtt
+      cancelledParticipants:
+        sourceFile: nn.yml
+        text: Avmeldte deltakere
+      columnEmail:
+        sourceFile: nn.yml
+        text: E-post
+      columnName:
+        sourceFile: nn.yml
+        text: Navn
+      columnNotified:
+        sourceFile: nn.yml
+        text: Varslet
+      columnPhone:
+        sourceFile: nn.yml
+        text: Telefon
+      contactTooltip:
+        sourceFile: nn.yml
+        text: Kontaktperson
+      descriptionBooked:
+        sourceFile: nn.yml
+        text: Dette er de som er registrert og som du stoler på at møter opp. For å
+          avmelde seg må de kontakte deg så du kan melde dem av manuelt.
+      descriptionCancelled:
+        sourceFile: nn.yml
+        text: Disse har avmeldt seg selv, vi viser dem her så du ikke forsøker å
+          registrere dem på nytt.
+      descriptionSignups:
+        sourceFile: nn.yml
+        text: Disse har meldt seg på i aktivistportalen, de kan fortsatt avmelde seg når
+          som helst.
+      dropDownAttended:
+        sourceFile: nn.yml
+        text: Bekreftet deltakelse
+      dropDownNoshow:
+        sourceFile: nn.yml
+        text: Møtte ikke opp
+      participantTooltip:
+        sourceFile: nn.yml
+        text: Gjør til kontaktperson
+      signUps:
+        sourceFile: nn.yml
+        text: Påmeldinger
     eventPopper:
-      backToEvents: Tilbake til arrangementliste
-      backToLocations: Tilbake til steder
-      backToShifts: Tilbake til skiftliste
-      booked: Registrert
-      cancel: Avlys
-      cancelWarning: Husk å varsle alle som er registrert eller påmeldt om at arrangementet
-        avlyses.
-      confirmCancel: Er du sikker på at du vil avlyse dette arrangementet?
-      confirmDelete: Er du sikker på at du vil slette dette arrangementet?
-      contactPerson: Kontaktperson
-      dateAndTime: Dato og tid
-      delete: Slett
-      deleteWarning: Når arrangementet er slettet har du ikke lenger tilgang til det.
-      description: Beskrivelse
-      duplicate: Kopier
-      eventPageLink: Gå til arrangementsiden
-      events: Arrangementer
-      location: Sted
-      locations: Steder
-      multiEvent: Flere arrangementer
-      multiLocation: Arrangement med flere steder
-      multiShift: Arrangement med flere skift
-      noContact: Ingen kontaktperson valgt
-      notified: Varslet
-      pendingSignups: Det er uregistrerte påmeldinger
-      publish: Publiser
-      reminded: Fått varsel
-      shifts: Skift
-      signups: Påmeldinger
-      unsentReminders: '{numMissing, plural, =1 {En deltaker} other {# deltakere}}
-        har ikke fått varsel'
+      backToEvents:
+        sourceFile: nn.yml
+        text: Tilbake til arrangementliste
+      backToLocations:
+        sourceFile: nn.yml
+        text: Tilbake til steder
+      backToShifts:
+        sourceFile: nn.yml
+        text: Tilbake til skiftliste
+      booked:
+        sourceFile: nn.yml
+        text: Registrert
+      cancel:
+        sourceFile: nn.yml
+        text: Avlys
+      cancelWarning:
+        sourceFile: nn.yml
+        text: Husk å varsle alle som er registrert eller påmeldt om at arrangementet
+          avlyses.
+      confirmCancel:
+        sourceFile: nn.yml
+        text: Er du sikker på at du vil avlyse dette arrangementet?
+      confirmDelete:
+        sourceFile: nn.yml
+        text: Er du sikker på at du vil slette dette arrangementet?
+      contactPerson:
+        sourceFile: nn.yml
+        text: Kontaktperson
+      dateAndTime:
+        sourceFile: nn.yml
+        text: Dato og tid
+      delete:
+        sourceFile: nn.yml
+        text: Slett
+      deleteWarning:
+        sourceFile: nn.yml
+        text: Når arrangementet er slettet har du ikke lenger tilgang til det.
+      description:
+        sourceFile: nn.yml
+        text: Beskrivelse
+      duplicate:
+        sourceFile: nn.yml
+        text: Kopier
+      eventPageLink:
+        sourceFile: nn.yml
+        text: Gå til arrangementsiden
+      events:
+        sourceFile: nn.yml
+        text: Arrangementer
+      location:
+        sourceFile: nn.yml
+        text: Sted
+      locations:
+        sourceFile: nn.yml
+        text: Steder
+      multiEvent:
+        sourceFile: nn.yml
+        text: Flere arrangementer
+      multiLocation:
+        sourceFile: nn.yml
+        text: Arrangement med flere steder
+      multiShift:
+        sourceFile: nn.yml
+        text: Arrangement med flere skift
+      noContact:
+        sourceFile: nn.yml
+        text: Ingen kontaktperson valgt
+      notified:
+        sourceFile: nn.yml
+        text: Varslet
+      pendingSignups:
+        sourceFile: nn.yml
+        text: Det er uregistrerte påmeldinger
+      publish:
+        sourceFile: nn.yml
+        text: Publiser
+      reminded:
+        sourceFile: nn.yml
+        text: Fått varsel
+      shifts:
+        sourceFile: nn.yml
+        text: Skift
+      signups:
+        sourceFile: nn.yml
+        text: Påmeldinger
+      unsentReminders:
+        sourceFile: nn.yml
+        text: '{numMissing, plural, =1 {En deltaker} other {# deltakere}} har ikke fått
+          varsel'
     eventRelatedCard:
-      header: Relaterte arrangementer
+      header:
+        sourceFile: nn.yml
+        text: Relaterte arrangementer
     eventStatus:
-      cancelled: Avlyst
-      draft: Utkast
-      ended: Avsluttet
-      open: Åpen
-      scheduled: Planlagt
-      unknown: Ukjent
+      cancelled:
+        sourceFile: nn.yml
+        text: Avlyst
+      draft:
+        sourceFile: nn.yml
+        text: Utkast
+      ended:
+        sourceFile: nn.yml
+        text: Avsluttet
+      open:
+        sourceFile: nn.yml
+        text: Åpen
+      scheduled:
+        sourceFile: nn.yml
+        text: Planlagt
+      unknown:
+        sourceFile: nn.yml
+        text: Ukjent
     form:
-      activity: Aktivitet
-      campaign: Kampanje
-      cancel: Avlys
-      create: Nytt arrangement
-      edit: Rediger arrangement
-      end: Slutttidspunkt
-      info: Informasjon ved registrering
-      link: Lenke
-      minNo: Minimum antall deltakere
-      place: Sted
-      required: Påkrevd
-      start: Starttidspunkt
-      submit: Send inn
-      title: Tittel
+      activity:
+        sourceFile: nn.yml
+        text: Aktivitet
+      campaign:
+        sourceFile: nn.yml
+        text: Kampanje
+      cancel:
+        sourceFile: nn.yml
+        text: Avlys
+      create:
+        sourceFile: nn.yml
+        text: Nytt arrangement
+      edit:
+        sourceFile: nn.yml
+        text: Rediger arrangement
+      end:
+        sourceFile: nn.yml
+        text: Slutttidspunkt
+      info:
+        sourceFile: nn.yml
+        text: Informasjon ved registrering
+      link:
+        sourceFile: nn.yml
+        text: Lenke
+      minNo:
+        sourceFile: nn.yml
+        text: Minimum antall deltakere
+      place:
+        sourceFile: nn.yml
+        text: Sted
+      required:
+        sourceFile: nn.yml
+        text: Påkrevd
+      start:
+        sourceFile: nn.yml
+        text: Starttidspunkt
+      submit:
+        sourceFile: nn.yml
+        text: Send inn
+      title:
+        sourceFile: nn.yml
+        text: Tittel
     list:
-      events: Arrangementer
-      noEvents: Ingen arrangementer...
+      events:
+        sourceFile: nn.yml
+        text: Arrangementer
+      noEvents:
+        sourceFile: nn.yml
+        text: Ingen arrangementer...
     locationModal:
-      cancel: Avlys
-      createLocation: Nytt sted
-      description: Beskrivelse
-      infoText: Klikk på kartet for å lage et nytt sted. Klikk og dra for å flytte
-        kartet, zoom med scroll eller berøringsskjerm.
-      move: Flytt
-      moveInstructions: Flytt tegnestiften for å velge sted.
-      noDescription: Ingen beskrivelse
-      noRelatedEvents: Det er ingen arrangementer i nærheten på dette tidspunktet.
-      relatedEvents: Andre arrangementer i nærheten rundt dette tidspunktet
-      save: Lagre
-      saveLocation: Lagre sted
-      searchBox: Finn sted
-      title: Navn
-      useLocation: Bruk sted
+      cancel:
+        sourceFile: nn.yml
+        text: Avlys
+      createLocation:
+        sourceFile: nn.yml
+        text: Nytt sted
+      description:
+        sourceFile: nn.yml
+        text: Beskrivelse
+      infoText:
+        sourceFile: nn.yml
+        text: Klikk på kartet for å lage et nytt sted. Klikk og dra for å flytte kartet,
+          zoom med scroll eller berøringsskjerm.
+      move:
+        sourceFile: nn.yml
+        text: Flytt
+      moveInstructions:
+        sourceFile: nn.yml
+        text: Flytt tegnestiften for å velge sted.
+      noDescription:
+        sourceFile: nn.yml
+        text: Ingen beskrivelse
+      noRelatedEvents:
+        sourceFile: nn.yml
+        text: Det er ingen arrangementer i nærheten på dette tidspunktet.
+      relatedEvents:
+        sourceFile: nn.yml
+        text: Andre arrangementer i nærheten rundt dette tidspunktet
+      save:
+        sourceFile: nn.yml
+        text: Lagre
+      saveLocation:
+        sourceFile: nn.yml
+        text: Lagre sted
+      searchBox:
+        sourceFile: nn.yml
+        text: Finn sted
+      title:
+        sourceFile: nn.yml
+        text: Navn
+      useLocation:
+        sourceFile: nn.yml
+        text: Bruk sted
     participantSummaryCard:
-      bookButton: Registrer alle
-      booked: Varsler
-      cancelled: Avmeldte
-      confirmed: Bekreftet deltakelse
-      header: Deltakere
-      noshow: ({noshows, plural, =1 {1 ikke møtt} other {# ikke møtt}})
-      pending: Påmeldinger
-      recordButton: Registrer deltakelse
-      remindButton: Send varsel til alle
-      remindButtondisabledTooltip: Du må velge en kontaktperson før du sender varsler
-      reqParticipantsHelperText: Minimum antall deltakere som trengs
-      reqParticipantsLabel: Deltakere
-    search: Søk
+      bookButton:
+        sourceFile: nn.yml
+        text: Registrer alle
+      booked:
+        sourceFile: nn.yml
+        text: Varsler
+      cancelled:
+        sourceFile: nn.yml
+        text: Avmeldte
+      confirmed:
+        sourceFile: nn.yml
+        text: Bekreftet deltakelse
+      header:
+        sourceFile: nn.yml
+        text: Deltakere
+      noshow:
+        sourceFile: nn.yml
+        text: ({noshows, plural, =1 {1 ikke møtt} other {# ikke møtt}})
+      pending:
+        sourceFile: nn.yml
+        text: Påmeldinger
+      recordButton:
+        sourceFile: nn.yml
+        text: Registrer deltakelse
+      remindButton:
+        sourceFile: nn.yml
+        text: Send varsel til alle
+      remindButtondisabledTooltip:
+        sourceFile: nn.yml
+        text: Du må velge en kontaktperson før du sender varsler
+      reqParticipantsHelperText:
+        sourceFile: nn.yml
+        text: Minimum antall deltakere som trengs
+      reqParticipantsLabel:
+        sourceFile: nn.yml
+        text: Deltakere
+    search:
+      sourceFile: nn.yml
+      text: Søk
     state:
-      cancelled: Avlyst
-      draft: Utkast
-      ended: Avsluttet
-      open: Åpen
-      scheduled: Planlagt
+      cancelled:
+        sourceFile: nn.yml
+        text: Avlyst
+      draft:
+        sourceFile: nn.yml
+        text: Utkast
+      ended:
+        sourceFile: nn.yml
+        text: Avsluttet
+      open:
+        sourceFile: nn.yml
+        text: Åpen
+      scheduled:
+        sourceFile: nn.yml
+        text: Planlagt
     stats:
-      participants: '{participants, plural, one {1 deltaker} other {# deltakere}}'
+      participants:
+        sourceFile: nn.yml
+        text: '{participants, plural, one {1 deltaker} other {# deltakere}}'
     tabs:
-      overview: Oversikt
-      participants: Deltakere
-    tooltipContent: Arrangement uten tittel viser type som tittel
+      overview:
+        sourceFile: nn.yml
+        text: Oversikt
+      participants:
+        sourceFile: nn.yml
+        text: Deltakere
+    tooltipContent:
+      sourceFile: nn.yml
+      text: Arrangement uten tittel viser type som tittel
     type:
-      createType: Ny "{type}"
-      tooltip: Klikk for å endre type
-      uncategorized: Ukategorisert
+      createType:
+        sourceFile: nn.yml
+        text: Ny "{type}"
+      tooltip:
+        sourceFile: nn.yml
+        text: Klikk for å endre type
+      uncategorized:
+        sourceFile: nn.yml
+        text: Ukategorisert
   organizations:
     page:
-      title: Velg organisasjon
+      title:
+        sourceFile: nn.yml
+        text: Velg organisasjon
   profile:
     delete:
-      button: Fjern person
-      confirm: Er du sikker på at du vil slette {name}? Dette er permanent.
-      title: Slett konto
-      warning: Dette kan ikke angres!
+      button:
+        sourceFile: nn.yml
+        text: Fjern person
+      confirm:
+        sourceFile: nn.yml
+        text: Er du sikker på at du vil slette {name}? Dette er permanent.
+      title:
+        sourceFile: nn.yml
+        text: Slett konto
+      warning:
+        sourceFile: nn.yml
+        text: Dette kan ikke angres!
     details:
-      title: Detaljer
-    editButton: Rediger {title}
-    editButtonClose: Avbryt redigering av {title}
-    editButtonLabel: Rediger detaljer
+      title:
+        sourceFile: nn.yml
+        text: Detaljer
+    editButton:
+      sourceFile: nn.yml
+      text: Rediger {title}
+    editButtonClose:
+      sourceFile: nn.yml
+      text: Avbryt redigering av {title}
+    editButtonLabel:
+      sourceFile: nn.yml
+      text: Rediger detaljer
     genders:
-      f: Kvinne
-      m: Mann
-      o: Annet
-      unknown: Ukjent
+      f:
+        sourceFile: nn.yml
+        text: Kvinne
+      m:
+        sourceFile: nn.yml
+        text: Mann
+      o:
+        sourceFile: nn.yml
+        text: Annet
+      unknown:
+        sourceFile: nn.yml
+        text: Ukjent
     organizations:
-      add: Legg til underorganisasjon
-      addError: Organisasjonen kunne ikke legges til
-      removeError: Organisasjonen kunne ikke fjernes
-      title: Organisasjoner
+      add:
+        sourceFile: nn.yml
+        text: Legg til underorganisasjon
+      addError:
+        sourceFile: nn.yml
+        text: Organisasjonen kunne ikke legges til
+      removeError:
+        sourceFile: nn.yml
+        text: Organisasjonen kunne ikke fjernes
+      title:
+        sourceFile: nn.yml
+        text: Organisasjoner
     tabs:
-      manage: Behandle
-      profile: Profil
-      timeline: Tidslinje
+      manage:
+        sourceFile: nn.yml
+        text: Behandle
+      profile:
+        sourceFile: nn.yml
+        text: Profil
+      timeline:
+        sourceFile: nn.yml
+        text: Tidslinje
   search:
-    error: Noe gikk galt
-    label: Søk
-    noResults: Ingen resultater
-    placeholder: Skriv for å søke
+    error:
+      sourceFile: nn.yml
+      text: Noe gikk galt
+    label:
+      sourceFile: nn.yml
+      text: Søk
+    noResults:
+      sourceFile: nn.yml
+      text: Ingen resultater
+    placeholder:
+      sourceFile: nn.yml
+      text: Skriv for å søke
     results:
-      callassignment: Ringeoppdrag
-      campaign: Kampanje
-      people: Folk
-      person: Person
-      survey: Spørreundersøkelse
-      task: Innhold
-      view: Liste
+      callassignment:
+        sourceFile: nn.yml
+        text: Ringeoppdrag
+      campaign:
+        sourceFile: nn.yml
+        text: Kampanje
+      people:
+        sourceFile: nn.yml
+        text: Folk
+      person:
+        sourceFile: nn.yml
+        text: Person
+      survey:
+        sourceFile: nn.yml
+        text: Spørreundersøkelse
+      task:
+        sourceFile: nn.yml
+        text: Innhold
+      view:
+        sourceFile: nn.yml
+        text: Liste
   smartSearch:
     buttonLabels:
-      add: Lagre
-      addNewFilter: Legg til / fjern folk
-      cancel: Avbryt
-      close: Lukk
-      goBack: Tilbake til søket
-      save: Lagre
+      add:
+        sourceFile: nn.yml
+        text: Lagre
+      addNewFilter:
+        sourceFile: nn.yml
+        text: Legg til / fjern folk
+      cancel:
+        sourceFile: nn.yml
+        text: Avbryt
+      close:
+        sourceFile: nn.yml
+        text: Lukk
+      goBack:
+        sourceFile: nn.yml
+        text: Tilbake til søket
+      save:
+        sourceFile: nn.yml
+        text: Lagre
     filterCategories:
-      campaignActivity: Kampanjeaktivitet
-      misc: Ymse
-      peopleDatabase: Folk
-      phoneBanking: Ringeaksjoner
-      surveys: Spørreundersøkelser
+      campaignActivity:
+        sourceFile: nn.yml
+        text: Kampanjeaktivitet
+      misc:
+        sourceFile: nn.yml
+        text: Ymse
+      peopleDatabase:
+        sourceFile: nn.yml
+        text: Folk
+      phoneBanking:
+        sourceFile: nn.yml
+        text: Ringeaksjoner
+      surveys:
+        sourceFile: nn.yml
+        text: Spørreundersøkelser
     filterTitles:
-      all: Alle
-      call_blocked: Blokkert fra å ringes
-      call_history: Basert på ringehistorikk
-      campaign_participation: Basert på aktivitet
-      most_active: De mest aktive
-      person_data: Basert på navn, adresse, eller annen informasjon
-      person_field: Basert på spesialfelter
-      person_tags: Basert på etiketter
-      person_view: Folk fra en liste
-      random: Et tilfeldig utvalg av folk
-      sub_query: Basert på et annet søk
-      survey_option: Basert på svar de har valgt i en spørreundersøkelse
-      survey_response: Basert på svar de har skrevet i en spørreundersøkelse
-      survey_submission: Folk som har besvart en spørreundersøkelse
-      task: Folk som har interagert med innhold i SV appen
-      user: Folk som har en Zetkin brukerkonto
+      all:
+        sourceFile: nn.yml
+        text: Alle
+      call_blocked:
+        sourceFile: nn.yml
+        text: Blokkert fra å ringes
+      call_history:
+        sourceFile: nn.yml
+        text: Basert på ringehistorikk
+      campaign_participation:
+        sourceFile: nn.yml
+        text: Basert på aktivitet
+      most_active:
+        sourceFile: nn.yml
+        text: De mest aktive
+      person_data:
+        sourceFile: nn.yml
+        text: Basert på navn, adresse, eller annen informasjon
+      person_field:
+        sourceFile: nn.yml
+        text: Basert på spesialfelter
+      person_tags:
+        sourceFile: nn.yml
+        text: Basert på etiketter
+      person_view:
+        sourceFile: nn.yml
+        text: Folk fra en liste
+      random:
+        sourceFile: nn.yml
+        text: Et tilfeldig utvalg av folk
+      sub_query:
+        sourceFile: nn.yml
+        text: Basert på et annet søk
+      survey_option:
+        sourceFile: nn.yml
+        text: Basert på svar de har valgt i en spørreundersøkelse
+      survey_response:
+        sourceFile: nn.yml
+        text: Basert på svar de har skrevet i en spørreundersøkelse
+      survey_submission:
+        sourceFile: nn.yml
+        text: Folk som har besvart en spørreundersøkelse
+      task:
+        sourceFile: nn.yml
+        text: Folk som har interagert med innhold i SV appen
+      user:
+        sourceFile: nn.yml
+        text: Folk som har en Zetkin brukerkonto
     filters:
       all:
-        inputString: Begynn med {startWithSelect}.
+        inputString:
+          sourceFile: nn.yml
+          text: Begynn med {startWithSelect}.
         startWithSelect:
-          'false': en tom liste
-          'true': alle i organisasjonen
+          'false':
+            sourceFile: nn.yml
+            text: en tom liste
+          'true':
+            sourceFile: nn.yml
+            text: alle i organisasjonen
       callBlocked:
         addRemoveSelect:
-          add: Legg til
-          sub: Fjern
-        inputString: '{addRemoveSelect} folk som er blokkert fra å ringes'
+          add:
+            sourceFile: nn.yml
+            text: Legg til
+          sub:
+            sourceFile: nn.yml
+            text: Fjern
+        inputString:
+          sourceFile: nn.yml
+          text: '{addRemoveSelect} folk som er blokkert fra å ringes'
       callHistory:
         addRemoveSelect:
-          add: Legg til
-          sub: Fjern
+          add:
+            sourceFile: nn.yml
+            text: Legg til
+          sub:
+            sourceFile: nn.yml
+            text: Fjern
         assignmentSelect:
-          any: et ringeoppdrag
-          assignment: ringeoppdraget "{assignmentTitle}"
-          none: Denne organisasjonen har ingen ringeoppdrag, ennå!
+          any:
+            sourceFile: nn.yml
+            text: et ringeoppdrag
+          assignment:
+            sourceFile: nn.yml
+            text: ringeoppdraget "{assignmentTitle}"
+          none:
+            sourceFile: nn.yml
+            text: Denne organisasjonen har ingen ringeoppdrag, ennå!
         callSelect:
-          called: har blitt ringt
-          notreached: har blitt forsøkt ringt
-          reached: har blitt nådd
+          called:
+            sourceFile: nn.yml
+            text: har blitt ringt
+          notreached:
+            sourceFile: nn.yml
+            text: har blitt forsøkt ringt
+          reached:
+            sourceFile: nn.yml
+            text: har blitt nådd
         examples:
-          one: Legg til folk som har blitt nådd minst 2 ganger i et hvilket som helst
-            ringeoppdrag når som helst.
-          two: Fjern folk som har blitt ringt minst en gang i ringeoppdraget "Valgkamp
-            2023" de siste 30 dagene.
-        inputString: '{addRemoveSelect} folk som {callSelect} minst {minTimes} i {assignmentSelect}
-          {timeFrame}.'
-        minTimes: '{minTimes} {minTimes, plural, one {gang} other {ganger}}'
-        minTimesInput: '{input} {minTimes, plural, one {gang} other {ganger}}'
+          one:
+            sourceFile: nn.yml
+            text: Legg til folk som har blitt nådd minst 2 ganger i et hvilket som helst
+              ringeoppdrag når som helst.
+          two:
+            sourceFile: nn.yml
+            text: Fjern folk som har blitt ringt minst en gang i ringeoppdraget "Valgkamp
+              2023" de siste 30 dagene.
+        inputString:
+          sourceFile: nn.yml
+          text: '{addRemoveSelect} folk som {callSelect} minst {minTimes} i
+            {assignmentSelect} {timeFrame}.'
+        minTimes:
+          sourceFile: nn.yml
+          text: '{minTimes} {minTimes, plural, one {gang} other {ganger}}'
+        minTimesInput:
+          sourceFile: nn.yml
+          text: '{input} {minTimes, plural, one {gang} other {ganger}}'
       campaignParticipation:
         activitySelect:
-          activity: aktiviteten "{activity}"
-          any: en aktivitet
+          activity:
+            sourceFile: nn.yml
+            text: aktiviteten "{activity}"
+          any:
+            sourceFile: nn.yml
+            text: en aktivitet
         addRemoveSelect:
-          add: Legg til
-          sub: Fjern
+          add:
+            sourceFile: nn.yml
+            text: Legg til
+          sub:
+            sourceFile: nn.yml
+            text: Fjern
         bookedSelect:
-          booked: blitt registrert på
-          signed_up: meldt seg på
+          booked:
+            sourceFile: nn.yml
+            text: blitt registrert på
+          signed_up:
+            sourceFile: nn.yml
+            text: meldt seg på
         campaignSelect:
-          any: et prosjekt
-          campaign: Prosjektet "{campaign}"
+          any:
+            sourceFile: nn.yml
+            text: et prosjekt
+          campaign:
+            sourceFile: nn.yml
+            text: Prosjektet "{campaign}"
         examples:
-          one: Legg til folk som har meldt seg på arrangementer i et prosjekt med
-            en aktivitet på plassen 'Torget' når som helst.
-          two: Fjern folk som ikke har blitt registrert på arrangementer i et prosjekt
-            med aktiviteten "Stå på stand" hvor som helst før i dag.
+          one:
+            sourceFile: nn.yml
+            text: Legg til folk som har meldt seg på arrangementer i et prosjekt med en
+              aktivitet på plassen 'Torget' når som helst.
+          two:
+            sourceFile: nn.yml
+            text: Fjern folk som ikke har blitt registrert på arrangementer i et prosjekt
+              med aktiviteten "Stå på stand" hvor som helst før i dag.
         haveSelect:
-          in: har
-          notin: ikke har
-        inputString: '{addRemoveSelect} folk som {haveSelect} {bookedSelect} arrangementer
-          i {campaignSelect} med {activitySelect} på {locationSelect} {timeFrame}'
+          in:
+            sourceFile: nn.yml
+            text: har
+          notin:
+            sourceFile: nn.yml
+            text: ikke har
+        inputString:
+          sourceFile: nn.yml
+          text: '{addRemoveSelect} folk som {haveSelect} {bookedSelect} arrangementer i
+            {campaignSelect} med {activitySelect} på {locationSelect}
+            {timeFrame}'
         locationSelect:
-          any: et sted
-          location: stedet "{location}"
+          any:
+            sourceFile: nn.yml
+            text: et sted
+          location:
+            sourceFile: nn.yml
+            text: stedet "{location}"
       mostActive:
         addRemoveSelect:
-          add: Legg til
-          sub: Fjern
+          add:
+            sourceFile: nn.yml
+            text: Legg til
+          sub:
+            sourceFile: nn.yml
+            text: Fjern
         examples:
-          one: Legg til de 100 mest aktive folka i organisasjonen før i dag.
-          two: Fjern de 5 mest aktive folka i organisasjonen når som helst.
-        inputString: '{addRemoveSelect} de {numPeopleSelect} mest aktive {numPeople,
-          plural, one {person} other {folka}} i organisasjonen {timeFrame}.'
-        numPeople: '{numPeople, plural, one {person} other {folk}}'
+          one:
+            sourceFile: nn.yml
+            text: Legg til de 100 mest aktive folka i organisasjonen før i dag.
+          two:
+            sourceFile: nn.yml
+            text: Fjern de 5 mest aktive folka i organisasjonen når som helst.
+        inputString:
+          sourceFile: nn.yml
+          text: '{addRemoveSelect} de {numPeopleSelect} mest aktive {numPeople, plural,
+            one {person} other {folka}} i organisasjonen {timeFrame}.'
+        numPeople:
+          sourceFile: nn.yml
+          text: '{numPeople, plural, one {person} other {folk}}'
       personData:
         addRemoveSelect:
-          add: Legg til
-          sub: Fjern
-        ellipsis: '...'
+          add:
+            sourceFile: nn.yml
+            text: Legg til
+          sub:
+            sourceFile: nn.yml
+            text: Fjern
+        ellipsis:
+          sourceFile: nn.yml
+          text: ...
         examples:
-          one: Legg til folk med fornavn 'Clara' og etternavn 'Zetkin'.
-          two: Fjern folk med poststed Oslo.
-        fieldMatches: '{field}{value}'
+          one:
+            sourceFile: nn.yml
+            text: Legg til folk med fornavn 'Clara' og etternavn 'Zetkin'.
+          two:
+            sourceFile: nn.yml
+            text: Fjern folk med poststed Oslo.
+        fieldMatches:
+          sourceFile: nn.yml
+          text: '{field}{value}'
         fieldSelect:
-          alt_phone: alternativt telefonnummer
-          city: poststed
-          co_address: alternativ adresse
-          email: e-post
-          first_name: fornavn
-          gender: kjønn
-          last_name: etternavn
-          phone: telefonnummer
-          remove: Fjern dette kriteriet
-          street_address: adresse
-          zip_code: postnummer
-        fieldTuple: '{first} og {second}'
-        inputString: '{addRemoveSelect} folk med {criteria}.'
+          alt_phone:
+            sourceFile: nn.yml
+            text: alternativt telefonnummer
+          city:
+            sourceFile: nn.yml
+            text: poststed
+          co_address:
+            sourceFile: nn.yml
+            text: alternativ adresse
+          email:
+            sourceFile: nn.yml
+            text: e-post
+          first_name:
+            sourceFile: nn.yml
+            text: fornavn
+          gender:
+            sourceFile: nn.yml
+            text: kjønn
+          last_name:
+            sourceFile: nn.yml
+            text: etternavn
+          phone:
+            sourceFile: nn.yml
+            text: telefonnummer
+          remove:
+            sourceFile: nn.yml
+            text: Fjern dette kriteriet
+          street_address:
+            sourceFile: nn.yml
+            text: adresse
+          zip_code:
+            sourceFile: nn.yml
+            text: postnummer
+        fieldTuple:
+          sourceFile: nn.yml
+          text: '{first} og {second}'
+        inputString:
+          sourceFile: nn.yml
+          text: '{addRemoveSelect} folk med {criteria}.'
       personField:
         addRemoveSelect:
-          add: Legg til
-          sub: Fjern
+          add:
+            sourceFile: nn.yml
+            text: Legg til
+          sub:
+            sourceFile: nn.yml
+            text: Fjern
         edit:
-          date: '{fieldSelect} er {timeFrame}'
-          none: Organisasjonen har ingen spesialfelter
-          text: '{fieldSelect} {freeTextInput}'
-          url: '{fieldSelect} {freeTextInput}'
+          date:
+            sourceFile: nn.yml
+            text: '{fieldSelect} er {timeFrame}'
+          none:
+            sourceFile: nn.yml
+            text: Organisasjonen har ingen spesialfelter
+          text:
+            sourceFile: nn.yml
+            text: '{fieldSelect} {freeTextInput}'
+          url:
+            sourceFile: nn.yml
+            text: '{fieldSelect} {freeTextInput}'
         fieldSelect:
-          any: spesialfelt
-        inputString: '{addRemoveSelect} folk med {field}.'
+          any:
+            sourceFile: nn.yml
+            text: spesialfelt
+        inputString:
+          sourceFile: nn.yml
+          text: '{addRemoveSelect} folk med {field}.'
         preview:
-          date: '{fieldName} {timeFrame}'
-          text: '{fieldName} {searchTerm}'
-          url: '{fieldName} {searchTerm}'
+          date:
+            sourceFile: nn.yml
+            text: '{fieldName} {timeFrame}'
+          text:
+            sourceFile: nn.yml
+            text: '{fieldName} {searchTerm}'
+          url:
+            sourceFile: nn.yml
+            text: '{fieldName} {searchTerm}'
       personTags:
         addRemoveSelect:
-          add: Legg til
-          sub: Fjern
+          add:
+            sourceFile: nn.yml
+            text: Legg til
+          sub:
+            sourceFile: nn.yml
+            text: Fjern
         condition:
           conditionSelect:
-            all: alle
-            any: en av
-            minMatching: minst
-            none: ingen
+            all:
+              sourceFile: nn.yml
+              text: alle
+            any:
+              sourceFile: nn.yml
+              text: en av
+            minMatching:
+              sourceFile: nn.yml
+              text: minst
+            none:
+              sourceFile: nn.yml
+              text: ingen
           preview:
-            all: alle
-            any: en av
-            minMatching: minst {minMatching}
-            none: ingen
+            all:
+              sourceFile: nn.yml
+              text: alle
+            any:
+              sourceFile: nn.yml
+              text: en av
+            minMatching:
+              sourceFile: nn.yml
+              text: minst {minMatching}
+            none:
+              sourceFile: nn.yml
+              text: ingen
         examples:
-          one: 'Legg til folk med minst 1 av følgende: ''Medlem'', ''Aktivist'''
-          two: 'Fjern folk med alle av følgende: ''Styremedlem'''
-        inputString: '{addRemoveSelect} folk med {condition} av følgende: {tags}'
+          one:
+            sourceFile: nn.yml
+            text: "Legg til folk med minst 1 av følgende: 'Medlem', 'Aktivist'"
+          two:
+            sourceFile: nn.yml
+            text: "Fjern folk med alle av følgende: 'Styremedlem'"
+        inputString:
+          sourceFile: nn.yml
+          text: '{addRemoveSelect} folk med {condition} av følgende: {tags}'
       personView:
         addRemoveSelect:
-          add: Legg til
-          sub: Fjern
+          add:
+            sourceFile: nn.yml
+            text: Legg til
+          sub:
+            sourceFile: nn.yml
+            text: Fjern
         examples:
-          one: Legg til folk som er i lista 'Valgkamp'.
-          two: Fjern folk som ikke er i lista 'Valgkamp'.
+          one:
+            sourceFile: nn.yml
+            text: Legg til folk som er i lista 'Valgkamp'.
+          two:
+            sourceFile: nn.yml
+            text: Fjern folk som ikke er i lista 'Valgkamp'.
         inSelect:
-          in: er i
-          notin: ikke er i
-        inputString: '{addRemoveSelect} folk som {inSelect} lista {viewSelect}.'
+          in:
+            sourceFile: nn.yml
+            text: er i
+          notin:
+            sourceFile: nn.yml
+            text: ikke er i
+        inputString:
+          sourceFile: nn.yml
+          text: '{addRemoveSelect} folk som {inSelect} lista {viewSelect}.'
         viewSelect:
-          none: Denne organisasjonen har ingen lister ennå
+          none:
+            sourceFile: nn.yml
+            text: Denne organisasjonen har ingen lister ennå
       random:
         addLimitRemoveSelect:
-          add: Legg til
-          sub: Fjern
+          add:
+            sourceFile: nn.yml
+            text: Legg til
+          sub:
+            sourceFile: nn.yml
+            text: Fjern
         addRemoveSelect:
-          add: legg til
-          sub: fjern
+          add:
+            sourceFile: nn.yml
+            text: legg til
+          sub:
+            sourceFile: nn.yml
+            text: fjern
         examples:
-          one: Legg til 20 folk i organisasjonen, ved å velge tilfeldig.
-          two: Fjern 15% av folk i organisasjonen, ved å velge tilfeldig.
-        inputString: '{addRemoveSelect} {quantity} i organisasjonen, ved å velge tilfeldig.'
+          one:
+            sourceFile: nn.yml
+            text: Legg til 20 folk i organisasjonen, ved å velge tilfeldig.
+          two:
+            sourceFile: nn.yml
+            text: Fjern 15% av folk i organisasjonen, ved å velge tilfeldig.
+        inputString:
+          sourceFile: nn.yml
+          text: '{addRemoveSelect} {quantity} i organisasjonen, ved å velge tilfeldig.'
       subQuery:
         addRemoveSelect:
-          add: Legg til
-          sub: Fjern
+          add:
+            sourceFile: nn.yml
+            text: Legg til
+          sub:
+            sourceFile: nn.yml
+            text: Fjern
         examples:
-          one: Fjern folk som er i smartsøket 'Folk som bor i Nordland'.
-          two: Legg til folk som er i målgruppa for ringeoppdraget 'Gjenbetalingsringing'.
-        inputString: '{addRemoveSelect} folk som {matchSelect} {query}.'
+          one:
+            sourceFile: nn.yml
+            text: Fjern folk som er i smartsøket 'Folk som bor i Nordland'.
+          two:
+            sourceFile: nn.yml
+            text: Legg til folk som er i målgruppa for ringeoppdraget
+              'Gjenbetalingsringing'.
+        inputString:
+          sourceFile: nn.yml
+          text: '{addRemoveSelect} folk som {matchSelect} {query}.'
         matchSelect:
-          in: er i
-          notin: ikke er i
+          in:
+            sourceFile: nn.yml
+            text: er i
+          notin:
+            sourceFile: nn.yml
+            text: ikke er i
         query:
           edit:
-            callassignment_goal: '{querySelect} for ringeoppdraget "{titleSelect}"'
-            callassignment_target: '{querySelect} for ringeoppdraget "{titleSelect}"'
+            callassignment_goal:
+              sourceFile: nn.yml
+              text: '{querySelect} for ringeoppdraget "{titleSelect}"'
+            callassignment_target:
+              sourceFile: nn.yml
+              text: '{querySelect} for ringeoppdraget "{titleSelect}"'
           preview:
-            callassignment_goal: fullføringsgruppa for ringeoppdraget "{queryTitle}"
-            callassignment_target: målgruppa for ringeoppdraget  "{queryTitle}"
-            standalone: smartsøket "{queryTitle}"
+            callassignment_goal:
+              sourceFile: nn.yml
+              text: fullføringsgruppa for ringeoppdraget "{queryTitle}"
+            callassignment_target:
+              sourceFile: nn.yml
+              text: målgruppa for ringeoppdraget  "{queryTitle}"
+            standalone:
+              sourceFile: nn.yml
+              text: smartsøket "{queryTitle}"
           selectLabel:
-            callassignment_goal: fullførtgruppa
-            callassignment_target: målgruppa
-            none: et smartsøk
-            standalone: smartsøket
+            callassignment_goal:
+              sourceFile: nn.yml
+              text: fullførtgruppa
+            callassignment_target:
+              sourceFile: nn.yml
+              text: målgruppa
+            none:
+              sourceFile: nn.yml
+              text: et smartsøk
+            standalone:
+              sourceFile: nn.yml
+              text: smartsøket
           selectOptions:
-            callassignment_goal: fullførtgruppa for et ringeoppdrag
-            callassignment_target: målgruppa for et ringeoppdrag
-            none: Denne organisasjonen har ingen ringeoppdrag eller smartsøk ennå.
-            standalone: et annet smartsøk
+            callassignment_goal:
+              sourceFile: nn.yml
+              text: fullførtgruppa for et ringeoppdrag
+            callassignment_target:
+              sourceFile: nn.yml
+              text: målgruppa for et ringeoppdrag
+            none:
+              sourceFile: nn.yml
+              text: Denne organisasjonen har ingen ringeoppdrag eller smartsøk ennå.
+            standalone:
+              sourceFile: nn.yml
+              text: et annet smartsøk
       surveyOption:
         addRemoveSelect:
-          add: Legg til
-          sub: Fjern
+          add:
+            sourceFile: nn.yml
+            text: Legg til
+          sub:
+            sourceFile: nn.yml
+            text: Fjern
         conditionSelect:
-          all: alle
-          any: noen
-          none: ingen
+          all:
+            sourceFile: nn.yml
+            text: alle
+          any:
+            sourceFile: nn.yml
+            text: noen
+          none:
+            sourceFile: nn.yml
+            text: ingen
         examples:
-          one: 'Fjern folk som har valgt alle de følgende alternativene i spørreundersøkelsen
-            ''Medlemsundersøkelse'' (spørsmålet ''Hvordan er du interessert i å bidra?''):
-            ''Aksjoner'', ''Praktisk arbeid'''
-          two: 'Legg til folk som har valgt noen av de følgende alternativene i spørreundersøkelsen
-            ''Medlemsundersøkelse'' (spørsmålet ''Hvorfor ble du medlem?): ''Jeg ville
-            hjelpe til i valgkampen'''
-        inputString: '{addRemoveSelect} folk som har valgt {conditionSelect} av de
-          følgende alternativene i {surveySelect} ({questionSelect}): {options}'
+          one:
+            sourceFile: nn.yml
+            text: "Fjern folk som har valgt alle de følgende alternativene i spørreundersøkelsen 'Medlemsundersøkelse' (spørsmålet 'Hvordan er du interessert i å bidra?'): 'Aksjoner', 'Praktisk arbeid'"
+          two:
+            sourceFile: nn.yml
+            text: "Legg til folk som har valgt noen av de følgende alternativene i spørreundersøkelsen 'Medlemsundersøkelse' (spørsmålet 'Hvorfor ble du medlem?): 'Jeg ville hjelpe til i valgkampen'"
+        inputString:
+          sourceFile: nn.yml
+          text: '{addRemoveSelect} folk som har valgt {conditionSelect} av de følgende
+            alternativene i {surveySelect} ({questionSelect}): {options}'
         questionSelect:
-          any: et spørsmål
-          none: Det er ingen flervalgsspørsmål i denne spørreundersøkelsen
-          question: spørsmålet "{question}"
+          any:
+            sourceFile: nn.yml
+            text: et spørsmål
+          none:
+            sourceFile: nn.yml
+            text: Det er ingen flervalgsspørsmål i denne spørreundersøkelsen
+          question:
+            sourceFile: nn.yml
+            text: spørsmålet "{question}"
         surveySelect:
-          any: en spørreundersøkelse
-          none: Denne organisasjonen har ingen spørreundersøkelser ennå
-          survey: spørreundersøkelsen "{surveyTitle}"
+          any:
+            sourceFile: nn.yml
+            text: en spørreundersøkelse
+          none:
+            sourceFile: nn.yml
+            text: Denne organisasjonen har ingen spørreundersøkelser ennå
+          survey:
+            sourceFile: nn.yml
+            text: spørreundersøkelsen "{surveyTitle}"
       surveyResponse:
         addRemoveSelect:
-          add: Legg til
-          sub: Fjern
+          add:
+            sourceFile: nn.yml
+            text: Legg til
+          sub:
+            sourceFile: nn.yml
+            text: Fjern
         examples:
-          one: Folk som har skrevet svar på undersøkelsen 'Valgkampundersøkelse' (alle
-            spørsmål) som inneholder 'organisering'.
-          two: Folk som har skrevet svar på undersøkelsen 'Valgkampundersøkelsen'
-            (Hva er du god på?) som er eksakt 'organisering'.
-        inputString: '{addRemoveSelect} folk som har skrevet svar på {surveySelect}
-          ({questionSelect}) {matchSelect} "{freeTextInput}"'
+          one:
+            sourceFile: nn.yml
+            text: Folk som har skrevet svar på undersøkelsen 'Valgkampundersøkelse' (alle
+              spørsmål) som inneholder 'organisering'.
+          two:
+            sourceFile: nn.yml
+            text: Folk som har skrevet svar på undersøkelsen 'Valgkampundersøkelsen' (Hva er
+              du god på?) som er eksakt 'organisering'.
+        inputString:
+          sourceFile: nn.yml
+          text: '{addRemoveSelect} folk som har skrevet svar på {surveySelect}
+            ({questionSelect}) {matchSelect} "{freeTextInput}"'
         matchSelect:
-          eq: som er eksakt
-          in: som innholder
-          noteq: som ikke er
-          notin: som ikke inneholder
+          eq:
+            sourceFile: nn.yml
+            text: som er eksakt
+          in:
+            sourceFile: nn.yml
+            text: som innholder
+          noteq:
+            sourceFile: nn.yml
+            text: som ikke er
+          notin:
+            sourceFile: nn.yml
+            text: som ikke inneholder
         questionSelect:
-          any: alle spørsmål
-          none: Det er ingen fritekstspørsmål i denne spørreundersøkelsen
-          question: spørsmålet "{question}"
+          any:
+            sourceFile: nn.yml
+            text: alle spørsmål
+          none:
+            sourceFile: nn.yml
+            text: Det er ingen fritekstspørsmål i denne spørreundersøkelsen
+          question:
+            sourceFile: nn.yml
+            text: spørsmålet "{question}"
         surveySelect:
-          any: en spørreundersøkelse
-          none: Denne organisasjonen har ikke noen spørreundersøkelsen ennå
-          survey: '"{surveyTitle}"'
+          any:
+            sourceFile: nn.yml
+            text: en spørreundersøkelse
+          none:
+            sourceFile: nn.yml
+            text: Denne organisasjonen har ikke noen spørreundersøkelsen ennå
+          survey:
+            sourceFile: nn.yml
+            text: '"{surveyTitle}"'
       surveySubmission:
         addRemoveSelect:
-          add: Legg til
-          sub: Fjern
+          add:
+            sourceFile: nn.yml
+            text: Legg til
+          sub:
+            sourceFile: nn.yml
+            text: Fjern
         examples:
-          one: Folk som har besvart 'Medlemsundersøkelse' før i dag.
-          two: Folk som har besvart 'Medlemsundersøkelse' de siste 30 dagene.
-        inputString: '{addRemoveSelect} folk som har besvart {surveySelect} {timeFrame}.'
+          one:
+            sourceFile: nn.yml
+            text: Folk som har besvart 'Medlemsundersøkelse' før i dag.
+          two:
+            sourceFile: nn.yml
+            text: Folk som har besvart 'Medlemsundersøkelse' de siste 30 dagene.
+        inputString:
+          sourceFile: nn.yml
+          text: '{addRemoveSelect} folk som har besvart {surveySelect} {timeFrame}.'
         surveySelect:
-          any: en spørreundersøkelse
-          none: Denne organisasjonen har ikke noen spørreundersøkelsen ennå
-          survey: '"{surveyTitle}"'
+          any:
+            sourceFile: nn.yml
+            text: en spørreundersøkelse
+          none:
+            sourceFile: nn.yml
+            text: Denne organisasjonen har ikke noen spørreundersøkelsen ennå
+          survey:
+            sourceFile: nn.yml
+            text: '"{surveyTitle}"'
       task:
         addRemoveSelect:
-          add: Legg til
-          sub: Fjern
+          add:
+            sourceFile: nn.yml
+            text: Legg til
+          sub:
+            sourceFile: nn.yml
+            text: Fjern
         campaignSelect:
-          any: et prosjekt
-          campaign: prosjektet "{campaign}"
-          in: i
+          any:
+            sourceFile: nn.yml
+            text: et prosjekt
+          campaign:
+            sourceFile: nn.yml
+            text: prosjektet "{campaign}"
+          in:
+            sourceFile: nn.yml
+            text: i
         examples:
-          one: Legg til folk som har trykket fullført på innholdet 'Verv en venn'
-            minst en gang når som helst
-          two: Legg til folk som har trykket ignorer på innhold i et prosjekt mellom
-            2 og 5 ganger før i dag
-        inputString: '{addRemoveSelect} folk som har {taskStatusSelect} {taskSelect}
-          {campaignSelect} {matchingSelect} {timeFrame}'
+          one:
+            sourceFile: nn.yml
+            text: Legg til folk som har trykket fullført på innholdet 'Verv en venn' minst
+              en gang når som helst
+          two:
+            sourceFile: nn.yml
+            text: Legg til folk som har trykket ignorer på innhold i et prosjekt mellom 2 og
+              5 ganger før i dag
+        inputString:
+          sourceFile: nn.yml
+          text: '{addRemoveSelect} folk som har {taskStatusSelect} {taskSelect}
+            {campaignSelect} {matchingSelect} {timeFrame}'
         taskSelect:
-          any: innhold
-          task: innholdet "{task}"
+          any:
+            sourceFile: nn.yml
+            text: innhold
+          task:
+            sourceFile: nn.yml
+            text: innholdet "{task}"
         taskStatusSelect:
-          assigned: blitt tilsendt
-          completed: trykket fullført på
-          ignored: trykket ignorer på
+          assigned:
+            sourceFile: nn.yml
+            text: blitt tilsendt
+          completed:
+            sourceFile: nn.yml
+            text: trykket fullført på
+          ignored:
+            sourceFile: nn.yml
+            text: trykket ignorer på
       user:
         addRemoveSelect:
-          add: Legg til
-          sub: Fjern
+          add:
+            sourceFile: nn.yml
+            text: Legg til
+          sub:
+            sourceFile: nn.yml
+            text: Fjern
         connectedSelect:
-          'false': ikke har
-          'true': har
+          'false':
+            sourceFile: nn.yml
+            text: ikke har
+          'true':
+            sourceFile: nn.yml
+            text: har
         examples:
-          one: Fjern alle som har en brukerkonto i Zetkin.
-          two: Legg til alle som ikke har en brukerkonto i Zetkin.
-        inputString: '{addRemoveSelect} alle folk som {connectedSelect} en brukerkonto
-          i Zetkin.'
+          one:
+            sourceFile: nn.yml
+            text: Fjern alle som har en brukerkonto i Zetkin.
+          two:
+            sourceFile: nn.yml
+            text: Legg til alle som ikke har en brukerkonto i Zetkin.
+        inputString:
+          sourceFile: nn.yml
+          text: '{addRemoveSelect} alle folk som {connectedSelect} en brukerkonto i
+            Zetkin.'
     headers:
-      examples: Eksempler
-      gallery: Hvordan vil du velge folk?
+      examples:
+        sourceFile: nn.yml
+        text: Eksempler
+      gallery:
+        sourceFile: nn.yml
+        text: Hvordan vil du velge folk?
     matching:
       edit:
-        between: '{matchingSelect} {minInput} og {maxInput} ganger'
-        max: '{matchingSelect} {maxInput} {max, plural, one {gang} other {ganger}}'
-        min: '{matchingSelect} {minInput} {min, plural, one {gang} other {ganger}}'
+        between:
+          sourceFile: nn.yml
+          text: '{matchingSelect} {minInput} og {maxInput} ganger'
+        max:
+          sourceFile: nn.yml
+          text: '{matchingSelect} {maxInput} {max, plural, one {gang} other {ganger}}'
+        min:
+          sourceFile: nn.yml
+          text: '{matchingSelect} {minInput} {min, plural, one {gang} other {ganger}}'
       labels:
-        between: mellom
-        max: maksimalt
-        min: minst
-        once: minst en gang
+        between:
+          sourceFile: nn.yml
+          text: mellom
+        max:
+          sourceFile: nn.yml
+          text: maksimalt
+        min:
+          sourceFile: nn.yml
+          text: minst
+        once:
+          sourceFile: nn.yml
+          text: minst en gang
       options:
-        between: mellom
-        max: maksimalt
-        min: minst
-        once: minst en gang
+        between:
+          sourceFile: nn.yml
+          text: mellom
+        max:
+          sourceFile: nn.yml
+          text: maksimalt
+        min:
+          sourceFile: nn.yml
+          text: minst
+        once:
+          sourceFile: nn.yml
+          text: minst en gang
       preview:
-        between: mellom {min} og {max} ganger
-        max: maksimalt {max} {max, plural, one {gang} other {ganger}}
-        min: minst {min} {max, plural, one {gang} other {ganger}}
-        once: minst en gang
+        between:
+          sourceFile: nn.yml
+          text: mellom {min} og {max} ganger
+        max:
+          sourceFile: nn.yml
+          text: maksimalt {max} {max, plural, one {gang} other {ganger}}
+        min:
+          sourceFile: nn.yml
+          text: minst {min} {max, plural, one {gang} other {ganger}}
+        once:
+          sourceFile: nn.yml
+          text: minst en gang
     misc:
-      noOptions: Ingen like tags
+      noOptions:
+        sourceFile: nn.yml
+        text: Ingen like tags
     operators:
-      add: Legg til
-      sub: Fjern
+      add:
+        sourceFile: nn.yml
+        text: Legg til
+      sub:
+        sourceFile: nn.yml
+        text: Fjern
     quantity:
       preview:
-        integer: '{people} {people, plural, one {person} other {folk}}'
-        percent: '{people} % av folkene'
+        integer:
+          sourceFile: nn.yml
+          text: '{people} {people, plural, one {person} other {folk}}'
+        percent:
+          sourceFile: nn.yml
+          text: '{people} % av folkene'
       quantitySelectLabel:
-        integer: '{people, plural, one {person} other {folk}}'
-        percent: '% av folk'
+        integer:
+          sourceFile: nn.yml
+          text: '{people, plural, one {person} other {folk}}'
+        percent:
+          sourceFile: nn.yml
+          text: '% av folk'
       quantitySelectOptions:
-        integer: et antall folk
-        percent: en prosentandel av folk
-    readOnly: Dette smartsøket er skrivebeskyttet og kan ikke redigeres.
+        integer:
+          sourceFile: nn.yml
+          text: et antall folk
+        percent:
+          sourceFile: nn.yml
+          text: en prosentandel av folk
+    readOnly:
+      sourceFile: nn.yml
+      text: Dette smartsøket er skrivebeskyttet og kan ikke redigeres.
     resultHint:
-      countLabel: '{count, plural, =1 {en person} other {# folk}}'
-      hint: Dette smartsøket kommer til å finne {count} for deg.
-    smartSearch: Smartsøk
+      countLabel:
+        sourceFile: nn.yml
+        text: '{count, plural, =1 {en person} other {# folk}}'
+      hint:
+        sourceFile: nn.yml
+        text: Dette smartsøket kommer til å finne {count} for deg.
+    smartSearch:
+      sourceFile: nn.yml
+      text: Smartsøk
     statsPopper:
-      change: endre
-      details: Smartsøk er dynamiske. Det betyr at over tid kan antallet treff i søket
-        variere, og andre brukere kan se andre resultater hvis de har tilgang til
-        fler eller færre folk.
-      exit: Resultat
-      headline: Påvirkning
-      info: Dette er et dynamisk kriterie og antallet kan forandres over tid.
-      input: før
-      matches: funnet
-      output: etter
+      change:
+        sourceFile: nn.yml
+        text: endre
+      details:
+        sourceFile: nn.yml
+        text: Smartsøk er dynamiske. Det betyr at over tid kan antallet treff i søket
+          variere, og andre brukere kan se andre resultater hvis de har tilgang
+          til fler eller færre folk.
+      exit:
+        sourceFile: nn.yml
+        text: Resultat
+      headline:
+        sourceFile: nn.yml
+        text: Påvirkning
+      info:
+        sourceFile: nn.yml
+        text: Dette er et dynamisk kriterie og antallet kan forandres over tid.
+      input:
+        sourceFile: nn.yml
+        text: før
+      matches:
+        sourceFile: nn.yml
+        text: funnet
+      output:
+        sourceFile: nn.yml
+        text: etter
     timeFrame:
       edit:
-        between: '{timeFrameSelect} {afterDateSelect} og {beforeDateSelect}'
-        lastFew: '{timeFrameSelect} {daysInput} {days, plural, one {dag} other {dager}}'
+        between:
+          sourceFile: nn.yml
+          text: '{timeFrameSelect} {afterDateSelect} og {beforeDateSelect}'
+        lastFew:
+          sourceFile: nn.yml
+          text: '{timeFrameSelect} {daysInput} {days, plural, one {dag} other {dager}}'
       preview:
-        afterDate: etter {afterDate}
-        beforeDate: før {beforeDate}
-        beforeToday: før i dag
-        between: mellom {afterDate} og {beforeDate}
-        ever: når som helst
-        future: i framtida
-        lastFew: i løpet av siste {days} {days, plural, one {dag} other {dager}}
+        afterDate:
+          sourceFile: nn.yml
+          text: etter {afterDate}
+        beforeDate:
+          sourceFile: nn.yml
+          text: før {beforeDate}
+        beforeToday:
+          sourceFile: nn.yml
+          text: før i dag
+        between:
+          sourceFile: nn.yml
+          text: mellom {afterDate} og {beforeDate}
+        ever:
+          sourceFile: nn.yml
+          text: når som helst
+        future:
+          sourceFile: nn.yml
+          text: i framtida
+        lastFew:
+          sourceFile: nn.yml
+          text: i løpet av siste {days} {days, plural, one {dag} other {dager}}
       timeFrameSelectLabel:
-        afterDate: etter
-        beforeDate: før
-        beforeToday: før i dag
-        between: mellom
-        ever: når som helst
-        future: i framtida
-        lastFew: i løpet av siste
+        afterDate:
+          sourceFile: nn.yml
+          text: etter
+        beforeDate:
+          sourceFile: nn.yml
+          text: før
+        beforeToday:
+          sourceFile: nn.yml
+          text: før i dag
+        between:
+          sourceFile: nn.yml
+          text: mellom
+        ever:
+          sourceFile: nn.yml
+          text: når som helst
+        future:
+          sourceFile: nn.yml
+          text: i framtida
+        lastFew:
+          sourceFile: nn.yml
+          text: i løpet av siste
       timeFrameSelectOptions:
-        afterDate: etter en gitt dato
-        beforeDate: før en gitt dato
-        beforeToday: før i dag
-        between: mellom to datoer
-        ever: når som helst
-        future: i framtida
-        lastFew: nylig
+        afterDate:
+          sourceFile: nn.yml
+          text: etter en gitt dato
+        beforeDate:
+          sourceFile: nn.yml
+          text: før en gitt dato
+        beforeToday:
+          sourceFile: nn.yml
+          text: før i dag
+        between:
+          sourceFile: nn.yml
+          text: mellom to datoer
+        ever:
+          sourceFile: nn.yml
+          text: når som helst
+        future:
+          sourceFile: nn.yml
+          text: i framtida
+        lastFew:
+          sourceFile: nn.yml
+          text: nylig
   surveys:
     addBlocks:
-      choiceQuestionButton: Flervalg
-      openQuestionButton: Fritekst
-      textButton: Tekstblokk
-      title: Velg blokktype for å legge til innhold i undersøkelsen
+      choiceQuestionButton:
+        sourceFile: nn.yml
+        text: Flervalg
+      openQuestionButton:
+        sourceFile: nn.yml
+        text: Fritekst
+      textButton:
+        sourceFile: nn.yml
+        text: Tekstblokk
+      title:
+        sourceFile: nn.yml
+        text: Velg blokktype for å legge til innhold i undersøkelsen
     blocks:
       choice:
-        addOption: Legg til ett alternativ
-        addOptionsBulk: Legg til flere alternativer
+        addOption:
+          sourceFile: nn.yml
+          text: Legg til ett alternativ
+        addOptionsBulk:
+          sourceFile: nn.yml
+          text: Legg til flere alternativer
         bulk:
-          cancelButton: Avbryt
-          placeholder: Skriv eller lim inn et alternativ per linje
-          submitButton: Legg til alle
-        description: Hjelpetekst
-        emptyDescription: Hjelpetekst
-        emptyOption: Tomt svaralternativ
-        emptyQuestion: Spørsmål
-        question: Spørsmål
-        widget: Widget
+          cancelButton:
+            sourceFile: nn.yml
+            text: Avbryt
+          placeholder:
+            sourceFile: nn.yml
+            text: Skriv eller lim inn et alternativ per linje
+          submitButton:
+            sourceFile: nn.yml
+            text: Legg til alle
+        description:
+          sourceFile: nn.yml
+          text: Hjelpetekst
+        emptyDescription:
+          sourceFile: nn.yml
+          text: Hjelpetekst
+        emptyOption:
+          sourceFile: nn.yml
+          text: Tomt svaralternativ
+        emptyQuestion:
+          sourceFile: nn.yml
+          text: Spørsmål
+        question:
+          sourceFile: nn.yml
+          text: Spørsmål
+        widget:
+          sourceFile: nn.yml
+          text: Widget
         widgets:
-          checkbox: Avkrysning (flere svar)
-          radio: Knapper (ett svar)
-          select: Rullgardin (ett svar)
+          checkbox:
+            sourceFile: nn.yml
+            text: Avkrysning (flere svar)
+          radio:
+            sourceFile: nn.yml
+            text: Knapper (ett svar)
+          select:
+            sourceFile: nn.yml
+            text: Rullgardin (ett svar)
       deleteBlockDialog:
-        title: Slett spørsmål
-        warningText: Er du sikker på at du vil slette spørsmålet? Dette kan ikke angres.
+        title:
+          sourceFile: nn.yml
+          text: Slett spørsmål
+        warningText:
+          sourceFile: nn.yml
+          text: Er du sikker på at du vil slette spørsmålet? Dette kan ikke angres.
       deleteOptionDialog:
-        title: Slett alternativ
-        warningText: Er du sikker på at du vil slette alternativet? Dette kan ikke
-          angres.
+        title:
+          sourceFile: nn.yml
+          text: Slett alternativ
+        warningText:
+          sourceFile: nn.yml
+          text: Er du sikker på at du vil slette alternativet? Dette kan ikke angres.
       open:
-        description: Hjelpetekst
-        empty: Fritekstspørsmål
-        fieldTypePreview: tekstfelt
-        label: Spørsmål
-        multiLine: Avsnitt
-        singleLine: Setning
-        textFieldType: Tekstfelttype
+        description:
+          sourceFile: nn.yml
+          text: Hjelpetekst
+        empty:
+          sourceFile: nn.yml
+          text: Fritekstspørsmål
+        fieldTypePreview:
+          sourceFile: nn.yml
+          text: tekstfelt
+        label:
+          sourceFile: nn.yml
+          text: Spørsmål
+        multiLine:
+          sourceFile: nn.yml
+          text: Avsnitt
+        singleLine:
+          sourceFile: nn.yml
+          text: Setning
+        textFieldType:
+          sourceFile: nn.yml
+          text: Tekstfelttype
       text:
-        content: Hjelpetekst
-        empty: Blokk
-        header: Tittel
+        content:
+          sourceFile: nn.yml
+          text: Hjelpetekst
+        empty:
+          sourceFile: nn.yml
+          text: Blokk
+        header:
+          sourceFile: nn.yml
+          text: Tittel
     chart:
-      header: Svar
-      placeholder: Begynn å samle inn svar for å se framgangen her
-      subheader: Innsendte svar siste {days, plural, =1 {dag} other {# dager}}
+      header:
+        sourceFile: nn.yml
+        text: Svar
+      placeholder:
+        sourceFile: nn.yml
+        text: Begynn å samle inn svar for å se framgangen her
+      subheader:
+        sourceFile: nn.yml
+        text: Innsendte svar siste {days, plural, =1 {dag} other {# dager}}
       tooltip:
-        submissions: '{count, plural, =1 {ett svar} other {# svar}}'
+        submissions:
+          sourceFile: nn.yml
+          text: '{count, plural, =1 {ett svar} other {# svar}}'
     editWarning:
       editing:
-        header: Spørreundersøkelsen kan redigeres
-        lockButton: Lås
+        header:
+          sourceFile: nn.yml
+          text: Spørreundersøkelsen kan redigeres
+        lockButton:
+          sourceFile: nn.yml
+          text: Lås
         safe:
-          bullet1: Rette stavefeil
-          bullet2: Endre rekkefølgen på blokker
-          bullet3: Skjule spørsmål
-          bullet4: Legge til spørsmål eller svaralternativer
-          header: Trygg
-        subheader: Vær forsiktig når du gjør endringer slik at ikke informasjonen
-          i tidligere svar går tapt eller blir ubrukelig.
+          bullet1:
+            sourceFile: nn.yml
+            text: Rette stavefeil
+          bullet2:
+            sourceFile: nn.yml
+            text: Endre rekkefølgen på blokker
+          bullet3:
+            sourceFile: nn.yml
+            text: Skjule spørsmål
+          bullet4:
+            sourceFile: nn.yml
+            text: Legge til spørsmål eller svaralternativer
+          header:
+            sourceFile: nn.yml
+            text: Trygg
+        subheader:
+          sourceFile: nn.yml
+          text: Vær forsiktig når du gjør endringer slik at ikke informasjonen i tidligere
+            svar går tapt eller blir ubrukelig.
         unsafe:
-          bullet1: Slette spørsmål (skjul dem istedet)
-          bullet2: Endre navn på spørsmål eller svaralternativer som forandrer betydningen
-            av dem
-          header: Utrygg
+          bullet1:
+            sourceFile: nn.yml
+            text: Slette spørsmål (skjul dem istedet)
+          bullet2:
+            sourceFile: nn.yml
+            text: Endre navn på spørsmål eller svaralternativer som forandrer betydningen av
+              dem
+          header:
+            sourceFile: nn.yml
+            text: Utrygg
       locked:
-        header: Spørreundersøkelsen er låst
-        subheader: Denne undersøkelsen har begynt å få inn svar. Hvis du redigerer
-          den nå kan det bli problemer med informasjonen i svarene. Utvis forsiktighet.
-        unlockButton: Lås opp
+        header:
+          sourceFile: nn.yml
+          text: Spørreundersøkelsen er låst
+        subheader:
+          sourceFile: nn.yml
+          text: Denne undersøkelsen har begynt å få inn svar. Hvis du redigerer den nå kan
+            det bli problemer med informasjonen i svarene. Utvis forsiktighet.
+        unlockButton:
+          sourceFile: nn.yml
+          text: Lås opp
     layout:
       actions:
-        publish: Samle svar
-        unpublish: Steng
+        publish:
+          sourceFile: nn.yml
+          text: Samle svar
+        unpublish:
+          sourceFile: nn.yml
+          text: Steng
       stats:
-        questions: '{numQuestions, plural, one {ett spørsmål} other {# spørsmål}}'
-        submissions: '{numSubmissions, plural, one {ett svar} other {# svar}}'
+        questions:
+          sourceFile: nn.yml
+          text: '{numQuestions, plural, one {ett spørsmål} other {# spørsmål}}'
+        submissions:
+          sourceFile: nn.yml
+          text: '{numSubmissions, plural, one {ett svar} other {# svar}}'
     optionCollapse:
-      collapse: Skjul
-      more: '{numOfOptions, plural, one {Vis ett alternativ til} other {Vis # flere
-        alternativer}}'
+      collapse:
+        sourceFile: nn.yml
+        text: Skjul
+      more:
+        sourceFile: nn.yml
+        text: '{numOfOptions, plural, one {Vis ett alternativ til} other {Vis # flere
+          alternativer}}'
     organizerActionPane:
-      subtitle: Notater fra telefonsamtaler med {person}
-      title: Må følges opp av koordinator
+      subtitle:
+        sourceFile: nn.yml
+        text: Notater fra telefonsamtaler med {person}
+      title:
+        sourceFile: nn.yml
+        text: Må følges opp av koordinator
     overview:
       noQuestions:
-        button: Lag spørsmål
-        title: Det er ingen spørsmål i denne undersøkelsen ennå
+        button:
+          sourceFile: nn.yml
+          text: Lag spørsmål
+        title:
+          sourceFile: nn.yml
+          text: Det er ingen spørsmål i denne undersøkelsen ennå
     shareSuborgsCard:
-      caption: Når dette er slått på kan tillitsvalgte i underorganisasjoner se og
-        søke i besvarelser som er levert av folk i sine underorganisasjoner.
-      title: Del med underorganisasjoner
+      caption:
+        sourceFile: nn.yml
+        text: Når dette er slått på kan tillitsvalgte i underorganisasjoner se og søke i
+          besvarelser som er levert av folk i sine underorganisasjoner.
+      title:
+        sourceFile: nn.yml
+        text: Del med underorganisasjoner
     state:
-      draft: Utkast
-      published: Åpnet for svar
-      scheduled: Planlagt
-      unpublished: Stengt for svar
+      draft:
+        sourceFile: nn.yml
+        text: Utkast
+      published:
+        sourceFile: nn.yml
+        text: Åpnet for svar
+      scheduled:
+        sourceFile: nn.yml
+        text: Planlagt
+      unpublished:
+        sourceFile: nn.yml
+        text: Stengt for svar
     submissionPane:
-      anonymous: Anonym
-      hidden: Skjult
-      linked: Koblet
+      anonymous:
+        sourceFile: nn.yml
+        text: Anonym
+      hidden:
+        sourceFile: nn.yml
+        text: Skjult
+      linked:
+        sourceFile: nn.yml
+        text: Koblet
     submissions:
-      anonymous: Anonym
-      dateColumn: Dato
-      emailColumn: E-post
-      firstNameColumn: Fornavn
-      lastNameColumn: Etternavn
-      link: Koble
-      personRecordColumn: Innsender
-      suggestedPeople: Foreslåtte folk
-      unlink: Fjern kobling
+      anonymous:
+        sourceFile: nn.yml
+        text: Anonym
+      dateColumn:
+        sourceFile: nn.yml
+        text: Dato
+      emailColumn:
+        sourceFile: nn.yml
+        text: E-post
+      firstNameColumn:
+        sourceFile: nn.yml
+        text: Fornavn
+      lastNameColumn:
+        sourceFile: nn.yml
+        text: Etternavn
+      link:
+        sourceFile: nn.yml
+        text: Koble
+      personRecordColumn:
+        sourceFile: nn.yml
+        text: Innsender
+      suggestedPeople:
+        sourceFile: nn.yml
+        text: Foreslåtte folk
+      unlink:
+        sourceFile: nn.yml
+        text: Fjern kobling
     tabs:
-      overview: Oversikt
-      questions: Spørsmål
-      submissions: Svar
+      overview:
+        sourceFile: nn.yml
+        text: Oversikt
+      questions:
+        sourceFile: nn.yml
+        text: Spørsmål
+      submissions:
+        sourceFile: nn.yml
+        text: Svar
     unlinkedCard:
-      description: Når noen besvarer en undersøkelse uten å logge inn blir svaret
-        ikke koblet. Zetkin kan ikke søke etter folk basert på svar i undersøkelser
-        uten at svaret er koblet til en person.
-      header: Svar uten kobling
-      openLink: '{numUnlink, plural, one {Koble svar nå} other {Koble svar nå}}'
+      description:
+        sourceFile: nn.yml
+        text: Når noen besvarer en undersøkelse uten å logge inn blir svaret ikke
+          koblet. Zetkin kan ikke søke etter folk basert på svar i undersøkelser
+          uten at svaret er koblet til en person.
+      header:
+        sourceFile: nn.yml
+        text: Svar uten kobling
+      openLink:
+        sourceFile: nn.yml
+        text: '{numUnlink, plural, one {Koble svar nå} other {Koble svar nå}}'
     unlinkedWarningAlert:
       default:
-        description: '{numUnlink, plural, one {Ett av de innsendte svarene er ikke
-          koblet til en person i Zetkin, det vil ikke dukke opp i søk.} other {Fler
-          av de innsendte svarene er ikke koblet til folk i Zetkin, de vil ikke dukke
-          opp i søk.}}'
-        header: Svar uten kobling
-        viewUnlinked: Se kun svar uten kobling
+        description:
+          sourceFile: nn.yml
+          text: '{numUnlink, plural, one {Ett av de innsendte svarene er ikke koblet til
+            en person i Zetkin, det vil ikke dukke opp i søk.} other {Fler av de
+            innsendte svarene er ikke koblet til folk i Zetkin, de vil ikke
+            dukke opp i søk.}}'
+        header:
+          sourceFile: nn.yml
+          text: Svar uten kobling
+        viewUnlinked:
+          sourceFile: nn.yml
+          text: Se kun svar uten kobling
       filtered:
-        description: Listen er filtrert og viser bare signerte svar som ikke er koblet
-          til folk i Zetkin.
-        header: Viser bare svar uten kobling
-        viewAll: Se alle
+        description:
+          sourceFile: nn.yml
+          text: Listen er filtrert og viser bare signerte svar som ikke er koblet til folk
+            i Zetkin.
+        header:
+          sourceFile: nn.yml
+          text: Viser bare svar uten kobling
+        viewAll:
+          sourceFile: nn.yml
+          text: Se alle
     urlCard:
-      nowAccepting: Åpen for svar fra denne lenken
-      open: Åpen for svar
-      preview: Forhåndsvis spørreundersøkelsen
-      previewPortal: Forhåndsvis spørreundersøkelsen i aktivistportalen
-      visitPortal: Gå til spørreundersøkelsen i aktivistportalen
-      willAccept: Blir åpnet for svar fra denne lenken
+      nowAccepting:
+        sourceFile: nn.yml
+        text: Åpen for svar fra denne lenken
+      open:
+        sourceFile: nn.yml
+        text: Åpen for svar
+      preview:
+        sourceFile: nn.yml
+        text: Forhåndsvis spørreundersøkelsen
+      previewPortal:
+        sourceFile: nn.yml
+        text: Forhåndsvis spørreundersøkelsen i aktivistportalen
+      visitPortal:
+        sourceFile: nn.yml
+        text: Gå til spørreundersøkelsen i aktivistportalen
+      willAccept:
+        sourceFile: nn.yml
+        text: Blir åpnet for svar fra denne lenken
   tags:
     dialog:
-      colorErrorText: Legg inn en gyldig HEX fargekode
-      colorLabel: Farge
-      createTitle: Ny etikett
-      editTitle: Rediger etikett
-      groupCreatePrompt: Legg til "{groupName}"
-      groupLabel: Gruppe
-      groupSelectPlaceholder: Skriv for å søke eller opprette gruppe
-      submitCreateTagButton: Lagre og bruk
-      titleErrorText: Du må gi etiketten et navn
-      titleLabel: Navn
-      typeLabel: Type
+      colorErrorText:
+        sourceFile: nn.yml
+        text: Legg inn en gyldig HEX fargekode
+      colorLabel:
+        sourceFile: nn.yml
+        text: Farge
+      createTitle:
+        sourceFile: nn.yml
+        text: Ny etikett
+      editTitle:
+        sourceFile: nn.yml
+        text: Rediger etikett
+      groupCreatePrompt:
+        sourceFile: nn.yml
+        text: Legg til "{groupName}"
+      groupLabel:
+        sourceFile: nn.yml
+        text: Gruppe
+      groupSelectPlaceholder:
+        sourceFile: nn.yml
+        text: Skriv for å søke eller opprette gruppe
+      submitCreateTagButton:
+        sourceFile: nn.yml
+        text: Lagre og bruk
+      titleErrorText:
+        sourceFile: nn.yml
+        text: Du må gi etiketten et navn
+      titleLabel:
+        sourceFile: nn.yml
+        text: Navn
+      typeLabel:
+        sourceFile: nn.yml
+        text: Type
       types:
-        none: Vanlig
-        text: Med tekst
+        none:
+          sourceFile: nn.yml
+          text: Vanlig
+        text:
+          sourceFile: nn.yml
+          text: Med tekst
     manager:
-      addTag: Legg til etikett
-      addValue: Legg til tekst for "{tag}"
-      createNamedTag: 'Opprett etikett: {name}'
-      createTag: Ny etikett
-      groupTags: Gruppér etiketter
-      title: Etiketter
-      ungroupedHeader: Ingen gruppe
+      addTag:
+        sourceFile: nn.yml
+        text: Legg til etikett
+      addValue:
+        sourceFile: nn.yml
+        text: Legg til tekst for "{tag}"
+      createNamedTag:
+        sourceFile: nn.yml
+        text: 'Opprett etikett: {name}'
+      createTag:
+        sourceFile: nn.yml
+        text: Ny etikett
+      groupTags:
+        sourceFile: nn.yml
+        text: Gruppér etiketter
+      title:
+        sourceFile: nn.yml
+        text: Etiketter
+      ungroupedHeader:
+        sourceFile: nn.yml
+        text: Ingen gruppe
       valueTagForm:
-        typeHint: '{type, select, text {Legg til tekst} other {Legg til tall}} som
-          vises på etiketten.'
+        typeHint:
+          sourceFile: nn.yml
+          text: '{type, select, text {Legg til tekst} other {Legg til tall}} som vises på
+            etiketten.'
   tasks:
     assignees:
       completedStates:
-        completed: Trykket fullført {time}
-        ignored: Trykket ignorer {time}
-        notCompleted: Ikke trykket fullført
+        completed:
+          sourceFile: nn.yml
+          text: Trykket fullført {time}
+        ignored:
+          sourceFile: nn.yml
+          text: Trykket ignorer {time}
+        notCompleted:
+          sourceFile: nn.yml
+          text: Ikke trykket fullført
       links:
-        create: Nytt smartsøk
-        edit: Rediger smartsøk
-        readOnly: Se smartsøk
+        create:
+          sourceFile: nn.yml
+          text: Nytt smartsøk
+        edit:
+          sourceFile: nn.yml
+          text: Rediger smartsøk
+        readOnly:
+          sourceFile: nn.yml
+          text: Se smartsøk
       queryStates:
-        assigned: Dette innholdet er sendt til alle som velges av smartsøket.
-        editable: Når det sendes vil innholdet gå til alle som velges av smartsøket.
-        new: Dette innholdet vil sendes ut til folk som velges av et smartsøk. Før
-          du kan sende det må du velge en målgruppe med et smartsøk.
-        published: Dette innholdet sendes nå til alle som velges av smartsøket, det
-          kan ta litt tid før de mottar det.
-      title: Sendt til {numPeople, plural, one {en person} other {# folk}}
+        assigned:
+          sourceFile: nn.yml
+          text: Dette innholdet er sendt til alle som velges av smartsøket.
+        editable:
+          sourceFile: nn.yml
+          text: Når det sendes vil innholdet gå til alle som velges av smartsøket.
+        new:
+          sourceFile: nn.yml
+          text: Dette innholdet vil sendes ut til folk som velges av et smartsøk. Før du
+            kan sende det må du velge en målgruppe med et smartsøk.
+        published:
+          sourceFile: nn.yml
+          text: Dette innholdet sendes nå til alle som velges av smartsøket, det kan ta
+            litt tid før de mottar det.
+      title:
+        sourceFile: nn.yml
+        text: Sendt til {numPeople, plural, one {en person} other {# folk}}
     common:
-      notSet: Ikke valgt
+      notSet:
+        sourceFile: nn.yml
+        text: Ikke valgt
     configs:
       collectDemographics:
         fields:
-          demographic: Informasjon som skal spørres etter
+          demographic:
+            sourceFile: nn.yml
+            text: Informasjon som skal spørres etter
           dempographicOptions:
-            city: Poststed
-            country: Land
-            email: E-post
-            gender: Kjønnsidentitet
-            streetAddress: Adresse
-            zipCode: Postnummer
-        title: 'Spør om personopplysninger: Oppsett'
+            city:
+              sourceFile: nn.yml
+              text: Poststed
+            country:
+              sourceFile: nn.yml
+              text: Land
+            email:
+              sourceFile: nn.yml
+              text: E-post
+            gender:
+              sourceFile: nn.yml
+              text: Kjønnsidentitet
+            streetAddress:
+              sourceFile: nn.yml
+              text: Adresse
+            zipCode:
+              sourceFile: nn.yml
+              text: Postnummer
+        title:
+          sourceFile: nn.yml
+          text: 'Spør om personopplysninger: Oppsett'
       shareLink:
         fields:
-          defaultMessage: Forslag til tekst mottakeren skal bruke
-          url: Lenke som skal deles
-        title: 'Lenke: Oppsett'
+          defaultMessage:
+            sourceFile: nn.yml
+            text: Forslag til tekst mottakeren skal bruke
+          url:
+            sourceFile: nn.yml
+            text: Lenke som skal deles
+        title:
+          sourceFile: nn.yml
+          text: 'Lenke: Oppsett'
       visitLink:
         fields:
-          url: Lenke som skal besøkes
-        title: 'Lenke: Oppsett'
+          url:
+            sourceFile: nn.yml
+            text: Lenke som skal besøkes
+        title:
+          sourceFile: nn.yml
+          text: 'Lenke: Oppsett'
     deleteTask:
-      cancel: Avbryt
-      error: Kunne ikke slette innholdet
-      submitButton: Bekreft sletting
-      title: Slett innhold
-      warning: Er du sikker på at du vil slette dette innholdet? Dette kan ikke angres.
+      cancel:
+        sourceFile: nn.yml
+        text: Avbryt
+      error:
+        sourceFile: nn.yml
+        text: Kunne ikke slette innholdet
+      submitButton:
+        sourceFile: nn.yml
+        text: Bekreft sletting
+      title:
+        sourceFile: nn.yml
+        text: Slett innhold
+      warning:
+        sourceFile: nn.yml
+        text: Er du sikker på at du vil slette dette innholdet? Dette kan ikke angres.
     editTask:
-      title: Rediger innhold
+      title:
+        sourceFile: nn.yml
+        text: Rediger innhold
     form:
       fields:
-        campaign: Prosjekt
-        deadline: Frist
-        expires: Utløpsdato
-        instructions: Instruks
-        published: Utsendelsestidspunkt
-        reassignInterval: Send på nytt etter fullføring
+        campaign:
+          sourceFile: nn.yml
+          text: Prosjekt
+        deadline:
+          sourceFile: nn.yml
+          text: Frist
+        expires:
+          sourceFile: nn.yml
+          text: Utløpsdato
+        instructions:
+          sourceFile: nn.yml
+          text: Instruks
+        published:
+          sourceFile: nn.yml
+          text: Utsendelsestidspunkt
+        reassignInterval:
+          sourceFile: nn.yml
+          text: Send på nytt etter fullføring
         reassignIntervalOptions:
-          days: '{days, plural, =1 {Neste dag} other {om # dager}}'
-          hours: Etter {hours, plural, =1 {en time} other {# timer}}
-          noReassign: Aldri send på nytt
-        reassignLimit: 'Antall ganger innholdet sendes på nytt:'
-        timeEstimate: Beregnet tid for å fullføre
+          days:
+            sourceFile: nn.yml
+            text: '{days, plural, =1 {Neste dag} other {om # dager}}'
+          hours:
+            sourceFile: nn.yml
+            text: Etter {hours, plural, =1 {en time} other {# timer}}
+          noReassign:
+            sourceFile: nn.yml
+            text: Aldri send på nytt
+        reassignLimit:
+          sourceFile: nn.yml
+          text: 'Antall ganger innholdet sendes på nytt:'
+        timeEstimate:
+          sourceFile: nn.yml
+          text: Beregnet tid for å fullføre
         timeEstimateOptions:
-          hoursAndMinutes: '{hours, plural, =0{} one{en time} other{# timer}} {minutes,
-            plural, =0{} one {ett minutt} other {# minutter}}'
-          lessThanOneMinute: Mindre enn ett minutt
-          noEstimate: Ikke beregnet
+          hoursAndMinutes:
+            sourceFile: nn.yml
+            text: '{hours, plural, =0{} one{en time} other{# timer}} {minutes, plural, =0{}
+              one {ett minutt} other {# minutter}}'
+          lessThanOneMinute:
+            sourceFile: nn.yml
+            text: Mindre enn ett minutt
+          noEstimate:
+            sourceFile: nn.yml
+            text: Ikke beregnet
         timeValidationErrors:
-          deadlineNotSecond: Dette må være etter utsendelsestidspunkt og før utløpsdato
-          expiresNotThird: Dette må være det seneste tidspunktet
-          publishedNotFirst: Dette må være det første tidspunktet
-        title: Tittel
-        type: Innholdstype
+          deadlineNotSecond:
+            sourceFile: nn.yml
+            text: Dette må være etter utsendelsestidspunkt og før utløpsdato
+          expiresNotThird:
+            sourceFile: nn.yml
+            text: Dette må være det seneste tidspunktet
+          publishedNotFirst:
+            sourceFile: nn.yml
+            text: Dette må være det første tidspunktet
+        title:
+          sourceFile: nn.yml
+          text: Tittel
+        type:
+          sourceFile: nn.yml
+          text: Innholdstype
         types:
-          demographic: Be om personopplysninger
-          offline: Uten lenke
-          share_link: Del lenke
-          visit_link: Besøk lenke
-          watch_video: Se video
-      invalidUrl: Legg inn en gyldig URL
-      requestError: Noe gik galt, forsøk gjerne igjen.
-      required: Påkrevd
-      title: Nytt innhold
-    noTasksCreatePrompt: Inget innhold... Trykk her for å lage noe.
+          demographic:
+            sourceFile: nn.yml
+            text: Be om personopplysninger
+          offline:
+            sourceFile: nn.yml
+            text: Uten lenke
+          share_link:
+            sourceFile: nn.yml
+            text: Del lenke
+          visit_link:
+            sourceFile: nn.yml
+            text: Besøk lenke
+          watch_video:
+            sourceFile: nn.yml
+            text: Se video
+      invalidUrl:
+        sourceFile: nn.yml
+        text: Legg inn en gyldig URL
+      requestError:
+        sourceFile: nn.yml
+        text: Noe gik galt, forsøk gjerne igjen.
+      required:
+        sourceFile: nn.yml
+        text: Påkrevd
+      title:
+        sourceFile: nn.yml
+        text: Nytt innhold
+    noTasksCreatePrompt:
+      sourceFile: nn.yml
+      text: Inget innhold... Trykk her for å lage noe.
     publishButton:
-      publish: Send
+      publish:
+        sourceFile: nn.yml
+        text: Send
       tooltip:
-        alreadyPublished: Sendt
-        missingAssignees: Mangler målgruppe
-        missingFields: Mangler påkrevde felter
-        missingFieldsAndAssignees: Mangler påkrevde felter og målgruppe
+        alreadyPublished:
+          sourceFile: nn.yml
+          text: Sendt
+        missingAssignees:
+          sourceFile: nn.yml
+          text: Mangler målgruppe
+        missingFields:
+          sourceFile: nn.yml
+          text: Mangler påkrevde felter
+        missingFieldsAndAssignees:
+          sourceFile: nn.yml
+          text: Mangler påkrevde felter og målgruppe
     publishTask:
-      cancel: Avbryt
-      submitButton: Send nå
-      title: Send innhold
-      warning: Bekreft at du er klar til å sende innholdet. Det vil bli sendt til
-        alle i målgruppa.
-    showExpiredTasksPrompt: Vis utløpt innhold...
+      cancel:
+        sourceFile: nn.yml
+        text: Avbryt
+      submitButton:
+        sourceFile: nn.yml
+        text: Send nå
+      title:
+        sourceFile: nn.yml
+        text: Send innhold
+      warning:
+        sourceFile: nn.yml
+        text: Bekreft at du er klar til å sende innholdet. Det vil bli sendt til alle i
+          målgruppa.
+    showExpiredTasksPrompt:
+      sourceFile: nn.yml
+      text: Vis utløpt innhold...
     statuses:
-      active: Aktiv
-      closed: Stengt
-      draft: Utkast
-      expired: Utløpt
-      scheduled: Planlagt
+      active:
+        sourceFile: nn.yml
+        text: Aktiv
+      closed:
+        sourceFile: nn.yml
+        text: Stengt
+      draft:
+        sourceFile: nn.yml
+        text: Utkast
+      expired:
+        sourceFile: nn.yml
+        text: Utløpt
+      scheduled:
+        sourceFile: nn.yml
+        text: Planlagt
     taskDetails:
-      deadlineTime: Frist
-      editButton: Rediger
-      expiresTime: Utløpstidspunkt
-      instructionsLabel: Instruks
-      publishedTime: Utsendelsestidspunkt
+      deadlineTime:
+        sourceFile: nn.yml
+        text: Frist
+      editButton:
+        sourceFile: nn.yml
+        text: Rediger
+      expiresTime:
+        sourceFile: nn.yml
+        text: Utløpstidspunkt
+      instructionsLabel:
+        sourceFile: nn.yml
+        text: Instruks
+      publishedTime:
+        sourceFile: nn.yml
+        text: Utsendelsestidspunkt
       reassignInterval:
-        label: Intervall for å sendes på nytt
-        value: Sendes på nytt {value, plural, =1{en time} other{# timer}} etter mottakeren
-          trykker fullfør
+        label:
+          sourceFile: nn.yml
+          text: Intervall for å sendes på nytt
+        value:
+          sourceFile: nn.yml
+          text: Sendes på nytt {value, plural, =1{en time} other{# timer}} etter
+            mottakeren trykker fullfør
       reassignLimit:
-        label: Antall ganger innholdet sendes på nytt
-        value: Sendes på nytt {value, plural, =1{en gang} other{# gangers}} per person
-      statusLabel: Status
-      timeEstimateLabel: Beregnet tid for å fullføre
-      title: Detaljer
-      titleLabel: Tittel
-      typeLabel: Type
+        label:
+          sourceFile: nn.yml
+          text: Antall ganger innholdet sendes på nytt
+        value:
+          sourceFile: nn.yml
+          text: Sendes på nytt {value, plural, =1{en gang} other{# gangers}} per person
+      statusLabel:
+        sourceFile: nn.yml
+        text: Status
+      timeEstimateLabel:
+        sourceFile: nn.yml
+        text: Beregnet tid for å fullføre
+      title:
+        sourceFile: nn.yml
+        text: Detaljer
+      titleLabel:
+        sourceFile: nn.yml
+        text: Tittel
+      typeLabel:
+        sourceFile: nn.yml
+        text: Type
     taskLayout:
       tabs:
-        assignees: Målgruppe
-        insights: Analyse
-        summary: Oppsummering
+        assignees:
+          sourceFile: nn.yml
+          text: Målgruppe
+        insights:
+          sourceFile: nn.yml
+          text: Analyse
+        summary:
+          sourceFile: nn.yml
+          text: Oppsummering
     taskListItem:
       relativeTimes:
-        active: Stenger {time}
-        closed: Stengte {time}
-        expired: Utløp {time}
-        expires: Utløper {time}
-        indefinite: Sendt {time}
-        scheduled: Sendes {time}
+        active:
+          sourceFile: nn.yml
+          text: Stenger {time}
+        closed:
+          sourceFile: nn.yml
+          text: Stengte {time}
+        expired:
+          sourceFile: nn.yml
+          text: Utløp {time}
+        expires:
+          sourceFile: nn.yml
+          text: Utløper {time}
+        indefinite:
+          sourceFile: nn.yml
+          text: Sendt {time}
+        scheduled:
+          sourceFile: nn.yml
+          text: Sendes {time}
     taskPreview:
-      addImage: Legg til bilde
-      sectionTitle: Forhåndsvisning
-      timeEstimate: '{minutes, plural, =0 {Mindre enn ett minutt} =1 {Ett minutt}
-        other {# minutter}}'
+      addImage:
+        sourceFile: nn.yml
+        text: Legg til bilde
+      sectionTitle:
+        sourceFile: nn.yml
+        text: Forhåndsvisning
+      timeEstimate:
+        sourceFile: nn.yml
+        text: '{minutes, plural, =0 {Mindre enn ett minutt} =1 {Ett minutt} other {#
+          minutter}}'
     taskTypeDetails:
       demographic:
-        title: Innstillinger for å be om personopplysninger
+        title:
+          sourceFile: nn.yml
+          text: Innstillinger for å be om personopplysninger
       share_link:
-        title: Innstillinger for lenke som skal deles
+        title:
+          sourceFile: nn.yml
+          text: Innstillinger for lenke som skal deles
       visit_link:
-        title: Instillinger for lenke som skal besøkes
+        title:
+          sourceFile: nn.yml
+          text: Instillinger for lenke som skal besøkes
     types:
-      demographic: Be om personopplysninger
-      offline: Uten lenke
-      share_link: Del lenke
-      visit_link: Besøk lenke
-      watch_video: Se video
+      demographic:
+        sourceFile: nn.yml
+        text: Be om personopplysninger
+      offline:
+        sourceFile: nn.yml
+        text: Uten lenke
+      share_link:
+        sourceFile: nn.yml
+        text: Del lenke
+      visit_link:
+        sourceFile: nn.yml
+        text: Besøk lenke
+      watch_video:
+        sourceFile: nn.yml
+        text: Se video
   views:
     actions:
-      createFolder: Ny mappe
-      createView: Ny liste
+      createFolder:
+        sourceFile: nn.yml
+        text: Ny mappe
+      createView:
+        sourceFile: nn.yml
+        text: Ny liste
     browser:
-      backToFolder: Tilbake til {folder}
-      backToRoot: Tilbake til forsiden for lister
+      backToFolder:
+        sourceFile: nn.yml
+        text: Tilbake til {folder}
+      backToRoot:
+        sourceFile: nn.yml
+        text: Tilbake til forsiden for lister
       confirmDelete:
         folder:
-          title: Slett mappen og innholdet
-          warning: Er du sikker på at du vil slette mappen? Dette kan ikke angres.
+          title:
+            sourceFile: nn.yml
+            text: Slett mappen og innholdet
+          warning:
+            sourceFile: nn.yml
+            text: Er du sikker på at du vil slette mappen? Dette kan ikke angres.
         view:
-          title: Slett list
-          warning: Er du sikker på at du vil slette lista? Dette kan ikke angres.
+          title:
+            sourceFile: nn.yml
+            text: Slett list
+          warning:
+            sourceFile: nn.yml
+            text: Er du sikker på at du vil slette lista? Dette kan ikke angres.
       menu:
-        rename: Gi nytt navn
-      moveToFolder: Flytt til {folder}
-      moveToRoot: Flytt til forsiden for lister
+        rename:
+          sourceFile: nn.yml
+          text: Gi nytt navn
+      moveToFolder:
+        sourceFile: nn.yml
+        text: Flytt til {folder}
+      moveToRoot:
+        sourceFile: nn.yml
+        text: Flytt til forsiden for lister
     browserLayout:
       tabs:
-        views: Lister
-      title: Folk
+        views:
+          sourceFile: nn.yml
+          text: Lister
+      title:
+        sourceFile: nn.yml
+        text: Folk
     cells:
       localPerson:
-        alreadyInView: Finnes i lista fra før
-        clearLabel: Fjern
-        otherPeople: Andre folk
-        restrictedMode: Kan ikke redigeres i delte lister
-        searchLabel: Velg en person
+        alreadyInView:
+          sourceFile: nn.yml
+          text: Finnes i lista fra før
+        clearLabel:
+          sourceFile: nn.yml
+          text: Fjern
+        otherPeople:
+          sourceFile: nn.yml
+          text: Andre folk
+        restrictedMode:
+          sourceFile: nn.yml
+          text: Kan ikke redigeres i delte lister
+        searchLabel:
+          sourceFile: nn.yml
+          text: Velg en person
       organizerAction:
-        actionNeeded: Må følges opp av koordinator
-        showDetails: Vis detaljer
-        solvedIssues: '{count, plural, =1 {1 løst problem} other {# løste problemer}}'
+        actionNeeded:
+          sourceFile: nn.yml
+          text: Må følges opp av koordinator
+        showDetails:
+          sourceFile: nn.yml
+          text: Vis detaljer
+        solvedIssues:
+          sourceFile: nn.yml
+          text: '{count, plural, =1 {1 løst problem} other {# løste problemer}}'
     columnDialog:
       categories:
         basic:
-          description: Enkle felter med informasjon om folk
-          title: Grunnleggende informasjon
+          description:
+            sourceFile: nn.yml
+            text: Enkle felter med informasjon om folk
+          title:
+            sourceFile: nn.yml
+            text: Grunnleggende informasjon
         categorizing:
-          description: For å gruppere og kategorisere folk, vilkårlig eller basert
-            på informasjon i Zetkin.
-          title: Kategorisering
+          description:
+            sourceFile: nn.yml
+            text: For å gruppere og kategorisere folk, vilkårlig eller basert på informasjon
+              i Zetkin.
+          title:
+            sourceFile: nn.yml
+            text: Kategorisering
         crossReferencing:
-          description: Kryssreferer med informasjon i Zetkin ved hjelp av et smartsøk.
-          title: Kryssreferering
+          description:
+            sourceFile: nn.yml
+            text: Kryssreferer med informasjon i Zetkin ved hjelp av et smartsøk.
+          title:
+            sourceFile: nn.yml
+            text: Kryssreferering
         outreach:
-          description: Planlegg, deleger og gjennomfør kontaktarbeid, lagre notater
-            og sjekkliste.
-          title: Kontakt
+          description:
+            sourceFile: nn.yml
+            text: Planlegg, deleger og gjennomfør kontaktarbeid, lagre notater og
+              sjekkliste.
+          title:
+            sourceFile: nn.yml
+            text: Kontakt
         surveys:
-          description: Utforsk, søk, og filtrer basert på folk sine svar på spørreundersøkelser.
-          title: Spørreundersøkelser
+          description:
+            sourceFile: nn.yml
+            text: Utforsk, søk, og filtrer basert på folk sine svar på spørreundersøkelser.
+          title:
+            sourceFile: nn.yml
+            text: Spørreundersøkelser
         utility:
-          description: Nyttige verktøy du kan bruke i mange situasjoner.
-          title: Verktøy
+          description:
+            sourceFile: nn.yml
+            text: Nyttige verktøy du kan bruke i mange situasjoner.
+          title:
+            sourceFile: nn.yml
+            text: Verktøy
       choices:
         delegate:
-          columnTitleAssignee: Kontaktperson
-          columnTitleContacted: Kontaktet
-          columnTitleNotes: Notater
-          columnTitleResponded: Har svart
-          description: Legger til flere kolonner som ofte brukes til å delegere arbeid
-            til en kontaktperson.
-          title: Delegering
+          columnTitleAssignee:
+            sourceFile: nn.yml
+            text: Kontaktperson
+          columnTitleContacted:
+            sourceFile: nn.yml
+            text: Kontaktet
+          columnTitleNotes:
+            sourceFile: nn.yml
+            text: Notater
+          columnTitleResponded:
+            sourceFile: nn.yml
+            text: Har svart
+          description:
+            sourceFile: nn.yml
+            text: Legger til flere kolonner som ofte brukes til å delegere arbeid til en
+              kontaktperson.
+          title:
+            sourceFile: nn.yml
+            text: Delegering
         email:
-          description: Legg til en kolonne med e-postadresser
-          keywords: epost e-post
-          title: E-postadresse
+          description:
+            sourceFile: nn.yml
+            text: Legg til en kolonne med e-postadresser
+          keywords:
+            sourceFile: nn.yml
+            text: epost e-post
+          title:
+            sourceFile: nn.yml
+            text: E-postadresse
         firstName:
-          description: Legg til en kolonne med fornavn
-          keywords: fornavn
-          title: Fornavn
+          description:
+            sourceFile: nn.yml
+            text: Legg til en kolonne med fornavn
+          keywords:
+            sourceFile: nn.yml
+            text: fornavn
+          title:
+            sourceFile: nn.yml
+            text: Fornavn
         followUp:
-          columnTitleCheckbox: Avkrysningsboks
-          columnTitleNotes: Notater
-          description: Legger til en avkrysningskolonne og en notatkolonne
-          title: Oppfølging
+          columnTitleCheckbox:
+            sourceFile: nn.yml
+            text: Avkrysningsboks
+          columnTitleNotes:
+            sourceFile: nn.yml
+            text: Notater
+          description:
+            sourceFile: nn.yml
+            text: Legger til en avkrysningskolonne og en notatkolonne
+          title:
+            sourceFile: nn.yml
+            text: Oppfølging
         fullName:
-          description: To kolonner med fornavn og etternavn
-          keywords: etternavn
-          title: Fullt navn
+          description:
+            sourceFile: nn.yml
+            text: To kolonner med fornavn og etternavn
+          keywords:
+            sourceFile: nn.yml
+            text: etternavn
+          title:
+            sourceFile: nn.yml
+            text: Fullt navn
         lastName:
-          description: Legg til en kolonne med etternavn
-          keywords: etternavn
-          title: Etternavn
+          description:
+            sourceFile: nn.yml
+            text: Legg til en kolonne med etternavn
+          keywords:
+            sourceFile: nn.yml
+            text: etternavn
+          title:
+            sourceFile: nn.yml
+            text: Etternavn
         localPerson:
-          columnTitle: Kontaktperson
-          description: Lar deg velge en kontaktperson for hver rad.
-          title: Kontaktperson
+          columnTitle:
+            sourceFile: nn.yml
+            text: Kontaktperson
+          description:
+            sourceFile: nn.yml
+            text: Lar deg velge en kontaktperson for hver rad.
+          title:
+            sourceFile: nn.yml
+            text: Kontaktperson
         localQuery:
-          columnTitle: I smartsøk?
-          description: Se om en person finnes i et smartsøk.
-          title: Tilpasset kryssreferanse
+          columnTitle:
+            sourceFile: nn.yml
+            text: I smartsøk?
+          description:
+            sourceFile: nn.yml
+            text: Se om en person finnes i et smartsøk.
+          title:
+            sourceFile: nn.yml
+            text: Tilpasset kryssreferanse
         localText:
-          columnTitle: Notater
-          description: Legg til en kolonne for notater.
-          title: Notater
+          columnTitle:
+            sourceFile: nn.yml
+            text: Notater
+          description:
+            sourceFile: nn.yml
+            text: Legg til en kolonne for notater.
+          title:
+            sourceFile: nn.yml
+            text: Notater
         personFields:
-          description: Legg til de kolonnene du vil, som e-post, telefonnummer, etc.
-          keywords: adresse postnummer poststed land
-          title: Velg felter
+          description:
+            sourceFile: nn.yml
+            text: Legg til de kolonnene du vil, som e-post, telefonnummer, etc.
+          keywords:
+            sourceFile: nn.yml
+            text: adresse postnummer poststed land
+          title:
+            sourceFile: nn.yml
+            text: Velg felter
         phone:
-          description: Legg til en kolonne med telefonnummer
-          keywords: telefonnummer
-          title: Telefonnummer
+          description:
+            sourceFile: nn.yml
+            text: Legg til en kolonne med telefonnummer
+          keywords:
+            sourceFile: nn.yml
+            text: telefonnummer
+          title:
+            sourceFile: nn.yml
+            text: Telefonnummer
         queryBooked:
-          columnTitle: Registrert
-          description: Er de registrert på noen kommende arrangementer av oss?
-          keywords: registrert
-          title: Er registrert på kommende arrangementer
+          columnTitle:
+            sourceFile: nn.yml
+            text: Registrert
+          description:
+            sourceFile: nn.yml
+            text: Er de registrert på noen kommende arrangementer av oss?
+          keywords:
+            sourceFile: nn.yml
+            text: registrert
+          title:
+            sourceFile: nn.yml
+            text: Er registrert på kommende arrangementer
         queryParticipated:
-          columnTitle: Deltatt
-          description: Har personen vært registrert på et arrangement?
-          keywords: registrert
-          title: Deltatt
+          columnTitle:
+            sourceFile: nn.yml
+            text: Deltatt
+          description:
+            sourceFile: nn.yml
+            text: Har personen vært registrert på et arrangement?
+          keywords:
+            sourceFile: nn.yml
+            text: registrert
+          title:
+            sourceFile: nn.yml
+            text: Deltatt
         queryReached:
-          columnTitle: Nådd
-          description: Har vi snakket med personen på ringeaksjoner?
-          keywords: telefon
-          title: Nådd på telefon
+          columnTitle:
+            sourceFile: nn.yml
+            text: Nådd
+          description:
+            sourceFile: nn.yml
+            text: Har vi snakket med personen på ringeaksjoner?
+          keywords:
+            sourceFile: nn.yml
+            text: telefon
+          title:
+            sourceFile: nn.yml
+            text: Nådd på telefon
         surveyResponse:
-          allOptions: Alle alternativene (Enkelt kolonne)
-          allOptionsHeader: All alternativene
-          allOptionsSeparated: Alle alternativene (Flere kolonner)
-          description: Vis svar på et spørsmål i en undersøkelse
-          keywords: flere felter
-          oneOption: Ett alternativ
-          optionsLabel: Hvilke kolonner vil du legge til?
-          questionField: Spørsmål
-          surveyField: Spørreundersøkelser
-          textField: Svarene er fritekst og vil vises i en enkelt kolonne
-          title: Ett spørsmål fra en undersøkelse
+          allOptions:
+            sourceFile: nn.yml
+            text: Alle alternativene (Enkelt kolonne)
+          allOptionsHeader:
+            sourceFile: nn.yml
+            text: All alternativene
+          allOptionsSeparated:
+            sourceFile: nn.yml
+            text: Alle alternativene (Flere kolonner)
+          description:
+            sourceFile: nn.yml
+            text: Vis svar på et spørsmål i en undersøkelse
+          keywords:
+            sourceFile: nn.yml
+            text: flere felter
+          oneOption:
+            sourceFile: nn.yml
+            text: Ett alternativ
+          optionsLabel:
+            sourceFile: nn.yml
+            text: Hvilke kolonner vil du legge til?
+          questionField:
+            sourceFile: nn.yml
+            text: Spørsmål
+          surveyField:
+            sourceFile: nn.yml
+            text: Spørreundersøkelser
+          textField:
+            sourceFile: nn.yml
+            text: Svarene er fritekst og vil vises i en enkelt kolonne
+          title:
+            sourceFile: nn.yml
+            text: Ett spørsmål fra en undersøkelse
         surveyResponses:
-          description: Inkluder svar fra flere spørsmål
-          keywords: flerfelt
-          questionField: Spørsmål
-          surveyField: Spørreundersøkelser
-          title: Flere spørsmål
+          description:
+            sourceFile: nn.yml
+            text: Inkluder svar fra flere spørsmål
+          keywords:
+            sourceFile: nn.yml
+            text: flerfelt
+          questionField:
+            sourceFile: nn.yml
+            text: Spørsmål
+          surveyField:
+            sourceFile: nn.yml
+            text: Spørreundersøkelser
+          title:
+            sourceFile: nn.yml
+            text: Flere spørsmål
         surveySubmitDate:
-          description: Se om en person har besvart en spørreundersøkelse, og når.
-          noSurveys: Organisasjonen din har ingen spørreundersøkelser.
-          title: Besvart dato
+          description:
+            sourceFile: nn.yml
+            text: Se om en person har besvart en spørreundersøkelse, og når.
+          noSurveys:
+            sourceFile: nn.yml
+            text: Organisasjonen din har ingen spørreundersøkelser.
+          title:
+            sourceFile: nn.yml
+            text: Besvart dato
         tag:
-          description: Vis og skru av og på en etikett for folk i lista
-          title: Etikett
+          description:
+            sourceFile: nn.yml
+            text: Vis og skru av og på en etikett for folk i lista
+          title:
+            sourceFile: nn.yml
+            text: Etikett
         toggle:
-          columnTitle: Sjekkliste
-          description: Kolonne der du kan krysse av for hver rad
-          title: Sjekkliste
+          columnTitle:
+            sourceFile: nn.yml
+            text: Sjekkliste
+          description:
+            sourceFile: nn.yml
+            text: Kolonne der du kan krysse av for hver rad
+          title:
+            sourceFile: nn.yml
+            text: Sjekkliste
       commonHeaders:
-        email: E-postadresse
-        first_name: Fornavn
-        last_name: Etternavn
-        phone: Telefonnummer
+        email:
+          sourceFile: nn.yml
+          text: E-postadresse
+        first_name:
+          sourceFile: nn.yml
+          text: Fornavn
+        last_name:
+          sourceFile: nn.yml
+          text: Etternavn
+        phone:
+          sourceFile: nn.yml
+          text: Telefonnummer
       editor:
-        alreadyInView: Finnes i lista fra før
+        alreadyInView:
+          sourceFile: nn.yml
+          text: Finnes i lista fra før
         buttonLabels:
-          addColumns: Legg til {columns, plural, one {en kolonne} other {{columns}
-            kolonner}}
-          change: Endre kolonnetype
-        defaultTitle: Ny kolonne
+          addColumns:
+            sourceFile: nn.yml
+            text: Legg til {columns, plural, one {en kolonne} other {{columns} kolonner}}
+          change:
+            sourceFile: nn.yml
+            text: Endre kolonnetype
+        defaultTitle:
+          sourceFile: nn.yml
+          text: Ny kolonne
         fieldLabels:
-          field: Felt
-          question: Spørsmål
-          smartSearch: Smartsøk
-          survey: Spørreundersøkelse
-          tag: Etikett
+          field:
+            sourceFile: nn.yml
+            text: Felt
+          question:
+            sourceFile: nn.yml
+            text: Spørsmål
+          smartSearch:
+            sourceFile: nn.yml
+            text: Smartsøk
+          survey:
+            sourceFile: nn.yml
+            text: Spørreundersøkelse
+          tag:
+            sourceFile: nn.yml
+            text: Etikett
       gallery:
-        add: Legg til
-        alreadyInView: Finnes i lista fra før
-        columns: Kolonner
-        configure: Sett opp
-        header: Legg til kolonne i list
-        noSearchResults: 'Fant ingen kolonner med søket: "{searchString}"'
-        searchPlaceholder: Finn en kolonne
-        searchResults: Resultater for "{searchString}"
+        add:
+          sourceFile: nn.yml
+          text: Legg til
+        alreadyInView:
+          sourceFile: nn.yml
+          text: Finnes i lista fra før
+        columns:
+          sourceFile: nn.yml
+          text: Kolonner
+        configure:
+          sourceFile: nn.yml
+          text: Sett opp
+        header:
+          sourceFile: nn.yml
+          text: Legg til kolonne i list
+        noSearchResults:
+          sourceFile: nn.yml
+          text: 'Fant ingen kolonner med søket: "{searchString}"'
+        searchPlaceholder:
+          sourceFile: nn.yml
+          text: Finn en kolonne
+        searchResults:
+          sourceFile: nn.yml
+          text: Resultater for "{searchString}"
     columnMenu:
-      configure: Instillinger
-      confirmDelete: Er du sikker på at du vil slette kolonnen? Den inneholder informasjon
-        som vil bli slettet permanent, dette kan ikke angres.
-      delete: Slett kolonne
-      rename: Gi nytt navn
+      configure:
+        sourceFile: nn.yml
+        text: Instillinger
+      confirmDelete:
+        sourceFile: nn.yml
+        text: Er du sikker på at du vil slette kolonnen? Den inneholder informasjon som
+          vil bli slettet permanent, dette kan ikke angres.
+      delete:
+        sourceFile: nn.yml
+        text: Slett kolonne
+      rename:
+        sourceFile: nn.yml
+        text: Gi nytt navn
     columnRenameDialog:
-      save: Lagre
-      title: Tittel
+      save:
+        sourceFile: nn.yml
+        text: Lagre
+      title:
+        sourceFile: nn.yml
+        text: Tittel
     dataTableErrors:
-      create_column: Kunne ikke opprette kolonnen
-      delete_column: Kunne ikke slette kolonnen
-      modify_column: Kunne ikke redigere kolonnen
-      remove_rows: Kunne ikke fjerne rader
+      create_column:
+        sourceFile: nn.yml
+        text: Kunne ikke opprette kolonnen
+      delete_column:
+        sourceFile: nn.yml
+        text: Kunne ikke slette kolonnen
+      modify_column:
+        sourceFile: nn.yml
+        text: Kunne ikke redigere kolonnen
+      remove_rows:
+        sourceFile: nn.yml
+        text: Kunne ikke fjerne rader
     defaultColumnTitles:
-      local_bool: Sjekkliste
-      local_person: Personreferanse
-      organizer_action: Flaggede telefonsamtaler
-      person_notes: Notater
+      local_bool:
+        sourceFile: nn.yml
+        text: Sjekkliste
+      local_person:
+        sourceFile: nn.yml
+        text: Personreferanse
+      organizer_action:
+        sourceFile: nn.yml
+        text: Flaggede telefonsamtaler
+      person_notes:
+        sourceFile: nn.yml
+        text: Notater
     defaultViewTitles:
-      organizer_action: Må følges opp av koordinator
+      organizer_action:
+        sourceFile: nn.yml
+        text: Må følges opp av koordinator
     deleteDialog:
-      error: Kunne ikke slette lista
-      title: Slette liste?
-      warningText: Er du sikker på at du vil slette lista? All informasjon i den,
-        som notater og sjekklister (men folkene vil ikke bli slettet fra Zetkin)?
+      error:
+        sourceFile: nn.yml
+        text: Kunne ikke slette lista
+      title:
+        sourceFile: nn.yml
+        text: Slette liste?
+      warningText:
+        sourceFile: nn.yml
+        text: Er du sikker på at du vil slette lista? All informasjon i den, som notater
+          og sjekklister (men folkene vil ikke bli slettet fra Zetkin)?
     editViewTitleAlert:
-      error: Kunne ikke endre tittelen
-      success: Tittelen ble endret!
+      error:
+        sourceFile: nn.yml
+        text: Kunne ikke endre tittelen
+      success:
+        sourceFile: nn.yml
+        text: Tittelen ble endret!
     empty:
       dynamic:
-        configureButton: Innstillinger
-        description: Opprett en dynamisk liste som legger til og fjerner folk automatisk
-          med et smartsøk.
-        headline: Sett opp smartsøkliste
+        configureButton:
+          sourceFile: nn.yml
+          text: Innstillinger
+        description:
+          sourceFile: nn.yml
+          text: Opprett en dynamisk liste som legger til og fjerner folk automatisk med et
+            smartsøk.
+        headline:
+          sourceFile: nn.yml
+          text: Sett opp smartsøkliste
       notice:
-        dynamic: Dette er en smartsøkliste men ingen folk velges av smartsøket
-        static: Du har ikke lagt til noen rader
+        dynamic:
+          sourceFile: nn.yml
+          text: Dette er en smartsøkliste men ingen folk velges av smartsøket
+        static:
+          sourceFile: nn.yml
+          text: Du har ikke lagt til noen rader
       static:
-        description: Legg til en person for å lage en statisk liste der folk legges
-          til og fjernes manuelt.
-        headline: Legg til folk manuelt
+        description:
+          sourceFile: nn.yml
+          text: Legg til en person for å lage en statisk liste der folk legges til og
+            fjernes manuelt.
+        headline:
+          sourceFile: nn.yml
+          text: Legg til folk manuelt
     folder:
       summary:
-        empty: Tomt
-        folderCount: '{count, plural, =1 {En mappe} other {# mapper}}'
-        viewCount: '{count, plural, =1 {En liste} other {# lister}}'
+        empty:
+          sourceFile: nn.yml
+          text: Tomt
+        folderCount:
+          sourceFile: nn.yml
+          text: '{count, plural, =1 {En mappe} other {# mapper}}'
+        viewCount:
+          sourceFile: nn.yml
+          text: '{count, plural, =1 {En liste} other {# lister}}'
     footer:
-      addPlaceholder: Begynn å skrive for å legge til en person i lista
-      alreadyInView: Finnes i lista fra før
-    newFolderTitle: Ny mappe
+      addPlaceholder:
+        sourceFile: nn.yml
+        text: Begynn å skrive for å legge til en person i lista
+      alreadyInView:
+        sourceFile: nn.yml
+        text: Finnes i lista fra før
+    newFolderTitle:
+      sourceFile: nn.yml
+      text: Ny mappe
     newViewFields:
-      title: Ny liste
+      title:
+        sourceFile: nn.yml
+        text: Ny liste
     removeDialog:
-      action: Er du sikker på at du vil fjerne disse radene fra lista?
-      title: Fjern folk fra lista
+      action:
+        sourceFile: nn.yml
+        text: Er du sikker på at du vil fjerne disse radene fra lista?
+      title:
+        sourceFile: nn.yml
+        text: Fjern folk fra lista
     shareDialog:
       download:
         buttons:
-          csv: Last ned CSV
-          xlsx: Last ned Excel
-        shareLink: dele informasjonen sikkert
-        tabLabel: Last ned
-        warning1: Eksporter bare informasjon fra Zetkin hvis det er helt nødvendig.
-          Eksporterte filer skal aldri deles med andre, skal kun lastes ned til en
-          kryptert datamaskin, og skal slettes etter bruk.
-        warning2: Du kan {shareLink} inne i Zetkin, del bare lister med tillitsvalgte
-          og ansatte som har myndighet til å behandle personopplysninger.
+          csv:
+            sourceFile: nn.yml
+            text: Last ned CSV
+          xlsx:
+            sourceFile: nn.yml
+            text: Last ned Excel
+        shareLink:
+          sourceFile: nn.yml
+          text: dele informasjonen sikkert
+        tabLabel:
+          sourceFile: nn.yml
+          text: Last ned
+        warning1:
+          sourceFile: nn.yml
+          text: Eksporter bare informasjon fra Zetkin hvis det er helt nødvendig.
+            Eksporterte filer skal aldri deles med andre, skal kun lastes ned
+            til en kryptert datamaskin, og skal slettes etter bruk.
+        warning2:
+          sourceFile: nn.yml
+          text: Du kan {shareLink} inne i Zetkin, del bare lister med tillitsvalgte og
+            ansatte som har myndighet til å behandle personopplysninger.
       share:
-        addPlaceholder: Legg til andre
-        collabInstructions: Når du har lagt til de som skal ha tilgang til lista,
-          kopier og send dem {viewLink} lister skal bare deles med tillitsvalgte og
-          ansatte som har myndighet til å behandle personopplysninger.
-        showOfficials: Vis admin og koordinatorer
-        statusLabel: Delt med {collaborators, plural, =1 {en person} other {# folk}},
-          {officials, plural, =1 {1 admin/koordinator} other {# admin/koordinatorer}}
-          har tilgang til alle lister.
-        tabLabel: Del
-        viewLink: sikker lenke
-      title: Del "{title}"
+        addPlaceholder:
+          sourceFile: nn.yml
+          text: Legg til andre
+        collabInstructions:
+          sourceFile: nn.yml
+          text: Når du har lagt til de som skal ha tilgang til lista, kopier og send dem
+            {viewLink} lister skal bare deles med tillitsvalgte og ansatte som
+            har myndighet til å behandle personopplysninger.
+        showOfficials:
+          sourceFile: nn.yml
+          text: Vis admin og koordinatorer
+        statusLabel:
+          sourceFile: nn.yml
+          text: Delt med {collaborators, plural, =1 {en person} other {# folk}},
+            {officials, plural, =1 {1 admin/koordinator} other {#
+            admin/koordinatorer}} har tilgang til alle lister.
+        tabLabel:
+          sourceFile: nn.yml
+          text: Del
+        viewLink:
+          sourceFile: nn.yml
+          text: sikker lenke
+      title:
+        sourceFile: nn.yml
+        text: Del "{title}"
     suggested:
-      created: Opprettet av {name}
-      sectionTitle: Foreslått
+      created:
+        sourceFile: nn.yml
+        text: Opprettet av {name}
+      sectionTitle:
+        sourceFile: nn.yml
+        text: Foreslått
     surveyOptionCell:
-      notSelected: Ikke valgt
-      selected: Valgt
+      notSelected:
+        sourceFile: nn.yml
+        text: Ikke valgt
+      selected:
+        sourceFile: nn.yml
+        text: Valgt
     surveyPreview:
       mostRecent:
-        header: Siste
-        openButton: Vis hele besvarelsen
+        header:
+          sourceFile: nn.yml
+          text: Siste
+        openButton:
+          sourceFile: nn.yml
+          text: Vis hele besvarelsen
       older:
-        header: Eldre besvarelser
-        openButton: Vis
+        header:
+          sourceFile: nn.yml
+          text: Eldre besvarelser
+        openButton:
+          sourceFile: nn.yml
+          text: Vis
     toolbar:
-      createColumn: Ny kolonne
-      createFromSelection: Opprett liste av valgte
-      removeFromSelection: Fjern {numSelected, plural, one {1 person} other {{numSelected}
-        folk} } from view
-      removeTooltip: Smartsøk støtter ikke fjerning av rader
+      createColumn:
+        sourceFile: nn.yml
+        text: Ny kolonne
+      createFromSelection:
+        sourceFile: nn.yml
+        text: Opprett liste av valgte
+      removeFromSelection:
+        sourceFile: nn.yml
+        text: Fjern {numSelected, plural, one {1 person} other {{numSelected} folk} }
+          from view
+      removeTooltip:
+        sourceFile: nn.yml
+        text: Smartsøk støtter ikke fjerning av rader
     viewLayout:
       actions:
-        share: Del
+        share:
+          sourceFile: nn.yml
+          text: Del
       ellipsisMenu:
-        delete: Slett liste
-        editQuery: Rediger smartsøk
-        makeDynamic: Konverter til smarsøkliste
-        makeStatic: Konverter til statisk liste
+        delete:
+          sourceFile: nn.yml
+          text: Slett liste
+        editQuery:
+          sourceFile: nn.yml
+          text: Rediger smartsøk
+        makeDynamic:
+          sourceFile: nn.yml
+          text: Konverter til smarsøkliste
+        makeStatic:
+          sourceFile: nn.yml
+          text: Konverter til statisk liste
       jumpMenu:
-        placeholder: Skriv for å finne liste
+        placeholder:
+          sourceFile: nn.yml
+          text: Skriv for å finne liste
       subtitle:
-        collaborators: '{count, plural, =1 {1 person} other {# folk}}'
-        columns: '{count, plural, =0 {Ingen kolonner} =1 {En kolonne} other {# kolonner}}'
-        people: '{count, plural, =0 {Empty} =1 {1 person} other {# folk}}'
+        collaborators:
+          sourceFile: nn.yml
+          text: '{count, plural, =1 {1 person} other {# folk}}'
+        columns:
+          sourceFile: nn.yml
+          text: '{count, plural, =0 {Ingen kolonner} =1 {En kolonne} other {# kolonner}}'
+        people:
+          sourceFile: nn.yml
+          text: '{count, plural, =0 {Empty} =1 {1 person} other {# folk}}'
     viewsList:
       columns:
-        created: Opprettet dato
-        owner: Eier
-        title: Tittel
-      empty: Du har ikke opprettet noen lister
+        created:
+          sourceFile: nn.yml
+          text: Opprettet dato
+        owner:
+          sourceFile: nn.yml
+          text: Eier
+        title:
+          sourceFile: nn.yml
+          text: Tittel
+      empty:
+        sourceFile: nn.yml
+        text: Du har ikke opprettet noen lister
 glob:
   accessLevels:
-    configure: Rediger og sett opp
-    edit: Redigering
-    readonly: Skrivebeskyttet
+    configure:
+      sourceFile: nn.yml
+      text: Rediger og sett opp
+    edit:
+      sourceFile: nn.yml
+      text: Redigering
+    readonly:
+      sourceFile: nn.yml
+      text: Skrivebeskyttet
   personFields:
-    alt_phone: Alternativt telefonnummer
-    city: Poststed
-    co_address: Alternativ adresse
-    country: Land
-    email: E-post
-    ext_id: Medlemsnummer
-    first_name: Fornavn
-    gender: Kjønn
-    id: Zetkin ID
-    is_user: Har bruker
-    last_name: Etternavn
-    phone: Telefonnummer
-    street_address: Adresse
-    zip_code: Postnummer
+    alt_phone:
+      sourceFile: nn.yml
+      text: Alternativt telefonnummer
+    city:
+      sourceFile: nn.yml
+      text: Poststed
+    co_address:
+      sourceFile: nn.yml
+      text: Alternativ adresse
+    country:
+      sourceFile: nn.yml
+      text: Land
+    email:
+      sourceFile: nn.yml
+      text: E-post
+    ext_id:
+      sourceFile: nn.yml
+      text: Medlemsnummer
+    first_name:
+      sourceFile: nn.yml
+      text: Fornavn
+    gender:
+      sourceFile: nn.yml
+      text: Kjønn
+    id:
+      sourceFile: nn.yml
+      text: Zetkin ID
+    is_user:
+      sourceFile: nn.yml
+      text: Har bruker
+    last_name:
+      sourceFile: nn.yml
+      text: Etternavn
+    phone:
+      sourceFile: nn.yml
+      text: Telefonnummer
+    street_address:
+      sourceFile: nn.yml
+      text: Adresse
+    zip_code:
+      sourceFile: nn.yml
+      text: Postnummer
   roles:
-    admin: Admin
-    organizer: Koordinator
+    admin:
+      sourceFile: nn.yml
+      text: Admin
+    organizer:
+      sourceFile: nn.yml
+      text: Koordinator
 zui:
   accessList:
-    added: Lagt til av {sharer} {updated}
-    removeAccess: Fjern tilgang
+    added:
+      sourceFile: nn.yml
+      text: Lagt til av {sharer} {updated}
+    removeAccess:
+      sourceFile: nn.yml
+      text: Fjern tilgang
   collapse:
-    collapse: Skjul
-    expand: Vis
+    collapse:
+      sourceFile: nn.yml
+      text: Skjul
+    expand:
+      sourceFile: nn.yml
+      text: Vis
   confirmDialog:
-    button: Bekreft
-    defaultTitle: Bekreft
-    defaultWarningText: Er du sikker på at du vil gjennomføre denne handlingen? Den
-      kan ikke angres.
+    button:
+      sourceFile: nn.yml
+      text: Bekreft
+    defaultTitle:
+      sourceFile: nn.yml
+      text: Bekreft
+    defaultWarningText:
+      sourceFile: nn.yml
+      text: Er du sikker på at du vil gjennomføre denne handlingen? Den kan ikke
+        angres.
   copyToClipboard:
-    copied: Kopiert
-    copiedValue: Kopierte "{value}"
-    copy: Kopier
+    copied:
+      sourceFile: nn.yml
+      text: Kopiert
+    copiedValue:
+      sourceFile: nn.yml
+      text: Kopierte "{value}"
+    copy:
+      sourceFile: nn.yml
+      text: Kopier
   dataTableSearch:
-    button: Søk
-    helpText: Skriv minst {minSearchLength} tegn
-    idSearchHelpText: Skriv en Zetkin ID (kun tall)
-    placeholder: Søk
-    placeholderWithIdSearch: 'Søk - bruk # for Zetkin IDer, skriv f.eks #123'
-    title: Søk
+    button:
+      sourceFile: nn.yml
+      text: Søk
+    helpText:
+      sourceFile: nn.yml
+      text: Skriv minst {minSearchLength} tegn
+    idSearchHelpText:
+      sourceFile: nn.yml
+      text: Skriv en Zetkin ID (kun tall)
+    placeholder:
+      sourceFile: nn.yml
+      text: Søk
+    placeholderWithIdSearch:
+      sourceFile: nn.yml
+      text: 'Søk - bruk # for Zetkin IDer, skriv f.eks #123'
+    title:
+      sourceFile: nn.yml
+      text: Søk
   dataTableSorting:
-    addButton: Legg til sorteringskolonne
-    button: Sortér
-    hint: 'Hint: hold inn {shiftKeyIcon} mens du trykker på flere kolonner'
-    title: Sortér
+    addButton:
+      sourceFile: nn.yml
+      text: Legg til sorteringskolonne
+    button:
+      sourceFile: nn.yml
+      text: Sortér
+    hint:
+      sourceFile: nn.yml
+      text: 'Hint: hold inn {shiftKeyIcon} mens du trykker på flere kolonner'
+    title:
+      sourceFile: nn.yml
+      text: Sortér
   dateRange:
-    draft: Ingen startdato
-    end: Slutt
-    finite: Fra {start, date, medium} til {end, date, medium}
-    indefinite: Fra {start, date, medium} og fremover
-    invisible: Ikke synlig eller planlagt
-    start: Start
+    draft:
+      sourceFile: nn.yml
+      text: Ingen startdato
+    end:
+      sourceFile: nn.yml
+      text: Slutt
+    finite:
+      sourceFile: nn.yml
+      text: Fra {start, date, medium} til {end, date, medium}
+    indefinite:
+      sourceFile: nn.yml
+      text: Fra {start, date, medium} og fremover
+    invisible:
+      sourceFile: nn.yml
+      text: Ikke synlig eller planlagt
+    start:
+      sourceFile: nn.yml
+      text: Start
   editTextInPlace:
     tooltip:
-      edit: Klikk for å redigere
-      noEmpty: Dette feltet kan ikke være tomt
+      edit:
+        sourceFile: nn.yml
+        text: Klikk for å redigere
+      noEmpty:
+        sourceFile: nn.yml
+        text: Dette feltet kan ikke være tomt
   futures:
-    errorLoading: Kunne ikke laste dataen
+    errorLoading:
+      sourceFile: nn.yml
+      text: Kunne ikke laste dataen
   header:
     collapseButton:
-      collapse: Skjul
-      expand: Vis
+      collapse:
+        sourceFile: nn.yml
+        text: Skjul
+      expand:
+        sourceFile: nn.yml
+        text: Vis
   imageSelectDialog:
-    instructions: Trekk og slipp et bilde eller en fil, eller klikk for å velge
+    instructions:
+      sourceFile: nn.yml
+      text: Trekk og slipp et bilde eller en fil, eller klikk for å velge
   lists:
-    showMore: Vis mer...
+    showMore:
+      sourceFile: nn.yml
+      text: Vis mer...
   organizeSidebar:
-    allOrganizations: Alle organisasjonsledd
-    areas: Steder
-    home: Hjem
-    people: Folk
-    projects: Prosjekter
-    signOut: Logg ut
-    userSettings: Innstillinger
+    allOrganizations:
+      sourceFile: nn.yml
+      text: Alle organisasjonsledd
+    areas:
+      sourceFile: nn.yml
+      text: Steder
+    home:
+      sourceFile: nn.yml
+      text: Hjem
+    people:
+      sourceFile: nn.yml
+      text: Folk
+    projects:
+      sourceFile: nn.yml
+      text: Prosjekter
+    signOut:
+      sourceFile: nn.yml
+      text: Logg ut
+    userSettings:
+      sourceFile: nn.yml
+      text: Innstillinger
   personGridEditCell:
-    keepTyping: Fortsett å skrive..
-    noResult: Ingen funnet
-    otherPeople: Andre folk
-    restrictedMode: Kan ikke redigeres i delte lister
-    searchResults: Søkeresultater
+    keepTyping:
+      sourceFile: nn.yml
+      text: Fortsett å skrive..
+    noResult:
+      sourceFile: nn.yml
+      text: Ingen funnet
+    otherPeople:
+      sourceFile: nn.yml
+      text: Andre folk
+    restrictedMode:
+      sourceFile: nn.yml
+      text: Kan ikke redigeres i delte lister
+    searchResults:
+      sourceFile: nn.yml
+      text: Søkeresultater
   personSelect:
-    keepTyping: Fortsett å skrive eller start søk
-    noResult: Ingen person ble funnet
-    search: Skriv for å søke
-    searching: Søker...
+    keepTyping:
+      sourceFile: nn.yml
+      text: Fortsett å skrive eller start søk
+    noResult:
+      sourceFile: nn.yml
+      text: Ingen person ble funnet
+    search:
+      sourceFile: nn.yml
+      text: Skriv for å søke
+    searching:
+      sourceFile: nn.yml
+      text: Søker...
   snackbar:
-    error: Å nei! Noe gikk galt.
-    success: Suksess!
-    warning: Advarsel!
+    error:
+      sourceFile: nn.yml
+      text: Å nei! Noe gikk galt.
+    success:
+      sourceFile: nn.yml
+      text: Suksess!
+    warning:
+      sourceFile: nn.yml
+      text: Advarsel!
   speedDial:
-    createCampaign: Nytt prosjekt
-    createEvent: Nytt arrangement
-    createTask: Nytt innhold
-    requestError: Noe gikk galt
+    createCampaign:
+      sourceFile: nn.yml
+      text: Nytt prosjekt
+    createEvent:
+      sourceFile: nn.yml
+      text: Nytt arrangement
+    createTask:
+      sourceFile: nn.yml
+      text: Nytt innhold
+    requestError:
+      sourceFile: nn.yml
+      text: Noe gikk galt
   submitOrCancel:
-    cancel: Avbryt
-    submit: Send inn
+    cancel:
+      sourceFile: nn.yml
+      text: Avbryt
+    submit:
+      sourceFile: nn.yml
+      text: Send inn
   suffixedNumber:
-    thousands: '{num}K'
+    thousands:
+      sourceFile: nn.yml
+      text: '{num}K'
   timeSpan:
-    multiDayEndsToday: '{startDate}, {start} - I dag, {end}'
-    multiDayToday: I dag, {start} - {endDate}, {end}
-    singleDayToday: I dag, {start} - {end}
+    multiDayEndsToday:
+      sourceFile: nn.yml
+      text: '{startDate}, {start} - I dag, {end}'
+    multiDayToday:
+      sourceFile: nn.yml
+      text: I dag, {start} - {endDate}, {end}
+    singleDayToday:
+      sourceFile: nn.yml
+      text: I dag, {start} - {end}
   timeline:
-    addNotePlaceholder: Skriv her for å legge inn et notat
+    addNotePlaceholder:
+      sourceFile: nn.yml
+      text: Skriv her for å legge inn et notat
     email:
       headers:
-        cc: Cc
-        from: Fra
-        to: Til
-    expand: vis hele tidslinja
+        cc:
+          sourceFile: nn.yml
+          text: Cc
+        from:
+          sourceFile: nn.yml
+          text: Fra
+        to:
+          sourceFile: nn.yml
+          text: Til
+    expand:
+      sourceFile: nn.yml
+      text: vis hele tidslinja
     filter:
       byType:
-        all: Alle
-        files: Filer
-        notes: Notater
-        people: Folk
-        tags: Etiketter
-      filterSelectLabel: 'Vis: {filter}'
-      warning: Tidslinja er filtrert, klikk her for å fjerne filter.
+        all:
+          sourceFile: nn.yml
+          text: Alle
+        files:
+          sourceFile: nn.yml
+          text: Filer
+        notes:
+          sourceFile: nn.yml
+          text: Notater
+        people:
+          sourceFile: nn.yml
+          text: Folk
+        tags:
+          sourceFile: nn.yml
+          text: Etiketter
+      filterSelectLabel:
+        sourceFile: nn.yml
+        text: 'Vis: {filter}'
+      warning:
+        sourceFile: nn.yml
+        text: Tidslinja er filtrert, klikk her for å fjerne filter.
     updates:
       any:
-        addtags: '{actor} la til {count, plural, =1 {en etikett} other {# etiketter}}'
-        removetags: '{actor} fjernet {count, plural, =1 {en etikett} other {# etiketter}}'
+        addtags:
+          sourceFile: nn.yml
+          text: '{actor} la til {count, plural, =1 {en etikett} other {# etiketter}}'
+        removetags:
+          sourceFile: nn.yml
+          text: '{actor} fjernet {count, plural, =1 {en etikett} other {# etiketter}}'
       journeyinstance:
-        addassignee: '{actor} tildelte kontaktperson {assignee}'
-        addnote: '{actor} la til et notat'
-        addsubject: '{actor} la til {subject}'
-        convert: '{actor} konverterte fra {oldLabel} til {newLabel}'
+        addassignee:
+          sourceFile: nn.yml
+          text: '{actor} tildelte kontaktperson {assignee}'
+        addnote:
+          sourceFile: nn.yml
+          text: '{actor} la til et notat'
+        addsubject:
+          sourceFile: nn.yml
+          text: '{actor} la til {subject}'
+        convert:
+          sourceFile: nn.yml
+          text: '{actor} konverterte fra {oldLabel} til {newLabel}'
         update:
-          readMore: Les mer
+          readMore:
+            sourceFile: nn.yml
+            text: Les mer
